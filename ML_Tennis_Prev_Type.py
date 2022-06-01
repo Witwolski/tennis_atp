@@ -47,7 +47,7 @@ def ML_Prev(Surface,Date):
 
     prediction=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-        and [Estimated Odds] >1 and date  like '{}%'   and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]\
+        and [Estimated Odds] >1 and date  like '{}%'  and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]\
             and [Actual Odds] > [Estimated Odds {}]".format(Surface,Date,Surface),con=devengine)
     prediction1=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
@@ -109,9 +109,10 @@ def ML_Prev(Surface,Date):
 
     X=final_result.drop(['Winner'],axis=1)
     y=final_result['Winner']
-    X_train, X_test, y_train, y_test=train_test_split(X,y,test_size=25)
+    X_train, X_test, y_train, y_test=train_test_split(X,y)
+    
     model=LogisticRegression(max_iter=100000000000000)
-    model2=SVC(random_state=42)
+    model2=SVC()
     model2.fit(X_train,y_train)
     model.fit(X_train,y_train)
     train_score=model.score(X_train,y_train)
@@ -124,38 +125,40 @@ def ML_Prev(Surface,Date):
     print("Testing accuracy: ",test_score)
     print("Testing accuracy2: ",test_score2)
     '''
+    if test_score2 > 0.5 and test_score2 > 0.5:
+        pred=model.predict(prediction_final)
+        pred2=model2.predict(prediction_final)
+        cols=["Prediction","Elo Favourite","Player1","Odds"]
+        df=pd.DataFrame(columns=cols)
+        List=[]
+        for index,tuples in prediction1.iterrows():
+            if index<len(prediction1):
 
-    pred=model.predict(prediction_final)
-    pred2=model2.predict(prediction_final)
-    cols=["Prediction","Elo Favourite","Player1","Odds"]
-    df=pd.DataFrame(columns=cols)
-    List=[]
-    for index,tuples in prediction1.iterrows():
-        if index<len(prediction1):
-
-            values=[pred2[index],prediction1["Elo Favourite"][index],prediction1["Player 1"][index],prediction1["Odds"][index]]
-            zipped = zip(cols, values)
-            a_dictionary = dict(zipped)
-        # print(a_dictionary)
-            List.append(a_dictionary)
-            #print(pred[index],",",prediction1["Elo Favourite"][index],",",prediction1["Player 1"][index],",",prediction1["Odds"][index]) 
-    df=df.append(List,True)
-    df=df[df["Odds"].ge(1.85)]
-    #df=df[(df["Odds"].gt(1.11)&df["Odds"].le(1.2))|df["Odds"].ge(1.85)]
-    #df=df[df["Odds"].le(1.9)]
-    #print(df)
-    df=df[df["Prediction"]=="EloFav"]
-    countbets=len(df)
-    Stake=200
-    df["Profit"]=df.apply(lambda x: -Stake if x["Elo Favourite"]!=x["Player1"] else (x["Odds"]*Stake)-Stake,axis=1)
-    df.loc['Profit']= df.sum(axis=0)
-    #dates=prediction=pd.read_sql_query("Select distinct Date FROM Bets_yesterday where date  like '%'",con=devengine)
-    #print(df[["Prediction","Elo Favourite","Odds","Profit"]].to_string(index=False))
-    #print(df)
-    print("{}   ${} Profit in {} bets".format(Surface,df["Profit"].iloc[-1],countbets))
-    return df["Profit"].iloc[-1]
+                values=[pred2[index],prediction1["Elo Favourite"][index],prediction1["Player 1"][index],prediction1["Odds"][index]]
+                zipped = zip(cols, values)
+                a_dictionary = dict(zipped)
+            # print(a_dictionary)
+                List.append(a_dictionary)
+                #print(pred[index],",",prediction1["Elo Favourite"][index],",",prediction1["Player 1"][index],",",prediction1["Odds"][index]) 
+        df=df.append(List,True)
+        df=df[df["Odds"].ge(1.85)]
+        #df=df[(df["Odds"].gt(1.11)&df["Odds"].le(1.2))|df["Odds"].ge(1.85)]
+        #df=df[df["Odds"].le(1.9)]
+        #print(df)
+        df=df[df["Prediction"]=="EloFav"]
+        countbets=len(df)
+        Stake=100
+        df["Profit"]=df.apply(lambda x: -Stake if x["Elo Favourite"]!=x["Player1"] else (x["Odds"]*Stake)-Stake,axis=1)
+        df.loc['Profit']= df.sum(axis=0)
+        #dates=prediction=pd.read_sql_query("Select distinct Date FROM Bets_yesterday where date  like '%'",con=devengine)
+        #print(df[["Prediction","Elo Favourite","Odds","Profit"]].to_string(index=False))
+        #print(df)
+        print("{}   ${} Profit in {} bets".format(Surface,df["Profit"].iloc[-1],countbets))
+        df.to_excel("YD.xlsx")
+        return df["Profit"].iloc[-1]
     #df.to_excel("YD.xlsx")
-Date='2022'
-profit1=ML_Prev('Hard',Date)
-profit2=ML_Prev('Clay',Date)
-print(profit1+profit2)
+for x in range(1,100):
+    Date='2022531'
+    #profit1=ML_Prev('Hard',Date)
+    profit2=ML_Prev('Clay',Date)
+    #print(profit1+profit2)

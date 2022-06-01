@@ -39,17 +39,17 @@ devconnection_uri = "mssql+pymssql://{}:{}@{}/{}".format(
     username, password, server, database)
 devengine = create_engine(devconnection_uri)
 
-def ML_Prev(Surface,Date):
+def ML_Prev(Surface,Date,LowOdds,HighOdds):
     dataset=pd.read_sql_query("Select [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-         and date not  like '202252x%'  and [Actual Odds] > 1.15 and [Actual Odds] < 1.25 and [Actual Odds] > [Estimated Odds] ".format(Surface),con=devengine)
+         and date not  like '202252x%'  and [Actual Odds] >= {} and [Actual Odds] <= {} and [Actual Odds] > [Estimated Odds] ".format(Surface,LowOdds,HighOdds),con=devengine)
 
     prediction=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-        and date  like '{}%'   and [Actual Odds] >  1.15 and [Actual Odds] < 1.25 and [Actual Odds] > [Estimated Odds] ".format(Surface,Date),con=devengine)
+        and date  like '{}%'   and [Actual Odds] >=  {} and [Actual Odds] <= {} and [Actual Odds] > [Estimated Odds] ".format(Surface,Date,LowOdds,HighOdds),con=devengine)
     prediction1=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-         and date  like '{}%' and [Actual Odds] > 1.15 and [Actual Odds] < 1.25  and [Actual Odds] > [Estimated Odds] ".format(Surface,Date),con=devengine)
+         and date  like '{}%' and [Actual Odds] >= {} and [Actual Odds] <= {}  and [Actual Odds] > [Estimated Odds] ".format(Surface,Date,LowOdds,HighOdds),con=devengine)
     dataset=dataset.dropna()
     prediction=prediction.dropna()
     prediction1=prediction1.dropna()
@@ -107,7 +107,7 @@ def ML_Prev(Surface,Date):
                 a_dictionary = dict(zipped)
                 List.append(a_dictionary)
         df=df.append(List,True)
-        df=df[(df["Odds"].gt(1)&df["Odds"].le(1.2))]
+        #df=df[(df["Odds"].gt(1)&df["Odds"].le(1.2))]
         df=df[df["Prediction"]=="EloFav"]
         countbets=len(df)
         Stake=100
@@ -117,9 +117,12 @@ def ML_Prev(Surface,Date):
         df.to_excel("YD.xlsx")
         return df["Profit"].iloc[-1]
    
-Date='2022'
-
-for x in range(1,10):
-    #profit1=ML_Prev('Hard',Date)
-    profit2=ML_Prev('Clay',Date)
-    #print(profit1+profit2)
+Date=2022520
+for y in range(0,12):
+    Date1=Date+y
+    print(Date1)
+    print('_____')
+    for x in range(0,10):
+        #profit1=ML_Prev('Hard',Date)
+        profit2=ML_Prev('Clay',Date1,1.2,1.3)
+        #print(profit1+profit2)

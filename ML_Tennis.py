@@ -28,6 +28,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+from collections import Counter
 #import xgboost as xgb
 
 
@@ -41,6 +42,7 @@ devengine = create_engine(devconnection_uri)
 
 
 def ML(Surface):
+    global counting
     dataset=pd.read_sql_query("Select [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday \
         where  date like '%' and [Estimated Odds] >1 and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]  and [Actual Odds] > [Estimated Odds {}]  and Surface  like '{}'".format(Surface,Surface),con=devengine)
@@ -103,21 +105,24 @@ def ML(Surface):
 
     X=final_result.drop(['Winner'],axis=1)
     y=final_result['Winner']
-    X_train, X_test, y_train, y_test=train_test_split(X,y)
+    X_train, X_test, y_train, y_test=train_test_split(X,y,train_size=25)
     model=LogisticRegression(max_iter=100000000)
-    model2=SVC(random_state=42)
+    model2=SVC()
     model2.fit(X_train,y_train)
     model.fit(X_train,y_train)
     train_score=model.score(X_train,y_train)
     train_score2=model2.score(X_train,y_train)
     test_score2=model2.score(X_test,y_test)
     test_score=model.score(X_test,y_test)
-
+    '''
     print('')
     print('#########################')  
     print(" Training accuracy: {:.0%}".format(train_score2))
     print(" Testing accuracy:  {:.0%}".format(test_score2))
     print('#########################')
+    '''
+    if len(prediction1) ==0:
+        return 0,''
     pred=model.predict(prediction_final)
     pred2=model2.predict(prediction_final)
     cols=["Prediction","Elo Favourite","Player1","Odds"]
@@ -136,14 +141,32 @@ def ML(Surface):
     #df=df[df["Odds"].ge(1.85)|df["Odds"].le(1.2)]
     #df=df[(df["Odds"].gt(1.11)&df["Odds"].le(1.2))|df["Odds"].ge(1.85)]
     df=df[df["Prediction"]=="EloFav"]
-    print('')
-    print('              {}'.format(Surface))
-    print('************************************')
-    print(df[["Prediction","Elo Favourite","Odds"]].to_string(index=False))
-    #df.to_excel("today.xlsx")
-    print(train_score2,test_score2)
-    print('************************************')
-    print('')
+    players=[]
+    if train_score2>0.5 and test_score2>0.5:# and df.empty==False:
+        #print('')
+        #print('              {}'.format(Surface))
+        #print('************************************')
+        #print(df[["Prediction","Elo Favourite","Odds"]].to_string(index=False))
+        for player in df['Elo Favourite']:
+            #print(player)
+            players.append(player)
+        #df.to_excel("today.xlsx")
+        #print(train_score2,test_score2)
+        #print('************************************')
+        #print('')
+        counting=counting+1
+        return 1,players
+    else:
+        return 0,''
+        
 
-ML('Clay')
+counting=0
+players1=[]
+for x in range(1,10000):
+    #count=count+ML('Clay')[0]
+    pl=ML('Clay')[1]
+    players1.append(pl)
+flat_list = [item for sublist in players1 for item in sublist]
+print(Counter(flat_list),counting)
+print(counting)
 #ML('Hard')

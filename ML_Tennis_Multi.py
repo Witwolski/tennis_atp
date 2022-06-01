@@ -40,18 +40,18 @@ devconnection_uri = "mssql+pymssql://{}:{}@{}/{}".format(
 devengine = create_engine(devconnection_uri)
 
 
-def ML(Surface):
+def ML(LowOdds,HighOdds,Surface):
     global counting
     dataset=pd.read_sql_query("Select [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday \
-        where  date like '%' and [Actual Odds] > 1 and [Actual Odds] <1.3 and [Actual Odds] > [Estimated Odds] and [Estimated Odds]>1  and Surface  like '{}'".format(Surface),con=devengine)
+        where  date like '%' and [Actual Odds] >= {} and [Actual Odds] <= {} and [Actual Odds] > [Estimated Odds]  and Surface  like '{}'".format(LowOdds,HighOdds,Surface),con=devengine)
 
     prediction=pd.read_sql_query("Select [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_today \
-        where   [Actual Odds] > 1 and   [Actual Odds] <1.3 and [Actual Odds] > [Estimated Odds] and [Estimated Odds]>1  and Surface  like '{}'".format(Surface),con=devengine)
+        where   [Actual Odds] >= {} and   [Actual Odds] <= {} and [Actual Odds] > [Estimated Odds] and Surface  like '{}'".format(LowOdds,HighOdds,Surface),con=devengine)
     prediction1=pd.read_sql_query("Select [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_today \
-        where [Actual Odds] > 1 and [Actual Odds] <1.3 and [Actual Odds] > [Estimated Odds] and [Estimated Odds]>1  and Surface like '{}'".format(Surface),con=devengine)
+        where [Actual Odds] >= {} and [Actual Odds] <= {} and [Actual Odds] > [Estimated Odds]  and Surface like '{}'".format(LowOdds,HighOdds,Surface),con=devengine)
     dataset=dataset.dropna()
     prediction=prediction.dropna()
     prediction1=prediction1.dropna()
@@ -146,7 +146,7 @@ def ML(Surface):
     #df=df[(df["Odds"].gt(1.11)&df["Odds"].le(1.2))|df["Odds"].ge(1.85)]
     df=df[df["Prediction"]=="EloFav"]
     players=[]
-    if train_score2>0.9 and test_score2>0.9:
+    if train_score2>0.7 and test_score2>0.7:
         #print('')
         #print('              {}'.format(Surface))
         #print('************************************')
@@ -164,12 +164,32 @@ def ML(Surface):
 
 counting=0
 players1=[]
-for x in range(1,10000):
-    #count=count+ML('Clay')[0]
-    pl=ML('Clay')[1]
+for x in range(1,1000):
+    pl=ML(1.5,1.6,'Clay')[1]
     players1.append(pl)
 flat_list = [item for sublist in players1 for item in sublist]
 print(Counter(flat_list),counting)
 
-#ML('Clay')
-#ML('Hard')
+counting=0
+players1=[]
+for x in range(1,1000):
+    p1=ML(1.5,1.6,'Hard')[1]
+    players1.append(p1)
+flat_list = [item for sublist in players1 for item in sublist]
+print(Counter(flat_list),counting)
+
+counting=0
+players1=[]
+for x in range(1,1000):
+    p1=ML(1.2,1.3,'Clay')[1]
+    players1.append(p1)
+flat_list = [item for sublist in players1 for item in sublist]
+print(Counter(flat_list),counting)
+
+counting=0
+players1=[]
+for x in range(1,1000):
+    p1=ML(1.2,1.3,'Hard')[1]
+    players1.append(p1)
+flat_list = [item for sublist in players1 for item in sublist]
+print(Counter(flat_list),counting)

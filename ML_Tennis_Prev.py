@@ -46,10 +46,10 @@ def ML_Prev(Surface,Date):
 
     prediction=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-        and [Estimated Odds] >1 and date  like '{}%'   and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]".format(Surface,Date),con=devengine)
+        and [Estimated Odds] >1 and date  like '{}%'   and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]".format(Surface,Date,Date),con=devengine)
     prediction1=pd.read_sql_query("Select distinct [Player 1],[Elo Favourite],[Estimated Odds Clay] as EstOddsClay,[Estimated Odds] as EstOdds, [Actual Odds] as Odds \
         ,[Elo Difference], [Elo Difference Clay], [Elo Difference Hard],RankDiff FROM Bets_yesterday where Surface  like '{}'\
-         and [Estimated Odds] >1 and date  like '{}%' and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]".format(Surface,Date),con=devengine)
+         and [Estimated Odds] >1 and date  like '{}%' and [Actual Odds] > 1.85 and [Actual Odds] > [Estimated Odds]".format(Surface,Date,Date),con=devengine)
     dataset=dataset.dropna()
     prediction=prediction.dropna()
     prediction1=prediction1.dropna()
@@ -143,7 +143,7 @@ def ML_Prev(Surface,Date):
     #print(df)
     df=df[df["Prediction"]=="EloFav"]
     countbets=len(df)
-    Stake=100
+    Stake=1
     df["Profit"]=df.apply(lambda x: -Stake if x["Elo Favourite"]!=x["Player1"] else (x["Odds"]*Stake)-Stake,axis=1)
     df.loc['Profit']= df.sum(axis=0)
     #dates=prediction=pd.read_sql_query("Select distinct Date FROM Bets_yesterday where date  like '%'",con=devengine)
@@ -152,7 +152,7 @@ def ML_Prev(Surface,Date):
     print("{}   ${} Profit in {} bets".format(Surface,df["Profit"].iloc[-1],countbets))
     return df["Profit"].iloc[-1]
     #df.to_excel("YD.xlsx")
-Date='2021'
-profit1=ML_Prev('Hard',Date)
+Date='20222'
+#profit1=ML_Prev('Hard',Date)
 profit2=ML_Prev('Clay',Date)
-print(profit1+profit2)
+#print(profit1+profit2)

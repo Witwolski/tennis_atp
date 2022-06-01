@@ -200,7 +200,7 @@ def Main(url, current_date, suffix, check):
                     new_df.to_sql("Test_Yesterday",con=devengine,if_exists='append',index=False)
 
 #for x in range(81,90):
-for x in range(150,200):
+for x in range(1,2):
     
     connection.execute('Delete FROM Test_Yesterday')
     #connection.execute('Delete FROM bets_today')
