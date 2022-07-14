@@ -35,7 +35,7 @@ def sql_query(query, con):
 
 
 def elo_mbm(sex, mask, after_date, grt):
-    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >= Convert(datetime, '{}' )".format(
+    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >= Convert(datetime, '{}' ) and surface = 'Clay'".format(
         sex, after_date
     )
     elo_data = sql_query(query, bets_engine)
@@ -103,7 +103,7 @@ def elo_mbm(sex, mask, after_date, grt):
 
 
 def elo_mbm_dog(sex, mask, after_date, grt):
-    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >= Convert(datetime, '{}' )".format(
+    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >= Convert(datetime, '{}' ) and surface = 'Clay'".format(
         sex, after_date
     )
     elo_data = sql_query(query, bets_engine)
@@ -219,4 +219,4 @@ combine_results = pd.merge(
     right_on=["Thresh", "Sex", "FavDog", "HigherLower", "WinsLosses"],
     suffixes=["", "_y"],
 )
-combine_results.to_excel("Analysis.xlsx", index=False)
+combine_results.to_excel("Analysis_Clay.xlsx", index=False)
