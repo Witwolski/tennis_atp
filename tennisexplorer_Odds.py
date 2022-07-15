@@ -150,7 +150,7 @@ def Main(url, current_date, suffix, check):
                 .replace("hard", "Hard")
             )
 
-            if not "Futures" in tournament_name and not "UTR" in tournament_name:
+            if not "Futures" in tournament_name:
                 if not tournament_dict.get(tournament_name):
                     tournament_dict[tournament_name + str(item)] = {}
                     tournament_dict[tournament_name + str(item)][current_date] = []
@@ -158,7 +158,6 @@ def Main(url, current_date, suffix, check):
                     test = rows[c].findAll("td", class_="course")
                     # print(len(test))
                     if len(test) > 1:
-                        ja = rows[c].findAll("td", class_="score")
                         tournament_dict[tournament_name + str(item)][
                             current_date
                         ].append(
@@ -175,33 +174,8 @@ def Main(url, current_date, suffix, check):
                             + rows[c].findAll("td", class_="course")[0].contents[0]
                             + "_"
                             + rows[c].findAll("td", class_="course")[1].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="result")[0].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="result")[1].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[0].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[1].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[2].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[3].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[4].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[0].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[1].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[2].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[3].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[4].contents[0]
                         )
                     else:
-                        ja = rows[c].findAll("td", class_="score")
                         tournament_dict[tournament_name + str(item)][
                             current_date
                         ].append(
@@ -218,30 +192,6 @@ def Main(url, current_date, suffix, check):
                             + rows[c].findAll("td", class_="coursew")[0].contents[0]
                             + "_"
                             + rows[c].findAll("td", class_="course")[0].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="result")[0].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="result")[0].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[0].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[1].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[2].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[3].contents[0]
-                            + "_"
-                            + rows[c].findAll("td", class_="score")[4].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[0].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[1].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[2].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[3].contents[0]
-                            + "_"
-                            + rows[c + 1].findAll("td", class_="score")[4].contents[0]
                         )
 
     for key, value in tournament_dict.items():
@@ -259,19 +209,6 @@ def Main(url, current_date, suffix, check):
                 player1odds = odds.split("_")[0]
                 player2odds = odds.split("_")[1]
                 Surface = match.split(":")[1]
-                winner_games = match.split("_")[2]
-                loser_games = match.split("_")[3]
-                winner_first = match.split("_")[4]
-                winner_second = match.split("_")[5]
-                winner_third = match.split("_")[6]
-                winner_forth = match.split("_")[7]
-                winner_fifth = match.split("_")[8]
-                loser_first = match.split("_")[9]
-                loser_second = match.split("_")[10]
-                loser_third = match.split("_")[11]
-                loser_forth = match.split("_")[12]
-                loser_fifth = match.split("_")[13]
-
                 table = [
                     [
                         "Date",
@@ -282,18 +219,6 @@ def Main(url, current_date, suffix, check):
                         "Player_1_Odds",
                         "Player_2_Odds",
                         "Surface",
-                        "Winner_Games",
-                        "Loser_Games",
-                        "w1",
-                        "w2",
-                        "w3",
-                        "w4",
-                        "w5",
-                        "l1",
-                        "l2",
-                        "l3",
-                        "l4",
-                        "l5",
                     ],
                     [
                         current_date,
@@ -304,18 +229,6 @@ def Main(url, current_date, suffix, check):
                         player1odds,
                         player2odds,
                         Surface,
-                        winner_games,
-                        loser_games,
-                        winner_first,
-                        winner_second,
-                        winner_third,
-                        winner_forth,
-                        winner_fifth,
-                        loser_first,
-                        loser_second,
-                        loser_third,
-                        loser_forth,
-                        loser_fifth,
                     ],
                 ]
                 df = pd.DataFrame(table)
@@ -329,12 +242,12 @@ def Main(url, current_date, suffix, check):
                     & (new_df["Player_2"] != "")
                 ]
                 new_df.to_sql(
-                    "AllMatches_CWTemp", con=devengine, if_exists="append", index=False
+                    "AllMatches", con=devengine, if_exists="append", index=False
                 )
 
 
 # for x in range(81,90):
-for x in range(15, 100):
+for x in range(1, 2):
     # for x in range(502,600):
     print(x)
 
