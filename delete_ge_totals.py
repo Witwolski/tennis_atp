@@ -39,7 +39,11 @@ def elo_mbm(sex, mask, after_date, grt):
         sex, after_date
     )
     elo_data = sql_query(query, bets_engine)
-    elo_data = elo_data[(elo_data["Wins"].ge(grt)) | (elo_data["Losses"].ge(grt))]
+    elo_data = elo_data[
+        ((elo_data["Wins"].ge(grt)) | (elo_data["Losses"].ge(grt)))
+        & (elo_data["WinnerTotal"].ge(30))
+        & (elo_data["LoserTotal"].ge(30))
+    ]
 
     def odds_range(elo_data, thresh_high, thresh_low, mask):
         if mask == "Higher":
@@ -179,7 +183,7 @@ def analyze_past(df):
     data = pd.DataFrame()
     for _, row in df.iterrows():
         if row["FavDog"] == "Dog":
-            for x in range(20, 200, 10):
+            for x in range(20, 100, 10):
                 elo_results = elo_mbm_dog(
                     row["Sex"], row["HigherLower"], row["AfterDate"], x
                 )
@@ -219,4 +223,4 @@ combine_results = pd.merge(
     right_on=["Thresh", "Sex", "FavDog", "HigherLower", "WinsLosses"],
     suffixes=["", "_y"],
 )
-combine_results.to_excel("Analysis.xlsx", index=False)
+combine_results.to_excel("Analysis_Totals_and.xlsx", index=False)
