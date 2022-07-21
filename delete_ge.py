@@ -6,6 +6,7 @@ import sys
 import glob
 import datetime
 from datetime import date
+from playsound import playsound
 
 
 files = glob.glob("./Results/*.txt")
@@ -220,3 +221,4 @@ combine_results = pd.merge(
     suffixes=["", "_y"],
 )
 combine_results.to_excel("Analysis.xlsx", index=False)
+playsound(r"C:\Users\chris\Music\beep-09.mp3")
