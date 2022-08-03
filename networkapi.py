@@ -13,9 +13,9 @@ def run(playwright):
     browser = chromium.launch()
     page = browser.new_page()
     # Subscribe to "request" and "response" events.
-    # page.on("request", lambda request: print(">>", request.method, request.url))
+    page.on("request", lambda request: print(">>", request.method, request.url))
     page.on("response", lambda response: test_json(response))
-    page.goto("https://www.tennisexplorer.com/matches/")
+    page.goto("https://www.wtatennis.com/rankings/singles")
     browser.close()
 
 
