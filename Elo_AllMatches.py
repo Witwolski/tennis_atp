@@ -165,4 +165,4 @@ data1 = data[data["Date"] != current_date]
 data1.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
 data2 = data[data["Date"] == current_date]
 data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
-playsound(r"C:\\Users\\chris\\Music\\beep-09.mp3")
+#playsound(r"C:\Users\chris\Music\beep-09.mp3")
