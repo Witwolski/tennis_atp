@@ -1,25 +1,7 @@
 import datetime
-from sqlite3 import connect
-import requests
-from bs4 import BeautifulSoup
-import argparse
-import datetime
-from tabulate import tabulate
 import pandas as pd
-import openpyxl
-import xlsxwriter
-from cmath import nan
-from typing import Type
 import pandas as pd
-import os
-import csv
-from pandas.core.arrays.integer import safe_cast
-import sqlalchemy as sa
 from sqlalchemy import create_engine
-import pymssql
-import time
-from pathlib import Path
-import msvcrt
 import numpy as np
 import logging
 from playsound import playsound

@@ -1,8 +1,6 @@
-from operator import index
 import pandas as pd
 import os
 from sqlalchemy import create_engine
-import sys
 import glob
 import datetime
 from datetime import date

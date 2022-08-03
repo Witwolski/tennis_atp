@@ -1,11 +1,9 @@
 import functools, json
-from regex import F
 from requests_html import AsyncHTMLSession
 import pandas as pd
 import requests
 from sqlalchemy import create_engine
 import logging
-import time
 
 logging.basicConfig(
     filename="wta.log",
