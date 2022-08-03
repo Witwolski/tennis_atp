@@ -97,7 +97,7 @@ def elo_mbm(sex, mask, after_date, grt):
             thresh_low = y + (x * 0.1)
             filtered_elo_data = odds_range(elo_data, thresh_high, thresh_low, mask)
             results = range_win_percentage(filtered_elo_data, thresh_high, mask)
-            data = data.append(results)
+            data = pd.concat([data, results])
     return data
 
 
@@ -166,7 +166,7 @@ def elo_mbm_dog(sex, mask, after_date, grt):
             thresh_low = y + (x * 0.1)
             filtered_elo_data = odds_range(elo_data, thresh_high, thresh_low, mask)
             results = range_win_percentage(filtered_elo_data, thresh_high, mask)
-            data = data.append(results)
+            data = pd.concat([data, results])
     return data
 
 
@@ -182,14 +182,15 @@ def analyze_past(df):
                 elo_results = elo_mbm_dog(
                     row["Sex"], row["HigherLower"], row["AfterDate"], x
                 )
-                data = data.append(elo_results)
+
+                data = pd.concat([data, elo_results])
 
         else:
             for x in range(20, 200, 10):
                 elo_results = elo_mbm(
                     row["Sex"], row["HigherLower"], row["AfterDate"], x
                 )
-                data = data.append(elo_results)
+                data = pd.concat([data, elo_results])
 
     data.drop_duplicates(keep="first", inplace=True)
     return data
