@@ -5,7 +5,7 @@ import glob
 import datetime
 from datetime import date
 from playsound import playsound
-
+pd.options.mode.chained_assignment = None  # default='war
 
 files = glob.glob("./Results/*.txt")
 for f in files:
@@ -74,6 +74,7 @@ def elo_mbm(sex, mask, after_date, grt):
                     axis=1,
                 )
                 elo_data.loc["Profit"] = elo_data.sum(axis=0)
+                #elo_data["Profit"] = elo_data.sum(axis=0)
                 if elo_data["Profit"].iloc[-1] > 1:
                     results_table = [
                         {
@@ -142,6 +143,7 @@ def elo_mbm_dog(sex, mask, after_date, grt):
                     axis=1,
                 )
                 elo_data.loc["Profit"] = elo_data.sum(axis=0)
+                # elo_data["Profit"] = elo_data.sum(axis=0)
                 if elo_data["Profit"].iloc[-1] > 1:
                     results = pd.DataFrame()
                     results_table = [
@@ -203,7 +205,6 @@ table_definition["AfterDate"] = table_definition["AfterDate"].str.replace(
     "x", date_lastmonth_formatted
 )
 table_definition.to_csv("table_definition_.csv")
-print(table_definition)
 table_def_this_year = table_definition[table_definition["AfterDate"] == "2022-01-01"]
 table_def_this_month = table_definition[
     table_definition["AfterDate"] == date_lastmonth_formatted
