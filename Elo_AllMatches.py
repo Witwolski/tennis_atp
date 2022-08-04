@@ -32,7 +32,6 @@ data2 = pd.read_sql_query(
     "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches",
     con=devengine,
 )
-print(data2)
 data = pd.concat([data, data2])
 
 data = data.sort_values("Date")  # sort data frame by date
@@ -94,7 +93,7 @@ def get_elo_rankings(data):
 
 
 elo_rankings = get_elo_rankings(data)
-data = pd.concat([data, elo_rankings], 1)
+data = pd.concat([data, elo_rankings])
 
 
 def get_prob(a):
@@ -165,4 +164,4 @@ data1 = data[data["Date"] != current_date]
 data1.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
 data2 = data[data["Date"] == current_date]
 data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
-#playsound(r"C:\Users\chris\Music\beep-09.mp3")
+# playsound(r"C:\Users\chris\Music\beep-09.mp3")
