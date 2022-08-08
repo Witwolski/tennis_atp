@@ -6,14 +6,7 @@ import numpy as np
 import logging
 from playsound import playsound
 
-username = r"ChrisDB"
-password = "babinda08"
-server = r"localhost"
-database = "Bets"
-devconnection_uri = "mssql+pymssql://{}:{}@{}/{}".format(
-    username, password, server, database
-)
-devengine = create_engine(devconnection_uri)
+devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 
 data = pd.read_sql_query(

@@ -5,6 +5,7 @@ import glob
 import datetime
 from datetime import date
 from playsound import playsound
+
 pd.options.mode.chained_assignment = None  # default='war
 
 files = glob.glob("./Results/*.txt")
@@ -17,14 +18,8 @@ files = glob.glob("./Results/Excel/Fav/*")
 for f in files:
     os.remove(f)
 
-username = r"ChrisDB"
-password = "babinda08"
-server = r"localhost"
-database = "Bets"
-dev_connection_uri = "mssql+pymssql://{}:{}@{}/{}".format(
-    username, password, server, database
-)
-bets_engine = create_engine(dev_connection_uri)
+bets_engine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
+
 total_profit = 0
 
 
@@ -34,7 +29,7 @@ def sql_query(query, con):
 
 
 def elo_mbm(sex, mask, after_date, grt):
-    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >= Convert(datetime, '{}' )".format(
+    query = "Select * FROM Elo_AllMatches  where sex like '{}' and date  >='{}'".format(
         sex, after_date
     )
     elo_data = sql_query(query, bets_engine)
@@ -74,7 +69,7 @@ def elo_mbm(sex, mask, after_date, grt):
                     axis=1,
                 )
                 elo_data.loc["Profit"] = elo_data.sum(axis=0)
-                #elo_data["Profit"] = elo_data.sum(axis=0)
+                # elo_data["Profit"] = elo_data.sum(axis=0)
                 if elo_data["Profit"].iloc[-1] > 1:
                     results_table = [
                         {
