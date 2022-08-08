@@ -11,15 +11,15 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 def ML(Surface):
     global counting
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '2022-01-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
         con=devengine,
     )
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches_Today where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '2022-01-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
         con=devengine,
     )
     prediction1 = pd.read_sql_query(
-        "Select Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches_Today where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '2022-01-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
         con=devengine,
     )
     dataset["Elo_EloFav"] = dataset.apply(
@@ -57,7 +57,7 @@ def ML(Surface):
     X = final_result.drop(["FavDog"], axis=1)
     y = final_result["FavDog"]
     X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=25)
-    model = LogisticRegression(max_iter=50000000)
+    model = LogisticRegression(max_iter=20000000)
     model2 = SVC()
     model2.fit(X_train, y_train)
     model.fit(X_train, y_train)
@@ -110,10 +110,6 @@ def ML(Surface):
         # print(train_score2,test_score2)
         # print('************************************')
         # print('')
-        # df.to_excel("today.xlsx")
-        # print(train_score2,test_score2)
-        # print('************************************')
-        # print('')
         counting = counting + 1
         return 1, players
     else:
@@ -127,9 +123,10 @@ for x in range(1, 500):
     pl = ML("Hard")[1]
     players1.append(pl)
 flat_list = [item for sublist in players1 for item in sublist]
-x = pd.DataFrame(flat_list).to_clipboard()
+x = pd.DataFrame(flat_list)
 x.drop_duplicates(inplace=True)
 x.to_clipboard(index=False)
+
 # print(Counter(flat_list), counting)
 # print(counting)
 # ML('Hard')
