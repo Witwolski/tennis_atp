@@ -6,14 +6,6 @@ import numpy as np
 import logging
 from playsound import playsound
 
-logging.basicConfig(
-    filename="elo_all_matches.log",
-    level=logging.DEBUG,
-    format="%(asctime)s - %(message)s",
-    datefmt="%y-%m-%d %H:%M:%S",
-)
-
-
 username = r"ChrisDB"
 password = "babinda08"
 server = r"localhost"
@@ -93,7 +85,7 @@ def get_elo_rankings(data):
 
 
 elo_rankings = get_elo_rankings(data)
-data = pd.concat([data, elo_rankings])
+data = pd.concat([data, elo_rankings], 1)
 
 
 def get_prob(a):
@@ -143,6 +135,7 @@ data2["Winner"] = data2["Loser"]
 data3 = pd.concat([data, data2]).sort_values("Date")
 data3.reset_index(drop=True, inplace=True)
 data3["WinnerTotal"] = data3.groupby("Winner").cumcount() + 1
+data3 = data3[pd.notnull(data3["Surface"])]
 data4 = data3.merge(
     data,
     how="inner",

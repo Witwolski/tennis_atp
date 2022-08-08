@@ -5,13 +5,6 @@ import requests
 from sqlalchemy import create_engine
 import logging
 
-logging.basicConfig(
-    filename="wta.log",
-    level=logging.DEBUG,
-    format="%(asctime)s - %(message)s",
-    datefmt="%y-%m-%d %H:%M:%S",
-)
-
 
 username = r"ChrisDB"
 password = "babinda08"
