@@ -5,9 +5,6 @@ from collections import Counter
 from sqlalchemy import create_engine
 import pandas as pd
 
-# import xgboost as xgb
-
-
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 
