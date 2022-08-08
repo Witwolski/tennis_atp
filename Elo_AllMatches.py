@@ -10,7 +10,7 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 
 data = pd.read_sql_query(
-    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches --where date  >= Convert(datetime, '2021-07-01' )",
+    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches",
     con=devengine,
 )
 data2 = pd.read_sql_query(

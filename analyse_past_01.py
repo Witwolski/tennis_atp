@@ -193,7 +193,7 @@ def analyze_past(df):
     return data
 
 
-date_lastmonth = date.today() + datetime.timedelta(-30)
+date_lastmonth = date.today() + datetime.timedelta(-60)
 date_lastmonth_formatted = date_lastmonth.strftime("%Y-%m-%d")
 table_definition = pd.read_csv("table_definition.csv")
 table_definition["AfterDate"] = table_definition["AfterDate"].str.replace(
@@ -216,4 +216,10 @@ combine_results = pd.merge(
     suffixes=["", "_y"],
 )
 combine_results.to_excel("Analysis.xlsx", index=False)
+combine_results.sort_values(
+    by=["Sex", "Thresh", "WinPercent"], ascending=False, inplace=True
+)
+combine_results.drop_duplicates(
+    subset=["Sex", "Thresh", "HigherLower"], keep="first"
+).to_excel("Analysis_Highest.xlsx", index=False)
 # playsound(r"C:\Users\chris\Music\beep-09.mp3")
