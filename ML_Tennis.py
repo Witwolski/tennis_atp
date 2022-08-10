@@ -169,10 +169,9 @@ for day in range(0, 1):
         x["Opponent"] = x.apply(
             lambda y: y["Winner"] if y["Winner"] != y["Elo_Fav"] else y["Loser"], axis=1
         )
-        x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Opponent", "Winner"]]
+        x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Opponent"]]
         x.rename(columns={"Elo_Fav": "Selection", "Elo_Fav_Odds": "Odds"}, inplace=True)
         x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
         x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
         print(x)
-        x.to_csv("delete.csv", index=False)
-        # to_sql("Predictions_Past", con=devengine, if_exists="append", index=False)
+        x.to_sql("Predictions", con=devengine, if_exists="append", index=False)
