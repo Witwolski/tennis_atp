@@ -10,30 +10,21 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 
 def ML(Surface):
-    global counting
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '2022-02-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
-        con=devengine,
-    )
-    prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '2022-02-01' and date < '2022-03-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
-        con=devengine,
-    )
-    prediction1 = pd.read_sql_query(
-        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '2022-02-01' and date < '2022-03-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9",
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '2022-01-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9 ",
         con=devengine,
     )
 
     date_from = "2022-07-10"
     date_to = "2022-08-11"
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9".format(
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9".format(
             date_from, date_to
         ),
         con=devengine,
     )
     prediction1 = pd.read_sql_query(
-        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9".format(
+        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9".format(
             date_from, date_to
         ),
         con=devengine,
@@ -134,20 +125,16 @@ def ML(Surface):
             List.append(a_dictionary)
     temp = pd.DataFrame(List)
     df = pd.concat([df, temp])
-    # df=df[df["Odds"].ge(1.85)|df["Odds"].le(1.2)]
-    # df = df[df["Elo_Fav_Odds"].ge(1.9)]
     df = df[df["Prediction"] == "EloFav"]
     players = []
     if train_score2 > 0.5:  # and test_score2 > 0.5:
         for _, i in df.iterrows():
             players.append(i)
-        counting = counting + 1
         return 1, players
     else:
         return 0, ""
 
 
-counting = 0
 players1 = []
 for x in range(1, 100):
     pl = ML("Hard")[1]

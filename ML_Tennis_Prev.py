@@ -136,7 +136,7 @@ def ML(tomorrow, month_ago, six_months_ago):
         return 0, ""
 
 
-for day in range(0, 1):
+for day in range(100, 300):
     date_today = datetime.datetime.now() + relativedelta(days=-day)
     date_tomorrow = date_today + relativedelta(days=1)
     date_month_ago = date_today + relativedelta(months=-1)
@@ -174,5 +174,4 @@ for day in range(0, 1):
         x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
         x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
         print(x)
-        x.to_csv("delete.csv", index=False)
-        # to_sql("Predictions_Past", con=devengine, if_exists="append", index=False)
+        x.to_sql("Predictions_Past", con=devengine, if_exists="append", index=False)
