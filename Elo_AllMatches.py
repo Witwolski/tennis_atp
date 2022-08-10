@@ -146,8 +146,9 @@ data = data9.merge(
     right_on=["Date", "Winner", "Loser"],
 )
 
-data1 = data[data["Date"] != current_date]
+# data1 = data[data["Date"] != current_date]
+data1 = data
 data1.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
-data2 = data[data["Date"] == current_date]
-data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
+# data2 = data[data["Date"] == current_date]
+# data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
 # playsound(r"C:\Users\chris\Music\beep-09.mp3")

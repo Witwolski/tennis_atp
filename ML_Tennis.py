@@ -4,132 +4,168 @@ from sklearn.svm import SVC
 from collections import Counter
 from sqlalchemy import create_engine
 import pandas as pd
+import numpy as np
+import datetime
+from dateutil.relativedelta import *
 
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 
-def ML(Surface):
-    global counting
+def ML(tomorrow, month_ago, six_months_ago):
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9".format(
+            six_months_ago
+        ),
         con=devengine,
     )
+
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches_Today where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9".format(
+            month_ago, tomorrow
+        ),
         con=devengine,
     )
     prediction1 = pd.read_sql_query(
-        "Select Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches_Today where WinnerTotal > 20 and LoserTotal >20 and Elo_Fav_Odds > 1.9",
+        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds > 1.9".format(
+            month_ago, tomorrow
+        ),
         con=devengine,
     )
-    dataset["Elo_EloFav"] = dataset.apply(
-        lambda x: x["Elo_Winner"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Loser"],
-        axis=1,
-    )
-    dataset["Elo_EloDog"] = dataset.apply(
-        lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
-        axis=1,
-    )
-    dataset["FavDog"] = dataset.apply(
+
+    dataset["Winner"] = dataset.apply(
         lambda x: "EloFav" if x["Winner"] == x["Elo_Fav"] else "EloDog", axis=1
     )
-
-    dataset.drop(
-        columns=["Winner", "Elo_Winner", "Elo_Loser", "Elo_Fav"],
-        inplace=True,
-    )
-
-    prediction["Elo_EloFav"] = prediction.apply(
+    dataset["Elo_Fav"] = dataset.apply(
         lambda x: x["Elo_Winner"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Loser"],
         axis=1,
     )
-    prediction["Elo_EloDog"] = prediction.apply(
+    dataset["Elo_Dog"] = dataset.apply(
         lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
         axis=1,
     )
-    prediction.drop(
-        columns=["Winner", "Loser", "Elo_Winner", "Elo_Loser", "Elo_Fav"], inplace=True
+    dataset["Odds_Difference"] = dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"]
+    dataset["Elo_Difference"] = dataset["Elo_Fav"] - dataset["Elo_Dog"]
+    dataset = dataset[["Winner", "Odds_Difference", "Elo_Difference"]]
+    my_list = ["EloFav", "EloDog"]
+    dataset["Player_1"] = np.random.choice(my_list, len(dataset))
+    dataset["Player_2"] = dataset.apply(
+        lambda x: "EloDog" if x["Player_1"] == "EloFav" else "EloFav", axis=1
     )
 
-    final_result = dataset
-    prediction = prediction
+    prediction["Player_1"] = prediction.apply(
+        lambda x: "EloFav" if x["Winner"] == x["Elo_Fav"] else "EloDog", axis=1
+    )
+    prediction["Player_2"] = prediction.apply(
+        lambda x: "EloFav" if x["Winner"] != x["Elo_Fav"] else "EloDog", axis=1
+    )
+    prediction["Odds_Difference"] = (
+        prediction["Elo_Fav_Odds"] - prediction["Elo_Dog_Odds"]
+    )
+    prediction["Elo_Fav"] = prediction.apply(
+        lambda x: x["Elo_Winner"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Loser"],
+        axis=1,
+    )
+    prediction["Elo_Dog"] = prediction.apply(
+        lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
+        axis=1,
+    )
+    prediction["Elo_Difference"] = prediction["Elo_Fav"] - prediction["Elo_Dog"]
+    prediction = prediction[
+        ["Player_1", "Player_2", "Odds_Difference", "Elo_Difference"]
+    ]
 
-    X = final_result.drop(["FavDog"], axis=1)
-    y = final_result["FavDog"]
+    final_result = pd.get_dummies(
+        dataset, prefix=["Player_1", "Player_2"], columns=["Player_1", "Player_2"]
+    )
+    prediction = pd.get_dummies(
+        prediction, prefix=["Player_1", "Player_2"], columns=["Player_1", "Player_2"]
+    )
+
+    X = final_result.drop(["Winner"], axis=1)
+    y = final_result["Winner"]
     X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=25)
-    model = LogisticRegression(max_iter=50000000)
-    model2 = SVC()
+    # model = LogisticRegression(max_iter=20000000)
+    model2 = SVC(max_iter=20000000)
     model2.fit(X_train, y_train)
-    model.fit(X_train, y_train)
-    train_score = model.score(X_train, y_train)
+    # model.fit(X_train, y_train)
+    # train_score = model.score(X_train, y_train)
     train_score2 = model2.score(X_train, y_train)
     test_score2 = model2.score(X_test, y_test)
-    test_score = model.score(X_test, y_test)
-    """
-    print("")
-    print("#########################")
-    print(" Training accuracy: {:.0%}".format(train_score2))
-    print(" Testing accuracy:  {:.0%}".format(test_score2))
-    print("#########################")
-    """
+    # test_score = model.score(X_test, y_test)
+
     if len(prediction) == 0:
         return 0, ""
-    pred = model.predict(prediction)
+    # pred = model.predict(prediction)
     pred2 = model2.predict(prediction)
-    cols = ["Prediction", "Elo_Fav", "Elo_Fav_Odds", "Winner"]
+    cols = [
+        "Date",
+        "Prediction",
+        "Elo_Fav",
+        "Elo_Fav_Odds",
+        "Winner",
+        "Loser",
+        # "Training_Accuracy",
+        # "Testing_Accuracy",
+    ]
     df = pd.DataFrame(columns=cols)
     List = []
     for index, tuples in prediction1.iterrows():
         if index < len(prediction1):
 
             values = [
+                prediction1["Date"][index],
                 pred2[index],
                 prediction1["Elo_Fav"][index],
                 prediction1["Elo_Fav_Odds"][index],
                 prediction1["Winner"][index],
+                prediction1["Loser"][index],
+                #  "{:.0%}".format(train_score2),
+                #  "{:.0%}".format(test_score2),
             ]
             zipped = zip(cols, values)
             a_dictionary = dict(zipped)
-            # print(a_dictionary)
             List.append(a_dictionary)
-            # print(pred[index],",",prediction1["Elo Favourite"][index],",",prediction1["Player 1"][index],",",prediction1["Odds"][index])
-    df = df.append(List, True)
-    # df=df[df["Odds"].ge(1.85)|df["Odds"].le(1.2)]
-    # df=df[(df["Odds"].gt(1.11)&df["Odds"].le(1.2))|df["Odds"].ge(1.85)]
-    df = df[df["Prediction"] != "EloFav"]
+    temp = pd.DataFrame(List)
+    df = pd.concat([df, temp])
+    df = df[df["Prediction"] == "EloFav"]
     players = []
-    if train_score2 > 0.7 and test_score2 > 0.5:  # and df.empty==False:
-        # print('')
-        # print('              {}'.format(Surface))
-        # print('************************************')
-        # print(df[["Prediction","Elo Favourite","Odds"]].to_string(index=False))
+    if train_score2 > 0.5:  # and test_score2 > 0.5:
         for _, i in df.iterrows():
-            # print(i)
             players.append(i)
-        # df.to_excel("today.xlsx")
-        # print(train_score2,test_score2)
-        # print('************************************')
-        # print('')
-        # df.to_excel("today.xlsx")
-        # print(train_score2,test_score2)
-        # print('************************************')
-        # print('')
-        counting = counting + 1
         return 1, players
     else:
         return 0, ""
 
 
-counting = 0
+date_today = datetime.datetime.now()
+date_tomorrow = datetime.datetime.now() + relativedelta(days=1)
+date_month_ago = date_today + relativedelta(months=-1)
+date_six_months_ago = date_today + relativedelta(months=-6)
+date_tomorrow_formatted = date_tomorrow.strftime("%Y-%m-%d")
+date_today_formatted = date_today.strftime("%Y-%m-%d")
+date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
+date_month_ago_formatted = date_month_ago.strftime("%Y-%m-%d")
+print(date_tomorrow_formatted)
+print(date_six_months_ago_formatted)
+print(date_month_ago_formatted)
+
 players1 = []
-for x in range(1, 500):
-    # count=count+ML('Clay')[0]
-    pl = ML("Hard")[1]
+for x in range(1, 100):
+    pl = ML(
+        date_tomorrow_formatted, date_month_ago_formatted, date_month_ago_formatted
+    )[1]
     players1.append(pl)
 flat_list = [item for sublist in players1 for item in sublist]
-x = pd.DataFrame(flat_list).to_clipboard()
-x.drop_duplicates(inplace=True)
-x.to_clipboard(index=False)
-# print(Counter(flat_list), counting)
-# print(counting)
-# ML('Hard')
+x = pd.DataFrame(flat_list)
+x = x.groupby(x.columns.tolist()).size().reset_index().rename(columns={0: "records"})
+x = x[x["records"].ge(20)]
+x = x[x["Date"] == date_today_formatted]
+if x.empty == False:
+    x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Winner", "Loser"]]
+    x["Opponent"] = x.apply(
+        lambda y: y["Winner"] if y["Winner"] != y["Elo_Fav"] else y["Loser"], axis=1
+    )
+    x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Opponent"]]
+    x.rename(columns={"Elo_Fav": "Selection", "Elo_Fav_Odds": "Odds"}, inplace=True)
+    x.to_sql("Predictions", con=devengine, if_exists="append", index=False)
+    print(x)
