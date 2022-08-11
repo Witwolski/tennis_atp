@@ -11,20 +11,20 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 def ML(Surface):
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '2022-01-01' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9 ",
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '2022-07-01' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds >1.9 ",
         con=devengine,
     )
 
-    date_from = "2022-07-10"
+    date_from = "2022-07-01"
     date_to = "2022-08-11"
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9".format(
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds >1.9".format(
             date_from, date_to
         ),
         con=devengine,
     )
     prediction1 = pd.read_sql_query(
-        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 10 and LoserTotal > 10 and Elo_Fav_Odds >1.9".format(
+        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds >1.9".format(
             date_from, date_to
         ),
         con=devengine,
@@ -41,8 +41,8 @@ def ML(Surface):
         lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
         axis=1,
     )
-    dataset["Odds_Difference"] = dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"]
-    dataset["Elo_Difference"] = dataset["Elo_Fav"] - dataset["Elo_Dog"]
+    dataset["Odds_Difference"] = abs(dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"])
+    dataset["Elo_Difference"] = abs(dataset["Elo_Fav"] - dataset["Elo_Dog"])
     dataset = dataset[["Winner", "Odds_Difference", "Elo_Difference"]]
     my_list = ["EloFav", "EloDog"]
     dataset["Player_1"] = np.random.choice(my_list, len(dataset))
@@ -56,7 +56,7 @@ def ML(Surface):
     prediction["Player_2"] = prediction.apply(
         lambda x: "EloFav" if x["Winner"] != x["Elo_Fav"] else "EloDog", axis=1
     )
-    prediction["Odds_Difference"] = (
+    prediction["Odds_Difference"] = abs(
         prediction["Elo_Fav_Odds"] - prediction["Elo_Dog_Odds"]
     )
     prediction["Elo_Fav"] = prediction.apply(
@@ -67,7 +67,7 @@ def ML(Surface):
         lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
         axis=1,
     )
-    prediction["Elo_Difference"] = prediction["Elo_Fav"] - prediction["Elo_Dog"]
+    prediction["Elo_Difference"] = abs(prediction["Elo_Fav"] - prediction["Elo_Dog"])
     prediction = prediction[
         ["Player_1", "Player_2", "Odds_Difference", "Elo_Difference"]
     ]
@@ -127,7 +127,7 @@ def ML(Surface):
     df = pd.concat([df, temp])
     df = df[df["Prediction"] == "EloFav"]
     players = []
-    if train_score2 > 0.5:  # and test_score2 > 0.5:
+    if train_score2 > 0.5 and test_score2 > 0.5:
         for _, i in df.iterrows():
             players.append(i)
         return 1, players
@@ -142,5 +142,12 @@ for x in range(1, 100):
 flat_list = [item for sublist in players1 for item in sublist]
 x = pd.DataFrame(flat_list)
 x = x.groupby(x.columns.tolist()).size().reset_index().rename(columns={0: "records"})
-x = x[x["records"].ge(20)]
+# x = x[x["records"].ge(10)]
+x["win_loss"] = x.apply(
+    lambda x: "Win" if x["Elo_Fav"] == x["Winner"] else "Loss", axis=1
+)
+wins = len(x[x["win_loss"] == "Win"])
+losses = len(x[x["win_loss"] == "Loss"])
+print(wins / (wins + losses))
+print(len(x))
 x.to_csv("Predictions_Past.csv", index=False)

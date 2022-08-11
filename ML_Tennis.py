@@ -43,8 +43,8 @@ def ML(tomorrow, month_ago, six_months_ago):
         lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
         axis=1,
     )
-    dataset["Odds_Difference"] = dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"]
-    dataset["Elo_Difference"] = dataset["Elo_Fav"] - dataset["Elo_Dog"]
+    dataset["Odds_Difference"] = abs(dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"])
+    dataset["Elo_Difference"] = abs(dataset["Elo_Fav"] - dataset["Elo_Dog"])
     dataset = dataset[["Winner", "Odds_Difference", "Elo_Difference"]]
     my_list = ["EloFav", "EloDog"]
     dataset["Player_1"] = np.random.choice(my_list, len(dataset))
@@ -58,7 +58,7 @@ def ML(tomorrow, month_ago, six_months_ago):
     prediction["Player_2"] = prediction.apply(
         lambda x: "EloFav" if x["Winner"] != x["Elo_Fav"] else "EloDog", axis=1
     )
-    prediction["Odds_Difference"] = (
+    prediction["Odds_Difference"] = abs(
         prediction["Elo_Fav_Odds"] - prediction["Elo_Dog_Odds"]
     )
     prediction["Elo_Fav"] = prediction.apply(
@@ -69,7 +69,7 @@ def ML(tomorrow, month_ago, six_months_ago):
         lambda x: x["Elo_Loser"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Winner"],
         axis=1,
     )
-    prediction["Elo_Difference"] = prediction["Elo_Fav"] - prediction["Elo_Dog"]
+    prediction["Elo_Difference"] = abs(prediction["Elo_Fav"] - prediction["Elo_Dog"])
     prediction = prediction[
         ["Player_1", "Player_2", "Odds_Difference", "Elo_Difference"]
     ]
@@ -136,7 +136,7 @@ def ML(tomorrow, month_ago, six_months_ago):
         return 0, ""
 
 
-for day in range(0, 1):
+for day in range(1, 2):
     date_today = datetime.datetime.now() + relativedelta(days=-day)
     date_tomorrow = date_today + relativedelta(days=1)
     date_month_ago = date_today + relativedelta(months=-1)
@@ -162,6 +162,7 @@ for day in range(0, 1):
         .rename(columns={0: "records"})
     )
     x = x[x["records"].ge(20)]
+    print(x)
     x = x[x["Date"].str.contains(date_today_formatted)]
     if x.empty == False:
         x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Winner", "Loser"]]
@@ -174,4 +175,4 @@ for day in range(0, 1):
         x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
         x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
         print(x)
-        x.to_sql("Predictions", con=devengine, if_exists="append", index=False)
+        # x.to_sql("Predictions", con=devengine, if_exists="append", index=False)

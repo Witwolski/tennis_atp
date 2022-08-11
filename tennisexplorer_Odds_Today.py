@@ -224,12 +224,12 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in range(0, 1):
+for x in range(1, 2):
     print(x)
     connection.execute("Delete FROM TodaysMatches")
     # connection.execute('Delete FROM bets_today')
     # # Get the current date
-    tomorrow = datetime.datetime.now() + datetime.timedelta(days=0)
+    tomorrow = datetime.datetime.now() + datetime.timedelta(days=-x)
     print(tomorrow.strftime("%Y-%m-%d"))
     year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
     current_date = tomorrow.strftime("%Y-%m-%d")
