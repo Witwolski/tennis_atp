@@ -13,25 +13,47 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 def ML(tomorrow, month_ago, six_months_ago, yesterday):
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '{}' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds > 1.9".format(
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '{}' and WinnerTotal > 40 and LoserTotal > 40 and Elo_Fav_Odds > 1.9".format(
             month_ago
         ),
         con=devengine,
     )
-
+    """
+    dataset["Elo_Fav_Odds"] = (dataset["Elo_Fav_Odds"] / 0.10).apply(np.floor).astype(
+        float
+    ) * 0.10
+    dataset["Elo_Dog_Odds"] = (dataset["Elo_Dog_Odds"] / 0.10).apply(np.floor).astype(
+        float
+    ) * 0.10
+    """
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds > 1.9".format(
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 40 and LoserTotal > 40 and Elo_Fav_Odds > 1.9".format(
             month_ago, tomorrow
         ),
         con=devengine,
     )
+    """
+    prediction["Elo_Fav_Odds"] = (prediction["Elo_Fav_Odds"] / 0.10).apply(
+        np.floor
+    ).astype(float) * 0.10
+    prediction["Elo_Dog_Odds"] = (prediction["Elo_Dog_Odds"] / 0.10).apply(
+        np.floor
+    ).astype(float) * 0.10
+    """
     prediction1 = pd.read_sql_query(
-        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 50 and LoserTotal > 50 and Elo_Fav_Odds > 1.9".format(
+        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 40 and LoserTotal > 40 and Elo_Fav_Odds > 1.9".format(
             month_ago, tomorrow
         ),
         con=devengine,
     )
-
+    """
+    prediction1["Elo_Fav_Odds"] = (prediction1["Elo_Fav_Odds"] / 0.10).apply(
+        np.floor
+    ).astype(float) * 0.10
+    prediction1["Elo_Dog_Odds"] = (prediction1["Elo_Dog_Odds"] / 0.10).apply(
+        np.floor
+    ).astype(float) * 0.10
+    """
     dataset["Winner"] = dataset.apply(
         lambda x: "EloFav" if x["Winner"] == x["Elo_Fav"] else "EloDog", axis=1
     )
@@ -136,7 +158,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
         return 0, ""
 
 
-for day in range(1, 225):
+for day in range(0, 1):
     date_today = datetime.datetime.now() + relativedelta(days=-day)
     date_yesterday = date_today + relativedelta(days=-1)
     date_tomorrow = date_today + relativedelta(days=1)
@@ -179,7 +201,11 @@ for day in range(1, 225):
         x.rename(columns={"Elo_Fav": "Selection", "Elo_Fav_Odds": "Odds"}, inplace=True)
         x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
         x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
-
+        """
         x.to_sql(
-            "Predictions_Past_two_four", con=devengine, if_exists="append", index=False
+            "Predictions_Past_two_four_odds",
+            con=devengine,
+            if_exists="append",
+            index=False,
         )
+        """
