@@ -13,7 +13,7 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 def ML(tomorrow, month_ago, six_months_ago, yesterday):
     dataset = pd.read_sql_query(
-        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date < '{}' and WinnerTotal > 60 and LoserTotal > 60 and Elo_Fav_Odds > 1.7".format(
+        "Select Winner, Elo_Fav,Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser, WinnerTotal, LoserTotal FROM Elo_AllMatches where  date < '{}' and WinnerTotal > 70 and LoserTotal > 70 and Elo_Fav_Odds < 1.3 and Elo_Fav_Odds > 1.2".format(
             month_ago
         ),
         con=devengine,
@@ -27,7 +27,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     ) * 0.10
 
     prediction = pd.read_sql_query(
-        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 60 and LoserTotal > 60 and Elo_Fav_Odds > 1.7".format(
+        "Select  Winner,Loser,Elo_Fav, Elo_Fav_Odds ,Elo_Dog_Odds, Elo_Winner, Elo_Loser, WinnerTotal, LoserTotal FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 70 and LoserTotal > 70 and Elo_Fav_Odds < 1.3 and Elo_Fav_Odds > 1.2".format(
             month_ago, tomorrow
         ),
         con=devengine,
@@ -41,7 +41,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     ).astype(float) * 0.10
 
     prediction1 = pd.read_sql_query(
-        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 60 and LoserTotal > 60 and Elo_Fav_Odds > 1.7".format(
+        "Select Date,Winner,Loser,Elo_Fav, Elo_Fav_Odds, Elo_Dog_Odds, Elo_Winner, Elo_Loser, WinnerTotal, LoserTotal  FROM Elo_AllMatches where  date > '{}' and date < '{}' and WinnerTotal > 70 and LoserTotal > 70 and Elo_Fav_Odds < 1.3 and Elo_Fav_Odds > 1.2".format(
             month_ago, tomorrow
         ),
         con=devengine,
@@ -67,7 +67,8 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     )
     dataset["Odds_Difference"] = abs(dataset["Elo_Fav_Odds"] - dataset["Elo_Dog_Odds"])
     dataset["Elo_Difference"] = abs(dataset["Elo_Fav"] - dataset["Elo_Dog"])
-    dataset = dataset[["Winner", "Odds_Difference", "Elo_Difference"]]
+    dataset["Totals"] = abs(dataset["WinnerTotal"] - dataset["LoserTotal"])
+    dataset = dataset[["Winner", "Odds_Difference", "Elo_Difference", "Totals"]]
     my_list = ["EloFav", "EloDog"]
     dataset["Player_1"] = np.random.choice(my_list, len(dataset))
     dataset["Player_2"] = dataset.apply(
@@ -92,8 +93,9 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
         axis=1,
     )
     prediction["Elo_Difference"] = abs(prediction["Elo_Fav"] - prediction["Elo_Dog"])
+    prediction["Totals"] = abs(prediction["WinnerTotal"] - prediction["LoserTotal"])
     prediction = prediction[
-        ["Player_1", "Player_2", "Odds_Difference", "Elo_Difference"]
+        ["Player_1", "Player_2", "Odds_Difference", "Elo_Difference", "Totals"]
     ]
 
     final_result = pd.get_dummies(
@@ -104,7 +106,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     )
     X = final_result.drop(["Winner"], axis=1)
     y = final_result["Winner"]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=25)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1)
     # model = LogisticRegression(max_iter=20000000)
     model2 = SVC(max_iter=20000000)
     model2.fit(X_train, y_train)
@@ -125,6 +127,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
         "Elo_Fav_Odds",
         "Winner",
         "Loser",
+        "Elo_Dog_Odds",
         # "Training_Accuracy",
         # "Testing_Accuracy",
     ]
@@ -140,6 +143,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
                 prediction1["Elo_Fav_Odds"][index],
                 prediction1["Winner"][index],
                 prediction1["Loser"][index],
+                prediction1["Elo_Dog_Odds"][index],
                 #  "{:.0%}".format(train_score2),
                 #  "{:.0%}".format(test_score2),
             ]
@@ -150,7 +154,9 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     df = pd.concat([df, temp])
     df = df[df["Prediction"] == "EloFav"]
     players = []
-    if train_score2 > 0.5 and test_score2 > 0.5:
+    if train_score2 > 0.6 and test_score2 > 0.8:
+        print(train_score2, test_score2)
+        # print(test_score2)
         for _, i in df.iterrows():
             players.append(i)
         return 1, players
@@ -158,7 +164,18 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
         return 0, ""
 
 
-for day in range(0, 230):
+def drop_table_data(engine, table):
+    devengine = create_engine(engine)
+    connection = devengine.connect()
+    connection.execute("Delete FROM {}".format(table))
+
+
+database = "sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
+db_table = "Predictions_Past_two_four_odds_rounded_elofav"
+drop_table_data(database, db_table)
+
+
+for day in range(0, 100):
     date_today = datetime.datetime.now() + relativedelta(days=-day)
     date_yesterday = date_today + relativedelta(days=-1)
     date_tomorrow = date_today + relativedelta(days=1)
@@ -188,23 +205,52 @@ for day in range(0, 230):
         .reset_index()
         .rename(columns={0: "records"})
     )
-    x = x[(x["records"].ge(2)) & (x["records"].le(4))]
-    x = x[x["Date"].str.contains(date_today_formatted)]
+    # x = x[(x["records"].ge(2)) & (x["records"].le(4))]
     if x.empty == False:
-        print(x)
-        x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Winner", "Loser"]]
+        x = x[x["Date"].str.contains(date_today_formatted)]
+        if x.empty == False:
+            # print(x)
+            x = x[
+                [
+                    "Date",
+                    "Elo_Fav",
+                    "Elo_Fav_Odds",
+                    "Elo_Dog_Odds",
+                    "Winner",
+                    "Loser",
+                    "records",
+                ]
+            ]
 
-        x["Opponent"] = x.apply(
-            lambda y: y["Winner"] if y["Winner"] != y["Elo_Fav"] else y["Loser"], axis=1
-        )
-        x = x[["Date", "Elo_Fav", "Elo_Fav_Odds", "Opponent", "Winner"]]
-        x.rename(columns={"Elo_Fav": "Selection", "Elo_Fav_Odds": "Odds"}, inplace=True)
-        x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
-        x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
+            x["Opponent"] = x.apply(
+                lambda y: y["Winner"] if y["Winner"] != y["Elo_Fav"] else y["Loser"],
+                axis=1,
+            )
+            x = x[
+                [
+                    "Date",
+                    "Elo_Fav",
+                    "Elo_Fav_Odds",
+                    "Elo_Dog_Odds",
+                    "Opponent",
+                    "Winner",
+                    "records",
+                ]
+            ]
+            x.rename(
+                columns={
+                    "Elo_Fav": "Selection",
+                    "Elo_Fav_Odds": "Odds",
+                    "Elo_Dogs_Odds": "Opponent_Odds",
+                },
+                inplace=True,
+            )
+            x["Date"] = pd.to_datetime(x["Date"], format="%Y-%m-%d")
+            x["Date"] = x["Date"].dt.strftime("%Y-%m-%d")
 
-        x.to_sql(
-            "Predictions_Past_two_four_odds_rounded",
-            con=devengine,
-            if_exists="append",
-            index=False,
-        )
+            x.to_sql(
+                "Predictions_Past_two_four_odds_rounded_elofav",
+                con=devengine,
+                if_exists="append",
+                index=False,
+            )
