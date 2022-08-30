@@ -10,11 +10,11 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 
 data = pd.read_sql_query(
-    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches",
+    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches where tournament not like '%UTR%'",
     con=devengine,
 )
 data2 = pd.read_sql_query(
-    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches",
+    "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches where tournament not like '%UTR%'",
     con=devengine,
 )
 data = pd.concat([data, data2])
@@ -93,6 +93,9 @@ def get_prob(a):
 data["Elo_Fav"] = data.apply(
     lambda x: x["Winner"] if x["Elo_Winner"] > x["Elo_Loser"] else x["Loser"], axis=1
 )
+data["Elo_Dog"] = data.apply(
+    lambda x: x["Winner"] if x["Elo_Winner"] < x["Elo_Loser"] else x["Loser"], axis=1
+)
 data["Elo_Fav_Odds"] = data.apply(
     lambda x: x["Winner_Odds"] if x["Elo_Winner"] > x["Elo_Loser"] else x["Loser_Odds"],
     axis=1,
@@ -148,7 +151,33 @@ data = data9.merge(
 
 # data1 = data[data["Date"] != current_date]
 data1 = data
-data1.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
+data = data1
+data = data[data.columns.drop(list(data.filter(regex="_y")))]
+data = data[data.columns.drop(list(data.filter(regex="_x")))]
+data = data.drop(
+    columns=["Winner_Odds", "Loser_Odds", "Prob_Elo", "Prob_Elo_Loser", "Loser"], axis=1
+)
+data["Elo_Fav_Elo"] = data.apply(
+    lambda x: x["Elo_Winner"] if x["Winner"] == x["Elo_Fav"] else x["Elo_Loser"], axis=1
+)
+data["Elo_Dog_Elo"] = data.apply(
+    lambda x: x["Elo_Winner"] if x["Winner"] != x["Elo_Fav"] else x["Elo_Loser"], axis=1
+)
+data["Elo_Fav_Total"] = data.apply(
+    lambda x: x["WinnerTotal"] if x["Winner"] == x["Elo_Fav"] else x["LoserTotal"],
+    axis=1,
+)
+data["Elo_Dog_Total"] = data.apply(
+    lambda x: x["WinnerTotal"] if x["Winner"] != x["Elo_Fav"] else x["LoserTotal"],
+    axis=1,
+)
+data = data.drop(
+    columns=["Wins", "Losses", "LoserTotal", "WinnerTotal", "Elo_Loser", "Elo_Winner"],
+    axis=1,
+)
+
+
+data.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
 # data2 = data[data["Date"] == current_date]
 # data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
 # playsound(r"C:\Users\chris\Music\beep-09.mp3")

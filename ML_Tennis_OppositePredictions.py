@@ -104,7 +104,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     )
     X = final_result.drop(["Winner"], axis=1)
     y = final_result["Winner"]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=25)
     # model = LogisticRegression(max_iter=20000000)
     model2 = SVC(max_iter=20000000)
     model2.fit(X_train, y_train)
@@ -153,7 +153,7 @@ def ML(tomorrow, month_ago, six_months_ago, yesterday):
     df = df[df["Prediction"] == "EloFav"]
     players = []
     if train_score2 > 0.70 and test_score2 > 0.54:
-        print(train_score2, test_score2)
+        # print(train_score2, test_score2)
         # print(test_score2)
         for _, i in df.iterrows():
             players.append(i)
