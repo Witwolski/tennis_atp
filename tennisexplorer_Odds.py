@@ -224,8 +224,8 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in range(0, 2):
-    # for x in range(502,600):
+for x in range(1, 2):
+    # for x in range(933, 1000):
     print(x)
 
     # connection.execute('Delete FROM Test_Yesterday')

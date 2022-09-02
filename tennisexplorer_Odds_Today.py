@@ -103,7 +103,11 @@ def Main(url, current_date, suffix, check):
     for i, item in enumerate(tournament_idx_lst[:-1]):
 
         tournament_name = rows[item].find("td", class_="t-name").text.strip()
-        if "Futures" not in tournament_name and "ITF" not in tournament_name:
+        if (
+            "Futures" not in tournament_name
+            and "ITF" not in tournament_name
+            and "UTR" not in tournament_name
+        ):
             tournament_url = (
                 rows[item].find("td", class_="t-name").contents[0].attrs["href"]
             )
@@ -223,46 +227,47 @@ def Main(url, current_date, suffix, check):
                 )
 
 
-# for x in range(81,90):
-for x in range(0, 1):
-    print(x)
-    connection.execute("Delete FROM TodaysMatches")
-    # connection.execute('Delete FROM bets_today')
-    # # Get the current date
-    tomorrow = datetime.datetime.now() + datetime.timedelta(days=x)
-    print(tomorrow.strftime("%Y-%m-%d"))
-    year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
-    current_date = tomorrow.strftime("%Y-%m-%d")
-    Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
-            year, month, day
-        ),
-        current_date,
-        "_Mens",
-        1,
-    )
-    Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
-            year, month, day
-        ),
-        current_date,
-        "_Womens",
-        1,
-    )
-    Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
-            year, month, day
-        ),
-        current_date,
-        "_Mens",
-        0,
-    )
-    Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
-            year, month, day
-        ),
-        current_date,
-        "_Womens",
-        0,
-    )
-# playsound(r"C:\Users\chris\Music\beep-09.mp3")
+def Today():
+    # for x in range(81,90):
+    for x in range(0, 1):
+
+        print(x)
+        connection.execute("Delete FROM TodaysMatches")
+        # connection.execute('Delete FROM bets_today')
+        # # Get the current date
+        tomorrow = datetime.datetime.now() + datetime.timedelta(days=x)
+        print(tomorrow.strftime("%Y-%m-%d"))
+        year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
+        current_date = tomorrow.strftime("%Y-%m-%d")
+        Main(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+                year, month, day
+            ),
+            current_date,
+            "_Mens",
+            1,
+        )
+        Main(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+                year, month, day
+            ),
+            current_date,
+            "_Womens",
+            1,
+        )
+        Main(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+                year, month, day
+            ),
+            current_date,
+            "_Mens",
+            0,
+        )
+        Main(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+                year, month, day
+            ),
+            current_date,
+            "_Womens",
+            0,
+        )
