@@ -10,7 +10,7 @@ while True:
     Today()
     Elo()
     elo_data = pd.read_sql_query(
-        "Select * From Elo_AllMatches where date = '2022-09-04' and (Surface like 'Clay' or Surface like 'Hard') --and Elo_Fav_Est_Odds < 1.8",
+        "Select * From Elo_AllMatches where date = '2022-09-05' and (Surface like 'Clay' or Surface like 'Hard') --and Elo_Fav_Est_Odds < 1.8",
         con=devengine,
     )
     daily_critera = ((elo_data["Elo_Fav_Odds"])).ge(2) & (
@@ -30,9 +30,7 @@ while True:
     ]
 
     played = [
-        "Ajeet Rai",
-        "Alexandar Lazarov",
-        "Omar Jasika",
+        "Inigo Cervantes",
     ]
     daily_filtered_data = daily_filtered_data[
         (daily_filtered_data["Elo_Fav"].isin(played)) == False
