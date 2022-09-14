@@ -28,10 +28,16 @@ while True:
     daily_filtered_data = elo_data[
         daily_critera | daily_critera1 | daily_critera2 | daily_critera3
     ]
-    """
-    played = ["Anna Karolina Schmiedlova", "Ons Jabeur", "Yshai Oliel"]
+
+    played = [
+        "Cannon Kingsley",
+        "Anastasia Zakharova",
+        "Adrian Andreev",
+        "Jan Choinski",
+        "Daniil Glinka",
+    ]
     daily_filtered_data = daily_filtered_data[
         (daily_filtered_data["Elo_Fav"].isin(played)) == False
     ]
-    """
+
     print(daily_filtered_data[["Elo_Fav", "Elo_Dog", "Elo_Fav_Odds"]])
