@@ -271,3 +271,6 @@ def Today():
             "_Womens",
             0,
         )
+
+
+Today()
