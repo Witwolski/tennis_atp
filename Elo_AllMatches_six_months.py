@@ -13,21 +13,23 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
 date_six_months_ago = date_today + relativedelta(months=-4)
-date_six_months_ago = date_today + relativedelta(years=-2)
+date_six_months_ago = date_today + relativedelta(years=-2, months=-1)
+
 
 date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
+print(date_six_months_ago_formatted)
 
 
 def Elo():
     data = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches where tournament not like '%UK Pro%'  and tournament not like '%UTR%' and date >='{}' ".format(
+        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
             date_six_months_ago
         ),
         con=devengine,
     )
 
     data2 = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches where tournament not like '%UK Pro%'  and tournament not like '%UTR%'",
+        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
         con=devengine,
     )
     data = pd.concat([data, data2])
@@ -213,4 +215,4 @@ def Elo():
     # playsound(r"C:\Users\chris\Music\beep-09.mp3")
 
 
-# Elo()
+Elo()

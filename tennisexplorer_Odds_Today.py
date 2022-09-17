@@ -155,6 +155,10 @@ def Main(url, current_date, suffix, check):
                             + rows[c].findAll("td", class_="course")[0].contents[0]
                             + "_"
                             + rows[c].findAll("td", class_="course")[1].contents[0]
+                            + "_"
+                            + "False"
+                            + "_"
+                            + rows[c].findAll("td", class_="first time")[0].contents[0]
                         )
                     else:
                         tournament_dict[tournament_name + str(item)][
@@ -173,6 +177,10 @@ def Main(url, current_date, suffix, check):
                             + rows[c].findAll("td", class_="coursew")[0].contents[0]
                             + "_"
                             + rows[c].findAll("td", class_="course")[0].contents[0]
+                            + "_"
+                            + "True"
+                            + "_"
+                            + rows[c].findAll("td", class_="first time")[0].contents[0]
                         )
 
     for key, value in tournament_dict.items():
@@ -190,6 +198,8 @@ def Main(url, current_date, suffix, check):
                 player1odds = odds.split("_")[0]
                 player2odds = odds.split("_")[1]
                 Surface = match.split(":")[1]
+                Resulted = odds.split("_")[2]
+                Time = match.split("_")[3]
                 table = [
                     [
                         "Date",
@@ -200,6 +210,8 @@ def Main(url, current_date, suffix, check):
                         "Player_1_Odds",
                         "Player_2_Odds",
                         "Surface",
+                        "Resulted",
+                        "Time",
                     ],
                     [
                         current_date,
@@ -210,6 +222,8 @@ def Main(url, current_date, suffix, check):
                         player1odds,
                         player2odds,
                         Surface,
+                        Resulted,
+                        Time,
                     ],
                 ]
                 df = pd.DataFrame(table)
