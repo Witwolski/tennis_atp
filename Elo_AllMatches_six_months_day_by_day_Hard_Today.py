@@ -213,98 +213,135 @@ def Elo(date_six_months_ago, date_today, date_today_formatted):
 dog_df = pd.DataFrame()
 fav_df = pd.DataFrame()
 
-for x in range(0, 1):
-    date_today = datetime.datetime.now() + relativedelta(days=-x)
+
+def get_data(month_year, past, query, fav_dog, id):
+    global dog_df, fav_df
+    date_today = datetime.datetime.now() + relativedelta(days=0)
     date_today_formatted = date_today.strftime("%Y-%m-%d")
-    date_six_months_ago = date_today + relativedelta(months=-6)
+    if month_year == "month":
+        date_six_months_ago = date_today + relativedelta(months=-past)
+    else:
+        date_six_months_ago = date_today + relativedelta(years=-past)
     # print(date_six_months_ago)
     Elo(date_six_months_ago, date_today, date_today_formatted)
 
-    # date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
-    # print(date_six_months_ago_formatted)
-
-sixmonths_fav = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where Elo_Fav_Odds>=1.9 and Elo_Fav_Odds<=2",
-    con=devengine,
-)
-if sixmonths_fav.empty == False:
-    sixmonths_fav["Id"] = "sixmonths_fav"
-    fav_df = pd.concat([fav_df, six_months_fav])
-    # print(sixmonths_fav[["Elo_Fav", "Elo_Fav_Odds", "Elo_Dog"]])
-
-sixmonths_dog = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) OR (Elo_Dog_Odds BETWEEN 3.7 AND 3.8)",
-    con=devengine,
-)
-if sixmonths_dog.empty == False:
-    sixmonths_dog["Id"] = "sixmonths_dog"
-    dog_df = pd.concat([dog_df, sixmonths_dog])
-    # print(sixmonths_dog[["Elo_Dog", "Elo_Dog_Odds", "Elo_Fav"]])
-
-
-for x in range(0, 1):
-    date_today = datetime.datetime.now() + relativedelta(days=-x)
-    date_today_formatted = date_today.strftime("%Y-%m-%d")
-    date_six_months_ago = date_today + relativedelta(months=-3)
-    # print(date_six_months_ago)
-    Elo(date_six_months_ago, date_today, date_today_formatted)
-
-    # date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
-    # print(date_six_months_ago_formatted)
-
-threemonths_fav = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where (Elo_Fav_Odds BETWEEN 3.5 AND 3.6)",
-    con=devengine,
-)
-if threemonths_fav.empty == False:
-    threemonths_fav["Id"] = "threemonths_fav"
-    fav_df = pd.concat([fav_df, threemonths_fav])
-    # print(sixmonths_fav[["Elo_Fav", "Elo_Fav_Odds", "Elo_Dog"]])
-
-threemonths_dog = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where (Elo_Dog_Odds BETWEEN 2.2 AND 2.3) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) OR (Elo_Dog_Odds BETWEEN 3.7 AND 3.8)",
-    con=devengine,
-)
-if threemonths_dog.empty == False:
-    threemonths_dog["Id"] = "threemonths_dog"
-    dog_df = pd.concat([dog_df, threemonths_dog])
-    # print(threemonths_dog[["Elo_Dog", "Elo_Dog_Odds", "Elo_Fav"]])
-
-for x in range(0, 1):
-    date_today = datetime.datetime.now() + relativedelta(days=-x)
-    date_today_formatted = date_today.strftime("%Y-%m-%d")
-    date_six_months_ago = date_today + relativedelta(years=-2)
-    # print(date_six_months_ago)
-    Elo(date_six_months_ago, date_today, date_today_formatted)
-
-    # date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
-    # print(date_six_months_ago_formatted)
-
-twoyears_dog = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where  (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1)",
-    con=devengine,
-)
-if twoyears_dog.empty == False:
-    twoyears_dog["Id"] = "twoyears_dog"
-    dog_df = pd.concat([dog_df, twoyears_dog])
-    # print(twoyears_dog[["Elo_Dog", "Elo_Dog_Odds", "Elo_Fav"]])
-
-twoyears_fav = pd.read_sql_query(
-    "Select * From Elo_AllMatches_Daily_Hard_Today where  (Elo_Fav_Odds BETWEEN 1.9 AND 2) OR (Elo_Fav_Odds BETWEEN 2.2 AND 2.3)",
-    con=devengine,
-)
-if twoyears_fav.empty == False:
-    twoyears_fav["Id"] = "twoyears_fav"
-    fav_df = pd.concat([fav_df, twoyears_fav])
-
-print(
-    dog_df[["Id", "Elo_Dog", "Elo_Dog_Odds", "Elo_Fav", "Resulted", "Time"]][
-        dog_df["Resulted"] == "False"
-    ].sort_values(by="Time")
-)
-if fav_df.empty == False:
-    print(
-        fav_df[["Id", "Elo_Fav", "Elo_Fav_Odds", "Elo_Dog", "Resulted", "Time"]][
-            fav_df["Resulted"] == "False"
-        ].sort_values(by="Time")
+    query_result = pd.read_sql_query(
+        query,
+        con=devengine,
     )
+    if query_result.empty == False:
+        query_result["Id"] = id
+        if fav_dog == "fav":
+            fav_df = pd.concat([fav_df, query_result])
+        else:
+            dog_df = pd.concat([dog_df, query_result])
+
+
+def hard():
+    # Mens 2 years fav
+    month_year = "year"
+    past = 2
+    fav_dog = "fav"
+    id = "2yearsfav"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Fav_Odds BETWEEN 1.9 AND 2.1) OR (Elo_Fav_Odds BETWEEN 2.5 AND 2.6))\
+        and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Mens 2 years dog
+    month_year = "year"
+    past = 2
+    fav_dog = "dog"
+    id = "2yearsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.7 AND 2.8)  \
+        OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7)) and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Mens 6 months fav
+    month_year = "month"
+    past = 6
+    fav_dog = "fav"
+    id = "6monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Fav_Odds BETWEEN 1.9 AND 2.2) OR (Elo_Fav_Odds BETWEEN 2.9 AND 3)) \
+        and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Mens 6 months dog
+    month_year = "month"
+    past = 6
+    fav_dog = "dog"
+    id = "6monthsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2 AND 2.1) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) \
+        OR (Elo_Dog_Odds BETWEEN 3.2 AND 3.3)) and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Mens 3 months fav
+    month_year = "month"
+    past = 3
+    fav_dog = "fav"
+    id = "3monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Fav_Odds BETWEEN 2 AND 2.1)) \
+        and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Mens 3 months dog
+    month_year = "month"
+    past = 3
+    fav_dog = "dog"
+    id = "3monthsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.2 AND 2.3) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) \
+        ) and sex = 'Mens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    ##################
+    # Womens 2 years fav
+    month_year = "year"
+    past = 2
+    fav_dog = "fav"
+    id = "2yearsfav"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Fav_Odds BETWEEN 2.2 AND 2.3))\
+        and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 2 years dog
+    month_year = "year"
+    past = 2
+    fav_dog = "dog"
+    id = "2yearsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.1 AND 2.2)  \
+        OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.6) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1)) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 6 months dog
+    month_year = "month"
+    past = 6
+    fav_dog = "dog"
+    id = "6monthsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.8 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) \
+        ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 3 months dog
+    month_year = "month"
+    past = 3
+    fav_dog = "dog"
+    id = "3monthsdog"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.1 AND 2.2) OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.9) \
+        ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    #################
+    return fav_df, dog_df
+    """
+    if fav_df.empty == False:
+        print(
+            fav_df[["Elo_Fav", "Elo_Fav_Odds", "Elo_Dog", "Resulted", "Time"]]
+            .drop_duplicates()
+            .sort_values(by="Time")
+        )
+    if dog_df.empty == False:
+        print(
+            dog_df[["Elo_Dog", "Elo_Dog_Odds", "Elo_Fav", "Resulted", "Time"]]
+            .drop_duplicates()
+            .sort_values(by="Time")
+        )
+    """
