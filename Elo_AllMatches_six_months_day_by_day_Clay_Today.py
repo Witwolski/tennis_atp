@@ -243,7 +243,7 @@ def clay():
     past = 2
     fav_dog = "fav"
     id = "2yearsfav"
-    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 2 AND 2.1))\
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 2 AND 2.1) )\
         and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -252,7 +252,7 @@ def clay():
     past = 2
     fav_dog = "dog"
     id = "2yearsdog"
-    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Dog_Odds BETWEEN 2.5 AND 2.7)  \
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Dog_Odds BETWEEN 2.5 AND 2.7) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.2)  \
         OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7)) and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -289,7 +289,7 @@ def clay():
     past = 2
     fav_dog = "fav"
     id = "2yearsfav"
-    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 2.4 AND 2.5))\
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 2.4 AND 2.5) )\
         and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -298,7 +298,7 @@ def clay():
     past = 2
     fav_dog = "dog"
     id = "2yearsdog"
-    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Dog_Odds BETWEEN 1.9 AND 2)  \
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Dog_Odds BETWEEN 1.9 AND 2) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.2)  \
         ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -309,6 +309,24 @@ def clay():
     id = "6monthsdog"
     query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Dog_Odds BETWEEN 2 AND 2.1) OR (Elo_Dog_Odds BETWEEN 2.2 AND 2.5) \
     OR (Elo_Dog_Odds BETWEEN 3.1 AND 3.2) ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 6 months fav
+    month_year = "month"
+    past = 6
+    fav_dog = "fav"
+    id = "6monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 1.1 AND 1.2) \
+     ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 3 months fav
+    month_year = "month"
+    past = 3
+    fav_dog = "fav"
+    id = "3monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_Clay_Today where ((Elo_Fav_Odds BETWEEN 1.1 AND 1.2) \
+        ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
     # Womens 3 months dog

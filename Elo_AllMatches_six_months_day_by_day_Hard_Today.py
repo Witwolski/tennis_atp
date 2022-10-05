@@ -253,7 +253,7 @@ def hard():
     fav_dog = "dog"
     id = "2yearsdog"
     query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.7 AND 2.8)  \
-        OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7)) and sex = 'Mens'"
+        OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7) OR (Elo_Dog_Odds BETWEEN 1.2 AND 1.4)) and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
     # Mens 6 months fav
@@ -288,7 +288,7 @@ def hard():
     past = 3
     fav_dog = "dog"
     id = "3monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.2 AND 2.3) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) \
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.2 AND 2.3) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.8) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.2) \
         ) and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -308,7 +308,7 @@ def hard():
     fav_dog = "dog"
     id = "2yearsdog"
     query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.1 AND 2.2)  \
-        OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.6) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1)) and sex = 'Womens'"
+        OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.6) OR (Elo_Dog_Odds BETWEEN 2.7 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) OR (Elo_Dog_Odds BETWEEN 1.3 AND 1.4)) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
     # Womens 6 months dog
@@ -316,7 +316,16 @@ def hard():
     past = 6
     fav_dog = "dog"
     id = "6monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.8 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) \
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.8 AND 2.9) OR (Elo_Dog_Odds BETWEEN 3 AND 3.1) OR (Elo_Dog_Odds BETWEEN 1.2 AND 1.3) \
+        ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 6 months fav
+    month_year = "month"
+    past = 6
+    fav_dog = "fav"
+    id = "6monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ( (Elo_Fav_Odds BETWEEN 1.1 AND 1.2) \
         ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -325,7 +334,7 @@ def hard():
     past = 3
     fav_dog = "dog"
     id = "3monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.1 AND 2.2) OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.9) \
+    query = "Select * From Elo_AllMatches_Daily_Hard_Today where ((Elo_Dog_Odds BETWEEN 2.1 AND 2.2) OR (Elo_Dog_Odds BETWEEN 2.5 AND 2.9) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.3) \
         ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 

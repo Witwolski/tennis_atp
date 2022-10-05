@@ -253,7 +253,7 @@ def all():
     fav_dog = "dog"
     id = "2yearsdog"
     query = "Select * From Elo_AllMatches_Daily_All_Today where ( \
-        (Elo_Dog_Odds BETWEEN 3.6 AND 3.7)) and sex = 'Mens'"
+        (Elo_Dog_Odds BETWEEN 3.6 AND 3.7) OR (Elo_Dog_Odds BETWEEN 1.2 AND 1.3)) and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
     # Mens 6 months fav
@@ -288,7 +288,7 @@ def all():
     past = 3
     fav_dog = "dog"
     id = "3monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 3.1 AND 3.3) OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7) \
+    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 3.1 AND 3.3) OR (Elo_Dog_Odds BETWEEN 3.6 AND 3.7) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.2) \
         OR (Elo_Dog_Odds BETWEEN 3.8 AND 3.9)) and sex = 'Mens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -300,7 +300,16 @@ def all():
     fav_dog = "dog"
     id = "2yearsdog"
     query = "Select * From Elo_AllMatches_Daily_All_Today where (  \
-        (Elo_Dog_Odds BETWEEN 3.4 AND 3.5) OR (Elo_Dog_Odds BETWEEN 3 AND 3.2)) and sex = 'Womens'"
+        (Elo_Dog_Odds BETWEEN 3.4 AND 3.5) OR (Elo_Dog_Odds BETWEEN 3 AND 3.2) OR (Elo_Dog_Odds BETWEEN 1.2 AND 1.4)) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 2 years fav
+    month_year = "year"
+    past = 2
+    fav_dog = "fav"
+    id = "2yearsdog"
+    query = "Select * From Elo_AllMatches_Daily_All_Today where (  \
+        (Elo_Fav_Odds BETWEEN 1.1 AND 1.2)) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
     # Womens 6 months dog
@@ -308,7 +317,7 @@ def all():
     past = 6
     fav_dog = "dog"
     id = "6monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 3.1 AND 3.3) OR (Elo_Dog_Odds BETWEEN 3.5 AND 3.6) \
+    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 3.1 AND 3.3) OR (Elo_Dog_Odds BETWEEN 3.5 AND 3.6) OR (Elo_Dog_Odds BETWEEN 1.3 AND 1.4) \
         ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
@@ -317,8 +326,26 @@ def all():
     past = 3
     fav_dog = "dog"
     id = "3monthsdog"
-    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 2.4 AND 2.5) OR (Elo_Dog_Odds BETWEEN 3.1 AND 3.2) \
+    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Dog_Odds BETWEEN 2.4 AND 2.5) OR (Elo_Dog_Odds BETWEEN 3.1 AND 3.2) OR (Elo_Dog_Odds BETWEEN 1.1 AND 1.2)\
         OR (Elo_Dog_Odds BETWEEN 3.4 AND 3.6)) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 3 months fav
+    month_year = "month"
+    past = 3
+    fav_dog = "fav"
+    id = "3monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Fav_Odds BETWEEN 1.1 AND 1.2)\
+        ) and sex = 'Womens'"
+    get_data(month_year, past, query, fav_dog, id)
+
+    # Womens 6 months fav
+    month_year = "month"
+    past = 6
+    fav_dog = "fav"
+    id = "6monthsfav"
+    query = "Select * From Elo_AllMatches_Daily_All_Today where ((Elo_Fav_Odds BETWEEN 1.1 AND 1.2)\
+        ) and sex = 'Womens'"
     get_data(month_year, past, query, fav_dog, id)
 
     #################
