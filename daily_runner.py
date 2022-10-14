@@ -6,6 +6,12 @@ from tennisexplorer_Odds_Today import Today
 import pandas as pd
 import smtplib
 import datetime
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+from smtplib import SMTP
+import smtplib
+import sys
 
 Today()
 
@@ -19,6 +25,10 @@ time_now = datetime.datetime.now() + datetime.timedelta(minutes=0)
 time_10 = datetime.datetime.now() + datetime.timedelta(minutes=20)
 time_10_formatted = time_10.strftime("%H:%M")
 time_now_formatted = time_now.strftime("%H:%M")
+time_now_formatted_2 = time_now.strftime("%Y_%m_%d")
+
+time_10_before = datetime.datetime.now() + datetime.timedelta(minutes=-20)
+time_10_before_formatted = time_10_before.strftime("%H:%M")
 
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
@@ -29,68 +39,59 @@ sent_from = "christophermarcwitt@gmail.com"
 sent_to = ["christophermarcwitt@gmail.com"]
 
 
-if combined_fav.empty == False:
-    fav = (
-        combined_fav[["Elo_Fav", "Elo_Fav_Odds", "Time"]][
-            (combined_fav["Resulted"] == "False")
-            & (combined_fav["Time"] < time_10_formatted)
-            & (combined_fav["Time"] > time_now_formatted)
+combined_fav.rename(
+    columns={"Elo_Fav": "Selection", "Elo_Fav_Odds": "Odds", "Elo_Dog": "Opposition"},
+    inplace=True,
+)
+combined_dog.rename(
+    columns={"Elo_Dog": "Selection", "Elo_Dog_Odds": "Odds", "Elo_Fav": "Opposition"},
+    inplace=True,
+)
+
+combined_selection = pd.concat([combined_fav, combined_dog])
+combined_selection["Result"] = combined_selection.apply(
+    lambda x: "Win" if x["Selection"] == x["Winner"] else "Loss", axis=1
+)
+combined_selection = combined_selection[
+    ["Selection", "Odds", "Opposition", "Resulted", "Time", "Result"]
+]
+
+if combined_selection.empty == False:
+    selection = (
+        combined_selection[
+            (combined_selection["Resulted"] == "False")
+            & (combined_selection["Time"] < time_10_formatted)
+            & (combined_selection["Time"] > time_10_before_formatted)
         ]
         .drop_duplicates()
         .sort_values(by="Time")
-        .to_string(index=False, header=False)
+        # .to_string(index=False, header=False)
     )
-    if fav.startswith("Empty DataFrame") == False:
-        sent_subject = "Fav 10 mins"
-        sent_body = fav
+    selection.drop(columns="Result", inplace=True)
 
-        email_text = """\
-        From: %s
-        To: %s
-        Subject: %s
+    if selection.empty == False:
+        recipients = ["christophermarcwitt@gmail.com"]
+        emaillist = [elem.strip().split(",") for elem in recipients]
+        msg = MIMEMultipart()
+        msg["Subject"] = "Your Subject"
+        msg["From"] = "christophermarcwitt@gmail.com"
 
-        %s
-        """ % (
-            sent_from,
-            ", ".join(sent_to),
-            sent_subject,
-            sent_body,
+        html = """\
+            <html>
+            <head></head>
+            <body>
+                {0}
+            </body>
+            </html>
+            """.format(
+            selection.to_html(index=False)
         )
-        smtpserver.sendmail(sent_from, sent_to, email_text)
 
+        part1 = MIMEText(html, "html")
+        msg.attach(part1)
 
-if combined_dog.empty == False:
+        smtpserver.sendmail(msg["From"], emaillist, msg.as_string())
 
-    dog = (
-        combined_dog[["Elo_Dog", "Elo_Dog_Odds", "Time"]][
-            (combined_dog["Resulted"] == "False")
-            & (combined_dog["Time"] < time_10_formatted)
-            & (combined_dog["Time"] > time_now_formatted)
-        ]
-        .drop_duplicates()
-        .sort_values(by="Time")
-        .to_string(index=False, header=False)
-    )
-    if dog.startswith("Empty DataFrame") == False:
-        sent_subject = "Dog < 10 mins"
-        sent_body = dog
-
-        email_text = """\
-        From: %s
-        To: %s
-        Subject: %s
-
-        %s
-        """ % (
-            sent_from,
-            ", ".join(sent_to),
-            sent_subject,
-            sent_body,
-        )
-        smtpserver.sendmail(sent_from, sent_to, email_text)
-
-
-smtpserver.close
-
-print(fav)
-print(dog)
+combined_selection.drop_duplicates().sort_values(by="Time").to_csv(
+    r"C:\Git\tennis_atp\daily_{}.csv".format(time_now_formatted_2), index=False
+)
