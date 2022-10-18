@@ -12,7 +12,7 @@ from dateutil.relativedelta import *
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
-date_six_months_ago = date_today + relativedelta(months=-4)
+date_six_months_ago = date_today + relativedelta(months=-11)
 date_six_months_ago = date_today + relativedelta(years=-2, months=-1)
 
 
@@ -29,7 +29,7 @@ def Elo():
     )
 
     data2 = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM TodaysMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
+        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Resulted,Time FROM TodaysMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
         con=devengine,
     )
     data = pd.concat([data, data2])
