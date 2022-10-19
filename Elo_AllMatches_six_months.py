@@ -7,7 +7,7 @@ import logging
 from playsound import playsound
 import datetime
 from dateutil.relativedelta import *
-
+from git.repo import Repo
 
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
@@ -213,6 +213,15 @@ def Elo():
     # data2 = data[data["Date"] == current_date]
     # data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
     # playsound(r"C:\Users\chris\Music\beep-09.mp3")
+    
+
+    repo = Repo(r"C:\Git\tennis_atp")
+
+    repo.index.add([r'C:\Git\tennis_atp\database\bets_sqllite.db'])
+    repo.index.commit('commit from python')
+
+    origin = repo.remotes[0]
+    origin.push()
 
 
 Elo()

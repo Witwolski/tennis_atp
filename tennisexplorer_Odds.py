@@ -5,7 +5,7 @@ import argparse
 import pandas as pd
 from sqlalchemy import create_engine
 from playsound import playsound
-
+from git.repo import Repo
 
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 connection = devengine.connect()
@@ -271,4 +271,11 @@ for x in range(1, 2):
         "_Womens",
         0,
     )
+    repo = Repo(r"C:\Git\tennis_atp")
+
+    repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])
+    repo.index.commit("commit from python")
+
+    origin = repo.remotes[0]
+    origin.push()
 # playsound(r"C:\Users\chris\Music\beep-09.mp3")
