@@ -189,6 +189,8 @@ def Main(url, current_date, suffix, check):
                 odds = match.split(":")[2]
                 player1odds = odds.split("_")[0]
                 player2odds = odds.split("_")[1]
+                player1_rank = (players[0].split("(")[1]).replace(")", "")
+                player2_rank = (players[1].split("(")[1]).replace(")", "")
                 Surface = match.split(":")[1]
                 table = [
                     [
@@ -197,6 +199,8 @@ def Main(url, current_date, suffix, check):
                         "Tournament",
                         "Player_1",
                         "Player_2",
+                        "Player_1_Rank",
+                        "Player_2_Rank",
                         "Player_1_Odds",
                         "Player_2_Odds",
                         "Surface",
@@ -207,6 +211,8 @@ def Main(url, current_date, suffix, check):
                         key,
                         player1,
                         player2,
+                        player1_rank,
+                        player2_rank,
                         player1odds,
                         player2odds,
                         Surface,
