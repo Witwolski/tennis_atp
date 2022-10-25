@@ -84,6 +84,10 @@ def Main(url, current_date, suffix, check):
         first_name = splitname[-1]
         last_name = name.replace(" " + first_name, "")
         name = first_name + " " + last_name
+        name_dict = pd.read_csv("name_lookup.csv")
+        for _, item in name_dict.iterrows():
+            name = name.replace(item.old, item.new)
+        """
         name = (
             name.replace("Carlos Alcaraz Garfia", "Carlos Alcaraz")
             .replace("Lesya Tsurenko", "Lesia Tsurenko")
@@ -120,6 +124,7 @@ def Main(url, current_date, suffix, check):
             .replace("Xinyu Wang", "Xin Yu Wang")
             .replace("Ignacio Londero Juan", "Juan Ignacio Londero")
         )
+        """
         return name.strip().replace("-", " ") + "(" + player_rank + ")"
 
     tournament_dict = {}
@@ -334,7 +339,7 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in range(485, 500):
+for x in range(1, 365):
     # for x in range(502,600):
     print(x)
 

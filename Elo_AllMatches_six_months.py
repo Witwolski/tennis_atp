@@ -12,24 +12,24 @@ from git.repo import Repo
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
-date_six_months_ago = date_today + relativedelta(months=-11)
-date_six_months_ago = date_today + relativedelta(years=-2, months=-1)
+date_six_months_ago = date_today + relativedelta(months=-12)
+# date_six_months_ago = date_today + relativedelta(years=-1, months=-1)
 
 
 date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
 print(date_six_months_ago_formatted)
 
 
-def Elo():
+def Elo(surface):
     data = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds FROM AllMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
-            date_six_months_ago
+        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM AllMatches where surface like '{}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
+            surface, date_six_months_ago
         ),
         con=devengine,
     )
 
     data2 = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Resulted,Time FROM TodaysMatches where surface like 'Hard' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
+        f"Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Resulted,Time,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM TodaysMatches where surface like '{surface}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
         con=devengine,
     )
     data = pd.concat([data, data2])
@@ -209,19 +209,21 @@ def Elo():
         axis=1,
     )
 
-    data.to_sql("Elo_AllMatches", con=devengine, if_exists="replace", index=False)
+    data.to_sql(
+        f"Elo_AllMatches_{surface}", con=devengine, if_exists="replace", index=False
+    )
     # data2 = data[data["Date"] == current_date]
     # data2.to_sql("Elo_AllMatches_Today", con=devengine, if_exists="replace", index=False)
     # playsound(r"C:\Users\chris\Music\beep-09.mp3")
-    
 
     repo = Repo(r"C:\Git\tennis_atp")
 
-    repo.index.add([r'C:\Git\tennis_atp\database\bets_sqllite.db'])
-    repo.index.commit('commit from python')
+    repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])
+    repo.index.commit("commit from python")
 
     origin = repo.remotes[0]
     origin.push()
 
 
-Elo()
+Elo("Hard")
+Elo("Clay")
