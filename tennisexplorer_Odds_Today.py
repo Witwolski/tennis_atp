@@ -11,6 +11,10 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 connection = devengine.connect()
 
+repo = Repo(r"C:\Git\tennis_atp")
+origin = repo.remotes[0]
+origin.pull()
+
 
 def Main(url, current_date, suffix, check):
 
@@ -299,7 +303,7 @@ def Today():
             "_Womens",
             0,
         )
-    repo = Repo(r"C:\Git\tennis_atp")
+    # repo = Repo(r"C:\Git\tennis_atp")
 
     repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])
     repo.index.commit("commit from python")
