@@ -7,12 +7,13 @@ from sqlalchemy import create_engine
 from playsound import playsound
 from git.repo import Repo
 
-devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
-connection = devengine.connect()
 
 repo = Repo(r"C:\Git\tennis_atp")
 origin = repo.remotes[0]
 origin.pull()
+
+devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
+connection = devengine.connect()
 
 
 def Main(url, current_date, suffix, check):
