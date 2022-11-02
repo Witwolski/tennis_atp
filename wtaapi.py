@@ -82,39 +82,49 @@ todays_matches = pd.read_sql_query(
     "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
     con=devengine,
 )
-combine = pd.merge(
-    todays_matches, data, how="left", left_on="Player_1", right_on="Name"
+
+todays_matches["Fav"] = todays_matches.apply(
+    lambda x: x["Player_1"]
+    if x["Player_2_Odds"] > x["Player_1_Odds"]
+    else (x["Player_2"] if x["Player_2_Odds"] < x["Player_1_Odds"] else "Pickem"),
+    axis=1,
 )
-combine2 = pd.merge(combine, data, how="left", left_on="Player_2", right_on="Name")
+todays_matches["Dog"] = todays_matches.apply(
+    lambda x: x["Player_1"]
+    if x["Player_2_Odds"] < x["Player_1_Odds"]
+    else (x["Player_2"] if x["Player_2_Odds"] > x["Player_1_Odds"] else "Pickem"),
+    axis=1,
+)
+
+combine = pd.merge(
+    todays_matches, serve_return_stats, how="left", left_on="Fav", right_on="Name"
+)
+combine2 = pd.merge(
+    combine, serve_return_stats, how="left", left_on="Dog", right_on="Name"
+)
 combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
     ["Service Games Won_x", "Service Games Won_y"]
 ].astype(float)
 combine2.rename(
     columns={
-        "Service Games Won_x": "Player_1_Serve%",
-        "Service Games Won_y": "Player_2_Serve%",
-        "Return Games Won_x": "Player_1_Return%",
-        "Return Games Won_y": "Player_2_Return%",
+        "Service Games Won_x": "Fav_Serve%",
+        "Service Games Won_y": "Dog_Serve%",
+        "Return Games Won_x": "Fav_Return%",
+        "Return Games Won_y": "Dog_Return%",
     },
     inplace=True,
 )
 combine2 = combine2[
     [
         "Time",
-        "Player_1",
-        "Player_1_Odds",
-        "Player_1_Serve%",
-        "Player_2_Return%",
-        "Player_2",
-        "Player_2_Odds",
-        "Player_2_Serve%",
-        "Player_1_Return%",
+        "Fav",
+        # "Player_1_Odds",
+        "Fav_Serve%",
+        "Dog_Return%",
+        "Dog",
+        # "Player_2_Odds",
+        "Dog_Serve%",
+        "Fav_Return%",
     ]
 ]
-"""
-filter_wta_serve = combine2[
-    ((combine2["Service Games Won_x"]).ge(1))
-    | ((combine2["Service Games Won_y"]).ge(1))
-]
-"""
 combine2.sort_values(by="Time").to_excel("servers_today_womens.xlsx", index=False)
