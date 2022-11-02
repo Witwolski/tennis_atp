@@ -8,6 +8,7 @@ import logging
 
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
+
 async def async_get(url, id):
     r = await Pool.get(url, headers={"user-agent": ""})
 
@@ -78,19 +79,42 @@ for x in range(0, 5):
     data = pd.concat([data, serve_return_stats])
 
 todays_matches = pd.read_sql_query(
-    "Select Winner as player_1, Loser as player_2, Winner_Odds as player_1_odds, Loser_Odds as player_2_odds from Elo_AllMatches_Today",
+    "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
     con=devengine,
 )
 combine = pd.merge(
-    todays_matches, data, how="left", left_on="player_1", right_on="Name"
+    todays_matches, data, how="left", left_on="Player_1", right_on="Name"
 )
-combine2 = pd.merge(combine, data, how="left", left_on="player_2", right_on="Name")
+combine2 = pd.merge(combine, data, how="left", left_on="Player_2", right_on="Name")
 combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
     ["Service Games Won_x", "Service Games Won_y"]
 ].astype(float)
-filter_wta_serve = combine2[
-    ((combine2["Service Games Won_x"]).ge(70))
-    | ((combine2["Service Games Won_y"]).ge(70))
+combine2.rename(
+    columns={
+        "Service Games Won_x": "Player_1_Serve%",
+        "Service Games Won_y": "Player_2_Serve%",
+        "Return Games Won_x": "Player_1_Return%",
+        "Return Games Won_y": "Player_2_Return%",
+    },
+    inplace=True,
+)
+combine2 = combine2[
+    [
+        "Time",
+        "Player_1",
+        "Player_1_Odds",
+        "Player_1_Serve%",
+        "Player_2_Return%",
+        "Player_2",
+        "Player_2_Odds",
+        "Player_2_Serve%",
+        "Player_1_Return%",
+    ]
 ]
-
-filter_wta_serve.to_excel("servers_today_womens.xlsx", index=False)
+"""
+filter_wta_serve = combine2[
+    ((combine2["Service Games Won_x"]).ge(1))
+    | ((combine2["Service Games Won_y"]).ge(1))
+]
+"""
+combine2.sort_values(by="Time").to_excel("servers_today_womens.xlsx", index=False)

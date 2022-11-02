@@ -112,7 +112,13 @@ def Main(url, current_date, suffix, check):
     for i, item in enumerate(tournament_idx_lst[:-1]):
 
         tournament_name = rows[item].find("td", class_="t-name").text.strip()
-        if "Futures" not in tournament_name and "ITF" not in tournament_name:
+        if (
+            "Futures" not in tournament_name
+            and "ITF" not in tournament_name
+            and "Davis Cup" not in tournament_name
+            and "UTR" not in tournament_name
+            and "UK Pro" not in tournament_name
+        ):
             tournament_url = (
                 rows[item].find("td", class_="t-name").contents[0].attrs["href"]
             )

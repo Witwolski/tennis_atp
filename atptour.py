@@ -23,7 +23,7 @@ async def async_get(url):
     }
 
 
-url = "https://www.atptour.com/en/rankings/singles?rankRange=0-900&rankDate=2022-07-18"
+url = "https://www.atptour.com/en/rankings/singles?rankRange=0-900&rankDate=2022-10-31"
 
 r = HTMLSession().get(url, headers={"user-agent": ""})
 url_list = []
@@ -43,27 +43,66 @@ Pool = AsyncHTMLSession()
 
 results = Pool.run(*(functools.partial(async_get, tag) for tag in url_list))
 serve_return_stats = pd.read_json(json.dumps(results, indent=2))
+serve_return_stats["Name"] = serve_return_stats["Name"].str.replace(
+    "de Minaur", "De Minaur"
+)
 todays_matches = pd.read_sql_query(
-    "Select Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches",
+    "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Mens'",
     con=devengine,
 )
+
+todays_matches["Fav"] = todays_matches.apply(
+    lambda x: x["Player_1"]
+    if x["Player_2_Odds"] > x["Player_1_Odds"]
+    else (x["Player_2"] if x["Player_2_Odds"] < x["Player_1_Odds"] else "Pickem"),
+    axis=1,
+)
+todays_matches["Dog"] = todays_matches.apply(
+    lambda x: x["Player_1"]
+    if x["Player_2_Odds"] < x["Player_1_Odds"]
+    else (x["Player_2"] if x["Player_2_Odds"] > x["Player_1_Odds"] else "Pickem"),
+    axis=1,
+)
+
 combine = pd.merge(
-    todays_matches, serve_return_stats, how="left", left_on="Player_1", right_on="Name"
+    todays_matches, serve_return_stats, how="left", left_on="Fav", right_on="Name"
 )
 combine2 = pd.merge(
-    combine, serve_return_stats, how="left", left_on="Player_2", right_on="Name"
+    combine, serve_return_stats, how="left", left_on="Dog", right_on="Name"
 )
 combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
     ["Service Games Won_x", "Service Games Won_y"]
 ].astype(float)
-filter_serve = combine2[
+combine2 = combine2[
     (
         ((combine2["Service Games Won_x"]).ge(75))
-        & ((combine2["Service Games Won_y"]).ge(1))
+        # & ((combine2["Service Games Won_y"]).ge(1))
     )
     | (
         ((combine2["Service Games Won_y"]).ge(75))
-        & ((combine2["Service Games Won_x"]).ge(1))
+        # & ((combine2["Service Games Won_x"]).ge(1))
     )
 ]
-filter_serve.to_excel("servers_today.xlsx", index=False)
+combine2.rename(
+    columns={
+        "Service Games Won_x": "Fav_Serve%",
+        "Service Games Won_y": "Dog_Serve%",
+        "Return Games Won_x": "Fav_Return%",
+        "Return Games Won_y": "Dog_Return%",
+    },
+    inplace=True,
+)
+combine2 = combine2[
+    [
+        "Time",
+        "Fav",
+        # "Player_1_Odds",
+        "Fav_Serve%",
+        "Dog_Return%",
+        "Dog",
+        # "Player_2_Odds",
+        "Dog_Serve%",
+        "Fav_Return%",
+    ]
+]
+combine2.sort_values(by="Time").to_excel("servers_today.xlsx", index=False)

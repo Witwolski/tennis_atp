@@ -146,6 +146,7 @@ def Elo(surface):
     ].astype(
         "float"
     )
+    """
     data["Wins"] = data.groupby("Winner").cumcount() + 1
     data["Losses"] = data.groupby("Loser").cumcount() + 1
     data2 = data.copy(deep=True)
@@ -175,10 +176,11 @@ def Elo(surface):
     # data1 = data[data["Date"] != current_date]
     data1 = data
     data = data1
+    """
     data = data[data.columns.drop(list(data.filter(regex="_y")))]
     data = data[data.columns.drop(list(data.filter(regex="_x")))]
     data = data.drop(
-        columns=["Winner_Odds", "Loser_Odds", "Prob_Elo", "Prob_Elo_Loser", "Loser"],
+        columns=["Prob_Elo", "Prob_Elo_Loser"],
         axis=1,
     )
     data["Elo_Fav_Elo"] = data.apply(
@@ -189,6 +191,7 @@ def Elo(surface):
         lambda x: x["Elo_Winner"] if x["Winner"] != x["Elo_Fav"] else x["Elo_Loser"],
         axis=1,
     )
+    """
     data["Elo_Fav_Total"] = data.apply(
         lambda x: x["WinnerTotal"] if x["Winner"] == x["Elo_Fav"] else x["LoserTotal"],
         axis=1,
@@ -197,14 +200,62 @@ def Elo(surface):
         lambda x: x["WinnerTotal"] if x["Winner"] != x["Elo_Fav"] else x["LoserTotal"],
         axis=1,
     )
+    """
+
+    data["Elo_Fav_Rank"] = data.apply(
+        lambda x: x["Winner_Rank"] if x["Winner"] == x["Elo_Fav"] else x["Loser_Rank"],
+        axis=1,
+    ).astype(float)
+    data["Elo_Dog_Rank"] = data.apply(
+        lambda x: x["Winner_Rank"] if x["Winner"] != x["Elo_Fav"] else x["Loser_Rank"],
+        axis=1,
+    ).astype(float)
+
+    data["Fav"] = data.apply(
+        lambda x: x["Winner"]
+        if x["Loser_Odds"] > x["Winner_Odds"]
+        else (x["Loser"] if x["Loser_Odds"] < x["Winner_Odds"] else "Pickem"),
+        axis=1,
+    )
+    data["Dog"] = data.apply(
+        lambda x: x["Winner"]
+        if x["Loser_Odds"] < x["Winner_Odds"]
+        else (x["Loser"] if x["Loser_Odds"] > x["Winner_Odds"] else "Pickem"),
+        axis=1,
+    )
+
+    data["Fav_Odds"] = data.apply(
+        lambda x: x["Winner_Odds"]
+        if x["Loser_Odds"] > x["Winner_Odds"]
+        else (
+            x["Loser_Odds"] if x["Loser_Odds"] < x["Winner_Odds"] else x["Loser_Odds"]
+        ),
+        axis=1,
+    )
+    data["Dog_Odds"] = data.apply(
+        lambda x: x["Winner_Odds"]
+        if x["Loser_Odds"] < x["Winner_Odds"]
+        else (
+            x["Loser_Odds"] if x["Loser_Odds"] > x["Winner_Odds"] else x["Loser_Odds"]
+        ),
+        axis=1,
+    )
+    data["Fav_Rank"] = data.apply(
+        lambda x: x["Winner_Rank"] if x["Winner"] == x["Fav"] else x["Loser_Rank"],
+        axis=1,
+    ).astype(float)
+    data["Dog_Rank"] = data.apply(
+        lambda x: x["Winner_Rank"] if x["Winner"] != x["Fav"] else x["Loser_Rank"],
+        axis=1,
+    ).astype(float)
+
+    data = data[data["Fav"] != "Pickem"]
     data = data.drop(
         columns=[
-            "Wins",
-            "Losses",
-            "LoserTotal",
-            "WinnerTotal",
             "Elo_Loser",
             "Elo_Winner",
+            "Winner_Rank",
+            "Loser_Rank",
         ],
         axis=1,
     )
