@@ -35,6 +35,7 @@ async def async_get(url, id):
             service_games = player_json["stats"]["service_games_won_percent"]
             return_games = player_json["stats"]["return_games_won_percent"]
         else:
+            # print(f"No info found for {name}")
             service_games = 0
             return_games = 0
         return {
@@ -48,9 +49,10 @@ async def async_get(url, id):
 
 data = pd.DataFrame()
 for x in range(0, 5):
+    print(x)
 
     response_API = requests.get(
-        "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-07-22&nationality=".format(
+        "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-10-31&nationality=".format(
             x
         ),
         headers={
@@ -96,12 +98,8 @@ todays_matches["Dog"] = todays_matches.apply(
     axis=1,
 )
 
-combine = pd.merge(
-    todays_matches, serve_return_stats, how="left", left_on="Fav", right_on="Name"
-)
-combine2 = pd.merge(
-    combine, serve_return_stats, how="left", left_on="Dog", right_on="Name"
-)
+combine = pd.merge(todays_matches, data, how="left", left_on="Fav", right_on="Name")
+combine2 = pd.merge(combine, data, how="left", left_on="Dog", right_on="Name")
 combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
     ["Service Games Won_x", "Service Games Won_y"]
 ].astype(float)

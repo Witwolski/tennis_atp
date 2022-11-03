@@ -43,8 +43,10 @@ Pool = AsyncHTMLSession()
 
 results = Pool.run(*(functools.partial(async_get, tag) for tag in url_list))
 serve_return_stats = pd.read_json(json.dumps(results, indent=2))
-serve_return_stats["Name"] = serve_return_stats["Name"].str.replace(
-    "de Minaur", "De Minaur"
+serve_return_stats["Name"] = (
+    serve_return_stats["Name"]
+    .str.replace("de Minaur", "De Minaur")
+    .str.replace("Auger-Aliassime", "Auger Aliassime")
 )
 todays_matches = pd.read_sql_query(
     "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Mens'",
