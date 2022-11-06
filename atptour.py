@@ -77,11 +77,11 @@ combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
 ].astype(float)
 combine2 = combine2[
     (
-        ((combine2["Service Games Won_x"]).ge(75))
+        ((combine2["Service Games Won_x"]).ge(1))
         # & ((combine2["Service Games Won_y"]).ge(1))
     )
     | (
-        ((combine2["Service Games Won_y"]).ge(75))
+        ((combine2["Service Games Won_y"]).ge(1))
         # & ((combine2["Service Games Won_x"]).ge(1))
     )
 ]
