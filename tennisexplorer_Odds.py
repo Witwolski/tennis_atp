@@ -66,7 +66,7 @@ def Main(url, current_date, suffix, check):
         first_name = splitname[-1]
         last_name = name.replace(" " + first_name, "")
         name = first_name + " " + last_name
-        name_dict = pd.read_csv("name_lookup.csv")
+        name_dict = pd.read_csv("C:\Git\tennis_atp\name_lookup.csv")
         for _, item in name_dict.iterrows():
             name = name.replace(item.old, item.new)
         """
