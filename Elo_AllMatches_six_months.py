@@ -17,7 +17,7 @@ origin.pull()
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
-date_six_months_ago = date_today + relativedelta(months=-12)
+date_six_months_ago = date_today + relativedelta(months=-18)
 # date_six_months_ago = date_today + relativedelta(years=-1, months=-1)
 
 
@@ -77,6 +77,9 @@ def Elo(surface):
             matches_played_l = matches_played[l]
             pwin = 1 / (
                 1 + 10 ** ((elol - elow) / 400)
+            )  # compute prob of winner to win
+            ploss = 1 / (
+                1 + 10 ** ((elow - elol) / 400)
             )  # compute prob of winner to win
             K_win = 250 / ((matches_played_w + 5) ** 0.4)  # K-factor of winning player
             K_los = 250 / ((matches_played_l + 5) ** 0.4)  # K-factor of losing player
