@@ -10,7 +10,7 @@ devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db"
 
 
 async def async_get(url, id):
-    r = await Pool.get(url, headers={"user-agent": ""})
+    # r = await Pool.get(url, headers={"user-agent": ""})
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
@@ -19,7 +19,12 @@ async def async_get(url, id):
         "https://api.wtatennis.com/tennis/players/{}/year/2022".format(id),
         headers={"user-agent": ""},
     )
+    player_API = await Pool.get(
+        "https://api.wtatennis.com/tennis/players/{}/year/2022".format(id),
+        headers={"user-agent": ""},
+    )
     player_txt = player_API.text
+
     player_json = json.loads(player_txt)
     if player_API.ok == False:
         return {
@@ -48,11 +53,11 @@ async def async_get(url, id):
 
 
 data = pd.DataFrame()
-for x in range(0, 5):
+for x in range(0, 3):
     print(x)
 
     response_API = requests.get(
-        "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-10-31&nationality=".format(
+        "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-11-30&nationality=".format(
             x
         ),
         headers={

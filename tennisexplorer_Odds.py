@@ -260,7 +260,7 @@ for x in range(1, 2):
     # print('https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}'.format(year, month, day))
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -269,7 +269,7 @@ for x in range(1, 2):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -278,7 +278,7 @@ for x in range(1, 2):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -286,7 +286,7 @@ for x in range(1, 2):
         0,
     )
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
