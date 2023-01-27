@@ -53,81 +53,90 @@ async def async_get(url, id):
 
 
 data = pd.DataFrame()
-for x in range(0, 3):
-    print(x)
-
-    response_API = requests.get(
-        "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-11-30&nationality=".format(
-            x
-        ),
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
-        },
-    )
-
-    response_txt = response_API.text
-    response_json = json.loads(response_txt)
-    url_list = []
-    for player in response_json:
-        player_fname = player["player"]["firstName"]
-        player_lname = player["player"]["lastName"]
-        player_id = player["player"]["id"]
-        url = "https://www.wtatennis.com/players/{}/{}-{}#stats".format(
-            player_id, player_fname, player_lname
-        )
-        url_list.append(url)
-
-    Pool = AsyncHTMLSession()
-
-    results = Pool.run(
-        *(functools.partial(async_get, tag, tag.split("/")[4]) for tag in url_list)
-    )
-    serve_return_stats = pd.read_json(json.dumps(results, indent=2))
-    data = pd.concat([data, serve_return_stats])
-
 todays_matches = pd.read_sql_query(
     "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
     con=devengine,
 )
+if todays_matches.empty == True:
+    print("No Matches Today")
+    blankdf = pd.DataFrame()
+    blankdf.to_excel("servers_today_womens.xlsx", index=False)
+else:
+    for x in range(0, 3):
+        print(x)
 
-todays_matches["Fav"] = todays_matches.apply(
-    lambda x: x["Player_1"]
-    if x["Player_2_Odds"] > x["Player_1_Odds"]
-    else (x["Player_2"] if x["Player_2_Odds"] < x["Player_1_Odds"] else "Pickem"),
-    axis=1,
-)
-todays_matches["Dog"] = todays_matches.apply(
-    lambda x: x["Player_1"]
-    if x["Player_2_Odds"] < x["Player_1_Odds"]
-    else (x["Player_2"] if x["Player_2_Odds"] > x["Player_1_Odds"] else "Pickem"),
-    axis=1,
-)
+        response_API = requests.get(
+            "https://api.wtatennis.com/tennis/players/ranked?page={}&pageSize=500&type=rankSingles&sort=asc&name=&metric=SINGLES&at=2022-11-30&nationality=".format(
+                x
+            ),
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+            },
+        )
 
-combine = pd.merge(todays_matches, data, how="left", left_on="Fav", right_on="Name")
-combine2 = pd.merge(combine, data, how="left", left_on="Dog", right_on="Name")
-combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
-    ["Service Games Won_x", "Service Games Won_y"]
-].astype(float)
-combine2.rename(
-    columns={
-        "Service Games Won_x": "Fav_Serve%",
-        "Service Games Won_y": "Dog_Serve%",
-        "Return Games Won_x": "Fav_Return%",
-        "Return Games Won_y": "Dog_Return%",
-    },
-    inplace=True,
-)
-combine2 = combine2[
-    [
-        "Time",
-        "Fav",
-        # "Player_1_Odds",
-        "Fav_Serve%",
-        "Dog_Return%",
-        "Dog",
-        # "Player_2_Odds",
-        "Dog_Serve%",
-        "Fav_Return%",
+        response_txt = response_API.text
+        response_json = json.loads(response_txt)
+        url_list = []
+        for player in response_json:
+            player_fname = player["player"]["firstName"]
+            player_lname = player["player"]["lastName"]
+            player_id = player["player"]["id"]
+            url = "https://www.wtatennis.com/players/{}/{}-{}#stats".format(
+                player_id, player_fname, player_lname
+            )
+            url_list.append(url)
+
+        Pool = AsyncHTMLSession()
+
+        results = Pool.run(
+            *(functools.partial(async_get, tag, tag.split("/")[4]) for tag in url_list)
+        )
+        serve_return_stats = pd.read_json(json.dumps(results, indent=2))
+        data = pd.concat([data, serve_return_stats])
+
+    todays_matches = pd.read_sql_query(
+        "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
+        con=devengine,
+    )
+
+    todays_matches["Fav"] = todays_matches.apply(
+        lambda x: x["Player_1"]
+        if x["Player_2_Odds"] > x["Player_1_Odds"]
+        else (x["Player_2"] if x["Player_2_Odds"] < x["Player_1_Odds"] else "Pickem"),
+        axis=1,
+    )
+    todays_matches["Dog"] = todays_matches.apply(
+        lambda x: x["Player_1"]
+        if x["Player_2_Odds"] < x["Player_1_Odds"]
+        else (x["Player_2"] if x["Player_2_Odds"] > x["Player_1_Odds"] else "Pickem"),
+        axis=1,
+    )
+
+    combine = pd.merge(todays_matches, data, how="left", left_on="Fav", right_on="Name")
+    combine2 = pd.merge(combine, data, how="left", left_on="Dog", right_on="Name")
+    combine2[["Service Games Won_x", "Service Games Won_y"]] = combine2[
+        ["Service Games Won_x", "Service Games Won_y"]
+    ].astype(float)
+    combine2.rename(
+        columns={
+            "Service Games Won_x": "Fav_Serve%",
+            "Service Games Won_y": "Dog_Serve%",
+            "Return Games Won_x": "Fav_Return%",
+            "Return Games Won_y": "Dog_Return%",
+        },
+        inplace=True,
+    )
+    combine2 = combine2[
+        [
+            "Time",
+            "Fav",
+            # "Player_1_Odds",
+            "Fav_Serve%",
+            "Dog_Return%",
+            "Dog",
+            # "Player_2_Odds",
+            "Dog_Serve%",
+            "Fav_Return%",
+        ]
     ]
-]
-combine2.sort_values(by="Time").to_excel("servers_today_womens.xlsx", index=False)
+    combine2.sort_values(by="Time").to_excel("servers_today_womens.xlsx", index=False)
