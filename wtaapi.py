@@ -62,7 +62,7 @@ if todays_matches.empty == True:
     blankdf = pd.DataFrame()
     blankdf.to_excel("servers_today_womens.xlsx", index=False)
 else:
-    for x in range(0, 3):
+    for x in range(0, 5):
         print(x)
 
         response_API = requests.get(
@@ -94,6 +94,7 @@ else:
         serve_return_stats = pd.read_json(json.dumps(results, indent=2))
         data = pd.concat([data, serve_return_stats])
 
+    data.to_csv("womensserving.csv", index=False)
     todays_matches = pd.read_sql_query(
         "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
         con=devengine,

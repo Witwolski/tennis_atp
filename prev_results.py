@@ -8,7 +8,7 @@ from dateutil.relativedelta import *
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 db = pd.DataFrame()
-for x in range(1, 400):
+for x in range(1, 30):
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
     print(time_now_formatted)
@@ -184,6 +184,7 @@ for x in range(1, 400):
                     "percent": [percent],
                     "percent2": [percent2],
                     "Sex": [row.Sex],
+                    "Date": [row.Date],
                 }
             )
 
@@ -270,6 +271,7 @@ for x in range(1, 400):
                     "percent": [percent],
                     "percent2": [percent2],
                     "Sex": [row.Sex],
+                    "Date": [row.Date],
                 }
             )
 
@@ -376,10 +378,10 @@ for x in range(1, 400):
         (result_hard["percent2"] > 0.5) & ((result_hard["percent"] < 0.5))
     ]
     """
-    # db = pd.concat([db, result_hard])
+    db = pd.concat([db, result_hard])
 
-    # db.to_sql("results_hard", con=devengine, index=False, if_exists="append")
+    db.to_sql("results_hard", con=devengine, index=False, if_exists="append")
 
-    db = pd.concat([db, result_clay])
+    # db = pd.concat([db, result_clay])
 
-    db.to_sql("results_clay1", con=devengine, index=False, if_exists="append")
+    # db.to_sql("results_clay1", con=devengine, index=False, if_exists="append")

@@ -110,3 +110,5 @@ combine2 = combine2[
     ]
 ]
 combine2.sort_values(by="Time").to_excel("servers_today.xlsx", index=False)
+
+serve_return_stats.to_csv("mensserving.csv", index=False)
