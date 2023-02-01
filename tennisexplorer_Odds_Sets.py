@@ -1,37 +1,18 @@
-import datetime
-from sqlite3 import connect
 import requests
 from bs4 import BeautifulSoup
 import argparse
 import datetime
-from tabulate import tabulate
 import pandas as pd
-import openpyxl
-import xlsxwriter
-from cmath import nan
-from typing import Type
-import pandas as pd
-import os
-import csv
-from pandas.core.arrays.integer import safe_cast
-import sqlalchemy as sa
 from sqlalchemy import create_engine
-import pymssql
-import time
-from pathlib import Path
-import msvcrt
-import numpy as np
+from playsound import playsound
+from git.repo import Repo
 
-username = r"ChrisDB"
-password = "babinda08"
-server = r"localhost"
-database = "Bets"
-devconnection_uri = "mssql+pymssql://{}:{}@{}/{}".format(
-    username, password, server, database
-)
-devengine = create_engine(devconnection_uri)
 
-connection = devengine.connect()
+repo = Repo(r"C:\Git\tennis_atp")
+origin = repo.remotes[0]
+origin.pull()
+
+devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 
 def Main(url, current_date, suffix, check):
@@ -131,7 +112,13 @@ def Main(url, current_date, suffix, check):
     for i, item in enumerate(tournament_idx_lst[:-1]):
 
         tournament_name = rows[item].find("td", class_="t-name").text.strip()
-        if "Futures" not in tournament_name and "ITF" not in tournament_name:
+        if (
+            "Futures" not in tournament_name
+            and "ITF" not in tournament_name
+            and "UTR" not in tournament_name
+            and "Davis Cup" not in tournament_name
+            and "UK Pro" not in tournament_name
+        ):
             tournament_url = (
                 rows[item].find("td", class_="t-name").contents[0].attrs["href"]
             )
@@ -276,6 +263,8 @@ def Main(url, current_date, suffix, check):
                 loser_third = match.split("_")[11]
                 loser_forth = match.split("_")[12]
                 loser_fifth = match.split("_")[13]
+                player1_rank = (players[0].split("(")[1]).replace(")", "")
+                player2_rank = (players[1].split("(")[1]).replace(")", "")
 
                 table = [
                     [
@@ -286,9 +275,11 @@ def Main(url, current_date, suffix, check):
                         "Player_2",
                         "Player_1_Odds",
                         "Player_2_Odds",
+                        "Player_1_Rank",
+                        "Player_2_Rank",
                         "Surface",
-                        "Winner_Games",
-                        "Loser_Games",
+                        "Winner_Sets",
+                        "Loser_Sets",
                         "w1",
                         "w2",
                         "w3",
@@ -308,6 +299,8 @@ def Main(url, current_date, suffix, check):
                         player2,
                         player1odds,
                         player2odds,
+                        player1_rank,
+                        player2_rank,
                         Surface,
                         winner_games,
                         loser_games,
@@ -333,13 +326,11 @@ def Main(url, current_date, suffix, check):
                     & (new_df["Player_1"] != "")
                     & (new_df["Player_2"] != "")
                 ]
-                new_df.to_sql(
-                    "AllMatches_CWTemp", con=devengine, if_exists="append", index=False
-                )
+                new_df.to_sql("AllSets", con=devengine, if_exists="append", index=False)
 
 
 # for x in range(81,90):
-for x in range(1, 365):
+for x in range(16, 365):
     # for x in range(502,600):
     print(x)
 
@@ -386,3 +377,9 @@ for x in range(1, 365):
         "_Womens",
         0,
     )
+
+repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])
+repo.index.commit("commit from python")
+
+origin = repo.remotes[0]
+origin.push()
