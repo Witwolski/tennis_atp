@@ -8,7 +8,7 @@ from dateutil.relativedelta import *
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 db = pd.DataFrame()
-for x in range(1, 30):
+for x in range(1, 60):
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
     print(time_now_formatted)
@@ -384,4 +384,4 @@ for x in range(1, 30):
 
     # db = pd.concat([db, result_clay])
 
-    # db.to_sql("results_clay1", con=devengine, index=False, if_exists="append")
+    # db.to_sql("results_clay", con=devengine, index=False, if_exists="append")
