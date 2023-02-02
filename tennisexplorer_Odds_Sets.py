@@ -330,7 +330,7 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in range(16, 365):
+for x in range(134, 365):
     # for x in range(502,600):
     print(x)
 
