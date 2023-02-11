@@ -267,6 +267,12 @@ def Elo(surface):
         ],
         axis=1,
     )
+    data = data[
+        (data["Fav_Rank"] < 1000)
+        & (data["Dog_Rank"] < 1000)
+        & (data["Elo_Fav_Elo"].ne(1500))
+        & (data["Elo_Dog_Elo"].ne(1500))
+    ]
 
     data.to_sql(
         f"Elo_AllMatches_{surface}", con=devengine, if_exists="replace", index=False

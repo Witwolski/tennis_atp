@@ -104,7 +104,8 @@ def get_filtered_data(elo_data, elo):
         if games > 4 and games2 > 4:
             temp_df = pd.DataFrame(
                 {
-                    "Time": [row.Time],
+                    "Winner": [row.Winner],
+                    "Winner_Odds": [row.Winner_Odds],
                     "Fav_Odds": [row.Fav_Odds],
                     "Dog_Odds": [row.Dog_Odds],
                     "Fav": [row.Fav],
@@ -127,7 +128,8 @@ def get_filtered_data(elo_data, elo):
 # Connect to SQLite database using SQLAlchemy's create_engine
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
-for x in range(2, 99):
+for x in range(1, 365):
+    print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
     print(time_now_formatted)
