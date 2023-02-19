@@ -22,7 +22,7 @@ date_six_months_ago = date_today + relativedelta(months=-18)
 
 
 date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
-print(date_six_months_ago_formatted)
+# print(date_six_months_ago_formatted)
 
 
 def Elo(surface):
@@ -288,5 +288,5 @@ def Elo(surface):
     origin.push()
 
 
-Elo("Hard")
-Elo("Clay")
+# Elo("Hard")
+# Elo("Clay")
