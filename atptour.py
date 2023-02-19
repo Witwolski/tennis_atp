@@ -23,7 +23,7 @@ async def async_get(url):
     }
 
 
-url = "https://www.atptour.com/en/rankings/singles?rankRange=1-500&rankDate=2023-01-02"
+url = "https://www.atptour.com/en/rankings/singles?rankRange=1-600&rankDate=2023-01-02"
 
 r = HTMLSession().get(url, headers={"user-agent": ""})
 url_list = []
@@ -50,6 +50,11 @@ serve_return_stats["Name"] = (
     .str.replace("McDonald", "Mcdonald")
     .str.replace("Ramos-Vinolas", "Ramos Vinolas")
 )
+name_dict = pd.read_csv(r"C:\Git\tennis_atp\name_lookup_serving.csv")
+for _, item in name_dict.iterrows():
+    serve_return_stats["Name"] = serve_return_stats["Name"].str.replace(
+        item.old, item.new, regex=True
+    )
 todays_matches = pd.read_sql_query(
     "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Mens'",
     con=devengine,

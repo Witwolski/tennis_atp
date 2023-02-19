@@ -93,7 +93,9 @@ else:
         )
         serve_return_stats = pd.read_json(json.dumps(results, indent=2))
         data = pd.concat([data, serve_return_stats])
-
+    name_dict = pd.read_csv(r"C:\Git\tennis_atp\name_lookup_serving.csv")
+    for _, item in name_dict.iterrows():
+        data["Name"] = data["Name"].str.replace(item.old, item.new, regex=True)
     data.to_csv("womensserving.csv", index=False)
     todays_matches = pd.read_sql_query(
         "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",
