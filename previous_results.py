@@ -79,7 +79,7 @@ def get_filtered_data(elo_data, elo):
             row.Fav, row.Dog_Rank, elo_hard, low_limit, high_limit, True
         )
         count = 0
-        while games < 10 and count < 200:
+        while games < 10 and count < 5:
             count = count + 1
             low_limit = low_limit + 10
             high_limit = high_limit + 10
@@ -93,7 +93,7 @@ def get_filtered_data(elo_data, elo):
             row.Dog, row.Fav_Rank, elo_hard, low_limit, high_limit, True
         )
         count = 0
-        while games2 < 10 and count < 200:
+        while games2 < 10 and count < 5:
             count = count + 1
             low_limit = low_limit + 10
             high_limit = high_limit + 10
@@ -119,6 +119,7 @@ def get_filtered_data(elo_data, elo):
                     "fav_percent": [fav_percent],
                     "dog_percent": [dog_percent],
                     "Sex": [row.Sex],
+                    "Date": [row.Date],
                 }
             )
             result_df = pd.concat([result_df, temp_df])
@@ -128,7 +129,7 @@ def get_filtered_data(elo_data, elo):
 # Connect to SQLite database using SQLAlchemy's create_engine
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
-for x in range(1, 365):
+for x in range(0, 300):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
