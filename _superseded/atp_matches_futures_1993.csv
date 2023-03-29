@@ -1014,7 +1014,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-AUS-01A-1993c,Australia 1 Masters 3,Carpet,32,S,19930226,31,101844,2,,Heath Denman,R,183,AUS,22.0,102198,3,,Paul Kilderry,R,175,AUS,19.8,5-7 6-4 6-3,3,F,,,,,,,,,,,,,,,,,,,,307,82,312,80
 1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,1,102862,,Q,Allen Belobrajdic,R,175,AUS,16.4,102304,1,WC,Grant Doyle,R,180,AUS,19.1,3-6 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,295,90
 1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,2,102209,,Q,Jamie Holmes,R,,AUS,19.8,102229,,WC,Stephen Gleeson,R,,AUS,19.7,6-3 7-6,3,R32,,,,,,,,,,,,,,,,,,,,481,30,468,33
-1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,3,101787,,,Darren Patten,R,188,AUS,22.5,107787,,,Michael Zoricich,R,,NZL,,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,649,14,792,7
+1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,3,101787,,,Darren Patten,R,188,AUS,22.5,107787,,,Michael Zoricich,R,,NZL,20.9,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,649,14,792,7
 1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,4,101629,,,Matt Lucena,R,178,USA,23.5,101847,7,,Bret Richardson,R,178,AUS,22.0,4-6 6-0 6-4,3,R32,,,,,,,,,,,,,,,,,,,,523,26,440,38
 1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,5,101550,4,,Al Parker,R,188,USA,24.1,102743,,Q,Ben Ellwood,R,178,AUS,16.9,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,356,61,,
 1993-M-SA-AUS-01A-1993d,Australia 1 Masters 4,Carpet,32,S,19930226,6,101755,,Q,Derek Farren,R,183,IRL,22.7,101895,,,Michael Brown B395,R,175,AUS,21.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1078,2,457,35
@@ -1486,7 +1486,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,8,101058,5,,Francisco Yunis,R,190,ARG,28.5,101217,,Q,Andreas Lesch,L,196,GER,27.1,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,234,135,548,23
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,9,101567,,,Hendrik Jan Davids,L,183,NED,24.0,102024,6,,Hernan Gumy,R,188,ARG,20.9,6-1 7-6,3,R32,,,,,,,,,,,,,,,,,,,,333,71,253,120
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,10,101929,,Q,Joost Winnink,R,180,NED,21.6,102354,,WC,Jerome Hanquez,R,185,FRA,18.9,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,557,23,864,5
-1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,11,101616,,,Serge Soulie,R,,FRA,23.6,104097,,WC,Robert Phillips Pd13,U,,AUS,,7-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,313,80,,
+1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,11,101616,,,Serge Soulie,R,,FRA,23.6,104097,,WC,Robert Phillips,U,,AUS,,7-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,313,80,,
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,12,102047,4,,Pier Gauthier,R,185,FRA,20.8,102030,,Q,Andrew Foster,R,190,GBR,20.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,231,139,465,34
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,13,102212,,,Corrado Borroni,R,185,ITA,19.8,101710,8,,Martin Blackman,R,188,USA,22.9,6-4 5-7 6-4,3,R32,,,,,,,,,,,,,,,,,,,,327,72,274,101
 1993-M-SA-FRA-01A-1993d,France 1 Masters 4,Carpet,32,S,19930306,14,102272,,,Branislav Galik,R,,SVK,19.3,102224,,,Miguel Pastura,R,,ARG,19.7,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,330,71,328,72
@@ -2095,7 +2095,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,3,102611,,,Rafael Serpa Guinazu,R,,ARG,17.7,102211,,,Marcelo Rebelo,R,,BRA,19.9,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,968,3
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,4,101388,,,Gerardo Mirad,R,180,ARG,25.6,102109,,,Federico Depetris,R,,ARG,20.5,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,800,7,661,15
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,5,102585,,,Sebastian Prieto,R,180,ARG,17.8,102561,,,Gustavo Diaz,R,,ARG,18.0,7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,904,4,,
-1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,6,111486,,,Leonardo Olguin,U,,ARG,17.4,102195,,,Walter Grinovero,R,,ARG,20.0,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,1107,1
+1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,6,102693,,,Leonardo Olguin,R,,ARG,17.3,102195,,,Walter Grinovero,R,,ARG,20.0,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1107,1,1107,1
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,7,102413,,,Andy Zingman,R,183,ARG,18.8,107002,,,Fernando Pautassi,R,,ARG,19.0,7-6 4-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,661,15,839,6
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,8,102192,,,Luis Adrian Morejon,R,178,ECU,20.0,106958,,,Ernesto Bottiroli,R,,ARG,,2-6 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,502,30,904,4
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,9,101720,1,,Agustin Garizzio,R,185,ARG,23.0,102856,,,Gustavo Kuerten,R,190,BRA,16.5,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,488,31,,
@@ -2103,7 +2103,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,11,108225,4,,Sebastian Allende,R,,ARG,,102611,,,Rafael Serpa Guinazu,R,,ARG,17.7,7-6 1-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,553,24,,
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,12,101388,,,Gerardo Mirad,R,180,ARG,25.6,101763,6,,Rodolfo Ramos Paganini,R,,ARG,22.7,7-5 7-5,3,R16,,,,,,,,,,,,,,,,,,,,800,7,578,22
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,13,102463,5,,Lucas Arnold Ker,R,180,ARG,18.4,102585,,,Sebastian Prieto,R,180,ARG,17.8,7-5 2-6 6-0,3,R16,,,,,,,,,,,,,,,,,,,,559,23,904,4
-1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,14,102251,3,,Mariano Hood,L,178,ARG,19.6,111486,,,Leonardo Olguin,U,,ARG,17.4,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,821,7,,
+1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,14,102251,3,,Mariano Hood,L,178,ARG,19.6,102693,,,Leonardo Olguin,R,,ARG,17.3,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,821,7,1107,1
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,15,102413,,,Andy Zingman,R,183,ARG,18.8,102168,7,,Hector Moretti,R,170,ARG,20.1,6-3 7-6,3,R16,,,,,,,,,,,,,,,,,,,,661,15,316,80
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,16,102477,2,,Gaston Etlis,R,185,ARG,18.4,102192,,,Luis Adrian Morejon,R,178,ECU,20.0,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,474,34,502,30
 1993-M-SA-ARG-01A-1993a,Argentina 1 Masters 1,Clay,24,S,19930410,17,101979,,,Ricardo Mena,R,,PAR,21.4,101720,1,,Agustin Garizzio,R,185,ARG,23.0,6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,562,23,488,31
@@ -2128,7 +2128,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,13,101763,7,,Rodolfo Ramos Paganini,R,,ARG,22.7,106986,,Q,Facundo Nardelli,R,,ARG,,6-1 7-6,3,R32,,,,,,,,,,,,,,,,,,,,578,22,1084,2
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,14,102561,,,Gustavo Diaz,R,,ARG,18.0,124194,,WC,Hernan Alenda,U,,ARG,18.4,3-6 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,15,102192,,,Luis Adrian Morejon,R,178,ECU,20.0,101979,,,Ricardo Mena,R,,PAR,21.4,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,502,30,562,23
-1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,16,111486,,WC,Leonardo Olguin,U,,ARG,17.4,108225,2,,Sebastian Allende,R,,ARG,,6-1 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,553,24
+1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,16,102693,,WC,Leonardo Olguin,R,,ARG,17.3,108225,2,,Sebastian Allende,R,,ARG,,6-1 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1107,1,553,24
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,17,101720,1,,Agustin Garizzio,R,185,ARG,23.0,102856,,LL,Gustavo Kuerten,R,190,BRA,16.5,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,488,31,,
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,18,102168,8,,Hector Moretti,R,170,ARG,20.1,107002,,WC,Fernando Pautassi,R,,ARG,19.0,6-2 6-7 6-2,3,R16,,,,,,,,,,,,,,,,,,,,316,80,839,6
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,19,102251,4,,Mariano Hood,L,178,ARG,19.6,106958,,,Ernesto Bottiroli,R,,ARG,,2-6 7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,821,7,904,4
@@ -2136,13 +2136,13 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,21,102611,,Q,Rafael Serpa Guinazu,R,,ARG,17.7,107090,6,,Geronimo Degreef,R,,ARG,,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,968,3
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,22,102477,3,,Gaston Etlis,R,185,ARG,18.4,102585,,,Sebastian Prieto,R,180,ARG,17.8,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,474,34,904,4
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,23,101763,7,,Rodolfo Ramos Paganini,R,,ARG,22.7,102561,,,Gustavo Diaz,R,,ARG,18.0,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,578,22,,
-1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,24,111486,,WC,Leonardo Olguin,U,,ARG,17.4,102192,,,Luis Adrian Morejon,R,178,ECU,20.0,6-3 3-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,502,30
+1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,24,102693,,WC,Leonardo Olguin,R,,ARG,17.3,102192,,,Luis Adrian Morejon,R,178,ECU,20.0,6-3 3-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1107,1,502,30
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,25,101720,1,,Agustin Garizzio,R,185,ARG,23.0,102168,8,,Hector Moretti,R,170,ARG,20.1,7-6 3-6 7-5,3,QF,,,,,,,,,,,,,,,,,,,,488,31,316,80
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,26,102251,4,,Mariano Hood,L,178,ARG,19.6,102463,5,,Lucas Arnold Ker,R,180,ARG,18.4,6-1 6-1,3,QF,,,,,,,,,,,,,,,,,,,,821,7,559,23
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,27,102477,3,,Gaston Etlis,R,185,ARG,18.4,102611,,Q,Rafael Serpa Guinazu,R,,ARG,17.7,6-4 6-3,3,QF,,,,,,,,,,,,,,,,,,,,474,34,,
-1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,28,111486,,WC,Leonardo Olguin,U,,ARG,17.4,101763,7,,Rodolfo Ramos Paganini,R,,ARG,22.7,4-6 6-4 6-2,3,QF,,,,,,,,,,,,,,,,,,,,,,578,22
+1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,28,102693,,WC,Leonardo Olguin,R,,ARG,17.3,101763,7,,Rodolfo Ramos Paganini,R,,ARG,22.7,4-6 6-4 6-2,3,QF,,,,,,,,,,,,,,,,,,,,1107,1,578,22
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,29,101720,1,,Agustin Garizzio,R,185,ARG,23.0,102251,4,,Mariano Hood,L,178,ARG,19.6,3-6 6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,488,31,821,7
-1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,30,102477,3,,Gaston Etlis,R,185,ARG,18.4,111486,,WC,Leonardo Olguin,U,,ARG,17.4,6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,474,34,,
+1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,30,102477,3,,Gaston Etlis,R,185,ARG,18.4,102693,,WC,Leonardo Olguin,R,,ARG,17.3,6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,474,34,1107,1
 1993-M-SA-ARG-01A-1993b,Argentina 1 Masters 2,Clay,32,S,19930410,31,102477,3,,Gaston Etlis,R,185,ARG,18.4,101720,1,,Agustin Garizzio,R,185,ARG,23.0,7-6 6-0,3,F,,,,,,,,,,,,,,,,,,,,474,34,488,31
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,1,102168,1,,Hector Moretti,R,170,ARG,20.1,102856,,Q,Gustavo Kuerten,R,190,BRA,16.5,4-6 7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,316,80,,
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,2,106958,,WC,Ernesto Bottiroli,R,,ARG,,101923,,,Marcus Barbosa,R,,BRA,21.8,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,904,4,821,7
@@ -2152,7 +2152,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,6,122698,,WC,Fabian Clementi,U,,ARG,19.5,102211,,Q,Marcelo Rebelo,R,,BRA,19.9,7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,968,3
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,7,102585,,LL,Sebastian Prieto,R,180,ARG,17.8,101388,,,Gerardo Mirad,R,180,ARG,25.6,6-2 7-6,3,R32,,,,,,,,,,,,,,,,,,,,904,4,800,7
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,8,102192,6,,Luis Adrian Morejon,R,178,ECU,20.0,102195,,Q,Walter Grinovero,R,,ARG,20.0,3-6 7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,502,30,1107,1
-1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,9,108182,5,,Ruben Alvarenga,R,,PAR,20.5,111486,,WC,Leonardo Olguin,U,,ARG,17.4,6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,500,30,,
+1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,9,108182,5,,Ruben Alvarenga,R,,PAR,20.5,102693,,WC,Leonardo Olguin,R,,ARG,17.3,6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,500,30,1107,1
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,10,101979,,,Ricardo Mena,R,,PAR,21.4,102602,,Q,Federico Lusin,R,,ARG,17.8,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,562,23,1058,2
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,11,107090,,SE,Geronimo Degreef,R,,ARG,,102166,,,Rodrigo Ferreiro,R,,BRA,20.2,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,968,3,675,14
 1993-M-SA-ARG-01A-1993c,Argentina 1 Masters 3,Clay,32,S,19930410,12,101720,3,,Agustin Garizzio,R,185,ARG,23.0,124193,,Q,Leopoldo De Petris,U,,ARG,18.0,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,488,31,,
@@ -2187,7 +2187,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,10,102195,,LL,Walter Grinovero,R,,ARG,20.0,106958,,WC,Ernesto Bottiroli,R,,ARG,,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1107,1,904,4
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,11,102611,,Q,Rafael Serpa Guinazu,R,,ARG,17.7,107210,,,Horacio Pacheco,R,,ARG,,3-6 7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,599,20
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,12,101388,,,Gerardo Mirad,R,180,ARG,25.6,107065,4,,Gaston Naon,R,,ARG,,2-6 7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,800,7,488,31
-1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,13,111486,,WC,Leonardo Olguin,U,,ARG,17.4,106994,7,,Federico Pierini,R,,ARG,20.6,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,512,29
+1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,13,102693,,WC,Leonardo Olguin,R,,ARG,17.3,106994,7,,Federico Pierini,R,,ARG,20.6,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,1107,1,512,29
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,14,102109,,,Federico Depetris,R,,ARG,20.5,107197,,LL,Hernan Colombo Russel,R,,ARG,,7-6 2-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,661,15,,
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,15,101763,,,Rodolfo Ramos Paganini,R,,ARG,22.7,124192,,Q,Fernando Boljesic,U,,ARG,23.5,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,578,22,,
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,16,102477,2,,Gaston Etlis,R,185,ARG,18.4,107002,,WC,Fernando Pautassi,R,,ARG,19.0,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,474,34,839,6
@@ -2197,7 +2197,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,20,102251,,Q,Mariano Hood,L,178,ARG,19.6,102211,,LL,Marcelo Rebelo,R,,BRA,19.9,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,821,7,968,3
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,21,107090,,Q,Geronimo Degreef,R,,ARG,,102195,,LL,Walter Grinovero,R,,ARG,20.0,4-6 6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,968,3,1107,1
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,22,101388,,,Gerardo Mirad,R,180,ARG,25.6,102611,,Q,Rafael Serpa Guinazu,R,,ARG,17.7,6-0 6-1,3,R16,,,,,,,,,,,,,,,,,,,,800,7,,
-1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,23,102109,,,Federico Depetris,R,,ARG,20.5,111486,,WC,Leonardo Olguin,U,,ARG,17.4,5-7 6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,661,15,,
+1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,23,102109,,,Federico Depetris,R,,ARG,20.5,102693,,WC,Leonardo Olguin,R,,ARG,17.3,5-7 6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,661,15,1107,1
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,24,102477,2,,Gaston Etlis,R,185,ARG,18.4,101763,,,Rodolfo Ramos Paganini,R,,ARG,22.7,6-4 7-6,3,R16,,,,,,,,,,,,,,,,,,,,474,34,578,22
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,25,108225,8,,Sebastian Allende,R,,ARG,,102168,1,,Hector Moretti,R,170,ARG,20.1,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,553,24,316,80
 1993-M-SA-ARG-01A-1993d,Argentina 1 Masters 4,Clay,32,S,19930410,26,102251,,Q,Mariano Hood,L,178,ARG,19.6,101720,3,,Agustin Garizzio,R,185,ARG,23.0,6-2 4-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,821,7,488,31
@@ -3685,14 +3685,14 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,12,100727,5,,Raul Antonio Viver,L,190,ECU,32.1,107206,,,Holger Speker,R,,GER,,6-3 7-6,3,R16,,,,,,,,,,,,,,,,,,,,292,95,436,43
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,13,101055,,,Heiner Moraing,R,190,GER,28.8,102465,6,,Gabriel Silberstein,R,178,CHI,18.6,6-4 7-5,3,R16,,,,,,,,,,,,,,,,,,,,747,10,290,97
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,14,101672,3,,Michael Geserer,R,190,GER,23.4,101741,,,Gonzalo Fernandez,R,,CHI,23.0,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,261,114,485,34
-1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,15,108686,8,,Alejandro Aramburu Acuna,R,,PER,24.2,102122,,,Falk Fraikin,R,,GER,20.6,6-2 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,704,12
+1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,15,101574,8,,Alejandro Aramburu,R,175,PER,24.2,102122,,,Falk Fraikin,R,,GER,20.6,6-2 6-0,3,R16,,,,,,,,,,,,,,,,,,,,324,78,704,12
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,16,106529,2,,Andreas Kriebel,R,,GER,,101578,,,Markus Rackl,L,180,GER,24.2,6-2 4-0 RET,3,R16,,,,,,,,,,,,,,,,,,,,765,9,666,15
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,17,102234,1,,Oliver Gross,R,185,GER,19.9,106586,7,,Arne Kloodt,R,,GER,,6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,561,25,690,13
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,18,100727,5,,Raul Antonio Viver,L,190,ECU,32.1,102171,4,,Reinhard Wawra,R,,AUT,20.2,0-6 6-3 7-6,3,QF,,,,,,,,,,,,,,,,,,,,292,95,372,60
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,19,101672,3,,Michael Geserer,R,190,GER,23.4,101055,,,Heiner Moraing,R,190,GER,28.8,6-3 6-7 6-3,3,QF,,,,,,,,,,,,,,,,,,,,261,114,747,10
-1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,20,108686,8,,Alejandro Aramburu Acuna,R,,PER,24.2,106529,2,,Andreas Kriebel,R,,GER,,6-3 4-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,,,765,9
+1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,20,101574,8,,Alejandro Aramburu,R,175,PER,24.2,106529,2,,Andreas Kriebel,R,,GER,,6-3 4-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,324,78,765,9
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,21,102234,1,,Oliver Gross,R,185,GER,19.9,100727,5,,Raul Antonio Viver,L,190,ECU,32.1,6-2 7-6,3,SF,,,,,,,,,,,,,,,,,,,,561,25,292,95
-1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,22,101672,3,,Michael Geserer,R,190,GER,23.4,108686,8,,Alejandro Aramburu Acuna,R,,PER,24.2,6-2 6-0,3,SF,,,,,,,,,,,,,,,,,,,,261,114,,
+1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,22,101672,3,,Michael Geserer,R,190,GER,23.4,101574,8,,Alejandro Aramburu,R,175,PER,24.2,6-2 6-0,3,SF,,,,,,,,,,,,,,,,,,,,261,114,324,78
 1993-M-SA-GER-02A-1993a,Germany 2 Masters 1,Clay,24,S,19930529,23,101672,3,,Michael Geserer,R,190,GER,23.4,102234,1,,Oliver Gross,R,185,GER,19.9,6-4 6-4,3,F,,,,,,,,,,,,,,,,,,,,261,114,561,25
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,1,101672,1,,Michael Geserer,R,190,GER,23.4,101055,,,Heiner Moraing,R,190,GER,28.8,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,261,114,747,10
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,2,102111,,,Diego Del Rio,R,175,ARG,20.7,101777,,Q,Robert Kraus,R,,GER,22.8,6-4 RET,3,R32,,,,,,,,,,,,,,,,,,,,351,67,632,18
@@ -3702,7 +3702,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,6,102809,,Q,Axel Pretzsch,R,185,GER,16.9,106884,,,Dirk Hortian,R,,GER,,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,7,124545,,Q,Thomas Ruhle,U,,GER,18.8,106493,,WC,Alexander Windisch,R,,GER,25.1,6-3 2-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,522,29
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,8,102465,6,,Gabriel Silberstein,R,178,CHI,18.6,107996,,,Peter Vehar,R,,GER,,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,290,97,713,12
-1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,9,108686,5,,Alejandro Aramburu Acuna,R,,PER,24.2,102069,,,Andrei Rybalko,R,180,UKR,20.9,6-4 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,910,5
+1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,9,101574,5,,Alejandro Aramburu,R,175,PER,24.2,102069,,,Andrei Rybalko,R,180,UKR,20.9,6-4 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,324,78,910,5
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,10,106586,,,Arne Kloodt,R,,GER,,101741,,,Gonzalo Fernandez,R,,CHI,23.0,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,690,13,485,34
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,11,108585,,,Americo Venero Montes,U,175,PER,21.2,123107,,WC,Thomas Sprinckstub,R,,GER,20.9,6-7 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,12,102171,3,,Reinhard Wawra,R,,AUT,20.2,101771,,,Ashley Naumann,R,,AUS,22.8,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,372,60,586,22
@@ -3714,7 +3714,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,18,100727,7,,Raul Antonio Viver,L,190,ECU,32.1,107206,,WC,Holger Speker,R,,GER,,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,292,95,436,43
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,19,102234,4,,Oliver Gross,R,185,GER,19.9,102809,,Q,Axel Pretzsch,R,185,GER,16.9,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,561,25,,
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,20,102465,6,,Gabriel Silberstein,R,178,CHI,18.6,124545,,Q,Thomas Ruhle,U,,GER,18.8,6-1 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,290,97,,
-1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,21,106586,,,Arne Kloodt,R,,GER,,108686,5,,Alejandro Aramburu Acuna,R,,PER,24.2,6-2 4-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,690,13,,
+1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,21,106586,,,Arne Kloodt,R,,GER,,101574,5,,Alejandro Aramburu,R,175,PER,24.2,6-2 4-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,690,13,324,78
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,22,102171,3,,Reinhard Wawra,R,,AUT,20.2,108585,,,Americo Venero Montes,U,175,PER,21.2,7-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,372,60,,
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,23,101578,,,Markus Rackl,L,180,GER,24.2,107775,8,,Michael Kocher,R,,GER,,7-5 6-2,3,R16,,,,,,,,,,,,,,,,,,,,666,15,762,10
 1993-M-SA-GER-02A-1993b,Germany 2 Masters 2,Clay,32,S,19930529,24,106529,2,,Andreas Kriebel,R,,GER,,101769,,Q,Paul Ricar,R,,GER,22.9,5-7 6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,765,9,768,9
@@ -3729,7 +3729,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,2,101741,,,Gonzalo Fernandez,R,,CHI,23.0,101952,,LL,Ingo Herzgerodt,R,,GER,21.7,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,485,34,1063,2
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,3,101771,,LL,Ashley Naumann,R,,AUS,22.8,124235,,Q,Michael Franken,U,,GER,22.8,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,586,22,,
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,4,107482,,,Karoly Gyorgy,R,,HUN,,101389,7,,Oren Motevassel,L,170,USA,25.7,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,500,32,387,55
-1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,5,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.2,101487,,LL,Ingo Kroll,R,,GER,24.9,7-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,697,12
+1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,5,101574,4,,Alejandro Aramburu,R,175,PER,24.2,101487,,LL,Ingo Kroll,R,,GER,24.9,7-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,324,78,697,12
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,6,102069,,Q,Andrei Rybalko,R,180,UKR,20.9,107996,,Q,Peter Vehar,R,,GER,,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,910,5,713,12
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,7,101821,,Q,Peter Tramacchi,R,185,AUS,22.5,123106,,WC,Christian Freimoser,U,,GER,27.5,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,636,17,,
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,8,102234,,WC,Oliver Gross,R,185,GER,19.9,102171,6,,Reinhard Wawra,R,,AUT,20.2,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,561,25,372,60
@@ -3743,7 +3743,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,16,102465,2,,Gabriel Silberstein,R,178,CHI,18.6,108585,,,Americo Venero Montes,U,175,PER,21.2,7-5 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,290,97,,
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,17,101672,1,,Michael Geserer,R,190,GER,23.4,101741,,,Gonzalo Fernandez,R,,CHI,23.0,6-2 4-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,261,114,485,34
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,18,101771,,LL,Ashley Naumann,R,,AUS,22.8,107482,,,Karoly Gyorgy,R,,HUN,,7-5 7-5,3,R16,,,,,,,,,,,,,,,,,,,,586,22,500,32
-1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,19,102069,,Q,Andrei Rybalko,R,180,UKR,20.9,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.2,2-6 6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,910,5,,
+1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,19,102069,,Q,Andrei Rybalko,R,180,UKR,20.9,101574,4,,Alejandro Aramburu,R,175,PER,24.2,2-6 6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,910,5,324,78
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,20,102234,,WC,Oliver Gross,R,185,GER,19.9,101821,,Q,Peter Tramacchi,R,185,AUS,22.5,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,561,25,636,17
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,21,102111,5,,Diego Del Rio,R,175,ARG,20.7,106884,,LL,Dirk Hortian,R,,GER,,6-7 6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,351,67,,
 1993-M-SA-GER-02A-1993c,Germany 2 Masters 3,Clay,32,S,19930529,22,100727,3,,Raul Antonio Viver,L,190,ECU,32.1,101960,,LL,Tamas Gyorgy,R,,HUN,21.7,6-2 7-6,3,R16,,,,,,,,,,,,,,,,,,,,292,95,991,3
@@ -3771,7 +3771,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,13,106493,,,Alexander Windisch,R,,GER,25.1,100727,8,,Raul Antonio Viver,L,190,ECU,32.1,6-2 1-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,522,29,292,95
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,14,108585,,,Americo Venero Montes,U,175,PER,21.2,101741,,,Gonzalo Fernandez,R,,CHI,23.0,7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,485,34
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,15,106884,,WC,Dirk Hortian,R,,GER,,101787,,,Darren Patten,R,188,AUS,22.7,7-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,579,23
-1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,16,108686,2,,Alejandro Aramburu Acuna,R,,PER,24.2,101771,,,Ashley Naumann,R,,AUS,22.8,3-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,586,22
+1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,16,101574,2,,Alejandro Aramburu,R,175,PER,24.2,101771,,,Ashley Naumann,R,,AUS,22.8,3-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,324,78,586,22
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,17,101672,1,,Michael Geserer,R,190,GER,23.4,101578,,,Markus Rackl,L,180,GER,24.2,7-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,261,114,666,15
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,18,107996,,WC,Peter Vehar,R,,GER,,123107,,Q,Thomas Sprinckstub,R,,GER,20.9,7-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,713,12,,
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,19,106586,,WC,Arne Kloodt,R,,GER,,106529,,WC,Andreas Kriebel,R,,GER,,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,690,13,765,9
@@ -3779,13 +3779,13 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,21,102171,5,,Reinhard Wawra,R,,AUT,20.2,102234,,,Oliver Gross,R,185,GER,19.9,6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,372,60,561,25
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,22,102465,3,,Gabriel Silberstein,R,178,CHI,18.6,102122,,Q,Falk Fraikin,R,,GER,20.6,6-7 7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,290,97,704,12
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,23,108585,,,Americo Venero Montes,U,175,PER,21.2,106493,,,Alexander Windisch,R,,GER,25.1,6-3 4-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,,,522,29
-1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,24,108686,2,,Alejandro Aramburu Acuna,R,,PER,24.2,106884,,WC,Dirk Hortian,R,,GER,,6-2 7-5,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,24,101574,2,,Alejandro Aramburu,R,175,PER,24.2,106884,,WC,Dirk Hortian,R,,GER,,6-2 7-5,3,R16,,,,,,,,,,,,,,,,,,,,324,78,,
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,25,101672,1,,Michael Geserer,R,190,GER,23.4,107996,,WC,Peter Vehar,R,,GER,,6-2 RET,3,QF,,,,,,,,,,,,,,,,,,,,261,114,713,12
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,26,107775,,Q,Michael Kocher,R,,GER,,106586,,WC,Arne Kloodt,R,,GER,,7-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,762,10,690,13
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,27,102171,5,,Reinhard Wawra,R,,AUT,20.2,102465,3,,Gabriel Silberstein,R,178,CHI,18.6,7-5 6-1,3,QF,,,,,,,,,,,,,,,,,,,,372,60,290,97
-1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,28,108686,2,,Alejandro Aramburu Acuna,R,,PER,24.2,108585,,,Americo Venero Montes,U,175,PER,21.2,4-6 6-1 7-5,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,28,101574,2,,Alejandro Aramburu,R,175,PER,24.2,108585,,,Americo Venero Montes,U,175,PER,21.2,4-6 6-1 7-5,3,QF,,,,,,,,,,,,,,,,,,,,324,78,,
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,29,101672,1,,Michael Geserer,R,190,GER,23.4,107775,,Q,Michael Kocher,R,,GER,,6-2 6-0,3,SF,,,,,,,,,,,,,,,,,,,,261,114,762,10
-1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,30,102171,5,,Reinhard Wawra,R,,AUT,20.2,108686,2,,Alejandro Aramburu Acuna,R,,PER,24.2,6-4 3-6 6-2,3,SF,,,,,,,,,,,,,,,,,,,,372,60,,
+1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,30,102171,5,,Reinhard Wawra,R,,AUT,20.2,101574,2,,Alejandro Aramburu,R,175,PER,24.2,6-4 3-6 6-2,3,SF,,,,,,,,,,,,,,,,,,,,372,60,324,78
 1993-M-SA-GER-02A-1993d,Germany 2 Masters 4,Clay,32,S,19930529,31,102171,5,,Reinhard Wawra,R,,AUT,20.2,101672,1,,Michael Geserer,R,190,GER,23.4,6-4 7-6,3,F,,,,,,,,,,,,,,,,,,,,372,60,261,114
 1993-M-SA-TUR-01A-1993a,Turkey 1 Masters 1,Clay,32,S,19930529,1,102090,1,,Ofer Sela,R,188,ISR,20.8,109035,,Q,Yalin Bilgin,R,,TUR,15.0,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,410,50,,
 1993-M-SA-TUR-01A-1993a,Turkey 1 Masters 1,Clay,32,S,19930529,2,101831,,,Mustafa Azkara,R,,TUR,22.4,117935,,,Gokhan Donmez,U,,TUR,16.6,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1134,1,,
@@ -4138,7 +4138,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,1,123503,,,Tommy Phanco,U,,USA,23.7,101571,,,Michael Leonard,R,,USA,24.3,6-2 7-5,3,R64,,,,,,,,,,,,,,,,,,,,,,979,4
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,2,101317,,,John Sullivan,R,188,USA,26.4,102137,,,Andrew Rueb,R,,USA,20.5,6-3 6-4,3,R64,,,,,,,,,,,,,,,,,,,,582,24,,
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,3,111392,,,Bradley Sceney,U,,AUS,19.3,102075,,,Michael Flanagan,R,,USA,20.9,6-4 6-3,3,R64,,,,,,,,,,,,,,,,,,,,,,891,5
-1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,4,102059,,,Robert Devens,R,,USA,21.0,107787,,,Michael Zoricich,R,,NZL,,6-4 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,917,5
+1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,4,102059,,,Robert Devens,R,,USA,21.0,107787,,,Michael Zoricich,R,,NZL,21.2,6-4 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,917,5
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,5,101654,,,Michael Shyjan,R,,USA,23.6,107634,,,Marc Rothchild,R,,USA,,4-6 6-2 7-5,3,R64,,,,,,,,,,,,,,,,,,,,672,16,917,5
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,6,101830,,,Derek Brown,R,,USA,22.4,101980,,,Howard Joffe,R,,RSA,21.6,6-1 1-0 RET,3,R64,,,,,,,,,,,,,,,,,,,,1153,1,472,38
 1993-M-SA-USA-03A-1993a,USA 3 Masters 1,Hard,48,S,19930611,7,102057,,,Devin Bowen,R,183,USA,21.0,102108,,,Ari Nathan,R,185,USA,20.7,1-6 6-3 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,,
@@ -4202,7 +4202,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,18,101980,,Q,Howard Joffe,R,,RSA,21.6,102649,,,Marcin Rozpedski,R,,POL,17.7,6-0 6-2,3,R64,,,,,,,,,,,,,,,,,,,,472,38,1153,1
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,19,102137,,Q,Andrew Rueb,R,,USA,20.5,123457,,,Lance Cowart,U,,USA,23.0,6-4 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,20,102005,11,,Johan De Beer,R,190,RSA,21.4,102038,,,Ernesto Ponce,R,,MEX,21.1,6-3 6-1,3,R64,,,,,,,,,,,,,,,,,,,,515,32,795,8
-1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,21,102417,13,,Steven Baldas,R,180,AUS,18.9,107787,,,Michael Zoricich,R,,NZL,,7-5 6-1,3,R64,,,,,,,,,,,,,,,,,,,,587,24,917,5
+1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,21,102417,13,,Steven Baldas,R,180,AUS,18.9,107787,,,Michael Zoricich,R,,NZL,21.2,7-5 6-1,3,R64,,,,,,,,,,,,,,,,,,,,587,24,917,5
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,22,102277,,,Bing Chao Lin,R,180,TPE,19.6,101654,,,Michael Shyjan,R,,USA,23.6,2-6 7-6 7-6,3,R64,,,,,,,,,,,,,,,,,,,,282,105,672,16
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,23,102422,,Q,Michael Hill,R,188,AUS,18.9,111392,,,Bradley Sceney,U,,AUS,19.3,7-5 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-USA-03A-1993b,USA 3 Masters 2,Hard,64,S,19930611,24,108554,4,,Yaser Zaatini,R,,VEN,22.9,118079,,,Charl Bornman,U,,RSA,21.3,6-3 6-1,3,R64,,,,,,,,,,,,,,,,,,,,,,,
@@ -4261,7 +4261,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,14,102075,,,Michael Flanagan,R,,USA,20.9,101571,,,Michael Leonard,R,,USA,24.3,4-6 6-1 6-4,3,R64,,,,,,,,,,,,,,,,,,,,891,5,979,4
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,15,102410,,Q,David Caldwell,R,180,USA,18.9,101690,,Q,Juan Carlos Bianchi,R,,VEN,23.3,7-6 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,16,101905,,Q,Andy Stewart,R,,USA,22.0,101980,6,,Howard Joffe,R,,RSA,21.6,5-7 7-6 RET,3,R64,,,,,,,,,,,,,,,,,,,,,,472,38
-1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,17,107787,,,Michael Zoricich,R,,NZL,,101550,5,,Al Parker,R,188,USA,24.4,7-6 6-4,3,R64,,,,,,,,,,,,,,,,,,,,917,5,456,42
+1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,17,107787,,,Michael Zoricich,R,,NZL,21.2,101550,5,,Al Parker,R,188,USA,24.4,7-6 6-4,3,R64,,,,,,,,,,,,,,,,,,,,917,5,456,42
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,18,123457,,WC,Lance Cowart,U,,USA,23.0,102208,,,Rob Givone,R,,USA,20.1,7-6 3-6 6-3,3,R64,,,,,,,,,,,,,,,,,,,,,,1000,3
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,19,102278,,Q,Chad Clark,R,,USA,19.6,101755,,,Derek Farren,R,183,IRL,23.0,6-1 6-2,3,R64,,,,,,,,,,,,,,,,,,,,,,1110,2
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,20,111556,11,,Marcus Nacke,R,,GER,19.4,102180,,Q,Charles Auffray,R,183,FRA,20.2,6-4 7-5,3,R64,,,,,,,,,,,,,,,,,,,,,,,
@@ -4285,7 +4285,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,38,101904,,,Chris Haggard,L,178,RSA,22.1,101317,14,,John Sullivan,R,188,USA,26.4,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,947,4,582,24
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,39,102075,,,Michael Flanagan,R,,USA,20.9,101537,12,,Chris Munnerlyn,R,,USA,24.5,4-6 6-2 7-6,3,R32,,,,,,,,,,,,,,,,,,,,891,5,570,25
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,40,102410,,Q,David Caldwell,R,180,USA,18.9,101905,,Q,Andy Stewart,R,,USA,22.0,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,41,123457,,WC,Lance Cowart,U,,USA,23.0,107787,,,Michael Zoricich,R,,NZL,,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,917,5
+1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,41,123457,,WC,Lance Cowart,U,,USA,23.0,107787,,,Michael Zoricich,R,,NZL,21.2,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,917,5
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,42,102278,,Q,Chad Clark,R,,USA,19.6,111556,11,,Marcus Nacke,R,,GER,19.4,6-0 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,43,102417,13,,Steven Baldas,R,180,AUS,18.9,102401,,,Scott Draper,L,178,AUS,19.0,6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,587,24,819,8
 1993-M-SA-USA-03A-1993c,USA 3 Masters 3,Hard,64,S,19930611,44,106714,,,Chadwick Jones,R,,USA,,101830,,Q,Derek Brown,R,,USA,22.4,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,937,5,1153,1
@@ -4316,7 +4316,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,6,102162,,WC,Chris Woodruff,R,188,USA,20.4,108347,,,Takashi Murakami,R,,JPN,27.3,6-2 7-5,3,R64,,,,,,,,,,,,,,,,,,,,,,817,8
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,7,102410,,WC,David Caldwell,R,180,USA,18.9,101818,,,Matt Semler,R,,USA,22.6,6-4 6-2,3,R64,,,,,,,,,,,,,,,,,,,,,,795,8
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,8,101737,8,LL,Ty Tucker,R,,USA,23.0,106707,,,Cary Lothringer,R,,USA,21.4,6-1 6-4,3,R64,,,,,,,,,,,,,,,,,,,,475,38,1134,1
-1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,9,102463,3,,Lucas Arnold Ker,R,180,ARG,18.6,107787,,,Michael Zoricich,R,,NZL,,6-4 6-2,3,R64,,,,,,,,,,,,,,,,,,,,345,69,917,5
+1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,9,102463,3,,Lucas Arnold Ker,R,180,ARG,18.6,107787,,,Michael Zoricich,R,,NZL,21.2,6-4 6-2,3,R64,,,,,,,,,,,,,,,,,,,,345,69,917,5
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,10,119601,,Q,Gregory Anderson,U,,RSA,,102649,,Q,Marcin Rozpedski,R,,POL,17.7,6-2 7-5,3,R64,,,,,,,,,,,,,,,,,,,,,,1153,1
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,11,102372,,Q,Sule Ladipo,R,180,NGR,19.1,102430,,,Adam Peterson,R,185,USA,18.8,3-6 6-1 6-1,3,R64,,,,,,,,,,,,,,,,,,,,,,1134,1
 1993-M-SA-USA-03A-1993d,USA 3 Masters 4,Hard,64,S,19930611,12,101317,14,,John Sullivan,R,188,USA,26.4,122863,,WC,Grzegorz Zgola,U,,POL,20.0,6-4 7-6,3,R64,,,,,,,,,,,,,,,,,,,,582,24,,
@@ -5196,7 +5196,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,17,101712,,Q,Andrew Batie,R,185,NZL,23.3,101550,6,,Al Parker,R,188,USA,24.5,2-6 7-6 6-1,3,R64,,,,,,,,,,,,,,,,,,,,,,556,27
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,18,106726,,Q,Chris Cocotos,R,,USA,21.2,102529,,,Thomas Shimada,R,178,JPN,18.3,2-6 7-5 6-0,3,R64,,,,,,,,,,,,,,,,,,,,,,1094,2
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,19,102275,,Q,Chris Tontz,R,,USA,19.6,124965,,Q,Brett Stern,U,,USA,20.6,6-4 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,20,107772,11,,Michael Hegarty,R,,AUS,,107787,,,Michael Zoricich,R,,NZL,,4-6 6-1 6-0,3,R64,,,,,,,,,,,,,,,,,,,,646,17,913,5
+1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,20,107772,11,,Michael Hegarty,R,,AUS,,107787,,,Michael Zoricich,R,,NZL,21.3,4-6 6-1 6-0,3,R64,,,,,,,,,,,,,,,,,,,,646,17,913,5
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,21,101145,14,,Jonathan Canter,R,185,USA,28.0,102422,,LL,Michael Hill,R,188,AUS,19.0,6-3 6-3,3,R64,,,,,,,,,,,,,,,,,,,,735,11,,
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,22,101702,,LL,Michael De Jongh,R,,RSA,23.3,123420,,Q,Greg Winchester,U,,USA,24.1,3-6 7-5 6-4,3,R64,,,,,,,,,,,,,,,,,,,,1120,1,,
 1993-M-SA-USA-04A-1993c,USA 4 Masters 3,Hard,64,S,19930709,23,107054,,,Gakuji Okada,R,,JPN,,102401,,,Scott Draper,L,178,AUS,19.0,6-3 6-2,3,R64,,,,,,,,,,,,,,,,,,,,974,4,821,8
@@ -5243,7 +5243,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,1,102524,1,,Neville Godwin,R,173,RSA,18.4,101941,,,Hiroki Ishii,R,,JPN,21.9,6-2 4-6 6-0,3,R64,,,,,,,,,,,,,,,,,,,,339,72,989,3
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,2,102372,,,Sule Ladipo,R,180,NGR,19.2,102121,,,Holger Losch,R,,RSA,20.7,6-2 6-4,3,R64,,,,,,,,,,,,,,,,,,,,,,1059,2
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,3,102108,,Q,Ari Nathan,R,185,USA,20.8,102057,,,Devin Bowen,R,183,USA,21.1,6-2 6-3,3,R64,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,4,106847,15,,David Lomicky,R,,USA,,107787,,,Michael Zoricich,R,,NZL,,6-2 6-2,3,R64,,,,,,,,,,,,,,,,,,,,739,11,913,5
+1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,4,106847,15,,David Lomicky,R,,USA,,107787,,,Michael Zoricich,R,,NZL,21.3,6-2 6-2,3,R64,,,,,,,,,,,,,,,,,,,,739,11,913,5
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,5,102209,10,,Jamie Holmes,R,,AUS,20.1,101931,,,Marcus Hilpert,R,,GER,22.0,6-4 6-7 7-5,3,R64,,,,,,,,,,,,,,,,,,,,564,26,1059,2
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,6,107054,,,Gakuji Okada,R,,JPN,,124971,,Q,Jason Rayman,U,,USA,21.7,5-7 6-4 6-4,3,R64,,,,,,,,,,,,,,,,,,,,974,4,,
 1993-M-SA-USA-04A-1993d,USA 4 Masters 4,Hard,64,S,19930709,7,122862,,Q,Michael Hopkinson,U,,USA,20.6,101872,,,Mark Tjia,R,,USA,22.3,2-6 6-2 7-5,3,R64,,,,,,,,,,,,,,,,,,,,,,974,4
@@ -5339,7 +5339,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,11,101822,,,Luis Lobo,R,180,ARG,22.6,102645,,,Pier Squillari,R,,ARG,17.8,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,554,28,441,45
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,12,102463,6,,Lucas Arnold Ker,R,180,ARG,18.7,102768,,Q,Federico Browne,R,180,ARG,17.2,6-2 2-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,342,69,,
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,13,102168,8,,Hector Moretti,R,170,ARG,20.4,106958,,Q,Ernesto Bottiroli,R,,ARG,,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,459,42,886,6
-1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,14,111486,,Q,Leonardo Olguin,U,,ARG,17.7,101838,,,Pablo Minutella,R,,ARG,22.5,1-6 6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,688,15
+1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,14,102693,,Q,Leonardo Olguin,R,,ARG,17.6,101838,,,Pablo Minutella,R,,ARG,22.5,1-6 6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,784,9,688,15
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,15,102585,,WC,Sebastian Prieto,R,180,ARG,18.1,101863,,SE,Roberto Alvarez,R,,ARG,22.3,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,745,11,703,14
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,16,102024,2,,Hernan Gumy,R,188,ARG,21.3,101388,,Q,Gerardo Mirad,R,180,ARG,25.8,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,246,131,764,10
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,17,101867,1,,Pablo Escribano,R,,ARG,22.3,107585,,WC,Lucio Pontoni,R,,ARG,20.4,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,222,152,,
@@ -5348,7 +5348,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,20,102224,3,,Miguel Pastura,R,,ARG,20.1,102413,,,Andy Zingman,R,183,ARG,19.0,6-4 7-5,3,R16,,,,,,,,,,,,,,,,,,,,375,57,594,24
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,21,107090,,,Geronimo Degreef,R,,ARG,,108182,,,Ruben Alvarenga,R,,PAR,20.8,5-7 6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,1012,3,505,34
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,22,102463,6,,Lucas Arnold Ker,R,180,ARG,18.7,101822,,,Luis Lobo,R,180,ARG,22.6,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,342,69,554,28
-1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,23,102168,8,,Hector Moretti,R,170,ARG,20.4,111486,,Q,Leonardo Olguin,U,,ARG,17.7,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,459,42,,
+1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,23,102168,8,,Hector Moretti,R,170,ARG,20.4,102693,,Q,Leonardo Olguin,R,,ARG,17.6,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,459,42,784,9
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,24,102024,2,,Hernan Gumy,R,188,ARG,21.3,102585,,WC,Sebastian Prieto,R,180,ARG,18.1,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,246,131,745,11
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,25,101867,1,,Pablo Escribano,R,,ARG,22.3,107197,,Q,Hernan Colombo Russel,R,,ARG,,4-6 6-4 6-2,3,QF,,,,,,,,,,,,,,,,,,,,222,152,,
 1993-M-SA-ARG-02A-1993b,Argentina 2 Masters 2,Clay,32,S,19930717,26,102224,3,,Miguel Pastura,R,,ARG,20.1,102111,5,,Diego Del Rio,R,175,ARG,20.8,6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,375,57,343,69
@@ -5423,7 +5423,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,2,102064,,,Ernesto Diaz,R,,CHI,21.1,102245,,Q,Egberto Caldas,R,,BRA,19.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,713,13,791,9
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,3,122930,,WC,Carlos Soto,U,,COL,25.5,110847,,,Luis Arturo Gonzalez,U,,COL,28.7,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,4,102248,8,,Carlos Tarantino,R,,ARG,19.9,102839,,,Nicolas Lapentti,R,188,ECU,16.9,6-2 7-6,3,R32,,,,,,,,,,,,,,,,,,,,438,46,,
-1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,5,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102262,,SE,Cristiano Testa,L,,BRA,19.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,784,9
+1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,5,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102262,,SE,Cristiano Testa,L,,BRA,19.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,300,89,784,9
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,6,107930,,,Patricio Delgado,R,,CHI,,102392,,Q,Paulo Escalona,R,,CHI,19.1,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,660,17,1012,3
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,7,111623,,Q,Juan Robinson Gamonal,U,,CHI,18.2,122931,,WC,Teylez Perez,U,,COL,16.4,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,8,108585,6,,Americo Venero Montes,U,175,PER,21.3,102364,,,Hiram Silfa,R,,DOM,19.3,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,800,8
@@ -5437,19 +5437,19 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,16,102655,2,,Jimy Szymanski,R,175,VEN,17.8,102528,,WC,Carlos Drada,L,,COL,18.4,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,1012,3
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,17,101167,1,,Jaime Cortes,R,,COL,27.9,102064,,,Ernesto Diaz,R,,CHI,21.1,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,277,106,713,13
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,18,102248,8,,Carlos Tarantino,R,,ARG,19.9,122930,,WC,Carlos Soto,U,,COL,25.5,6-3 2-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,438,46,,
-1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,19,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,107930,,,Patricio Delgado,R,,CHI,,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,660,17
+1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,19,101574,4,,Alejandro Aramburu,R,175,PER,24.4,107930,,,Patricio Delgado,R,,CHI,,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,300,89,660,17
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,20,108585,6,,Americo Venero Montes,U,175,PER,21.3,111623,,Q,Juan Robinson Gamonal,U,,CHI,18.2,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,21,102348,,,Hideki Kaneko,R,,JPN,19.3,102297,,Q,Sebastian Weisz,R,,GER,19.5,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,291,95,771,10
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,22,101495,3,,Miguel Tobon,R,185,COL,25.0,102174,,Q,Francisco Ruiz,R,,CHI,20.3,6-0 7-6,3,R16,,,,,,,,,,,,,,,,,,,,257,122,616,21
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,23,102553,,,Juan Carlos Silva,R,,VEN,18.3,102211,7,,Marcelo Rebelo,R,,BRA,20.1,1-6 7-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,1147,1
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,24,102655,2,,Jimy Szymanski,R,175,VEN,17.8,101972,,,Gerardo Parino,R,,ARG,21.7,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,539,29
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,25,101167,1,,Jaime Cortes,R,,COL,27.9,102248,8,,Carlos Tarantino,R,,ARG,19.9,3-6 7-5 6-2,3,QF,,,,,,,,,,,,,,,,,,,,277,106,438,46
-1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,26,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,108585,6,,Americo Venero Montes,U,175,PER,21.3,6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,26,101574,4,,Alejandro Aramburu,R,175,PER,24.4,108585,6,,Americo Venero Montes,U,175,PER,21.3,6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,27,101495,3,,Miguel Tobon,R,185,COL,25.0,102348,,,Hideki Kaneko,R,,JPN,19.3,4-6 6-2 7-6,3,QF,,,,,,,,,,,,,,,,,,,,257,122,291,95
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,28,102553,,,Juan Carlos Silva,R,,VEN,18.3,102655,2,,Jimy Szymanski,R,175,VEN,17.8,3-6 6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,29,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,101167,1,,Jaime Cortes,R,,COL,27.9,7-5 1-6 6-4,3,SF,,,,,,,,,,,,,,,,,,,,,,277,106
+1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,29,101574,4,,Alejandro Aramburu,R,175,PER,24.4,101167,1,,Jaime Cortes,R,,COL,27.9,7-5 1-6 6-4,3,SF,,,,,,,,,,,,,,,,,,,,300,89,277,106
 1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,30,101495,3,,Miguel Tobon,R,185,COL,25.0,102553,,,Juan Carlos Silva,R,,VEN,18.3,6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,257,122,,
-1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,31,101495,3,,Miguel Tobon,R,185,COL,25.0,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,6-4 6-4,3,F,,,,,,,,,,,,,,,,,,,,257,122,,
+1993-M-SA-COL-01A-1993a,Colombia Masters 1,Clay,32,S,19930717,31,101495,3,,Miguel Tobon,R,185,COL,25.0,101574,4,,Alejandro Aramburu,R,175,PER,24.4,6-4 6-4,3,F,,,,,,,,,,,,,,,,,,,,257,122,300,89
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,1,102211,,,Marcelo Rebelo,R,,BRA,20.1,102392,,,Paulo Escalona,R,,CHI,19.1,6-2 2-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1147,1,1012,3
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,2,107153,,,Gustavo Loaiza,R,,COL,,110847,,,Luis Arturo Gonzalez,U,,COL,28.7,6-2 5-7 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1006,4,,
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,3,102174,,,Francisco Ruiz,R,,CHI,20.3,122930,,,Carlos Soto,U,,COL,25.5,7-6 3-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,616,21,,
@@ -5460,19 +5460,19 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,8,102348,,,Hideki Kaneko,R,,JPN,19.3,101972,,,Gerardo Parino,R,,ARG,21.7,5-7 7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,291,95,539,29
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,9,101167,1,,Jaime Cortes,R,,COL,27.9,102211,,,Marcelo Rebelo,R,,BRA,20.1,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,277,106,1147,1
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,10,122700,8,,Ulises Cerda Pecarevic,U,,CHI,20.4,107153,,,Gustavo Loaiza,R,,COL,,7-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,,,1006,4
-1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,11,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102174,,,Francisco Ruiz,R,,CHI,20.3,6-2 4-6 6-6 RET,3,R16,,,,,,,,,,,,,,,,,,,,,,616,21
+1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,11,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102174,,,Francisco Ruiz,R,,CHI,20.3,6-2 4-6 6-6 RET,3,R16,,,,,,,,,,,,,,,,,,,,300,89,616,21
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,12,108585,5,,Americo Venero Montes,U,175,PER,21.3,102064,,,Ernesto Diaz,R,,CHI,21.1,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,713,13
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,13,102297,,,Sebastian Weisz,R,,GER,19.5,102553,6,,Juan Carlos Silva,R,,VEN,18.3,2-6 6-4 7-5,3,R16,,,,,,,,,,,,,,,,,,,,771,10,,
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,14,106821,,,Dante Magnoni,R,,VEN,20.6,102655,3,,Jimy Szymanski,R,175,VEN,17.8,1-6 7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,701,14,,
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,15,102839,,,Nicolas Lapentti,R,188,ECU,16.9,102248,7,,Carlos Tarantino,R,,ARG,19.9,6-3 7-6,3,R16,,,,,,,,,,,,,,,,,,,,,,438,46
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,16,101495,2,,Miguel Tobon,R,185,COL,25.0,102348,,,Hideki Kaneko,R,,JPN,19.3,7-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,257,122,291,95
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,17,101167,1,,Jaime Cortes,R,,COL,27.9,122700,8,,Ulises Cerda Pecarevic,U,,CHI,20.4,6-4 2-6 6-2,3,QF,,,,,,,,,,,,,,,,,,,,277,106,,
-1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,18,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,108585,5,,Americo Venero Montes,U,175,PER,21.3,6-7 6-1 6-3,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,18,101574,4,,Alejandro Aramburu,R,175,PER,24.4,108585,5,,Americo Venero Montes,U,175,PER,21.3,6-7 6-1 6-3,3,QF,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,19,106821,,,Dante Magnoni,R,,VEN,20.6,102297,,,Sebastian Weisz,R,,GER,19.5,6-4 6-4,3,QF,,,,,,,,,,,,,,,,,,,,701,14,771,10
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,20,102839,,,Nicolas Lapentti,R,188,ECU,16.9,101495,2,,Miguel Tobon,R,185,COL,25.0,7-6 2-6 7-6,3,QF,,,,,,,,,,,,,,,,,,,,,,257,122
-1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,21,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,101167,1,,Jaime Cortes,R,,COL,27.9,6-3 6-1,3,SF,,,,,,,,,,,,,,,,,,,,,,277,106
+1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,21,101574,4,,Alejandro Aramburu,R,175,PER,24.4,101167,1,,Jaime Cortes,R,,COL,27.9,6-3 6-1,3,SF,,,,,,,,,,,,,,,,,,,,300,89,277,106
 1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,22,102839,,,Nicolas Lapentti,R,188,ECU,16.9,106821,,,Dante Magnoni,R,,VEN,20.6,6-1 5-7 7-6,3,SF,,,,,,,,,,,,,,,,,,,,,,701,14
-1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,23,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102839,,,Nicolas Lapentti,R,188,ECU,16.9,6-3 7-5,3,F,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993b,Colombia Masters 2,Clay,24,S,19930717,23,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102839,,,Nicolas Lapentti,R,188,ECU,16.9,6-3 7-5,3,F,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,1,101495,1,,Miguel Tobon,R,185,COL,25.0,107114,,LL,Gonzalo Prida,R,,CHI,,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,257,122,953,4
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,2,102211,,Q,Marcelo Rebelo,R,,BRA,20.1,111623,,Q,Juan Robinson Gamonal,U,,CHI,18.2,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1147,1,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,3,102553,,Q,Juan Carlos Silva,R,,VEN,18.3,107930,,,Patricio Delgado,R,,CHI,,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,660,17
@@ -5484,7 +5484,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,9,102248,6,,Carlos Tarantino,R,,ARG,19.9,102528,,WC,Carlos Drada,L,,COL,18.4,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,438,46,1012,3
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,10,101562,,,Scott Sigerseth,R,,USA,24.4,102392,,Q,Paulo Escalona,R,,CHI,19.1,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,947,5,1012,3
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,11,110847,,Q,Luis Arturo Gonzalez,U,,COL,28.7,122931,,WC,Teylez Perez,U,,COL,16.4,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,12,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102266,,,Paulino Alonso,R,,CHI,19.7,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,759,11
+1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,12,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102266,,,Paulino Alonso,R,,CHI,19.7,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,300,89,759,11
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,13,102174,8,,Francisco Ruiz,R,,CHI,20.3,102262,,,Cristiano Testa,L,,BRA,19.8,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,616,21,784,9
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,14,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,107153,,WC,Gustavo Loaiza,R,,COL,,6-0 1-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,1006,4
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,15,102364,,,Hiram Silfa,R,,DOM,19.3,123563,,Q,Brian Dick,U,,USA,24.9,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,800,8,1147,1
@@ -5494,21 +5494,21 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,19,102655,,SE,Jimy Szymanski,R,175,VEN,17.8,102348,3,,Hideki Kaneko,R,,JPN,19.3,6-0 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,291,95
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,20,106821,,,Dante Magnoni,R,,VEN,20.6,122700,,,Ulises Cerda Pecarevic,U,,CHI,20.4,3-6 6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,701,14,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,21,102248,6,,Carlos Tarantino,R,,ARG,19.9,101562,,,Scott Sigerseth,R,,USA,24.4,7-5 7-5,3,R16,,,,,,,,,,,,,,,,,,,,438,46,947,5
-1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,22,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,110847,,Q,Luis Arturo Gonzalez,U,,COL,28.7,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,22,101574,4,,Alejandro Aramburu,R,175,PER,24.4,110847,,Q,Luis Arturo Gonzalez,U,,COL,28.7,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,23,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,102174,8,,Francisco Ruiz,R,,CHI,20.3,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,616,21
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,24,101167,2,,Jaime Cortes,R,,COL,27.9,102364,,,Hiram Silfa,R,,DOM,19.3,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,277,106,800,8
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,25,101495,1,,Miguel Tobon,R,185,COL,25.0,102553,,Q,Juan Carlos Silva,R,,VEN,18.3,7-6 6-2,3,QF,,,,,,,,,,,,,,,,,,,,257,122,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,26,102655,,SE,Jimy Szymanski,R,175,VEN,17.8,106821,,,Dante Magnoni,R,,VEN,20.6,3-6 6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,,,701,14
-1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,27,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102248,6,,Carlos Tarantino,R,,ARG,19.9,6-2 1-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,,,438,46
+1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,27,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102248,6,,Carlos Tarantino,R,,ARG,19.9,6-2 1-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,300,89,438,46
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,28,101167,2,,Jaime Cortes,R,,COL,27.9,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,7-6 6-4,3,QF,,,,,,,,,,,,,,,,,,,,277,106,,
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,29,101495,1,,Miguel Tobon,R,185,COL,25.0,102655,,SE,Jimy Szymanski,R,175,VEN,17.8,6-1 6-7 6-0,3,SF,,,,,,,,,,,,,,,,,,,,257,122,,
-1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,30,101167,2,,Jaime Cortes,R,,COL,27.9,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,3-6 6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,277,106,,
+1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,30,101167,2,,Jaime Cortes,R,,COL,27.9,101574,4,,Alejandro Aramburu,R,175,PER,24.4,3-6 6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,277,106,300,89
 1993-M-SA-COL-01A-1993c,Colombia Masters 3,Clay,32,S,19930717,31,101495,1,,Miguel Tobon,R,185,COL,25.0,101167,2,,Jaime Cortes,R,,COL,27.9,6-1 1-6 7-5,3,F,,,,,,,,,,,,,,,,,,,,257,122,277,106
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,1,101495,1,,Miguel Tobon,R,185,COL,25.0,107416,,,Jorge Martinez Alonso,R,,ESP,,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,257,122,813,8
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,2,122700,,,Ulises Cerda Pecarevic,U,,CHI,20.4,102245,,,Egberto Caldas,R,,BRA,19.9,6-7 7-6 3-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,791,9
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,3,102297,,,Sebastian Weisz,R,,GER,19.5,102266,,,Paulino Alonso,R,,CHI,19.7,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,771,10,759,11
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,4,107930,,,Patricio Delgado,R,,CHI,,101972,7,,Gerardo Parino,R,,ARG,21.7,2-6 6-4 4-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,660,17,539,29
-1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,5,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102424,,Q,Masahide Sakamoto,R,,JPN,19.0,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,5,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102424,,Q,Masahide Sakamoto,R,,JPN,19.0,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,6,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,110847,,Q,Luis Arturo Gonzalez,U,,COL,28.7,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,7,102655,,Q,Jimy Szymanski,R,175,VEN,17.8,122930,,Q,Carlos Soto,U,,COL,25.5,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,8,102248,6,,Carlos Tarantino,R,,ARG,19.9,101562,,Q,Scott Sigerseth,R,,USA,24.4,6-2 0-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,438,46,947,5
@@ -5522,14 +5522,14 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,16,101167,2,,Jaime Cortes,R,,COL,27.9,122931,,WC,Teylez Perez,U,,COL,16.4,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,277,106,,
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,17,122700,,,Ulises Cerda Pecarevic,U,,CHI,20.4,101495,1,,Miguel Tobon,R,185,COL,25.0,7-5 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,257,122
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,18,107930,,,Patricio Delgado,R,,CHI,,102297,,,Sebastian Weisz,R,,GER,19.5,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,660,17,771,10
-1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,19,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,3-6 6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,19,101574,4,,Alejandro Aramburu,R,175,PER,24.4,102839,,WC,Nicolas Lapentti,R,188,ECU,16.9,3-6 6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,300,89,,
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,20,102655,,Q,Jimy Szymanski,R,175,VEN,17.8,102248,6,,Carlos Tarantino,R,,ARG,19.9,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,,,438,46
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,21,108585,5,,Americo Venero Montes,U,175,PER,21.3,106821,,,Dante Magnoni,R,,VEN,20.6,3-6 6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,701,14
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,22,102211,,Q,Marcelo Rebelo,R,,BRA,20.1,102348,3,,Hideki Kaneko,R,,JPN,19.3,6-2 4-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,1147,1,291,95
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,23,102064,,,Ernesto Diaz,R,,CHI,21.1,107153,,WC,Gustavo Loaiza,R,,COL,,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,713,13,1006,4
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,24,101167,2,,Jaime Cortes,R,,COL,27.9,102364,,,Hiram Silfa,R,,DOM,19.3,4-0 RET,3,R16,,,,,,,,,,,,,,,,,,,,277,106,800,8
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,25,122700,,,Ulises Cerda Pecarevic,U,,CHI,20.4,107930,,,Patricio Delgado,R,,CHI,,1-6 6-1 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,660,17
-1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,26,102655,,Q,Jimy Szymanski,R,175,VEN,17.8,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.4,2-6 6-4 7-6,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,26,102655,,Q,Jimy Szymanski,R,175,VEN,17.8,101574,4,,Alejandro Aramburu,R,175,PER,24.4,2-6 6-4 7-6,3,QF,,,,,,,,,,,,,,,,,,,,,,300,89
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,27,108585,5,,Americo Venero Montes,U,175,PER,21.3,102211,,Q,Marcelo Rebelo,R,,BRA,20.1,3-6 6-4 6-1,3,QF,,,,,,,,,,,,,,,,,,,,,,1147,1
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,28,101167,2,,Jaime Cortes,R,,COL,27.9,102064,,,Ernesto Diaz,R,,CHI,21.1,6-4 6-2,3,QF,,,,,,,,,,,,,,,,,,,,277,106,713,13
 1993-M-SA-COL-01A-1993d,Colombia Masters 4,Clay,32,S,19930717,29,102655,,Q,Jimy Szymanski,R,175,VEN,17.8,122700,,,Ulises Cerda Pecarevic,U,,CHI,20.4,7-6 5-1 RET,3,SF,,,,,,,,,,,,,,,,,,,,,,,
@@ -6347,7 +6347,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ESP-06A-1993d,Spain 6 Masters 4,Clay,32,S,19930813,29,101842,7,,Jose Alejos,R,,ESP,22.5,102287,6,,Albert Portas,R,188,ESP,19.7,0-6 6-3 6-2,3,SF,,,,,,,,,,,,,,,,,,,,403,52,386,56
 1993-M-SA-ESP-06A-1993d,Spain 6 Masters 4,Clay,32,S,19930813,30,117527,,,Oscar Martinez Dieguez,R,,ESP,19.4,102153,,,German Puentes,R,173,ESP,20.6,4-6 7-5 6-3,3,SF,,,,,,,,,,,,,,,,,,,,,,483,38
 1993-M-SA-ESP-06A-1993d,Spain 6 Masters 4,Clay,32,S,19930813,31,117527,,,Oscar Martinez Dieguez,R,,ESP,19.4,101842,7,,Jose Alejos,R,,ESP,22.5,7-6 0-6 6-4,3,F,,,,,,,,,,,,,,,,,,,,,,403,52
-1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,1,111486,,,Leonardo Olguin,U,,ARG,17.8,102024,1,,Hernan Gumy,R,188,ARG,21.4,7-6 4-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,299,92
+1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,1,102693,,,Leonardo Olguin,R,,ARG,17.6,102024,1,,Hernan Gumy,R,188,ARG,21.4,7-6 4-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,796,9,299,92
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,2,103011,,,Gustavo Cavallaro,R,,ARG,16.1,102195,,WC,Walter Grinovero,R,,ARG,20.3,7-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,1134,2
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,3,102251,,,Mariano Hood,L,178,ARG,19.9,103095,,WC,Patricio Rudi,R,,ARG,15.6,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,410,50,,
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,4,107197,,Q,Hernan Colombo Russel,R,,ARG,,102463,8,,Lucas Arnold Ker,R,180,ARG,18.8,6-0 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,339,69
@@ -6363,7 +6363,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,14,102644,,WC,Franco Squillari,L,183,ARG,17.9,103151,,WC,Mariano Zabaleta,R,183,ARG,15.4,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,663,18,,
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,15,107589,,,Luis Andreotti,R,,ARG,,101838,,Q,Pablo Minutella,R,,ARG,22.5,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,744,12,705,15
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,16,102168,2,,Hector Moretti,R,170,ARG,20.5,122695,,Q,Gustavo Jorge Re,U,,ARG,20.4,6-1 3-6 7-6,3,R32,,,,,,,,,,,,,,,,,,,,432,47,,
-1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,17,103011,,,Gustavo Cavallaro,R,,ARG,16.1,111486,,,Leonardo Olguin,U,,ARG,17.8,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,17,103011,,,Gustavo Cavallaro,R,,ARG,16.1,102693,,,Leonardo Olguin,R,,ARG,17.6,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,,,796,9
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,18,107197,,Q,Hernan Colombo Russel,R,,ARG,,102251,,,Mariano Hood,L,178,ARG,19.9,6-2 3-6 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,410,50
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,19,101822,3,,Luis Lobo,R,180,ARG,22.7,102611,,,Rafael Serpa Guinazu,R,,ARG,18.1,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,654,19,846,7
 1993-M-SA-ARG-03A-1993a,Argentina 3 Masters 1,Clay,32,S,19930814,20,102856,6,,Gustavo Kuerten,R,190,BRA,16.9,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.1,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,862,7,590,25
@@ -6383,7 +6383,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,3,102111,,,Diego Del Rio,R,175,ARG,20.9,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.1,6-1 7-6,3,R32,,,,,,,,,,,,,,,,,,,,337,70,590,25
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,4,101867,,,Pablo Escribano,R,,ARG,22.4,102251,,,Mariano Hood,L,178,ARG,19.9,2-6 6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,251,126,410,50
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,5,102611,,,Rafael Serpa Guinazu,R,,ARG,18.1,122695,,,Gustavo Jorge Re,U,,ARG,20.4,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,846,7,,
-1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,6,101863,,,Roberto Alvarez,R,,ARG,22.4,111486,,,Leonardo Olguin,U,,ARG,17.8,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,718,14,,
+1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,6,101863,,,Roberto Alvarez,R,,ARG,22.4,102693,,,Leonardo Olguin,R,,ARG,17.6,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,718,14,796,9
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,7,101972,,,Gerardo Parino,R,,ARG,21.8,103151,,,Mariano Zabaleta,R,183,ARG,15.4,6-4 6-7 7-5,3,R32,,,,,,,,,,,,,,,,,,,,553,29,,
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,8,103011,,,Gustavo Cavallaro,R,,ARG,16.1,122701,,,Matias Silvano,U,,ARG,19.3,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-ARG-03A-1993b,Argentina 3 Masters 2,Clay,24,S,19930814,9,102644,,,Franco Squillari,L,183,ARG,17.9,102024,1,,Hernan Gumy,R,188,ARG,21.4,6-4 4-2 RET,3,R16,,,,,,,,,,,,,,,,,,,,663,18,299,92
@@ -6408,7 +6408,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,5,102111,3,,Diego Del Rio,R,175,ARG,20.9,122701,,WC,Matias Silvano,U,,ARG,19.3,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,337,70,,
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,6,101388,,Q,Gerardo Mirad,R,180,ARG,25.9,107147,,Q,Guillermo Minutella,R,,ARG,,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,774,10,,
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,7,102585,,,Sebastian Prieto,R,180,ARG,18.2,107585,,Q,Lucio Pontoni,R,,ARG,20.5,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,755,11,,
-1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,8,102251,6,,Mariano Hood,L,178,ARG,19.9,111486,,Q,Leonardo Olguin,U,,ARG,17.8,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,410,50,,
+1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,8,102251,6,,Mariano Hood,L,178,ARG,19.9,102693,,Q,Leonardo Olguin,R,,ARG,17.6,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,410,50,796,9
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,9,101967,,,Sebastian Pacheco,R,,ARG,21.8,102224,5,,Miguel Pastura,R,,ARG,20.2,3-6 6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,538,30,340,69
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,10,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.1,108225,,,Sebastian Allende,R,,ARG,,7-5 4-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,590,25,593,24
 1993-M-SA-ARG-03A-1993c,Argentina 3 Masters 3,Clay,32,S,19930814,11,101822,,,Luis Lobo,R,180,ARG,22.7,101838,,,Pablo Minutella,R,,ARG,22.5,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,654,19,705,15
@@ -6442,7 +6442,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,8,102224,5,,Miguel Pastura,R,,ARG,20.2,108225,,,Sebastian Allende,R,,ARG,,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,340,69,593,24
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,9,102251,6,,Mariano Hood,L,178,ARG,19.9,101388,,Q,Gerardo Mirad,R,180,ARG,25.9,7-6 6-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,410,50,774,10
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,10,101822,,,Luis Lobo,R,180,ARG,22.7,101838,,,Pablo Minutella,R,,ARG,22.5,6-7 6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,654,19,705,15
-1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,11,111486,,Q,Leonardo Olguin,U,,ARG,17.8,107090,,,Geronimo Degreef,R,,ARG,,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,693,16
+1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,11,102693,,Q,Leonardo Olguin,R,,ARG,17.6,107090,,,Geronimo Degreef,R,,ARG,,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,796,9,693,16
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,12,102463,4,,Lucas Arnold Ker,R,180,ARG,18.8,108182,,,Ruben Alvarenga,R,,PAR,20.9,6-4 4-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,339,69,489,38
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,13,102168,7,,Hector Moretti,R,170,ARG,20.5,101972,,,Gerardo Parino,R,,ARG,21.8,7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,432,47,553,29
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,14,122695,,,Gustavo Jorge Re,U,,ARG,20.4,101967,,Q,Sebastian Pacheco,R,,ARG,21.8,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,538,30
@@ -6453,7 +6453,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,19,102111,3,,Diego Del Rio,R,175,ARG,20.9,103151,,WC,Mariano Zabaleta,R,183,ARG,15.4,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,337,70,,
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,20,102224,5,,Miguel Pastura,R,,ARG,20.2,122701,,Q,Matias Silvano,U,,ARG,19.3,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,340,69,,
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,21,101822,,,Luis Lobo,R,180,ARG,22.7,102251,6,,Mariano Hood,L,178,ARG,19.9,6-4 5-7 6-0,3,R16,,,,,,,,,,,,,,,,,,,,654,19,410,50
-1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,22,102463,4,,Lucas Arnold Ker,R,180,ARG,18.8,111486,,Q,Leonardo Olguin,U,,ARG,17.8,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,339,69,,
+1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,22,102463,4,,Lucas Arnold Ker,R,180,ARG,18.8,102693,,Q,Leonardo Olguin,R,,ARG,17.6,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,339,69,796,9
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,23,102168,7,,Hector Moretti,R,170,ARG,20.5,122695,,,Gustavo Jorge Re,U,,ARG,20.4,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,432,47,,
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,24,102024,2,,Hernan Gumy,R,188,ARG,21.4,102611,,Q,Rafael Serpa Guinazu,R,,ARG,18.1,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,299,92,846,7
 1993-M-SA-ARG-03A-1993d,Argentina 3 Masters 4,Clay,32,S,19930814,25,102856,,Q,Gustavo Kuerten,R,190,BRA,16.9,103011,,WC,Gustavo Cavallaro,R,,ARG,16.1,2-6 6-4 6-0,3,QF,,,,,,,,,,,,,,,,,,,,862,7,,
@@ -6528,7 +6528,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,9,108585,5,,Americo Venero Montes,U,175,PER,21.4,102413,,,Andy Zingman,R,183,ARG,19.1,6-2 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,652,20
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,10,102266,,Q,Paulino Alonso,R,,CHI,19.8,102528,,WC,Carlos Drada,L,,COL,18.5,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,841,8,1054,3
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,11,107236,,,Ismael Hernandez,R,,MEX,,102372,,,Sule Ladipo,R,180,NGR,19.3,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,684,17,810,9
-1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,12,102364,,,Hiram Silfa,R,,DOM,19.4,108686,3,,Alejandro Aramburu Acuna,R,,PER,24.5,7-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,788,10,,
+1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,12,102364,,,Hiram Silfa,R,,DOM,19.4,101574,3,,Alejandro Aramburu,R,175,PER,24.5,7-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,788,10,264,116
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,13,102839,,,Nicolas Lapentti,R,188,ECU,17.0,122700,8,,Ulises Cerda Pecarevic,U,,CHI,20.4,2-6 7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,14,102211,,Q,Marcelo Rebelo,R,,BRA,20.2,101690,,SE,Juan Carlos Bianchi,R,,VEN,23.5,6-2 3-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,810,9,896,6
 1993-M-SA-PER-01A-1993c,Ecuador Peru Masters 3,Clay,32,S,19930815,15,120168,,Q,Alejandro Lacruz,U,,MEX,17.5,102314,,Q,Rodrigo Navarro,R,,BOL,19.5,0-6 7-5 7-6,3,R32,,,,,,,,,,,,,,,,,,,,1180,1,1054,3
@@ -6559,7 +6559,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,9,108585,5,,Americo Venero Montes,U,175,PER,21.4,102528,,WC,Carlos Drada,L,,COL,18.5,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,1054,3
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,10,102192,,,Luis Adrian Morejon,R,178,ECU,20.3,107930,,,Patricio Delgado,R,,CHI,,7-6 3-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,759,12,635,21
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,11,101978,,Q,Marcelo Rebolledo,R,,CHI,21.8,108634,,LL,Rodrigo Vallejo,U,,DOM,19.4,6-1 3-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,841,8,1180,1
-1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,12,102372,,Q,Sule Ladipo,R,180,NGR,19.3,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.5,7-6 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,810,9,,
+1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,12,102372,,Q,Sule Ladipo,R,180,NGR,19.3,101574,4,,Alejandro Aramburu,R,175,PER,24.5,7-6 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,810,9,264,116
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,13,102413,8,,Andy Zingman,R,183,ARG,19.1,101825,,LL,Manuel Tejada,R,,ESA,22.7,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,652,20,894,7
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,14,102839,,WC,Nicolas Lapentti,R,188,ECU,17.0,108502,,WC,Wayne Boich,R,,USA,18.2,4-6 6-3 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,1180,1
 1993-M-SA-PER-01A-1993d,Ecuador Peru Masters 4,Clay,32,S,19930815,15,107416,,Q,Jorge Martinez Alonso,R,,ESP,,101690,,Q,Juan Carlos Bianchi,R,,VEN,23.5,6-3 6-0,3,R32,,,,,,,,,,,,,,,,,,,,841,8,896,6
@@ -7749,7 +7749,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,4,108088,,,Richard Nicholls,R,,AUS,,108443,,,Toshitsugu Mori,R,,JPN,23.7,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,914,6,791,11
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,5,106873,,,Di Lin,R,,CHN,25.6,123128,,,Teddy Tandjung,U,,INA,20.5,2-6 7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,894,6,,
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,6,101933,,,Ricardo Rubio,R,,ESP,22.2,101605,,,Jiu Hua Zhang,R,,CHN,24.3,6-1 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1110,3,860,7
-1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,7,101872,,,Mark Tjia,R,,USA,22.5,122797,,,Luciano Dandrea,U,,BRA,25.1,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,1178,1,,
+1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,7,101872,,,Mark Tjia,R,,USA,22.5,107584,,,Luciano Dandrea,R,,BRA,,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,1178,1,,
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,8,102365,,,Donny Susetyo,R,170,INA,19.4,106450,,,Aga Soemarno,R,,INA,,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,972,5,997,4
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,9,102277,1,,Bing Chao Lin,R,180,TPE,19.8,102232,,,Allan Larsen,R,,DEN,20.2,6-3 4-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,346,73,940,5
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,10,102039,,,Gaurav Natekar,R,,IND,21.4,101671,8,,Dede Suhendar Dinata,R,,INA,23.7,6-7 6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,704,16,,
@@ -7768,7 +7768,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-INA-01A-1993a,Indonesia Masters 1,Hard,24,S,19930925,23,102277,1,,Bing Chao Lin,R,180,TPE,19.8,101444,4,,Bonit Wiryawan,R,173,INA,25.6,7-6 6-2,3,F,,,,,,,,,,,,,,,,,,,,346,73,861,7
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,1,101975,1,,Martin Zumpft,R,180,GER,21.9,102365,,,Donny Susetyo,R,170,INA,19.4,7-6 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,643,21,972,5
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,2,123127,,WC,Eko Yuli Suyono,U,,INA,20.1,123129,,WC,Freddy Setiawan,U,,INA,20.5,6-3 3-6 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,1178,1
-1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,3,122797,,SE,Luciano Dandrea,U,,BRA,25.1,106450,,,Aga Soemarno,R,,INA,,1-6 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,997,4
+1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,3,107584,,SE,Luciano Dandrea,R,,BRA,,106450,,,Aga Soemarno,R,,INA,,1-6 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,997,4
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,4,102710,,,Andreas Strauchmann,R,,GER,17.6,122747,7,,Thomas G Andersen,U,,DEN,21.5,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,940,5,,
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,5,101892,4,,Axel Finnberg,R,,GER,22.4,123133,,Q,Bambang Budi Santoso,U,,INA,19.7,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,375,62,,
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,6,102843,,,Suwandi Suwandi,R,178,INA,17.0,102232,,,Allan Larsen,R,,DEN,20.2,6-0 4-6 7-6,3,R32,,,,,,,,,,,,,,,,,,,,989,5,940,5
@@ -7783,7 +7783,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,15,111589,,WC,Champy Halim,U,,INA,18.3,102543,,Q,Chia Yen Tsai,R,,TPE,18.5,2-6 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1123,2
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,16,102277,2,,Bing Chao Lin,R,180,TPE,19.8,101884,,SE,Frank Ofori,R,,GHA,22.5,2-6 7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,346,73,843,8
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,17,101975,1,,Martin Zumpft,R,180,GER,21.9,123127,,WC,Eko Yuli Suyono,U,,INA,20.1,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,643,21,,
-1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,18,102710,,,Andreas Strauchmann,R,,GER,17.6,122797,,SE,Luciano Dandrea,U,,BRA,25.1,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,940,5,,
+1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,18,102710,,,Andreas Strauchmann,R,,GER,17.6,107584,,SE,Luciano Dandrea,R,,BRA,,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,940,5,,
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,19,101892,4,,Axel Finnberg,R,,GER,22.4,102843,,,Suwandi Suwandi,R,178,INA,17.0,6-4 1-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,375,62,989,5
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,20,101933,,Q,Ricardo Rubio,R,,ESP,22.2,106873,,,Di Lin,R,,CHN,25.6,6-0 7-5,3,R16,,,,,,,,,,,,,,,,,,,,1110,3,894,6
 1993-M-SA-INA-01A-1993b,Indonesia Masters 2,Hard,32,S,19930925,21,102427,6,,Eddy Bank,R,,NED,19.1,108181,,Q,Rozzell Lightfoot,R,,USA,,7-6 3-6 6-0,3,R16,,,,,,,,,,,,,,,,,,,,659,20,,
@@ -9288,7 +9288,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,8,102327,6,,Adam Skrzypczak,R,,POL,19.7,106858,,Q,Dean Cohen,R,,USA,,6-2 2-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,685,19,595,27
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,9,122747,5,,Thomas G Andersen,U,,DEN,21.6,102833,,,Almos Toth,R,,HUN,17.2,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,10,102012,,Q,Martijn Belgraver,R,,NED,21.7,102525,,Q,James Baily,R,,GBR,18.7,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,885,7
-1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,11,122797,,SE,Luciano Dandrea,U,,BRA,25.2,102685,,,Sebastien Graeff,R,,MON,17.9,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,11,107584,,SE,Luciano Dandrea,R,,BRA,,102685,,,Sebastien Graeff,R,,MON,17.9,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1170,1,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,12,102883,,Q,Tom Spinks,R,,GBR,16.9,102097,3,,Naratorn Srichaphan,R,,THA,21.2,3-6 6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,13,102550,8,,James Fox,R,,GBR,18.6,111370,,WC,Sarawuth Yongchantanasukul,U,,THA,17.8,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1051,3,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,14,101786,,,Yonathan Rom,R,,RSA,23.2,102232,,Q,Allan Larsen,R,,DEN,20.3,6-7 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,993,4,799,10
@@ -9299,7 +9299,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,19,102126,,Q,Matthias Boelsen,R,,GER,21.0,108479,,,Vinod Ramachandran,R,,IND,20.0,6-3 6-0,3,R16,,,,,,,,,,,,,,,,,,,,1110,2,720,16
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,20,102327,6,,Adam Skrzypczak,R,,POL,19.7,101907,,Q,Mark Booras,R,,USA,22.4,3-6 6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,685,19,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,21,102012,,Q,Martijn Belgraver,R,,NED,21.7,122747,5,,Thomas G Andersen,U,,DEN,21.6,2-6 7-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
-1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,22,102883,,Q,Tom Spinks,R,,GBR,16.9,122797,,SE,Luciano Dandrea,U,,BRA,25.2,6-1 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,22,102883,,Q,Tom Spinks,R,,GBR,16.9,107584,,SE,Luciano Dandrea,R,,BRA,,6-1 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,1170,1
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,23,102550,8,,James Fox,R,,GBR,18.6,101786,,,Yonathan Rom,R,,RSA,23.2,6-3 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1051,3,993,4
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,24,101669,,Q,Gary Henderson,R,,GBR,23.8,102580,2,,Gonzalo Corrales,R,,ESP,18.4,4-6 6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1170,1,,
 1993-M-SA-BAN-01A-1993b,Thailand Bangladesh Masters 2,Hard,32,S,19931030,25,102443,,,Barry Cowan,L,188,GBR,19.1,101884,1,,Frank Ofori,R,,GHA,22.6,4-6 6-3 6-2,3,QF,,,,,,,,,,,,,,,,,,,,795,11,851,8
@@ -9618,7 +9618,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,13,102644,6,,Franco Squillari,L,183,ARG,18.1,107665,,,Marcos Leite,R,,BRA,,6-3 4-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,386,62,943,5
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,14,101675,3,,Martin Rodriguez,R,178,ARG,23.8,102297,,,Sebastian Weisz,R,,GER,19.8,6-0 6-1,3,R16,,,,,,,,,,,,,,,,,,,,423,53,703,18
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,15,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.3,101979,8,,Ricardo Mena,R,,PAR,22.0,6-2 7-6,3,R16,,,,,,,,,,,,,,,,,,,,507,39,437,50
-1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,16,108182,,,Ruben Alvarenga,R,,PAR,21.1,108686,2,,Alejandro Aramburu Acuna,R,,PER,24.7,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,601,27,,
+1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,16,108182,,,Ruben Alvarenga,R,,PAR,21.1,101574,2,,Alejandro Aramburu,R,175,PER,24.7,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,601,27,257,125
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,17,101822,,,Luis Lobo,R,180,ARG,22.9,102216,,,Mark Joachim,R,,GER,20.4,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,427,53,497,40
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,18,101427,5,,Ruben Gajardo,R,,CHI,25.8,102168,4,,Hector Moretti,R,170,ARG,20.7,6-2 6-2,3,QF,,,,,,,,,,,,,,,,,,,,510,38,301,90
 1993-M-SA-PAR-01A-1993a,Uruguay Paraguay Masters 1,Clay,24,S,19931106,19,101675,3,,Martin Rodriguez,R,178,ARG,23.8,102644,6,,Franco Squillari,L,183,ARG,18.1,6-4 6-0,3,QF,,,,,,,,,,,,,,,,,,,,423,53,386,62
@@ -9637,7 +9637,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,9,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,102413,,,Andy Zingman,R,183,ARG,19.3,6-4 6-7 6-2,3,R32,,,,,,,,,,,,,,,,,,,,355,69,569,30
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,10,107116,,Q,Goran Mihajlovic,R,,YUG,22.4,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.3,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,474,43,507,39
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,11,101972,,,Gerardo Parino,R,,ARG,22.0,101076,,Q,Cesar Kist,R,180,BRA,29.0,6-2 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,529,35,1032,4
-1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,12,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.7,108182,,,Ruben Alvarenga,R,,PAR,21.1,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,601,27
+1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,12,101574,4,,Alejandro Aramburu,R,175,PER,24.7,108182,,,Ruben Alvarenga,R,,PAR,21.1,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,257,125,601,27
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,13,101979,7,,Ricardo Mena,R,,PAR,22.0,101976,,WC,Federico Dondo,R,,URU,22.0,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,437,50,,
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,14,101427,,,Ruben Gajardo,R,,CHI,25.8,103011,,,Gustavo Cavallaro,R,,ARG,16.3,4-6 6-3 6-0,3,R32,,,,,,,,,,,,,,,,,,,,510,38,693,18
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,15,102216,,,Mark Joachim,R,,GER,20.4,101838,,Q,Pablo Minutella,R,,ARG,22.8,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,497,40,646,22
@@ -9647,17 +9647,17 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,19,101691,3,,Florian Krumrey,R,190,GER,23.7,102297,,,Sebastian Weisz,R,,GER,19.8,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,668,21,703,18
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,20,102192,,,Luis Adrian Morejon,R,178,ECU,20.5,102740,,WC,Francisco Rodriguez,R,,PAR,17.6,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,732,15,,
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,21,107116,,Q,Goran Mihajlovic,R,,YUG,22.4,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,6-4 2-6 1-0 RET,3,R16,,,,,,,,,,,,,,,,,,,,474,43,355,69
-1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,22,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.7,101972,,,Gerardo Parino,R,,ARG,22.0,2-6 7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,529,35
+1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,22,101574,4,,Alejandro Aramburu,R,175,PER,24.7,101972,,,Gerardo Parino,R,,ARG,22.0,2-6 7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,257,125,529,35
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,23,101427,,,Ruben Gajardo,R,,CHI,25.8,101979,7,,Ricardo Mena,R,,PAR,22.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,510,38,437,50
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,24,102216,,,Mark Joachim,R,,GER,20.4,102168,2,,Hector Moretti,R,170,ARG,20.7,6-3 6-7 6-0,3,R16,,,,,,,,,,,,,,,,,,,,497,40,301,90
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,25,102644,8,,Franco Squillari,L,183,ARG,18.1,101822,,,Luis Lobo,R,180,ARG,22.9,7-6 6-2,3,QF,,,,,,,,,,,,,,,,,,,,386,62,427,53
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,26,101691,3,,Florian Krumrey,R,190,GER,23.7,102192,,,Luis Adrian Morejon,R,178,ECU,20.5,6-2 6-2,3,QF,,,,,,,,,,,,,,,,,,,,668,21,732,15
-1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,27,107116,,Q,Goran Mihajlovic,R,,YUG,22.4,108686,4,,Alejandro Aramburu Acuna,R,,PER,24.7,6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,474,43,,
+1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,27,107116,,Q,Goran Mihajlovic,R,,YUG,22.4,101574,4,,Alejandro Aramburu,R,175,PER,24.7,6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,474,43,257,125
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,28,101427,,,Ruben Gajardo,R,,CHI,25.8,102216,,,Mark Joachim,R,,GER,20.4,6-3 0-6 6-3,3,QF,,,,,,,,,,,,,,,,,,,,510,38,497,40
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,29,101691,3,,Florian Krumrey,R,190,GER,23.7,102644,8,,Franco Squillari,L,183,ARG,18.1,7-6 6-1,3,SF,,,,,,,,,,,,,,,,,,,,668,21,386,62
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,30,101427,,,Ruben Gajardo,R,,CHI,25.8,107116,,Q,Goran Mihajlovic,R,,YUG,22.4,6-2 6-4,3,SF,,,,,,,,,,,,,,,,,,,,510,38,474,43
 1993-M-SA-PAR-01A-1993b,Uruguay Paraguay Masters 2,Clay,32,S,19931106,31,101691,3,,Florian Krumrey,R,190,GER,23.7,101427,,,Ruben Gajardo,R,,CHI,25.8,7-6 7-5,3,F,,,,,,,,,,,,,,,,,,,,668,21,510,38
-1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,1,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,101922,,Q,Marcello Wowk,R,,ARG,22.3,6-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,1052,3
+1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,1,101574,1,,Alejandro Aramburu,R,175,PER,24.7,101922,,Q,Marcello Wowk,R,,ARG,22.3,6-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,257,125,1052,3
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,2,101972,,,Gerardo Parino,R,,ARG,22.0,122810,,Q,Rainer Marzenell,R,,GER,26.0,6-7 7-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,529,35,,
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,3,101822,,,Luis Lobo,R,180,ARG,22.9,107665,,Q,Marcos Leite,R,,BRA,,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,427,53,943,5
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,4,101675,,,Martin Rodriguez,R,178,ARG,23.8,101388,7,,Gerardo Mirad,R,180,ARG,26.1,6-7 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,423,53,428,52
@@ -9673,7 +9673,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,14,102413,,,Andy Zingman,R,183,ARG,19.3,103205,,WC,Emilio Daniel Baez Britez,R,,PAR,15.4,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,569,30,,
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,15,103011,,Q,Gustavo Cavallaro,R,,ARG,16.3,102740,,WC,Francisco Rodriguez,R,,PAR,17.6,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,693,18,,
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,16,102251,2,,Mariano Hood,L,178,ARG,20.2,101976,,WC,Federico Dondo,R,,URU,22.0,6-4 6-7 6-2,3,R32,,,,,,,,,,,,,,,,,,,,292,95,,
-1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,17,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,101972,,,Gerardo Parino,R,,ARG,22.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,529,35
+1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,17,101574,1,,Alejandro Aramburu,R,175,PER,24.7,101972,,,Gerardo Parino,R,,ARG,22.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,257,125,529,35
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,18,101822,,,Luis Lobo,R,180,ARG,22.9,101675,,,Martin Rodriguez,R,178,ARG,23.8,2-6 6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,427,53,423,53
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,19,101938,4,,Bernardo Mota,R,178,POR,22.3,102611,,Q,Rafael Serpa Guinazu,R,,ARG,18.3,6-3 7-5,3,R16,,,,,,,,,,,,,,,,,,,,319,81,726,15
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,20,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.3,5-7 7-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,355,69,507,39
@@ -9681,14 +9681,14 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,22,102168,3,,Hector Moretti,R,170,ARG,20.7,102297,,Q,Sebastian Weisz,R,,GER,19.8,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,301,90,703,18
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,23,102413,,,Andy Zingman,R,183,ARG,19.3,102222,,Q,Gonzalo Rodriguez,R,,URU,20.4,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,569,30,,
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,24,102251,2,,Mariano Hood,L,178,ARG,20.2,103011,,Q,Gustavo Cavallaro,R,,ARG,16.3,4-6 6-3 7-6,3,R16,,,,,,,,,,,,,,,,,,,,292,95,693,18
-1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,25,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,101822,,,Luis Lobo,R,180,ARG,22.9,4-6 6-3 4-0 RET,3,QF,,,,,,,,,,,,,,,,,,,,,,427,53
+1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,25,101574,1,,Alejandro Aramburu,R,175,PER,24.7,101822,,,Luis Lobo,R,180,ARG,22.9,4-6 6-3 4-0 RET,3,QF,,,,,,,,,,,,,,,,,,,,257,125,427,53
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,26,101938,4,,Bernardo Mota,R,178,POR,22.3,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,6-4 7-5,3,QF,,,,,,,,,,,,,,,,,,,,319,81,355,69
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,27,102168,3,,Hector Moretti,R,170,ARG,20.7,101691,,SE,Florian Krumrey,R,190,GER,23.7,1-6 7-6 5-2 RET,3,QF,,,,,,,,,,,,,,,,,,,,301,90,668,21
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,28,102413,,,Andy Zingman,R,183,ARG,19.3,102251,2,,Mariano Hood,L,178,ARG,20.2,7-5 2-2 RET,3,QF,,,,,,,,,,,,,,,,,,,,569,30,292,95
-1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,29,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,101938,4,,Bernardo Mota,R,178,POR,22.3,7-6 7-6,3,SF,,,,,,,,,,,,,,,,,,,,,,319,81
+1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,29,101574,1,,Alejandro Aramburu,R,175,PER,24.7,101938,4,,Bernardo Mota,R,178,POR,22.3,7-6 7-6,3,SF,,,,,,,,,,,,,,,,,,,,257,125,319,81
 1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,30,102168,3,,Hector Moretti,R,170,ARG,20.7,102413,,,Andy Zingman,R,183,ARG,19.3,3-6 6-4 6-1,3,SF,,,,,,,,,,,,,,,,,,,,301,90,569,30
-1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,31,102168,3,,Hector Moretti,R,170,ARG,20.7,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,6-4 3-6 6-4,3,F,,,,,,,,,,,,,,,,,,,,301,90,,
-1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,1,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,102505,,Q,Ernane Melo,R,,BRA,18.8,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,1168,1
+1993-M-SA-PAR-01A-1993c,Uruguay Paraguay Masters 3,Clay,32,S,19931106,31,102168,3,,Hector Moretti,R,170,ARG,20.7,101574,1,,Alejandro Aramburu,R,175,PER,24.7,6-4 3-6 6-4,3,F,,,,,,,,,,,,,,,,,,,,301,90,257,125
+1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,1,101574,1,,Alejandro Aramburu,R,175,PER,24.7,102505,,Q,Ernane Melo,R,,BRA,18.8,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,257,125,1168,1
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,2,103011,,Q,Gustavo Cavallaro,R,,ARG,16.3,102585,,Q,Sebastian Prieto,R,180,ARG,18.4,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,693,18,754,13
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,3,101979,,,Ricardo Mena,R,,PAR,22.0,103205,,WC,Emilio Daniel Baez Britez,R,,PAR,15.4,6-0 6-2,3,R32,,,,,,,,,,,,,,,,,,,,437,50,,
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,4,101967,7,,Sebastian Pacheco,R,,ARG,22.1,106958,,Q,Ernesto Bottiroli,R,,ARG,,3-6 6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,401,57,1110,2
@@ -9704,7 +9704,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,14,101691,,Q,Florian Krumrey,R,190,GER,23.7,107090,,,Geronimo Degreef,R,,ARG,,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,668,21,634,23
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,15,102192,,Q,Luis Adrian Morejon,R,178,ECU,20.5,101863,,LL,Roberto Alvarez,R,,ARG,22.6,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,732,15,677,20
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,16,102216,,,Mark Joachim,R,,GER,20.4,102251,2,,Mariano Hood,L,178,ARG,20.2,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,497,40,292,95
-1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,17,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,103011,,Q,Gustavo Cavallaro,R,,ARG,16.3,7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,,,693,18
+1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,17,101574,1,,Alejandro Aramburu,R,175,PER,24.7,103011,,Q,Gustavo Cavallaro,R,,ARG,16.3,7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,257,125,693,18
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,18,101979,,,Ricardo Mena,R,,PAR,22.0,101967,7,,Sebastian Pacheco,R,,ARG,22.1,7-5 6-7 7-5,3,R16,,,,,,,,,,,,,,,,,,,,437,50,401,57
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,19,101675,,,Martin Rodriguez,R,178,ARG,23.8,107665,,Q,Marcos Leite,R,,BRA,,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,423,53,943,5
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,20,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,108182,,,Ruben Alvarenga,R,,PAR,21.1,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,355,69,601,27
@@ -9712,7 +9712,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,22,101427,,,Ruben Gajardo,R,,CHI,25.8,101976,,WC,Federico Dondo,R,,URU,22.0,7-6 3-2 RET,3,R16,,,,,,,,,,,,,,,,,,,,510,38,,
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,23,101691,,Q,Florian Krumrey,R,190,GER,23.7,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.3,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,668,21,507,39
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,24,102216,,,Mark Joachim,R,,GER,20.4,102192,,Q,Luis Adrian Morejon,R,178,ECU,20.5,6-4 7-5,3,R16,,,,,,,,,,,,,,,,,,,,497,40,732,15
-1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,25,101979,,,Ricardo Mena,R,,PAR,22.0,108686,1,,Alejandro Aramburu Acuna,R,,PER,24.7,4-6 6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,437,50,,
+1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,25,101979,,,Ricardo Mena,R,,PAR,22.0,101574,1,,Alejandro Aramburu,R,175,PER,24.7,4-6 6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,437,50,257,125
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,26,101675,,,Martin Rodriguez,R,178,ARG,23.8,102243,5,,Marcelo Charpentier,L,180,ARG,20.3,6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,423,53,355,69
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,27,102644,6,,Franco Squillari,L,183,ARG,18.1,101427,,,Ruben Gajardo,R,,CHI,25.8,2-6 6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,386,62,510,38
 1993-M-SA-PAR-01A-1993d,Uruguay Paraguay Masters 4,Clay,32,S,19931106,28,101691,,Q,Florian Krumrey,R,190,GER,23.7,102216,,,Mark Joachim,R,,GER,20.4,6-4 4-6 6-2,3,QF,,,,,,,,,,,,,,,,,,,,668,21,497,40

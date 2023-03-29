@@ -265,7 +265,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,1,103873,,,Antonio Baldellou Esteva,U,,ESP,20.1,103430,,,Ezequiel Velez,R,,ESP,22.3,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,595,28,633,24
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,2,104273,,,Edouard Roger Vasselin,R,188,FRA,18.1,103944,,,Gabriel Frias,U,,ESP,19.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1384,1,775,13
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,3,102910,,,Salvador Navarro,R,180,ESP,24.9,104745,,,Rafael Nadal,L,185,ESP,15.5,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,252,140,810,11
-2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,4,103844,,,Igor Fejzula,U,,SRB,20.3,103863,,,Mikhail Elgin,R,183,RUS,20.2,7-5 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1141,4,,
+2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,4,103844,,,Igor Fejzula,U,,SRB,20.3,103863,,,Mikhail Elgin,R,183,RUS,20.2,7-5 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1141,4,317,101
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,5,103578,,,Antonio Alcaraz,U,,ESP,21.5,103118,,,Ion Moldovan,R,188,ROU,23.9,4-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,685,19,509,42
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,6,104181,,,Victor Ionita,R,185,ROU,18.6,103156,,,Alessandro Da Col,R,,ITA,23.8,6-0 6-3,3,R32,,,,,,,,,,,,,,,,,,,,663,21,522,39
 2002-M-SA-ESP-01A-2002a,Spain 1 1,Clay,24,S,20020107,7,103912,,,Mario Radic,R,188,CRO,19.9,103941,,,Sergei Pozdnev,R,,RUS,19.8,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,306,106,520,40
@@ -295,7 +295,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,8,103695,5,,Marc Marco Ripoll,R,,ESP,20.9,103924,,,Marc Fornell Mestres,R,,ESP,19.9,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,560,34,473,50
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,9,103430,8,,Ezequiel Velez,R,,ESP,22.3,103922,,WC,Marcos Conde Jackson,R,,ESP,19.9,6-3 5-7 6-4,3,R32,,,,,,,,,,,,,,,,,,,,633,24,,
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,10,104745,,WC,Rafael Nadal,L,185,ESP,15.5,103156,,,Alessandro Da Col,R,,ITA,23.8,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,810,11,522,39
-2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,11,104225,,,Jan Hajek,R,180,CZE,18.4,103863,,,Mikhail Elgin,R,183,RUS,20.2,7-6(1) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,407,67,,
+2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,11,104225,,,Jan Hajek,R,180,CZE,18.4,103863,,,Mikhail Elgin,R,183,RUS,20.2,7-6(1) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,407,67,317,101
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,12,110478,,,Ferran Ventura Martell,R,,ESP,23.6,103577,3,,Christopher Kas,R,188,GER,21.5,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,432,61
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,13,103399,6,,Carlos Rexach Itoiz,U,,ESP,22.5,103944,,,Gabriel Frias,U,,ESP,19.8,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,440,58,775,13
 2002-M-SA-ESP-01A-2002b,Spain 1 2,Clay,32,S,20020107,14,103578,,,Antonio Alcaraz,U,,ESP,21.5,103611,,Q,Giancarlo Petrazzuolo,R,,ITA,21.4,7-6(4) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,685,19,729,16
@@ -331,7 +331,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,13,103138,5,,Gianluca Luddi,R,,ITA,23.9,103677,,,Andreas Fasching,U,,AUT,21.0,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,367,80,433,61
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,14,103242,,,Juan Giner,R,178,ESP,23.4,103924,,,Marc Fornell Mestres,R,,ESP,19.9,6-7(5) 6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,496,44,473,50
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,15,103476,,LL,Israel Vior Diaz,R,,ESP,22.1,103922,,Q,Marcos Conde Jackson,R,,ESP,19.9,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1078,5,,
-2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,16,103863,2,,Mikhail Elgin,R,183,RUS,20.2,103944,,WC,Gabriel Frias,U,,ESP,19.8,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,775,13
+2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,16,103863,2,,Mikhail Elgin,R,183,RUS,20.2,103944,,WC,Gabriel Frias,U,,ESP,19.8,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,317,101,775,13
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,17,103912,1,Q,Mario Radic,R,188,CRO,19.9,103578,,Q,Antonio Alcaraz,U,,ESP,21.5,1-6 7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,306,106,685,19
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,18,103808,6,,Potito Starace,R,188,ITA,20.4,103156,,,Alessandro Da Col,R,,ITA,23.8,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,391,74,522,39
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,19,103448,3,,Gabriel Trujillo Soler,R,,ESP,22.2,103430,,Q,Ezequiel Velez,R,,ESP,22.3,6-1 3-1 RET,3,R16,,,,,,,,,,,,,,,,,,,,347,87,633,24
@@ -339,11 +339,11 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,21,103577,8,,Christopher Kas,R,188,GER,21.5,103844,,WC,Igor Fejzula,U,,SRB,20.3,6-4 3-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,432,61,1141,4
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,22,103695,,,Marc Marco Ripoll,R,,ESP,20.9,102646,4,,Dimitri Lorin,R,,FRA,26.3,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,560,34,355,84
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,23,103242,,,Juan Giner,R,178,ESP,23.4,103138,5,,Gianluca Luddi,R,,ITA,23.9,6-7(1) 7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,496,44,367,80
-2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,24,103863,2,,Mikhail Elgin,R,183,RUS,20.2,103476,,LL,Israel Vior Diaz,R,,ESP,22.1,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,1078,5
+2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,24,103863,2,,Mikhail Elgin,R,183,RUS,20.2,103476,,LL,Israel Vior Diaz,R,,ESP,22.1,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,317,101,1078,5
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,25,103808,6,,Potito Starace,R,188,ITA,20.4,103912,1,Q,Mario Radic,R,188,CRO,19.9,3-6 6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,391,74,306,106
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,26,103399,,,Carlos Rexach Itoiz,U,,ESP,22.5,103448,3,,Gabriel Trujillo Soler,R,,ESP,22.2,7-6(3) 6-3,3,QF,,,,,,,,,,,,,,,,,,,,440,58,347,87
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,27,103577,8,,Christopher Kas,R,188,GER,21.5,103695,,,Marc Marco Ripoll,R,,ESP,20.9,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,432,61,560,34
-2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,28,103242,,,Juan Giner,R,178,ESP,23.4,103863,2,,Mikhail Elgin,R,183,RUS,20.2,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,496,44,,
+2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,28,103242,,,Juan Giner,R,178,ESP,23.4,103863,2,,Mikhail Elgin,R,183,RUS,20.2,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,496,44,317,101
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,29,103808,6,,Potito Starace,R,188,ITA,20.4,103399,,,Carlos Rexach Itoiz,U,,ESP,22.5,6-4 7-6(4),3,SF,,,,,,,,,,,,,,,,,,,,391,74,440,58
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,30,103242,,,Juan Giner,R,178,ESP,23.4,103577,8,,Christopher Kas,R,188,GER,21.5,4-6 7-5 RET,3,SF,,,,,,,,,,,,,,,,,,,,496,44,432,61
 2002-M-SA-ESP-01A-2002c,Spain 1 3,Clay,32,S,20020107,31,103808,6,,Potito Starace,R,188,ITA,20.4,103242,,,Juan Giner,R,178,ESP,23.4,7-6(2) 6-2,3,F,,,,,,,,,,,,,,,,,,,,391,74,496,44
@@ -362,7 +362,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,13,103138,5,,Gianluca Luddi,R,,ITA,23.9,103156,,,Alessandro Da Col,R,,ITA,23.8,3-6 7-6(4) 6-1,3,R32,,,,,,,,,,,,,,,,,,,,367,80,522,39
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,14,110478,,Q,Ferran Ventura Martell,R,,ESP,23.6,125117,,WC,Bartolome Artigues Riera,U,,ESP,16.9,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,15,103941,,,Sergei Pozdnev,R,,RUS,19.8,103677,,,Andreas Fasching,U,,AUT,21.0,7-5 1-6 7-6(7),3,R32,,,,,,,,,,,,,,,,,,,,520,40,433,61
-2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,16,103873,,,Antonio Baldellou Esteva,U,,ESP,20.1,103863,2,,Mikhail Elgin,R,183,RUS,20.2,3-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,595,28,,
+2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,16,103873,,,Antonio Baldellou Esteva,U,,ESP,20.1,103863,2,,Mikhail Elgin,R,183,RUS,20.2,3-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,595,28,317,101
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,17,103577,,,Christopher Kas,R,188,GER,21.5,103924,,,Marc Fornell Mestres,R,,ESP,19.9,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,432,61,473,50
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,18,103118,,,Ion Moldovan,R,188,ROU,23.9,104181,,Q,Victor Ionita,R,185,ROU,18.6,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,509,42,663,21
 2002-M-SA-ESP-01A-2002d,Spain 1 4,Clay,32,S,20020107,19,103242,,,Juan Giner,R,178,ESP,23.4,103448,3,,Gabriel Trujillo Soler,R,,ESP,22.2,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,496,44,347,87
@@ -776,7 +776,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,1,102624,,,Andrew Painter,R,188,AUS,26.5,103799,1,,Eric Prodon,R,178,FRA,20.6,7-6(6) 7-5,3,R32,,,,,,,,,,,,,,,,,,,,585,29,307,105
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,2,104019,,,Kristof Vliegen,R,193,BEL,19.6,103699,,,Fred Hemmes,R,183,NED,21.0,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,507,41,461,54
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,3,103325,,Q,Wesley Moodie,R,196,RSA,22.9,104180,,,Gilles Muller,L,193,LUX,18.7,6-4 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,654,22,532,37
-2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,4,103538,7,,James Auckland,R,,GBR,21.8,108603,,,Helge Koll Frafjord,U,,NOR,26.6,7-6(1) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,420,63,,
+2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,4,103538,7,,James Auckland,R,,GBR,21.8,102595,,,Helge Koll,R,,NOR,26.6,7-6(1) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,420,63,573,32
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,5,103957,,,Benjamin Kohlloeffel,L,,GER,19.8,103130,3,,Louis Vosloo,R,178,RSA,24.0,3-6 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,571,32,356,85
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,6,103371,,,Emin Agaev,R,,AZE,22.7,103045,,,Reginald Willems,R,180,BEL,24.4,7-6(6) 3-6 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,536,37,486,47
 2002-M-FU-GBR-01A-2002,Great Britain F1,Carpet,32,S,20020204,7,104372,,WC,Alex Bogdanovic,L,183,GBR,17.7,103945,,WC,Simon Dickson,R,,GBR,19.9,6-0 6-7(6) 6-0,3,R32,,,,,,,,,,,,,,,,,,,,721,16,580,31
@@ -997,7 +997,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,13,104229,,,Yen Hsun Lu,R,180,TPE,18.4,101863,5,,Roberto Alvarez,R,,ARG,30.9,6-1 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,542,35,359,85
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,14,103568,,,Valentin Sanon,R,,CIV,21.7,104271,,,Philipp Mukhometov,R,,RUS,18.2,3-6 7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,907,8,667,21
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,15,103944,,Q,Gabriel Frias,U,,ESP,19.9,103881,,WC,Meir Deri,R,,ISR,20.2,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,744,15,880,9
-2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,16,104534,,WC,Dudi Sela,R,175,ISR,16.8,103863,2,,Mikhail Elgin,R,183,RUS,20.3,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1315,2,,
+2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,16,104534,,WC,Dudi Sela,R,175,ISR,16.8,103863,2,,Mikhail Elgin,R,183,RUS,20.3,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1315,2,317,103
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,17,103145,1,,Amir Hadad,R,183,ISR,23.9,103126,,,Christian Grunes,L,,GER,24.0,6-1 4-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,250,142,558,34
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,18,102897,8,,Nir Welgreen,R,,ISR,25.1,103658,,,Jordane Doble,R,,FRA,21.1,1-6 6-0 6-1,3,R16,,,,,,,,,,,,,,,,,,,,435,61,448,57
 2002-M-FU-ISR-01A-2002,Israel F1,Hard,32,S,20020211,19,103465,,Q,Paul Logtens,R,175,NED,22.2,103959,,,Harel Srugo,R,,ISR,19.9,W/O,3,R16,,,,,,,,,,,,,,,,,,,,954,7,781,13
@@ -2279,7 +2279,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,2,103272,,Q,Alexander Yarmola,R,,UKR,23.4,104271,,,Philipp Mukhometov,R,,RUS,18.3,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,962,7,591,30
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,3,102631,,,Alexey Gavrilov,R,,RUS,26.6,104093,,LL,Nickolai Dyachok,U,,UKR,19.3,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,553,35,1005,6
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,4,103120,6,,Juraj Hasko,R,,SVK,24.1,103175,,,Toshihide Matsui,R,180,JPN,23.9,6-1 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,393,73,623,25
-2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,5,103863,3,,Mikhail Elgin,R,183,RUS,20.4,104082,,,Hiroki Kondo,R,178,JPN,19.4,6-4 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,,,529,39
+2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,5,103863,3,,Mikhail Elgin,R,183,RUS,20.4,104082,,,Hiroki Kondo,R,178,JPN,19.4,6-4 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,315,99,529,39
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,6,104105,,Q,Pavel Ivanov,R,193,RUS,19.2,104479,,WC,Sarvar Ikramov,R,,UZB,17.2,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,809,11,1371,1
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,7,102969,,,Sergei Yaroshenko,R,,UKR,24.9,103612,,,Alexey Kedryuk,R,193,KAZ,21.6,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,603,27,509,42
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,8,103222,,LL,Sergei Krotiouk,R,,RUS,23.7,109238,,WC,Anton Mavrin,R,,UZB,19.2,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,777,13,1306,2
@@ -2293,14 +2293,14 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,16,102836,2,,Rogier Wassen,R,190,NED,25.6,102504,,,Vitali Chvets,U,,BLR,27.2,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,245,146,462,51
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,17,103857,1,,Igor Kunitsyn,R,180,RUS,20.5,103272,,Q,Alexander Yarmola,R,,UKR,23.4,6-0 7-5,3,R16,,,,,,,,,,,,,,,,,,,,256,136,962,7
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,18,103120,6,,Juraj Hasko,R,,SVK,24.1,102631,,,Alexey Gavrilov,R,,RUS,26.6,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,393,73,553,35
-2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,19,103863,3,,Mikhail Elgin,R,183,RUS,20.4,104105,,Q,Pavel Ivanov,R,193,RUS,19.2,6-2 6-7(2) 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,809,11
+2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,19,103863,3,,Mikhail Elgin,R,183,RUS,20.4,104105,,Q,Pavel Ivanov,R,193,RUS,19.2,6-2 6-7(2) 6-0,3,R16,,,,,,,,,,,,,,,,,,,,315,99,809,11
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,20,103222,,LL,Sergei Krotiouk,R,,RUS,23.7,102969,,,Sergei Yaroshenko,R,,UKR,24.9,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,777,13,603,27
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,21,103432,,,Branislav Sekac,R,,SVK,22.5,102763,5,,Benjamin Cassaigne,L,185,FRA,25.9,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,516,41,375,79
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,22,104499,4,,Jimmy Wang,R,178,TPE,17.1,104141,,Q,Dmitri Sitak,R,183,RUS,19.0,0-6 7-5 6-2,3,R16,,,,,,,,,,,,,,,,,,,,351,87,845,10
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,23,104332,,Q,Philipp Petzschner,R,185,GER,18.0,103250,8,,Rodolphe Cadart,L,183,FRA,23.6,7-5 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,745,15,441,57
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,24,104120,,Q,Peter Capkovic,R,,SVK,19.1,102836,2,,Rogier Wassen,R,190,NED,25.6,4-6 6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,869,9,245,146
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,25,103857,1,,Igor Kunitsyn,R,180,RUS,20.5,103120,6,,Juraj Hasko,R,,SVK,24.1,6-4 3-6 7-5,3,QF,,,,,,,,,,,,,,,,,,,,256,136,393,73
-2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,26,103222,,LL,Sergei Krotiouk,R,,RUS,23.7,103863,3,,Mikhail Elgin,R,183,RUS,20.4,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,777,13,,
+2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,26,103222,,LL,Sergei Krotiouk,R,,RUS,23.7,103863,3,,Mikhail Elgin,R,183,RUS,20.4,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,777,13,315,99
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,27,104499,4,,Jimmy Wang,R,178,TPE,17.1,103432,,,Branislav Sekac,R,,SVK,22.5,6-4 6-4,3,QF,,,,,,,,,,,,,,,,,,,,351,87,516,41
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,28,104120,,Q,Peter Capkovic,R,,SVK,19.1,104332,,Q,Philipp Petzschner,R,185,GER,18.0,6-4 4-6 6-1,3,QF,,,,,,,,,,,,,,,,,,,,869,9,745,15
 2002-M-FU-UZB-01A-2002,Uzbekistan F1,Hard,32,S,20020401,29,103857,1,,Igor Kunitsyn,R,180,RUS,20.5,103222,,LL,Sergei Krotiouk,R,,RUS,23.7,6-1 6-2,3,SF,,,,,,,,,,,,,,,,,,,,256,136,777,13
@@ -2669,7 +2669,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,5,103857,4,,Igor Kunitsyn,R,180,RUS,20.5,104229,,,Yen Hsun Lu,R,180,TPE,18.6,6-2 1-6 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,257,136,450,54
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,6,103547,,,Anton Kokurin,R,,UZB,21.9,104082,,,Hiroki Kondo,R,178,JPN,19.4,4-6 6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,565,33,527,39
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,7,103120,,,Juraj Hasko,R,,SVK,24.2,103272,,Q,Alexander Yarmola,R,,UKR,23.5,3-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,402,70,959,7
-2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,8,102969,,,Sergei Yaroshenko,R,,UKR,25.0,103863,5,,Mikhail Elgin,R,183,RUS,20.4,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,600,27,,
+2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,8,102969,,,Sergei Yaroshenko,R,,UKR,25.0,103863,5,,Mikhail Elgin,R,183,RUS,20.4,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,600,27,314,99
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,9,102347,6,,Dmitri Tomashevich,R,,UZB,28.0,103222,,Q,Sergei Krotiouk,R,,RUS,23.7,6-2 5-7 6-2,3,R32,,,,,,,,,,,,,,,,,,,,327,94,776,13
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,10,104332,,Q,Philipp Petzschner,R,185,GER,18.0,102504,,,Vitali Chvets,U,,BLR,27.2,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,740,15,460,51
 2002-M-FU-UZB-02A-2002,Uzbekistan F2,Hard,32,S,20020408,11,104271,,,Philipp Mukhometov,R,,RUS,18.3,104454,,WC,Murad Inoyatov,R,,UZB,17.3,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,588,30,1203,3
@@ -2883,7 +2883,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,2,103902,,,Jan Mertl,R,190,CZE,20.2,104049,,Q,Gary Lugassy,L,,FRA,19.6,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,478,49,1370,1
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,3,103399,,,Carlos Rexach Itoiz,U,,ESP,22.8,117928,,LL,Chekib Jemai,U,,TUN,23.2,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,428,62,,
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,4,102554,5,,Diego Moyano,R,175,ARG,27.1,102261,,Q,Fabrice Betencourt,R,,FRA,28.5,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,317,98,640,22
-2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,5,103863,4,,Mikhail Elgin,R,183,RUS,20.5,108670,,LL,Noujeim Hakimi,U,,ALG,28.9,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1370,1
+2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,5,103863,4,,Mikhail Elgin,R,183,RUS,20.5,108670,,LL,Noujeim Hakimi,U,,ALG,28.9,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,303,102,1370,1
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,6,102033,,WC,Abdelhak Hameurlaine,R,,ALG,30.0,118667,,LL,Hichem Ben Bakhma,U,,ALG,19.7,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1370,1,,
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,7,110478,,,Ferran Ventura Martell,R,,ESP,23.9,102254,,Q,Ouassel Hared,R,,ALG,28.6,6-3 6-7(4) 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,8,102690,6,,Matteo Colla,R,,ITA,26.4,104291,,Q,Malek Jaziri,R,185,TUN,18.2,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,325,94,,
@@ -2897,7 +2897,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,16,103178,2,,Johan Settergren,R,185,SWE,24.0,103658,,,Jordane Doble,R,,FRA,21.3,6-4 6-7(5) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,216,165,421,64
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,17,103860,,,Timo Nieminen,R,185,FIN,20.5,103902,,,Jan Mertl,R,190,CZE,20.2,6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,509,43,478,49
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,18,102554,5,,Diego Moyano,R,175,ARG,27.1,103399,,,Carlos Rexach Itoiz,U,,ESP,22.8,4-6 6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,317,98,428,62
-2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,19,102033,,WC,Abdelhak Hameurlaine,R,,ALG,30.0,103863,4,,Mikhail Elgin,R,183,RUS,20.5,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1370,1,,
+2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,19,102033,,WC,Abdelhak Hameurlaine,R,,ALG,30.0,103863,4,,Mikhail Elgin,R,183,RUS,20.5,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1370,1,303,102
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,20,110478,,,Ferran Ventura Martell,R,,ESP,23.9,102690,6,,Matteo Colla,R,,ITA,26.4,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,325,94
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,21,103986,8,,Radoslav Lukaev,R,,BUL,19.9,118668,,LL,Paul Navarro,L,,FRA,18.7,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,383,77,,
 2002-M-FU-ALG-01A-2002,Algeria F1,Clay,32,S,20020422,22,102886,,,Frantisek Cermak,R,193,CZE,25.4,103169,3,,Oscar Hernandez,R,180,ESP,24.0,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,462,52,236,150
@@ -3103,7 +3103,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,5,103169,4,,Oscar Hernandez,R,180,ESP,24.0,102971,,,Christophe Bosio,R,,FRA,25.0,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,235,150,712,16
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,6,102254,,WC,Ouassel Hared,R,,ALG,28.6,103902,,,Jan Mertl,R,190,CZE,20.3,6-2 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,,,479,49
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,7,104467,,WC,Lamine Ouahab,R,185,ALG,17.3,108670,,Q,Noujeim Hakimi,U,,ALG,28.9,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,1378,1
-2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,8,103863,5,,Mikhail Elgin,R,183,RUS,20.5,102033,,WC,Abdelhak Hameurlaine,R,,ALG,30.1,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,1378,1
+2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,8,103863,5,,Mikhail Elgin,R,183,RUS,20.5,102033,,WC,Abdelhak Hameurlaine,R,,ALG,30.1,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,304,102,1378,1
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,9,102690,8,,Matteo Colla,R,,ITA,26.4,104228,,Q,Guillem Burniol,R,,ESP,18.7,7-6(1) 6-0,3,R32,,,,,,,,,,,,,,,,,,,,325,94,829,10
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,10,102886,,,Frantisek Cermak,R,193,CZE,25.4,103109,,Q,Talal Ouahabi,R,,MAR,24.3,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,467,52,,
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,11,103986,,,Radoslav Lukaev,R,,BUL,20.0,103496,,Q,Jalal Chafai,U,,MAR,22.2,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,382,77,961,7
@@ -3115,7 +3115,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,17,101863,,,Roberto Alvarez,R,,ARG,31.1,102696,,,Guillaume Couillard,R,,MON,26.3,6-7(0) 6-3 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,329,92,731,15
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,18,102554,7,,Diego Moyano,R,175,ARG,27.1,110796,,WC,Noureddine Mahmoudi,U,,ALG,28.8,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,318,98,1378,1
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,19,103169,4,,Oscar Hernandez,R,180,ESP,24.0,102254,,WC,Ouassel Hared,R,,ALG,28.6,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,235,150,,
-2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,20,104467,,WC,Lamine Ouahab,R,185,ALG,17.3,103863,5,,Mikhail Elgin,R,183,RUS,20.5,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,20,104467,,WC,Lamine Ouahab,R,185,ALG,17.3,103863,5,,Mikhail Elgin,R,183,RUS,20.5,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,304,102
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,21,102886,,,Frantisek Cermak,R,193,CZE,25.4,102690,8,,Matteo Colla,R,,ITA,26.4,7-5 6-0,3,R16,,,,,,,,,,,,,,,,,,,,467,52,325,94
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,22,103986,,,Radoslav Lukaev,R,,BUL,20.0,102630,3,,Slimane Saoudi,L,,ALG,26.7,7-6(5) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,382,77,250,140
 2002-M-FU-ALG-02A-2002,Algeria F2,Clay,32,S,20020429,23,103068,,Q,Chemseddine Belal,R,180,MAR,24.5,102646,6,,Dimitri Lorin,R,,FRA,26.6,6-3 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1188,3,311,100
@@ -3907,7 +3907,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,4,102538,5,,Tuomas Ketola,R,185,FIN,27.2,102347,,,Dmitri Tomashevich,R,,UZB,28.1,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,253,138,328,94
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,5,104439,,WC,Vadim Davletshin,U,,RUS,17.5,103824,4,,Orest Tereshchuk,R,,UKR,20.7,7-6(2) 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,276,119
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,6,104120,,Q,Peter Capkovic,R,,SVK,19.2,102903,,,Eyal Erlich,R,183,ISR,25.3,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,746,15,296,107
-2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,7,103671,,,Or Dekel,R,,ISR,21.3,103863,,,Mikhail Elgin,R,183,RUS,20.5,7-6(6) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,333,92,,
+2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,7,103671,,,Or Dekel,R,,ISR,21.3,103863,,,Mikhail Elgin,R,183,RUS,20.5,7-6(6) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,333,92,303,103
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,8,103250,,Q,Rodolphe Cadart,L,183,FRA,23.7,104499,8,,Jimmy Wang,R,178,TPE,17.2,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,483,48,279,117
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,9,103843,7,,Marco Chiudinelli,R,185,SUI,20.6,103573,,,Rik De Voest,R,180,RSA,21.9,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,266,125,344,90
 2002-M-FU-UZB-04A-2002,Uzbekistan F4,Hard,32,S,20020506,10,103273,,,Dong Hyun Kim,R,,KOR,23.5,104143,,,Dirk Stegmann,R,,RSA,19.1,7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,403,70,420,65
@@ -5191,7 +5191,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,2,103046,,,Janne Ojala,R,,FIN,24.7,104189,,Q,Antonio Zaragoza,U,,ESP,19.0,3-6 7-6(6) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,378,75,943,7
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,3,102961,,,Nicklas Timfjord,R,180,SWE,25.2,102577,,Q,Steven Randjelovic,R,,AUS,27.1,4-6 6-4 7-6(8),3,R32,,,,,,,,,,,,,,,,,,,,466,51,891,9
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,4,103032,6,,Francisco Fogues,L,190,ESP,24.8,104388,,Q,Morgan Phillips,U,,GBR,17.9,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,321,94,,
-2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,5,103863,4,,Mikhail Elgin,R,183,RUS,20.6,118441,,LL,Ismo Ronkko,U,,FIN,23.9,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,1188,3
+2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,5,103863,4,,Mikhail Elgin,R,183,RUS,20.6,118441,,LL,Ismo Ronkko,U,,FIN,23.9,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,297,104,1188,3
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,6,103643,,,Lauri Kiiski,R,,FIN,21.6,102668,,,Tapio Nurminen,R,,FIN,26.6,5-7 6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,494,46,513,43
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,7,102323,,,Regis Lavergne,R,,FRA,28.3,104453,,Q,Michael Ryderstedt,L,188,SWE,17.5,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,418,63,1238,2
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,8,104034,5,,Dmitry Vlasov,R,188,RUS,19.9,103471,,WC,Tero Vilen,R,,FIN,22.5,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,315,96,721,16
@@ -5205,7 +5205,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,16,103243,2,,Cristian Kordasz,R,,ARG,23.8,104360,,Q,Adam Chadaj,L,178,POL,18.1,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,247,140,1373,1
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,17,103116,,,Florian Jeschonek,R,,GER,24.3,103046,,,Janne Ojala,R,,FIN,24.7,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,425,61,378,75
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,18,103032,6,,Francisco Fogues,L,190,ESP,24.8,102961,,,Nicklas Timfjord,R,180,SWE,25.2,6-4 7-6(2),3,R16,,,,,,,,,,,,,,,,,,,,321,94,466,51
-2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,19,103643,,,Lauri Kiiski,R,,FIN,21.6,103863,4,,Mikhail Elgin,R,183,RUS,20.6,7-6(2) 6-3,3,R16,,,,,,,,,,,,,,,,,,,,494,46,,
+2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,19,103643,,,Lauri Kiiski,R,,FIN,21.6,103863,4,,Mikhail Elgin,R,183,RUS,20.6,7-6(2) 6-3,3,R16,,,,,,,,,,,,,,,,,,,,494,46,297,104
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,20,102323,,,Regis Lavergne,R,,FRA,28.3,104034,5,,Dmitry Vlasov,R,188,RUS,19.9,7-6(4) 6-1,3,R16,,,,,,,,,,,,,,,,,,,,418,63,315,96
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,21,103752,7,,Simon Greul,R,185,GER,21.1,101502,,Q,Torben Theine,L,183,GER,33.9,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,342,86,,
 2002-M-FU-FIN-01A-2002,Finland F1,Clay,32,S,20020610,22,104417,3,,Robin Soderling,R,193,SWE,17.8,103595,,WC,Martin Rammal,R,,FIN,21.8,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,286,112,973,6
@@ -5659,7 +5659,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,13,104026,,,Joachim Johansson,R,198,SWE,19.9,103752,5,,Simon Greul,R,185,GER,21.1,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,457,54,339,85
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,14,104453,,Q,Michael Ryderstedt,L,188,SWE,17.5,104032,,,Giunior Ghedina,U,,GER,19.9,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1244,2,1074,5
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,15,104214,,LL,Igor Andreev,R,185,RUS,18.9,104189,,Q,Antonio Zaragoza,U,,ESP,19.0,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,537,37,943,7
-2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,16,103863,2,,Mikhail Elgin,R,183,RUS,20.6,104360,,Q,Adam Chadaj,L,178,POL,18.1,6-1 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,1381,1
+2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,16,103863,2,,Mikhail Elgin,R,183,RUS,20.6,104360,,Q,Adam Chadaj,L,178,POL,18.1,6-1 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,299,104,1381,1
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,17,104417,1,,Robin Soderling,R,193,SWE,17.8,103860,,,Timo Nieminen,R,185,FIN,20.6,7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,286,112,474,49
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,18,103643,,,Lauri Kiiski,R,,FIN,21.6,103046,7,,Janne Ojala,R,,FIN,24.7,7-5 7-5,3,R16,,,,,,,,,,,,,,,,,,,,489,47,377,75
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,19,103032,4,,Francisco Fogues,L,190,ESP,24.8,104004,,,Filip Prpic,R,173,SWE,20.0,6-3 7-6(6),3,R16,,,,,,,,,,,,,,,,,,,,320,94,635,24
@@ -5667,7 +5667,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,21,109231,,WC,Janne Holmia,U,,FIN,19.5,103751,,,Jonas Froberg,U,,SWE,21.1,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,1244,2,854,10
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,22,102472,,,Marcello Craca,R,180,GER,27.6,104034,3,,Dmitry Vlasov,R,188,RUS,19.9,7-6(6) 1-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,531,38,322,93
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,23,104026,,,Joachim Johansson,R,198,SWE,19.9,104453,,Q,Michael Ryderstedt,L,188,SWE,17.5,7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,457,54,1244,2
-2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,24,104214,,LL,Igor Andreev,R,185,RUS,18.9,103863,2,,Mikhail Elgin,R,183,RUS,20.6,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,537,37,,
+2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,24,104214,,LL,Igor Andreev,R,185,RUS,18.9,103863,2,,Mikhail Elgin,R,183,RUS,20.6,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,537,37,299,104
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,25,104417,1,,Robin Soderling,R,193,SWE,17.8,103643,,,Lauri Kiiski,R,,FIN,21.6,6-1 7-5,3,QF,,,,,,,,,,,,,,,,,,,,286,112,489,47
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,26,103032,4,,Francisco Fogues,L,190,ESP,24.8,102668,,,Tapio Nurminen,R,,FIN,26.6,7-6(4) 6-0,3,QF,,,,,,,,,,,,,,,,,,,,320,94,511,43
 2002-M-FU-FIN-02A-2002,Finland F2,Clay,32,S,20020617,27,102472,,,Marcello Craca,R,180,GER,27.6,109231,,WC,Janne Holmia,U,,FIN,19.5,6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,531,38,1244,2
@@ -5738,7 +5738,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-GER-08A-2002,Germany F8,Clay,32,S,20020617,30,104010,8,,Dieter Kindlmann,R,183,GER,20.0,103601,7,,Sebastian Jaeger,R,,GER,21.8,6-1 6-0,3,SF,,,,,,,,,,,,,,,,,,,,355,81,366,79
 2002-M-FU-GER-08A-2002,Germany F8,Clay,32,S,20020617,31,103877,4,,Mike Scheidweiler,R,188,LUX,20.5,104010,8,,Dieter Kindlmann,R,183,GER,20.0,6-2 7-6(5),3,F,,,,,,,,,,,,,,,,,,,,356,81,355,81
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,1,103663,1,,Matias Boeker,R,,USA,21.5,104167,,Q,Todd Widom,R,,USA,19.1,2-6 4-1 RET,3,R32,,,,,,,,,,,,,,,,,,,,485,47,,
-2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,2,109860,,,Ryan Moore2,U,,USA,,103433,,,Michael Lang,R,,USA,22.7,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1216,3,1048,5
+2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,2,109860,,,Ryan Moore,U,,USA,,103433,,,Michael Lang,R,,USA,22.7,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1216,3,1048,5
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,3,104460,,,Dustin Brown,R,196,GER,17.5,103621,,,Igor Levine,U,,RUS,21.8,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1083,5,1131,4
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,4,103974,8,LL,Aivaras Balzekas,U,,LTU,20.1,102677,,LL,Kiantki Thomas,R,,USA,26.6,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,964,7,1216,3
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,5,111700,,WC,Stephan Timu,R,,CAN,19.2,104126,4,,Adam Kennedy,R,,AUS,19.3,7-5 6-7(8) 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,,,721,16
@@ -5753,7 +5753,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,14,102496,,WC,Scott Willinsky,R,,JAM,27.4,118599,,Q,Thiago Gondim,U,,BRA,21.5,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1216,3,1381,1
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,15,103706,,,Daniel Norberg,U,,SWE,21.3,109358,,WC,Ben Kronk,U,,USA,19.2,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,987,6,1381,1
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,16,104123,2,,Luciano Vitullo,R,,ARG,19.3,103652,,,Matthew Yeates,R,,AUS,21.5,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,567,33,1074,5
-2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,17,103663,1,,Matias Boeker,R,,USA,21.5,109860,,,Ryan Moore2,U,,USA,,6-0 6-1,3,R16,,,,,,,,,,,,,,,,,,,,485,47,1216,3
+2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,17,103663,1,,Matias Boeker,R,,USA,21.5,109860,,,Ryan Moore,U,,USA,,6-0 6-1,3,R16,,,,,,,,,,,,,,,,,,,,485,47,1216,3
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,18,104460,,,Dustin Brown,R,196,GER,17.5,103974,8,LL,Aivaras Balzekas,U,,LTU,20.1,7-5 6-7(4) 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,1083,5,964,7
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,19,104427,,,Jerry Makowski,U,,USA,17.7,111700,,WC,Stephan Timu,R,,CAN,19.2,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,964,7,,
 2002-M-FU-JAM-09A-2002,Jamaica F9,Hard,32,S,20020617,20,108941,,WC,Damar Johnson,U,,JAM,18.3,118738,,Q,Davidson Kozlowski,U,,USA,26.3,7-6(2) 7-6(6),3,R16,,,,,,,,,,,,,,,,,,,,,,,
@@ -7702,7 +7702,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,11,103790,,,Manoj Mahadevan,R,,IND,21.1,109358,,Q,Ben Kronk,U,,USA,19.3,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,924,8,,
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,12,103421,4,,Peter Handoyo,R,,INA,22.9,103419,,,Gabriel Montilla,R,,PUR,22.9,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,605,28,765,14
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,13,108628,,Q,Jhonnatan Medina Alvarez,L,,VEN,20.5,103622,6,,Bo Ram Cha,R,,KOR,21.9,3-6 6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,743,16
-2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,14,102677,,Q,Kiantki Thomas,R,,USA,26.7,109860,,WC,Ryan Moore2,U,,USA,,3-6 6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1237,3,1237,3
+2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,14,102677,,Q,Kiantki Thomas,R,,USA,26.7,109860,,WC,Ryan Moore,U,,USA,,3-6 6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1237,3,1237,3
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,15,103617,,,Travis Parrott,R,185,USA,21.9,104199,,,Sebastian Quintero,R,,COL,19.1,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,985,6,936,7
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,16,104082,2,,Hiroki Kondo,R,178,JPN,19.7,109013,,Q,Kyle Kliegerman,U,,USA,23.3,2-6 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,515,41,1317,2
 2002-M-FU-JAM-12A-2002,Jamaica F12,Hard,32,S,20020729,17,103853,,,Mattia Livraghi,L,,ITA,20.8,102496,,Q,Scott Willinsky,R,,JAM,27.6,6-2 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,957,7,1161,4
@@ -8316,7 +8316,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,13,103691,,,Baptiste Dupuy,L,,FRA,21.5,102504,5,,Vitali Chvets,U,,BLR,27.6,6-7(4) 6-1 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,689,20,448,54
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,14,103612,,,Alexey Kedryuk,R,193,KAZ,22.0,104100,,,Evgueni Smirnov,U,,RUS,19.6,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,551,36,748,16
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,15,104093,,Q,Nickolai Dyachok,U,,UKR,19.6,111479,,Q,Mikhail Kartachov,R,,RUS,18.3,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1058,5,,
-2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,16,103863,2,,Mikhail Elgin,R,183,RUS,20.8,103842,,Q,Rouslan Nourmatov,R,,RUS,20.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,1006,6
+2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,16,103863,2,,Mikhail Elgin,R,183,RUS,20.8,103842,,Q,Rouslan Nourmatov,R,,RUS,20.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,324,92,1006,6
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,17,104034,1,,Dmitry Vlasov,R,188,RUS,20.0,102631,,Q,Alexey Gavrilov,R,,RUS,27.0,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,275,118,703,18
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,18,102077,8,Q,Alexander Shvec,R,,BLR,30.1,102971,,,Christophe Bosio,R,,FRA,25.3,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,535,38,671,21
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,19,104214,3,,Igor Andreev,R,185,RUS,19.0,104119,,Q,Markus Egger,L,,AUT,19.5,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,362,77,,
@@ -8324,14 +8324,14 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,21,104271,7,,Philipp Mukhometov,R,,RUS,18.7,109285,,WC,Armen Gomktsian,U,,RUS,20.1,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,487,48,,
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,22,102969,,,Sergei Yaroshenko,R,,UKR,25.3,103390,4,,Artemon Apostu Efremov,R,,ROU,23.1,6-3 0-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,655,23,439,57
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,23,103612,,,Alexey Kedryuk,R,193,KAZ,22.0,103691,,,Baptiste Dupuy,L,,FRA,21.5,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,551,36,689,20
-2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,24,103863,2,,Mikhail Elgin,R,183,RUS,20.8,104093,,Q,Nickolai Dyachok,U,,UKR,19.6,6-0 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,1058,5
+2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,24,103863,2,,Mikhail Elgin,R,183,RUS,20.8,104093,,Q,Nickolai Dyachok,U,,UKR,19.6,6-0 6-4,3,R16,,,,,,,,,,,,,,,,,,,,324,92,1058,5
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,25,104034,1,,Dmitry Vlasov,R,188,RUS,20.0,102077,8,Q,Alexander Shvec,R,,BLR,30.1,6-2 6-2,3,QF,,,,,,,,,,,,,,,,,,,,275,118,535,38
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,26,104214,3,,Igor Andreev,R,185,RUS,19.0,101772,6,,Andrei Cherkasov,R,180,RUS,32.1,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,362,77,611,28
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,27,102969,,,Sergei Yaroshenko,R,,UKR,25.3,104271,7,,Philipp Mukhometov,R,,RUS,18.7,6-4 3-6 6-2,3,QF,,,,,,,,,,,,,,,,,,,,655,23,487,48
-2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,28,103863,2,,Mikhail Elgin,R,183,RUS,20.8,103612,,,Alexey Kedryuk,R,193,KAZ,22.0,6-3 6-2,3,QF,,,,,,,,,,,,,,,,,,,,,,551,36
+2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,28,103863,2,,Mikhail Elgin,R,183,RUS,20.8,103612,,,Alexey Kedryuk,R,193,KAZ,22.0,6-3 6-2,3,QF,,,,,,,,,,,,,,,,,,,,324,92,551,36
 2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,29,104214,3,,Igor Andreev,R,185,RUS,19.0,104034,1,,Dmitry Vlasov,R,188,RUS,20.0,7-5 6-2,3,SF,,,,,,,,,,,,,,,,,,,,362,77,275,118
-2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,30,103863,2,,Mikhail Elgin,R,183,RUS,20.8,102969,,,Sergei Yaroshenko,R,,UKR,25.3,6-2 6-3,3,SF,,,,,,,,,,,,,,,,,,,,,,655,23
-2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,31,104214,3,,Igor Andreev,R,185,RUS,19.0,103863,2,,Mikhail Elgin,R,183,RUS,20.8,4-6 6-3 6-3,3,F,,,,,,,,,,,,,,,,,,,,362,77,,
+2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,30,103863,2,,Mikhail Elgin,R,183,RUS,20.8,102969,,,Sergei Yaroshenko,R,,UKR,25.3,6-2 6-3,3,SF,,,,,,,,,,,,,,,,,,,,324,92,655,23
+2002-M-FU-RUS-01A-2002,Russia F1,Clay,32,S,20020812,31,104214,3,,Igor Andreev,R,185,RUS,19.0,103863,2,,Mikhail Elgin,R,183,RUS,20.8,4-6 6-3 6-3,3,F,,,,,,,,,,,,,,,,,,,,362,77,324,92
 2002-M-FU-SVK-05A-2002,Slovak Rep F4,Clay,32,S,20020812,1,104225,1,,Jan Hajek,R,180,CZE,19.0,103961,,LL,Bertrand Contzler,U,,FRA,20.3,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,270,120,730,16
 2002-M-FU-SVK-05A-2002,Slovak Rep F4,Clay,32,S,20020812,2,103749,,,Laszlo Fono,R,,HUN,21.3,103620,,,Tomas Janci,R,,SVK,21.9,7-5 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,695,19,688,20
 2002-M-FU-SVK-05A-2002,Slovak Rep F4,Clay,32,S,20020812,3,104321,,LL,Branislav Repa,U,,SVK,18.4,104062,,Q,Alejandro Vargas Aboy,U,,ESP,19.8,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,931,8,,
@@ -11104,7 +11104,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-SA-ESP-06A-2002d,Spain 6 4,Clay,32,S,20021014,29,104091,,,Miguel Angel Lopez Jaen,R,188,ESP,19.8,103988,4,,Mariano Albert Ferrando,R,,ESP,20.4,6-1 6-3,3,SF,,,,,,,,,,,,,,,,,,,,483,43,321,85
 2002-M-SA-ESP-06A-2002d,Spain 6 4,Clay,32,S,20021014,30,103675,,,Diego Junqueira,L,178,ARG,21.7,103448,6,,Gabriel Trujillo Soler,R,,ESP,23.0,6-3 6-3,3,SF,,,,,,,,,,,,,,,,,,,,658,23,390,64
 2002-M-SA-ESP-06A-2002d,Spain 6 4,Clay,32,S,20021014,31,104091,,,Miguel Angel Lopez Jaen,R,188,ESP,19.8,103675,,,Diego Junqueira,L,178,ARG,21.7,7-6(7) 3-6 6-4,3,F,,,,,,,,,,,,,,,,,,,,483,43,658,23
-2002-M-FU-USA-29A-2002,USA F25,Hard,32,S,20021014,1,103198,1,,Justin Bower,L,190,RSA,24.3,109860,,Q,Ryan Moore2,U,,USA,,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,247,123,1214,3
+2002-M-FU-USA-29A-2002,USA F25,Hard,32,S,20021014,1,103198,1,,Justin Bower,L,190,RSA,24.3,109860,,Q,Ryan Moore,U,,USA,,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,247,123,1214,3
 2002-M-FU-USA-29A-2002,USA F25,Hard,32,S,20021014,2,103269,,,Huntley Montgomery,U,,USA,24.0,103385,,,Paul Baccanello,R,183,AUS,23.3,3-2 RET,3,R32,,,,,,,,,,,,,,,,,,,,553,32,478,43
 2002-M-FU-USA-29A-2002,USA F25,Hard,32,S,20021014,3,103039,,,Tripp Phillips,R,185,USA,25.1,103483,,Q,James Shortall,R,,NZL,22.8,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,463,48,846,11
 2002-M-FU-USA-29A-2002,USA F25,Hard,32,S,20021014,4,103426,,,Chad Carlson,U,,USA,23.1,103290,5,,Radim Zitko,R,,CZE,23.8,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,510,39,367,70
@@ -11626,7 +11626,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,1,104548,,,Brian Baker,R,190,USA,17.4,103198,1,,Justin Bower,L,190,RSA,24.4,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,711,17,229,136
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,2,103589,,WC,Andrew Colombo,U,,USA,22.2,111329,,,Jarrett Chirico,R,,USA,17.1,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,799,12,,
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,3,102740,,WC,Francisco Rodriguez,R,,PAR,26.6,118498,,Q,Gilberto Alvarez,U,,PUR,21.0,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,664,22,,
-2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,4,103039,8,,Tripp Phillips,R,185,USA,25.1,109860,,LL,Ryan Moore2,U,,USA,,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,461,46,1286,2
+2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,4,103039,8,,Tripp Phillips,R,185,USA,25.1,109860,,LL,Ryan Moore,U,,USA,,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,461,46,1286,2
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,5,103924,4,,Marc Fornell Mestres,R,,ESP,20.7,103610,,,Mirko Pehar,R,,USA,22.2,6-4 0-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,340,77,665,22
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,6,103269,,,Huntley Montgomery,U,,USA,24.0,104330,,Q,Rajeev Ram,R,193,USA,18.6,2-6 6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,544,33,822,11
 2002-M-FU-USA-31A-2002,USA F27,Hard,32,S,20021028,7,103762,,,John Paul Fruttero,R,185,USA,21.4,103469,,Q,Casey Smith,U,,USA,22.9,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,567,30,1167,3
@@ -11823,7 +11823,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,12,103369,,,Melle Van Gemerden,R,183,NED,23.4,103647,4,,Jun Kato,R,173,JPN,22.0,6-3 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,789,12,513,37
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,13,103439,7,,Dimitri Mazur,R,,UZB,23.1,103557,,WC,Attapol Rithiwattanapong,U,,THA,22.5,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,517,37,899,8
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,14,104349,,Q,Rui Machado,R,178,POR,18.5,103175,,,Toshihide Matsui,R,180,JPN,24.5,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,930,7,628,25
-2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,15,103863,,LL,Mikhail Elgin,R,183,RUS,21.0,103763,,Q,Martin Slanar,R,,AUT,21.5,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,1098,4
+2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,15,103863,,LL,Mikhail Elgin,R,183,RUS,21.0,103763,,Q,Martin Slanar,R,,AUT,21.5,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,367,70,1098,4
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,16,103891,,,Alexandros Jakupovic,R,,GRE,20.8,104143,2,,Dirk Stegmann,R,,RSA,19.6,7-5 RET,3,R32,,,,,,,,,,,,,,,,,,,,728,16,433,53
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,17,103699,1,,Fred Hemmes,R,183,NED,21.7,103275,,Q,Takeshi Itoh,U,,JPN,24.0,7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,337,78,,
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,18,103053,5,,Nikos Rovas,R,,GRE,25.1,103421,,,Peter Handoyo,R,,INA,23.2,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,450,49,638,24
@@ -11832,7 +11832,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,21,103504,,LL,Febi Widhiyanto,R,,INA,22.7,103765,8,,Mohamed Sekou Drame,U,,FRA,21.5,4-6 6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,899,8,578,29
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,22,102242,,Q,Bart Beks,R,,NED,29.3,103369,,,Melle Van Gemerden,R,183,NED,23.4,6-3 3-1 RET,3,R16,,,,,,,,,,,,,,,,,,,,1002,5,789,12
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,23,103439,7,,Dimitri Mazur,R,,UZB,23.1,104349,,Q,Rui Machado,R,178,POR,18.5,3-6 6-3 7-6(2),3,R16,,,,,,,,,,,,,,,,,,,,517,37,930,7
-2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,24,103891,,,Alexandros Jakupovic,R,,GRE,20.8,103863,,LL,Mikhail Elgin,R,183,RUS,21.0,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,728,16,,
+2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,24,103891,,,Alexandros Jakupovic,R,,GRE,20.8,103863,,LL,Mikhail Elgin,R,183,RUS,21.0,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,728,16,367,70
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,25,103699,1,,Fred Hemmes,R,183,NED,21.7,103053,5,,Nikos Rovas,R,,GRE,25.1,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,337,78,450,49
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,26,103460,,,Konstantin Don Gruber,R,183,AUT,23.0,102687,3,,Herbert Wiltschnig,R,185,AUT,26.9,4-6 6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,631,24,366,70
 2002-M-FU-THA-01A-2002,Thailand F1,Hard,32,S,20021104,27,102242,,Q,Bart Beks,R,,NED,29.3,103504,,LL,Febi Widhiyanto,R,,INA,22.7,6-3 6-7(5) 6-2,3,QF,,,,,,,,,,,,,,,,,,,,1002,5,899,8
@@ -12034,7 +12034,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,6,103936,,,Todor Enev,R,,BUL,20.7,103691,,,Baptiste Dupuy,L,,FRA,21.8,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,477,44,637,24
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,7,103460,,,Konstantin Don Gruber,R,183,AUT,23.0,103175,,,Toshihide Matsui,R,180,JPN,24.5,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,622,25,628,25
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,8,103921,,Q,Sonchat Ratiwatana,R,175,THA,20.7,104143,8,,Dirk Stegmann,R,,RSA,19.6,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,846,10,432,53
-2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,9,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103131,,,Michihisa Onoda,R,,JPN,24.7,4-6 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,466,45
+2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,9,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103131,,,Michihisa Onoda,R,,JPN,24.7,4-6 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,357,70,466,45
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,10,104416,,Q,Tiago Godinho,R,,POR,18.2,118200,,WC,Supanya Apaipan,U,,THA,22.1,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,971,6,,
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,11,103439,,,Dimitri Mazur,R,,UZB,23.1,104082,,,Hiroki Kondo,R,178,JPN,20.0,6-4 1-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,515,37,677,20
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,12,103699,3,,Fred Hemmes,R,183,NED,21.7,103865,,Q,Prima Simpatiaji,R,,INA,21.0,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,343,75,908,7
@@ -12046,17 +12046,17 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,18,103421,,,Peter Handoyo,R,,INA,23.2,102687,5,,Herbert Wiltschnig,R,185,AUT,26.9,6-7(2) 6-4 6-0,3,R16,,,,,,,,,,,,,,,,,,,,636,24,370,67
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,19,103936,,,Todor Enev,R,,BUL,20.7,103098,4,,Johan Du Randt,U,,RSA,24.8,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,477,44,337,77
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,20,103460,,,Konstantin Don Gruber,R,183,AUT,23.0,103921,,Q,Sonchat Ratiwatana,R,175,THA,20.7,6-2 7-5,3,R16,,,,,,,,,,,,,,,,,,,,622,25,846,10
-2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,21,103863,6,,Mikhail Elgin,R,183,RUS,21.0,104416,,Q,Tiago Godinho,R,,POR,18.2,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,971,6
+2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,21,103863,6,,Mikhail Elgin,R,183,RUS,21.0,104416,,Q,Tiago Godinho,R,,POR,18.2,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,357,70,971,6
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,22,103699,3,,Fred Hemmes,R,183,NED,21.7,103439,,,Dimitri Mazur,R,,UZB,23.1,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,343,75,515,37
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,23,103053,9,,Nikos Rovas,R,,GRE,25.1,104479,,Q,Sarvar Ikramov,R,,UZB,17.8,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,452,49,914,7
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,24,103763,,Q,Martin Slanar,R,,AUT,21.5,103557,,WC,Attapol Rithiwattanapong,U,,THA,22.5,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1028,5,899,8
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,25,103421,,,Peter Handoyo,R,,INA,23.2,102300,1,WC,Gouichi Motomura,R,173,JPN,28.8,7-6(2) 6-3,3,QF,,,,,,,,,,,,,,,,,,,,636,24,240,128
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,26,103936,,,Todor Enev,R,,BUL,20.7,103460,,,Konstantin Don Gruber,R,183,AUT,23.0,6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,477,44,622,25
-2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,27,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103699,3,,Fred Hemmes,R,183,NED,21.7,3-6 6-3 1-0 RET,3,QF,,,,,,,,,,,,,,,,,,,,,,343,75
+2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,27,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103699,3,,Fred Hemmes,R,183,NED,21.7,3-6 6-3 1-0 RET,3,QF,,,,,,,,,,,,,,,,,,,,357,70,343,75
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,28,103763,,Q,Martin Slanar,R,,AUT,21.5,103053,9,,Nikos Rovas,R,,GRE,25.1,7-6(4) 6-4,3,QF,,,,,,,,,,,,,,,,,,,,1028,5,452,49
 2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,29,103936,,,Todor Enev,R,,BUL,20.7,103421,,,Peter Handoyo,R,,INA,23.2,6-0 6-3,3,SF,,,,,,,,,,,,,,,,,,,,477,44,636,24
-2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,30,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103763,,Q,Martin Slanar,R,,AUT,21.5,6-7(6) 6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,,,1028,5
-2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,31,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103936,,,Todor Enev,R,,BUL,20.7,6-4 6-3,3,F,,,,,,,,,,,,,,,,,,,,,,477,44
+2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,30,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103763,,Q,Martin Slanar,R,,AUT,21.5,6-7(6) 6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,357,70,1028,5
+2002-M-FU-THA-02A-2002,Thailand F2,Hard,32,S,20021111,31,103863,6,,Mikhail Elgin,R,183,RUS,21.0,103936,,,Todor Enev,R,,BUL,20.7,6-4 6-3,3,F,,,,,,,,,,,,,,,,,,,,357,70,477,44
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,1,102554,1,,Diego Moyano,R,175,ARG,27.6,104599,,Q,Matias De Genaro,U,,ARG,17.2,3-6 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,198,171,1005,5
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,2,102168,,,Hector Moretti,R,170,ARG,29.7,103121,,PR,Matias Oneille,R,,ARG,24.8,7-6(3) 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,703,17,840,10
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,3,103848,,,Agustin Tarantino,R,,ARG,21.1,104055,,Q,Franklin Durighetto,U,,BRA,20.1,6-3 3-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,593,28,1282,2
@@ -12072,7 +12072,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,13,103916,5,,Cristian Villagran,R,180,ARG,20.8,104216,,Q,Maximo Gonzalez,R,175,ARG,19.3,5-7 6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,363,67,1345,1
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,14,104395,,WC,Marcel Felder,R,174,URU,18.3,101661,,Q,Nicolas Becerra,R,185,ARG,33.0,2-6 7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1345,1,1220,2
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,15,103689,,,Guillermo Carry,L,,ARG,21.8,104826,,WC,Federico Sansonetti,R,,URU,16.0,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,596,27,,
-2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,16,111486,2,,Leonardo Olguin,U,,ARG,27.0,103850,,,Sebastian Decoud,L,178,ARG,21.1,7-6(4) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,454,49
+2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,16,102693,2,,Leonardo Olguin,R,,ARG,26.9,103850,,,Sebastian Decoud,L,178,ARG,21.1,7-6(4) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,221,143,454,49
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,17,102168,,,Hector Moretti,R,170,ARG,29.7,102554,1,,Diego Moyano,R,175,ARG,27.6,1-6 7-6(1) 6-2,3,R16,,,,,,,,,,,,,,,,,,,,703,17,198,171
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,18,104016,,,Antonio Pastorino,U,,ARG,20.4,103848,,,Agustin Tarantino,R,,ARG,21.1,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,557,32,593,28
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,19,104080,,Q,Alejandro Fabbri,U,,ARG,20.0,104421,,WC,Martin Vilarrubi,R,,URU,18.1,6-3 7-6(8),3,R16,,,,,,,,,,,,,,,,,,,,944,7,1345,1
@@ -12080,7 +12080,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,21,103336,,,Marko Neunteibl,U,,AUT,23.6,104208,6,LL,Damian Patriarca,R,,ARG,19.3,3-6 6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,674,20,992,6
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,22,104314,,WC,Brian Dabul,L,170,ARG,18.7,102585,4,LL,Sebastian Prieto,R,180,ARG,27.4,7-5 6-2,3,R16,,,,,,,,,,,,,,,,,,,,787,12,278,102
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,23,104395,,WC,Marcel Felder,R,174,URU,18.3,103916,5,,Cristian Villagran,R,180,ARG,20.8,7-6(5) 6-2,3,R16,,,,,,,,,,,,,,,,,,,,1345,1,363,67
-2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,24,103689,,,Guillermo Carry,L,,ARG,21.8,111486,2,,Leonardo Olguin,U,,ARG,27.0,6-4 DEF,3,R16,,,,,,,,,,,,,,,,,,,,596,27,,
+2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,24,103689,,,Guillermo Carry,L,,ARG,21.8,102693,2,,Leonardo Olguin,R,,ARG,26.9,6-4 DEF,3,R16,,,,,,,,,,,,,,,,,,,,596,27,221,143
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,25,104016,,,Antonio Pastorino,U,,ARG,20.4,102168,,,Hector Moretti,R,170,ARG,29.7,6-3 3-6 6-4,3,QF,,,,,,,,,,,,,,,,,,,,557,32,703,17
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,26,102145,,,Francisco Cabello,R,190,ARG,29.9,104080,,Q,Alejandro Fabbri,U,,ARG,20.0,6-4 6-0,3,QF,,,,,,,,,,,,,,,,,,,,633,24,944,7
 2002-M-FU-URU-01A-2002,Uruguay F1,Clay,32,S,20021111,27,103336,,,Marko Neunteibl,U,,AUT,23.6,104314,,WC,Brian Dabul,L,170,ARG,18.7,6-3 7-6(8),3,QF,,,,,,,,,,,,,,,,,,,,674,20,787,12
@@ -12181,7 +12181,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-ESP-19A-2002,Spain F19,Clay,32,S,20021118,29,104745,4,,Rafael Nadal,L,185,ESP,16.4,103169,1,,Oscar Hernandez,R,180,ESP,24.6,6-4 6-1,3,SF,,,,,,,,,,,,,,,,,,,,235,129,208,153
 2002-M-FU-ESP-19A-2002,Spain F19,Clay,32,S,20021118,30,103924,,,Marc Fornell Mestres,R,,ESP,20.8,104252,,,Florian Mayer,R,190,GER,19.1,6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,325,86,476,44
 2002-M-FU-ESP-19A-2002,Spain F19,Clay,32,S,20021118,31,104745,4,,Rafael Nadal,L,185,ESP,16.4,103924,,,Marc Fornell Mestres,R,,ESP,20.8,6-2 6-3,3,F,,,,,,,,,,,,,,,,,,,,235,129,325,86
-2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,1,111486,1,,Leonardo Olguin,U,,ARG,27.1,101961,,LL,Martin Stringari,R,188,ARG,31.1,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,1113,4
+2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,1,102693,1,,Leonardo Olguin,R,,ARG,26.9,101961,,LL,Martin Stringari,R,188,ARG,31.1,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,220,143,1113,4
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,2,104395,,WC,Marcel Felder,R,174,URU,18.3,109620,,Q,Xavier Luscan,U,,FRA,23.1,7-6(6) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1345,1,1345,1
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,3,104080,,,Alejandro Fabbri,U,,ARG,20.0,118343,,Q,Matias Guccione,U,,ARG,21.5,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,938,7,,
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,4,103549,,,Dario Perez,R,,ARG,22.5,104599,,LL,Matias De Genaro,U,,ARG,17.2,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,870,9,1005,5
@@ -12197,7 +12197,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,14,101976,,,Federico Dondo,R,,URU,31.0,104055,,Q,Franklin Durighetto,U,,BRA,20.2,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,856,10,1285,2
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,15,104421,,WC,Martin Vilarrubi,R,,URU,18.2,103546,,,Patricio Arquez,R,,ARG,22.6,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1345,1,763,14
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,16,102544,,Q,Pablo Bianchi,R,,URU,27.7,103587,2,,Andres Dellatorre,R,190,ARG,22.3,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1156,3,269,105
-2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,17,111486,1,,Leonardo Olguin,U,,ARG,27.1,104395,,WC,Marcel Felder,R,174,URU,18.3,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,1345,1
+2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,17,102693,1,,Leonardo Olguin,R,,ARG,26.9,104395,,WC,Marcel Felder,R,174,URU,18.3,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,220,143,1345,1
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,18,104080,,,Alejandro Fabbri,U,,ARG,20.0,103549,,,Dario Perez,R,,ARG,22.5,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,938,7,870,9
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,19,103095,,Q,Patricio Rudi,R,,ARG,24.9,103916,3,,Cristian Villagran,R,180,ARG,20.8,6-4 6-0,3,R16,,,,,,,,,,,,,,,,,,,,1123,3,366,67
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,20,102145,,,Francisco Cabello,R,190,ARG,29.9,104060,,Q,Henrique Mello,U,,BRA,20.1,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,632,24,972,6
@@ -12205,11 +12205,11 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,22,103775,4,,Felipe Parada,R,175,CHI,21.5,103121,,,Matias Oneille,R,,ARG,24.8,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,438,52,840,10
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,23,104016,8,,Antonio Pastorino,U,,ARG,20.4,101976,,,Federico Dondo,R,,URU,31.0,6-4 6-0,3,R16,,,,,,,,,,,,,,,,,,,,559,32,856,10
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,24,104421,,WC,Martin Vilarrubi,R,,URU,18.2,102544,,Q,Pablo Bianchi,R,,URU,27.7,2-6 7-6(2) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1345,1,1156,3
-2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,25,111486,1,,Leonardo Olguin,U,,ARG,27.1,104080,,,Alejandro Fabbri,U,,ARG,20.0,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,938,7
+2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,25,102693,1,,Leonardo Olguin,R,,ARG,26.9,104080,,,Alejandro Fabbri,U,,ARG,20.0,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,220,143,938,7
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,26,103095,,Q,Patricio Rudi,R,,ARG,24.9,102145,,,Francisco Cabello,R,190,ARG,29.9,4-6 6-3 7-5,3,QF,,,,,,,,,,,,,,,,,,,,1123,3,632,24
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,27,103775,4,,Felipe Parada,R,175,CHI,21.5,103336,,,Marko Neunteibl,U,,AUT,23.6,6-2 3-6 6-4,3,QF,,,,,,,,,,,,,,,,,,,,438,52,685,19
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,28,104016,8,,Antonio Pastorino,U,,ARG,20.4,104421,,WC,Martin Vilarrubi,R,,URU,18.2,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,559,32,1345,1
-2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,29,103095,,Q,Patricio Rudi,R,,ARG,24.9,111486,1,,Leonardo Olguin,U,,ARG,27.1,6-3 6-1,3,SF,,,,,,,,,,,,,,,,,,,,1123,3,,
+2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,29,103095,,Q,Patricio Rudi,R,,ARG,24.9,102693,1,,Leonardo Olguin,R,,ARG,26.9,6-3 6-1,3,SF,,,,,,,,,,,,,,,,,,,,1123,3,220,143
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,30,104016,8,,Antonio Pastorino,U,,ARG,20.4,103775,4,,Felipe Parada,R,175,CHI,21.5,6-2 6-2,3,SF,,,,,,,,,,,,,,,,,,,,559,32,438,52
 2002-M-FU-URU-02A-2002,Uruguay F2,Clay,32,S,20021118,31,103095,,Q,Patricio Rudi,R,,ARG,24.9,104016,8,,Antonio Pastorino,U,,ARG,20.4,7-5 6-2,3,F,,,,,,,,,,,,,,,,,,,,1123,3,559,32
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,1,103739,1,,Jose De Armas,R,,VEN,21.6,103559,,,David Sherwood,R,193,GBR,22.5,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,323,86,518,37
@@ -12221,7 +12221,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,7,103255,,,Trace Fielding,U,,USA,24.2,102994,,,Esteban Carril,R,,ESP,25.4,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,537,34,492,41
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,8,103039,6,,Tripp Phillips,R,185,USA,25.2,103551,,,Willem Petrus Meyer,U,,RSA,22.5,7-6(4) 4-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,415,57,658,22
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,9,103754,5,,Mark Hilton,L,170,GBR,21.5,103235,,,Nenad Toroman,U,,USA,24.3,6-3 1-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,411,58,545,34
-2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,10,103911,,,Julien Cassaigne,R,,FRA,20.8,109860,,LL,Ryan Moore2,U,,USA,,7-6(5) RET,3,R32,,,,,,,,,,,,,,,,,,,,489,42,1345,1
+2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,10,103911,,,Julien Cassaigne,R,,FRA,20.8,109860,,LL,Ryan Moore,U,,USA,,7-6(5) RET,3,R32,,,,,,,,,,,,,,,,,,,,489,42,1345,1
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,11,104250,,WC,Prakash Amritraj,R,188,IND,19.1,103488,,WC,Carl Henrik Hansen,R,,SWE,22.8,5-7 6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,721,16,,
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,12,118392,,Q,Danny Westerman,U,,USA,22.7,103431,4,,Brandon Hawk,R,,USA,23.2,3-6 7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,393,62
 2002-M-FU-USA-33A-2002,USA F29,Hard,32,S,20021118,13,104203,,,Darko Madjarovski,R,,SRB,19.4,103733,7,,Luben Pampoulov,R,,AUT,21.6,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,475,44,416,57

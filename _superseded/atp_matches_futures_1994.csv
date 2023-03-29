@@ -2214,7 +2214,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,5,102243,3,,Marcelo Charpentier,L,180,ARG,20.7,101661,,WC,Nicolas Becerra,R,185,ARG,24.4,6-3 0-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,313,90,871,7
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,6,102644,,,Franco Squillari,L,183,ARG,18.6,106986,,,Facundo Nardelli,R,,ARG,,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,408,59,1039,4
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,7,102245,,Q,Egberto Caldas,R,,BRA,20.7,103264,,Q,Mariano Puerta,L,180,ARG,15.5,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,646,21,,
-1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,8,103011,5,,Gustavo Cavallaro,R,,ARG,16.8,111486,,WC,Leonardo Olguin,U,,ARG,18.5,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,619,23,,
+1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,8,103011,5,,Gustavo Cavallaro,R,,ARG,16.8,102693,,WC,Leonardo Olguin,R,,ARG,18.3,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,619,23,758,12
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,9,101763,,,Rodolfo Ramos Paganini,R,,ARG,23.8,102723,6,,Eduardo Medica,R,180,ARG,18.1,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,489,41,,
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,10,102611,,,Rafael Serpa Guinazu,R,,ARG,18.7,107090,,,Geronimo Degreef,R,,ARG,,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,681,18,631,22
 1994-M-SA-ARG-01A-1994a,Argentina 1 Masters 1,Clay,32,S,19940416,11,102561,,Q,Gustavo Diaz,R,,ARG,19.0,102890,,,Oscar Rodriguez Arg,R,,ARG,17.3,6-4 6-7 6-4,3,R32,,,,,,,,,,,,,,,,,,,,907,6,,
@@ -2273,7 +2273,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,10,102561,,,Gustavo Diaz,R,,ARG,19.0,102930,,WC,Rodrigo Cerdera,R,,ARG,17.1,4-6 6-1 7-6,3,R32,,,,,,,,,,,,,,,,,,,,907,6,,
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,11,106958,,Q,Ernesto Bottiroli,R,,ARG,,124195,,WC,Marcelo Frattari,U,,ARG,20.4,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1111,2,,
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,12,102644,4,,Franco Squillari,L,183,ARG,18.6,102645,,,Pier Squillari,R,,ARG,18.6,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,408,59,642,21
-1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,13,102413,8,,Andy Zingman,R,183,ARG,19.8,111486,,,Leonardo Olguin,U,,ARG,18.5,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,568,29,,
+1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,13,102413,8,,Andy Zingman,R,183,ARG,19.8,102693,,,Leonardo Olguin,R,,ARG,18.3,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,568,29,758,12
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,14,107197,,,Hernan Colombo Russel,R,,ARG,,102585,,,Sebastian Prieto,R,180,ARG,18.8,1-6 7-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,672,18,702,16
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,15,102245,,,Egberto Caldas,R,,BRA,20.7,102723,,WC,Eduardo Medica,R,180,ARG,18.1,1-6 6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,646,21,,
 1994-M-SA-ARG-01A-1994c,Argentina 1 Masters 3,Clay,32,S,19940416,16,102243,2,,Marcelo Charpentier,L,180,ARG,20.7,102602,,Q,Federico Lusin,R,,ARG,18.8,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,313,90,1096,3
@@ -2295,7 +2295,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,1,107090,,,Geronimo Degreef,R,,ARG,,102251,1,,Mariano Hood,L,178,ARG,20.6,6-1 4-6 7-6,3,R32,,,,,,,,,,,,,,,,,,,,631,22,301,99
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,2,122700,,,Ulises Cerda Pecarevic,U,,CHI,21.1,122699,,Q,Matias Galella,U,,ARG,19.4,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,3,106986,,Q,Facundo Nardelli,R,,ARG,,108225,,,Sebastian Allende,R,,ARG,,6-7 6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1039,4,638,21
-1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,4,103011,8,,Gustavo Cavallaro,R,,ARG,16.8,111486,,,Leonardo Olguin,U,,ARG,18.5,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,619,23,,
+1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,4,103011,8,,Gustavo Cavallaro,R,,ARG,16.8,102693,,,Leonardo Olguin,R,,ARG,18.3,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,619,23,758,12
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,5,102611,,,Rafael Serpa Guinazu,R,,ARG,18.7,102644,3,,Franco Squillari,L,183,ARG,18.6,7-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,681,18,408,59
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,6,102723,,WC,Eduardo Medica,R,180,ARG,18.1,102585,,,Sebastian Prieto,R,180,ARG,18.8,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,702,16
 1994-M-SA-ARG-01A-1994d,Argentina 1 Masters 4,Clay,32,S,19940416,7,102890,,Q,Oscar Rodriguez Arg,R,,ARG,17.3,102544,,Q,Pablo Bianchi,R,,URU,19.1,6-2 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
@@ -5702,7 +5702,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,6,102803,,Q,Robert Witz,R,,AUT,18.0,209465,,Q,Thomas Sascha Winkler,R,,GER,21.1,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,751,13,1174,2
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,7,102811,,,Dusan Vemic,R,190,SRB,18.0,122974,,WC,Tamer Rahmy,U,,EGY,26.3,4-6 6-0 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,8,111556,5,,Marcus Nacke,R,,GER,20.4,122812,,Q,Vladislav Molenda,U,,BUL,19.8,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1196,1
-1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,9,108603,6,,Helge Koll Frafjord,U,,NOR,19.0,102583,,,Marco Monnecchi,R,,ITA,19.1,6-2 2-2 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,9,102595,6,,Helge Koll,R,,NOR,19.0,102583,,,Marco Monnecchi,R,,ITA,19.1,6-2 2-2 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,10,102760,,,Rene Nicklisch,R,,GER,18.2,122976,,Q,Daniele Di Dio,U,,ITA,19.6,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1174,2,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,11,102362,,WC,Amro Ghoneim,R,,EGY,20.2,117522,,Q,Omar Haggag,U,,EGY,23.5,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,12,107713,4,,Markus Pfannkuchen,R,,GER,,102308,,,Victor Ivanchev,R,,BUL,20.4,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1196,1,1084,3
@@ -5714,7 +5714,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,18,102322,,,Philippe Pasquier,R,,FRA,20.4,102089,,Q,Arnaud Lofficial,R,,FRA,21.9,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,924,6,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,19,102803,,Q,Robert Witz,R,,AUT,18.0,101796,3,,Silvio Scaiola,R,,ITA,23.8,6-7 7-5 6-4,3,R16,,,,,,,,,,,,,,,,,,,,751,13,782,12
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,20,111556,5,,Marcus Nacke,R,,GER,20.4,102811,,,Dusan Vemic,R,190,SRB,18.0,6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
-1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,21,102760,,,Rene Nicklisch,R,,GER,18.2,108603,6,,Helge Koll Frafjord,U,,NOR,19.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1174,2,,
+1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,21,102760,,,Rene Nicklisch,R,,GER,18.2,102595,6,,Helge Koll,R,,NOR,19.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1174,2,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,22,107713,4,,Markus Pfannkuchen,R,,GER,,102362,,WC,Amro Ghoneim,R,,EGY,20.2,6-4 7-5,3,R16,,,,,,,,,,,,,,,,,,,,1196,1,,
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,23,108337,,,Sven Stadtlander,R,,GER,19.7,103029,7,,Mehdi Tahiri,R,183,MAR,16.9,1-6 7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1136,2,679,19
 1994-M-SA-EGY-02A-1994a,Egypt 2 Masters 1,Clay,32,S,19940709,24,101987,2,,Vincenzo Carlone,R,,ITA,22.6,100877,,,Brett Dickinson,R,183,USA,31.5,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,1010,4,575,29
@@ -5734,18 +5734,18 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,7,102362,,,Amro Ghoneim,R,,EGY,20.2,102811,,,Dusan Vemic,R,190,SRB,18.0,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,8,102803,,,Robert Witz,R,,AUT,18.0,102621,,,Georgi Arabov,R,,BUL,18.9,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,751,13,969,5
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,9,101987,1,,Vincenzo Carlone,R,,ITA,22.6,102089,,,Arnaud Lofficial,R,,FRA,21.9,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,1010,4,,
-1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,10,108603,7,,Helge Koll Frafjord,U,,NOR,19.0,102479,,,Paolo Cannova,R,,ITA,19.6,6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,10,102595,7,,Helge Koll,R,,NOR,19.0,102479,,,Paolo Cannova,R,,ITA,19.6,6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,11,102709,3,,Martin Hromec,R,,SVK,18.4,117522,,,Omar Haggag,U,,EGY,23.5,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,859,8,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,12,101796,5,,Silvio Scaiola,R,,ITA,23.8,108337,,,Sven Stadtlander,R,,GER,19.7,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,782,12,1136,2
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,13,111556,6,,Marcus Nacke,R,,GER,20.4,102322,,,Philippe Pasquier,R,,FRA,20.4,6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,924,6
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,14,103029,,,Mehdi Tahiri,R,183,MAR,16.9,107713,4,,Markus Pfannkuchen,R,,GER,,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,679,19,1196,1
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,15,102760,8,,Rene Nicklisch,R,,GER,18.2,102362,,,Amro Ghoneim,R,,EGY,20.2,6-4 7-6,3,R16,,,,,,,,,,,,,,,,,,,,1174,2,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,16,102613,2,,Francesco Cina,R,,ITA,19.0,102803,,,Robert Witz,R,,AUT,18.0,4-6 6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,713,16,751,13
-1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,17,108603,7,,Helge Koll Frafjord,U,,NOR,19.0,101987,1,,Vincenzo Carlone,R,,ITA,22.6,6-0 6-3,3,QF,,,,,,,,,,,,,,,,,,,,,,1010,4
+1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,17,102595,7,,Helge Koll,R,,NOR,19.0,101987,1,,Vincenzo Carlone,R,,ITA,22.6,6-0 6-3,3,QF,,,,,,,,,,,,,,,,,,,,,,1010,4
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,18,101796,5,,Silvio Scaiola,R,,ITA,23.8,102709,3,,Martin Hromec,R,,SVK,18.4,6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,782,12,859,8
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,19,103029,,,Mehdi Tahiri,R,183,MAR,16.9,111556,6,,Marcus Nacke,R,,GER,20.4,6-1 1-6 6-4,3,QF,,,,,,,,,,,,,,,,,,,,679,19,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,20,102613,2,,Francesco Cina,R,,ITA,19.0,102760,8,,Rene Nicklisch,R,,GER,18.2,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,713,16,1174,2
-1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,21,101796,5,,Silvio Scaiola,R,,ITA,23.8,108603,7,,Helge Koll Frafjord,U,,NOR,19.0,6-4 7-5,3,SF,,,,,,,,,,,,,,,,,,,,782,12,,
+1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,21,101796,5,,Silvio Scaiola,R,,ITA,23.8,102595,7,,Helge Koll,R,,NOR,19.0,6-4 7-5,3,SF,,,,,,,,,,,,,,,,,,,,782,12,,
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,22,102613,2,,Francesco Cina,R,,ITA,19.0,103029,,,Mehdi Tahiri,R,183,MAR,16.9,6-2 6-4,3,SF,,,,,,,,,,,,,,,,,,,,713,16,679,19
 1994-M-SA-EGY-02A-1994b,Egypt 2 Masters 2,Clay,24,S,19940709,23,101796,5,,Silvio Scaiola,R,,ITA,23.8,102613,2,,Francesco Cina,R,,ITA,19.0,6-3 6-3,3,F,,,,,,,,,,,,,,,,,,,,782,12,713,16
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,1,100877,1,,Brett Dickinson,R,183,USA,31.5,124421,,LL,Ido Kamieniecki,U,,ISR,16.7,6-0 6-2,3,R32,,,,,,,,,,,,,,,,,,,,575,29,,
@@ -5758,7 +5758,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,8,107713,,Q,Markus Pfannkuchen,R,,GER,,102803,5,,Robert Witz,R,,AUT,18.0,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1196,1,751,13
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,9,101796,6,,Silvio Scaiola,R,,ITA,23.8,209465,,,Thomas Sascha Winkler,R,,GER,21.1,7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,782,12,1174,2
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,10,102479,,Q,Paolo Cannova,R,,ITA,19.6,102517,,,Francesco Zugarelli,R,,ITA,19.4,4-6 6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,969,5
-1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,11,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,108809,,WC,Karim Zaher,U,,EGY,17.6,6-3 1-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,1196,1
+1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,11,102595,,Q,Helge Koll,R,,NOR,19.0,108809,,WC,Karim Zaher,U,,EGY,17.6,6-3 1-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,1196,1
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,12,102613,4,,Francesco Cina,R,,ITA,19.0,122975,,Q,Emiliano Paolini,U,,ITA,20.2,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,713,16,,
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,13,111556,8,,Marcus Nacke,R,,GER,20.4,122974,,WC,Tamer Rahmy,U,,EGY,26.3,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,14,102709,,,Martin Hromec,R,,SVK,18.4,117522,,Q,Omar Haggag,U,,EGY,23.5,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,859,8,,
@@ -5769,7 +5769,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,19,108337,,,Sven Stadtlander,R,,GER,19.7,102308,,LL,Victor Ivanchev,R,,BUL,20.4,7-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,1136,2,1084,3
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,20,101987,,,Vincenzo Carlone,R,,ITA,22.6,107713,,Q,Markus Pfannkuchen,R,,GER,,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1010,4,1196,1
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,21,101796,6,,Silvio Scaiola,R,,ITA,23.8,102479,,Q,Paolo Cannova,R,,ITA,19.6,3-6 6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,782,12,,
-1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,22,102613,4,,Francesco Cina,R,,ITA,19.0,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,713,16,,
+1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,22,102613,4,,Francesco Cina,R,,ITA,19.0,102595,,Q,Helge Koll,R,,NOR,19.0,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,713,16,,
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,23,111556,8,,Marcus Nacke,R,,GER,20.4,102709,,,Martin Hromec,R,,SVK,18.4,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,859,8
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,24,102811,,Q,Dusan Vemic,R,190,SRB,18.0,103029,2,,Mehdi Tahiri,R,183,MAR,16.9,6-1 7-5,3,R16,,,,,,,,,,,,,,,,,,,,,,679,19
 1994-M-SA-EGY-02A-1994c,Egypt 2 Masters 3,Clay,32,S,19940709,25,102509,7,,Roberto Bracone,R,,ARG,19.4,100877,1,,Brett Dickinson,R,183,USA,31.5,6-2 6-1,3,QF,,,,,,,,,,,,,,,,,,,,828,10,575,29
@@ -5785,7 +5785,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,4,111556,8,,Marcus Nacke,R,,GER,20.4,102308,,Q,Victor Ivanchev,R,,BUL,20.4,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,1084,3
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,5,102253,,Q,Fredrik Bach,R,,NOR,20.8,102613,3,,Francesco Cina,R,,ITA,19.0,3-6 6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,713,16
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,6,102621,,,Georgi Arabov,R,,BUL,18.9,102279,,Q,Gehad El Deeb,R,,EGY,20.6,6-4 2-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,969,5,,
-1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,7,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,118115,,Q,Vassil Slavov,U,,BUL,19.8,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,7,102595,,Q,Helge Koll,R,,NOR,19.0,118115,,Q,Vassil Slavov,U,,BUL,19.8,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,8,102509,6,,Roberto Bracone,R,,ARG,19.4,120547,,Q,Yasser Adel Sayed,R,,EGY,22.8,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,828,10,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,9,101796,5,,Silvio Scaiola,R,,ITA,23.8,102479,,Q,Paolo Cannova,R,,ITA,19.6,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,782,12,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,10,108337,,,Sven Stadtlander,R,,GER,19.7,102583,,SE,Marco Monnecchi,R,,ITA,19.1,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1136,2,,
@@ -5798,21 +5798,21 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,17,107713,,,Markus Pfannkuchen,R,,GER,,102517,,,Francesco Zugarelli,R,,ITA,19.4,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,1196,1,969,5
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,18,111556,8,,Marcus Nacke,R,,GER,20.4,209465,,,Thomas Sascha Winkler,R,,GER,21.1,6-0 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,1174,2
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,19,102253,,Q,Fredrik Bach,R,,NOR,20.8,102621,,,Georgi Arabov,R,,BUL,18.9,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,,,969,5
-1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,20,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,102509,6,,Roberto Bracone,R,,ARG,19.4,4-6 6-3 6-5 RET,3,R16,,,,,,,,,,,,,,,,,,,,,,828,10
+1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,20,102595,,Q,Helge Koll,R,,NOR,19.0,102509,6,,Roberto Bracone,R,,ARG,19.4,4-6 6-3 6-5 RET,3,R16,,,,,,,,,,,,,,,,,,,,,,828,10
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,21,101796,5,,Silvio Scaiola,R,,ITA,23.8,108337,,,Sven Stadtlander,R,,GER,19.7,7-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,782,12,1136,2
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,22,103029,4,,Mehdi Tahiri,R,183,MAR,16.9,102322,,,Philippe Pasquier,R,,FRA,20.4,7-6 2-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,679,19,924,6
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,23,102709,7,,Martin Hromec,R,,SVK,18.4,101987,,,Vincenzo Carlone,R,,ITA,22.6,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,859,8,1010,4
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,24,102760,,,Rene Nicklisch,R,,GER,18.2,102362,,WC,Amro Ghoneim,R,,EGY,20.2,7-5 1-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,1174,2,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,25,107713,,,Markus Pfannkuchen,R,,GER,,111556,8,,Marcus Nacke,R,,GER,20.4,7-5 6-3,3,QF,,,,,,,,,,,,,,,,,,,,1196,1,,
-1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,26,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,102253,,Q,Fredrik Bach,R,,NOR,20.8,6-4 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,26,102595,,Q,Helge Koll,R,,NOR,19.0,102253,,Q,Fredrik Bach,R,,NOR,20.8,6-4 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,27,103029,4,,Mehdi Tahiri,R,183,MAR,16.9,101796,5,,Silvio Scaiola,R,,ITA,23.8,4-6 6-4 7-6,3,QF,,,,,,,,,,,,,,,,,,,,679,19,782,12
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,28,102709,7,,Martin Hromec,R,,SVK,18.4,102760,,,Rene Nicklisch,R,,GER,18.2,6-3 7-6,3,QF,,,,,,,,,,,,,,,,,,,,859,8,1174,2
-1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,29,107713,,,Markus Pfannkuchen,R,,GER,,108603,,Q,Helge Koll Frafjord,U,,NOR,19.0,6-2 6-7 6-2,3,SF,,,,,,,,,,,,,,,,,,,,1196,1,,
+1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,29,107713,,,Markus Pfannkuchen,R,,GER,,102595,,Q,Helge Koll,R,,NOR,19.0,6-2 6-7 6-2,3,SF,,,,,,,,,,,,,,,,,,,,1196,1,,
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,30,102709,7,,Martin Hromec,R,,SVK,18.4,103029,4,,Mehdi Tahiri,R,183,MAR,16.9,6-4 5-7 6-4,3,SF,,,,,,,,,,,,,,,,,,,,859,8,679,19
 1994-M-SA-EGY-02A-1994d,Egypt 2 Masters 4,Clay,32,S,19940709,31,102709,7,,Martin Hromec,R,,SVK,18.4,107713,,,Markus Pfannkuchen,R,,GER,,7-6 2-6 6-4,3,F,,,,,,,,,,,,,,,,,,,,859,8,1196,1
 1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,1,102111,1,,Diego Del Rio,R,175,ARG,21.8,102647,,Q,Alberto Brause,R,,URU,18.8,3-6 6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,296,107,,
 1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,2,103011,,,Gustavo Cavallaro,R,,ARG,17.0,122707,,Q,Martin Purita,U,,ARG,19.4,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,559,33,,
-1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,3,102585,,,Sebastian Prieto,R,180,ARG,19.1,111486,,Q,Leonardo Olguin,U,,ARG,18.7,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,747,14,,
+1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,3,102585,,,Sebastian Prieto,R,180,ARG,19.1,102693,,Q,Leonardo Olguin,R,,ARG,18.6,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,747,14,1005,4
 1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,4,102561,,,Gustavo Diaz,R,,ARG,19.3,102168,8,,Hector Moretti,R,170,ARG,21.4,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1075,3,311,101
 1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,5,102890,,Q,Oscar Rodriguez Arg,R,,ARG,17.6,102463,3,,Lucas Arnold Ker,R,180,ARG,19.7,4-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1075,3,298,106
 1994-M-SA-ARG-02A-1994a,Argentina 2 Masters 1,Clay,32,S,19940716,6,101922,,,Marcello Wowk,R,,ARG,23.0,102342,,,Patricio Donati,R,,ARG,20.3,4-6 7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1075,3,927,6
@@ -5876,7 +5876,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,10,106958,,,Ernesto Bottiroli,R,,ARG,,107197,,,Hernan Colombo Russel,R,,ARG,,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,580,29,630,23
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,11,103011,,,Gustavo Cavallaro,R,,ARG,17.0,122701,,Q,Matias Silvano,U,,ARG,20.3,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,559,33,1185,1
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,12,102168,4,,Hector Moretti,R,170,ARG,21.4,102413,,,Andy Zingman,R,183,ARG,20.0,4-6 6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,311,101,470,49
-1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,13,101763,8,,Rodolfo Ramos Paganini,R,,ARG,24.0,111486,,Q,Leonardo Olguin,U,,ARG,18.7,4-6 6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,388,75,,
+1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,13,101763,8,,Rodolfo Ramos Paganini,R,,ARG,24.0,102693,,Q,Leonardo Olguin,R,,ARG,18.6,4-6 6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,388,75,1005,4
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,14,103084,,WC,Guillermo Canas,R,185,ARG,16.6,122715,,Q,Javier Pernicone,U,,ARG,18.3,6-2 4-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,795,11,,
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,15,102723,,,Eduardo Medica,R,180,ARG,18.4,107090,,,Geronimo Degreef,R,,ARG,,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,567,31,714,16
 1994-M-SA-ARG-02A-1994c,Argentina 2 Masters 3,Clay,32,S,19940716,16,102111,2,,Diego Del Rio,R,175,ARG,21.8,102841,,WC,Juan Morgenstern,R,,ARG,17.8,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,296,107,,
@@ -6746,7 +6746,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,6,101922,,,Marcello Wowk,R,,ARG,23.1,102715,,Q,Ignacio Hirigoyen,R,183,ARG,18.5,6-2 7-6,3,R32,,,,,,,,,,,,,,,,,,,,1103,3,1103,3
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,7,102585,,Q,Sebastian Prieto,R,180,ARG,19.2,122714,,WC,Luis Coudannes,U,,ARG,18.4,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,753,14,,
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,8,102463,5,,Lucas Arnold Ker,R,180,ARG,19.8,102168,,,Hector Moretti,R,170,ARG,21.5,6-1 7-6,3,R32,,,,,,,,,,,,,,,,,,,,308,106,333,96
-1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,9,102665,6,,Damian Furmanski,R,,ARG,18.8,111486,,,Leonardo Olguin,U,,ARG,18.8,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,9,102665,6,,Damian Furmanski,R,,ARG,18.8,102693,,,Leonardo Olguin,R,,ARG,18.6,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1030,4
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,10,102602,,,Federico Lusin,R,,ARG,19.1,106958,,,Ernesto Bottiroli,R,,ARG,,6-3 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1216,1,588,29
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,11,103151,,,Mariano Zabaleta,R,183,ARG,16.4,102611,,,Rafael Serpa Guinazu,R,,ARG,19.1,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,890,8,649,22
 1994-M-SA-ARG-03A-1994a,Argentina 3 Masters 1,Clay,32,S,19940813,12,103264,,,Mariano Puerta,L,180,ARG,15.8,101763,4,,Rodolfo Ramos Paganini,R,,ARG,24.1,3-6 7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,379,75
@@ -6775,7 +6775,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,4,103084,,,Guillermo Canas,R,185,ARG,16.7,102602,,,Federico Lusin,R,,ARG,19.1,6-2 1-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,803,11,1216,1
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,5,102665,,,Damian Furmanski,R,,ARG,18.8,106958,,,Ernesto Bottiroli,R,,ARG,,6-7 7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,588,29
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,6,102890,,,Oscar Rodriguez Arg,R,,ARG,17.6,102718,,,Enzo Artoni,R,,ITA,18.5,3-6 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1103,3,,
-1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,7,103264,,,Mariano Puerta,L,180,ARG,15.8,111486,,,Leonardo Olguin,U,,ARG,18.8,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,7,103264,,,Mariano Puerta,L,180,ARG,15.8,102693,,,Leonardo Olguin,R,,ARG,18.6,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,1030,4
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,8,107197,,,Hernan Colombo Russel,R,,ARG,,102561,,,Gustavo Diaz,R,,ARG,19.3,7-5 1-6 7-6,3,R32,,,,,,,,,,,,,,,,,,,,635,23,1103,3
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,9,102243,1,,Marcelo Charpentier,L,180,ARG,21.0,102611,,,Rafael Serpa Guinazu,R,,ARG,19.1,1-6 6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,368,80,649,22
 1994-M-SA-ARG-03A-1994b,Argentina 3 Masters 2,Clay,24,S,19940813,10,101976,,,Federico Dondo,R,,URU,22.8,101763,7,,Rodolfo Ramos Paganini,R,,ARG,24.1,2-6 6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,379,75
@@ -6803,7 +6803,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,9,101763,6,,Rodolfo Ramos Paganini,R,,ARG,24.1,103095,,WC,Patricio Rudi,R,,ARG,16.6,7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,379,75,,
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,10,101922,,Q,Marcello Wowk,R,,ARG,23.1,102585,,,Sebastian Prieto,R,180,ARG,19.2,6-2 2-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1103,3,753,14
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,11,103264,,WC,Mariano Puerta,L,180,ARG,15.8,102715,,Q,Ignacio Hirigoyen,R,183,ARG,18.5,7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1103,3
-1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,12,102251,3,,Mariano Hood,L,178,ARG,20.9,111486,,LL,Leonardo Olguin,U,,ARG,18.8,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,334,95,,
+1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,12,102251,3,,Mariano Hood,L,178,ARG,20.9,102693,,LL,Leonardo Olguin,R,,ARG,18.6,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,334,95,1030,4
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,13,101388,7,,Gerardo Mirad,R,180,ARG,26.9,102665,,WC,Damian Furmanski,R,,ARG,18.8,3-6 6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,425,60,,
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,14,102611,,,Rafael Serpa Guinazu,R,,ARG,19.1,106986,,,Facundo Nardelli,R,,ARG,,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,649,22,890,8
 1994-M-SA-ARG-03A-1994c,Argentina 3 Masters 3,Clay,32,S,19940813,15,102718,,WC,Enzo Artoni,R,,ITA,18.5,102890,,Q,Oscar Rodriguez Arg,R,,ARG,17.6,6-2 1-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,1103,3
@@ -6828,7 +6828,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,3,102718,,WC,Enzo Artoni,R,,ITA,18.5,103095,,WC,Patricio Rudi,R,,ARG,16.6,3-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,4,102665,,,Damian Furmanski,R,,ARG,18.8,108182,8,,Ruben Alvarenga,R,,PAR,21.9,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,468,50
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,5,102463,3,,Lucas Arnold Ker,R,180,ARG,19.8,102326,,Q,Jose Arnedo,R,,ARG,20.5,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,308,106,,
-1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,6,111486,,Q,Leonardo Olguin,U,,ARG,18.8,101972,,,Gerardo Parino,R,,ARG,22.8,6-3 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,512,42
+1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,6,102693,,Q,Leonardo Olguin,R,,ARG,18.6,101972,,,Gerardo Parino,R,,ARG,22.8,6-3 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,1030,4,512,42
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,7,102611,,,Rafael Serpa Guinazu,R,,ARG,19.1,101922,,,Marcello Wowk,R,,ARG,23.1,6-3 5-7 6-4,3,R32,,,,,,,,,,,,,,,,,,,,649,22,1103,3
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,8,102243,5,,Marcelo Charpentier,L,180,ARG,21.0,106958,,,Ernesto Bottiroli,R,,ARG,,7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,368,80,588,29
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,9,102644,6,,Franco Squillari,L,183,ARG,18.9,102585,,,Sebastian Prieto,R,180,ARG,19.2,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,365,82,753,14
@@ -6841,7 +6841,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,16,102251,2,,Mariano Hood,L,178,ARG,20.9,122712,,Q,Ariel Rodriguez,U,,ARG,18.9,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,334,95,,
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,17,103151,,WC,Mariano Zabaleta,R,183,ARG,16.4,103264,,WC,Mariano Puerta,L,180,ARG,15.8,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,890,8,,
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,18,102665,,,Damian Furmanski,R,,ARG,18.8,102718,,WC,Enzo Artoni,R,,ITA,18.5,6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,,
-1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,19,102463,3,,Lucas Arnold Ker,R,180,ARG,19.8,111486,,Q,Leonardo Olguin,U,,ARG,18.8,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,308,106,,
+1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,19,102463,3,,Lucas Arnold Ker,R,180,ARG,19.8,102693,,Q,Leonardo Olguin,R,,ARG,18.6,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,308,106,1030,4
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,20,102243,5,,Marcelo Charpentier,L,180,ARG,21.0,102611,,,Rafael Serpa Guinazu,R,,ARG,19.1,6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,368,80,649,22
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,21,101976,,Q,Federico Dondo,R,,URU,22.8,102644,6,,Franco Squillari,L,183,ARG,18.9,7-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,,,365,82
 1994-M-SA-ARG-03A-1994d,Argentina 3 Masters 4,Clay,32,S,19940813,22,101763,4,,Rodolfo Ramos Paganini,R,,ARG,24.1,103084,,,Guillermo Canas,R,185,ARG,16.7,6-4 5-7 6-2,3,R16,,,,,,,,,,,,,,,,,,,,379,75,803,11
@@ -6892,7 +6892,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,5,102509,,,Roberto Bracone,R,,ARG,19.5,123288,,,Jan Carlos Cueto Jiras,U,,PER,23.1,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,739,15,,
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,6,102685,,,Sebastien Graeff,R,,MON,18.7,108502,,,Wayne Boich,R,,USA,19.2,2-6 6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1103,3,1029,5
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,7,108480,,,Vitor Martins,R,,BRA,19.5,109034,,,Daniel Souza,R,,BRA,19.2,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,803,11,,
-1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,8,102887,,,Ramon Delgado,R,185,PAR,17.7,108686,,,Alejandro Aramburu Acuna,R,,PER,25.4,7-6 2-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,8,102887,,,Ramon Delgado,R,185,PAR,17.7,101574,,,Alejandro Aramburu,R,175,PER,25.4,7-6 2-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,190,213
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,9,102152,1,,Pablo Campana,R,180,ECU,21.6,102528,,,Carlos Drada,L,,COL,19.4,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,437,57,1102,4
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,10,111623,,,Juan Robinson Gamonal,U,,CHI,19.3,106533,8,,Andres Alarcon,R,,ECU,24.2,6-1 4-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,777,12
 1994-M-SA-PER-01A-1994b,Ecuador Peru Masters 2,Clay,24,S,19940813,11,102505,,,Ernane Melo,R,,BRA,19.5,108585,3,,Americo Venero Montes,U,175,PER,22.4,6-1 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1007,5,,
@@ -7449,7 +7449,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,13,101751,7,,Ross Matheson,R,196,GBR,24.2,102476,,,Mattias Pennonen,R,,SWE,19.8,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,263,134,,
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,14,108170,,,Roman Ruppenthal,R,,GER,,111709,,Q,Daniel Sanders,U,,GBR,20.0,7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,414,66,,
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,15,102151,,Q,Michael Wyeth,R,,GBR,21.7,102733,,WC,Colin Bennett,R,,GBR,18.5,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1210,1,,
-1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,16,101669,2,,Gary Henderson,R,,GBR,24.7,108603,,,Helge Koll Frafjord,U,,NOR,19.2,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,353,90,,
+1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,16,101669,2,,Gary Henderson,R,,GBR,24.7,102595,,,Helge Koll,R,,NOR,19.2,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,353,90,757,13
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,17,102083,1,,Nick Gould,R,,GBR,22.1,102443,,,Barry Cowan,L,188,GBR,20.0,7-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,293,116,332,97
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,18,102301,,,Sebastien Leblanc,L,193,CAN,20.6,102965,8,,Jamie Delgado,R,178,GBR,17.4,7-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,937,7,751,14
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,19,102030,4,,Andrew Foster,R,190,GBR,22.4,102883,,,Tom Spinks,R,,GBR,17.8,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,350,91,639,23
@@ -7465,7 +7465,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,29,102030,4,,Andrew Foster,R,190,GBR,22.4,102301,,,Sebastien Leblanc,L,193,CAN,20.6,7-6 7-6,3,SF,,,,,,,,,,,,,,,,,,,,350,91,937,7
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,30,101669,2,,Gary Henderson,R,,GBR,24.7,102359,3,,Andrew Richardson,L,201,GBR,20.4,7-6 7-6,3,SF,,,,,,,,,,,,,,,,,,,,353,90,562,34
 1994-M-SA-GBR-03A-1994a,Great Britain 3 Masters 1,Grass,32,S,19940828,31,101669,2,,Gary Henderson,R,,GBR,24.7,102030,4,,Andrew Foster,R,190,GBR,22.4,6-2 2-6 7-6,3,F,,,,,,,,,,,,,,,,,,,,353,90,350,91
-1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,1,108603,,,Helge Koll Frafjord,U,,NOR,19.2,103114,,,Martin Lee,L,180,GBR,16.6,7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,1,102595,,,Helge Koll,R,,NOR,19.2,103114,,,Martin Lee,L,180,GBR,16.6,7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,757,13,,
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,2,102476,,,Mattias Pennonen,R,,SWE,19.8,101913,,,Joseph Rahme,R,180,RSA,23.2,6-3 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,3,102062,,,Guillaume Marx,R,,FRA,22.2,102151,,,Michael Wyeth,R,,GBR,21.7,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,331,97,1210,1
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,4,102156,,,Helge Capell,R,,GER,21.6,108170,,,Roman Ruppenthal,R,,GER,,6-3 3-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,510,41,414,66
@@ -7473,7 +7473,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,6,102883,,,Tom Spinks,R,,GBR,17.8,111392,,,Bradley Sceney,U,,AUS,20.5,3-6 6-3 6-0,3,R32,,,,,,,,,,,,,,,,,,,,639,23,,
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,7,101756,,,Jeffrey Hunter,R,,GBR,24.2,102965,,,Jamie Delgado,R,178,GBR,17.4,6-1 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,610,27,751,14
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,8,102256,,,Nick Weal,R,,GBR,20.9,102260,,,James Davidson,R,,GBR,20.9,6-4 1-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,854,9,771,13
-1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,9,102083,1,,Nick Gould,R,,GBR,22.1,108603,,,Helge Koll Frafjord,U,,NOR,19.2,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,293,116,,
+1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,9,102083,1,,Nick Gould,R,,GBR,22.1,102595,,,Helge Koll,R,,NOR,19.2,6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,293,116,757,13
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,10,101751,7,,Ross Matheson,R,196,GBR,24.2,102476,,,Mattias Pennonen,R,,SWE,19.8,6-0 6-2,3,R16,,,,,,,,,,,,,,,,,,,,263,134,,
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,11,102030,3,,Andrew Foster,R,190,GBR,22.4,102062,,,Guillaume Marx,R,,FRA,22.2,2-6 6-3 7-6,3,R16,,,,,,,,,,,,,,,,,,,,350,91,331,97
 1994-M-SA-GBR-03A-1994b,Great Britain 3 Masters 2,Grass,24,S,19940828,12,102156,,,Helge Capell,R,,GER,21.6,106492,6,,Alexander Von Hugo,R,,GER,,6-4 4-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,510,41,859,8
@@ -7494,7 +7494,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,4,108170,8,,Roman Ruppenthal,R,,GER,,102256,,Q,Nick Weal,R,,GBR,20.9,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,414,66,854,9
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,5,102062,3,,Guillaume Marx,R,,FRA,22.2,102673,,Q,Tobias Hildebrand,R,,SWE,18.8,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,331,97,1089,4
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,6,102359,,,Andrew Richardson,L,201,GBR,20.4,102589,,WC,Tom Hand,R,,GBR,19.2,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,562,34,,
-1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,7,108603,,,Helge Koll Frafjord,U,,NOR,19.2,102045,,WC,David Draper,L,,GBR,22.3,3-6 6-2 2-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,878,8
+1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,7,102595,,,Helge Koll,R,,NOR,19.2,102045,,WC,David Draper,L,,GBR,22.3,3-6 6-2 2-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,757,13,878,8
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,8,102030,5,,Andrew Foster,R,190,GBR,22.4,102151,,LL,Michael Wyeth,R,,GBR,21.7,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,350,91,1210,1
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,9,101669,6,,Gary Henderson,R,,GBR,24.7,102121,,,Holger Losch,R,,RSA,21.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,353,90,782,12
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,10,102156,,,Helge Capell,R,,GER,21.6,102883,,,Tom Spinks,R,,GBR,17.8,6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,510,41,639,23
@@ -7507,13 +7507,13 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,17,101751,1,,Ross Matheson,R,196,GBR,24.2,103114,,WC,Martin Lee,L,180,GBR,16.6,6-2 6-7 7-5,3,R16,,,,,,,,,,,,,,,,,,,,263,134,,
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,18,108170,8,,Roman Ruppenthal,R,,GER,,111392,,Q,Bradley Sceney,U,,AUS,20.5,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,414,66,,
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,19,102359,,,Andrew Richardson,L,201,GBR,20.4,102062,3,,Guillaume Marx,R,,FRA,22.2,7-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,562,34,331,97
-1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,20,108603,,,Helge Koll Frafjord,U,,NOR,19.2,102030,5,,Andrew Foster,R,190,GBR,22.4,7-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,350,91
+1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,20,102595,,,Helge Koll,R,,NOR,19.2,102030,5,,Andrew Foster,R,190,GBR,22.4,7-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,757,13,350,91
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,21,101669,6,,Gary Henderson,R,,GBR,24.7,102156,,,Helge Capell,R,,GER,21.6,6-1 4-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,353,90,510,41
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,22,106492,,Q,Alexander Von Hugo,R,,GER,,102443,4,,Barry Cowan,L,188,GBR,20.0,5-7 7-6 7-6,3,R16,,,,,,,,,,,,,,,,,,,,859,8,332,97
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,23,101814,7,,Colin Beecher,R,,GBR,23.8,102550,,,James Fox,R,,GBR,19.4,6-4 6-7 6-2,3,R16,,,,,,,,,,,,,,,,,,,,411,66,677,20
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,24,102083,2,,Nick Gould,R,,GBR,22.1,123099,,WC,Gregg Saffery,R,,GBR,21.8,7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,293,116,,
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,25,101751,1,,Ross Matheson,R,196,GBR,24.2,108170,8,,Roman Ruppenthal,R,,GER,,6-4 6-2,3,QF,,,,,,,,,,,,,,,,,,,,263,134,414,66
-1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,26,102359,,,Andrew Richardson,L,201,GBR,20.4,108603,,,Helge Koll Frafjord,U,,NOR,19.2,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,562,34,,
+1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,26,102359,,,Andrew Richardson,L,201,GBR,20.4,102595,,,Helge Koll,R,,NOR,19.2,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,562,34,757,13
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,27,106492,,Q,Alexander Von Hugo,R,,GER,,101669,6,,Gary Henderson,R,,GBR,24.7,1-6 7-5 7-6,3,QF,,,,,,,,,,,,,,,,,,,,859,8,353,90
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,28,102083,2,,Nick Gould,R,,GBR,22.1,101814,7,,Colin Beecher,R,,GBR,23.8,6-3 7-6,3,QF,,,,,,,,,,,,,,,,,,,,293,116,411,66
 1994-M-SA-GBR-03A-1994c,Great Britain 3 Masters 3,Grass,32,S,19940828,29,102359,,,Andrew Richardson,L,201,GBR,20.4,101751,1,,Ross Matheson,R,196,GBR,24.2,6-3 2-6 6-3,3,SF,,,,,,,,,,,,,,,,,,,,562,34,263,134
@@ -7529,7 +7529,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,8,101669,6,,Gary Henderson,R,,GBR,24.7,102281,,,Graham Gilles,R,,USA,20.8,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,353,90,771,13
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,9,102030,5,,Andrew Foster,R,190,GBR,22.4,111523,,WC,Paul Martin,U,,GBR,18.5,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,350,91,,
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,10,102260,,,James Davidson,R,,GBR,20.9,123099,,WC,Gregg Saffery,R,,GBR,21.8,6-3 7-6,3,R32,,,,,,,,,,,,,,,,,,,,771,13,,
-1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,11,102359,,,Andrew Richardson,L,201,GBR,20.4,108603,,,Helge Koll Frafjord,U,,NOR,19.2,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,562,34,,
+1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,11,102359,,,Andrew Richardson,L,201,GBR,20.4,102595,,,Helge Koll,R,,NOR,19.2,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,562,34,757,13
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,12,102062,3,,Guillaume Marx,R,,FRA,22.2,124537,,Q,Euan Mcginn,U,,GBR,22.6,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,331,97,,
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,13,103114,,WC,Martin Lee,L,180,GBR,16.6,108170,8,,Roman Ruppenthal,R,,GER,,4-6 6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,414,66
 1994-M-SA-GBR-03A-1994d,Great Britain 3 Masters 4,Grass,32,S,19940828,14,102156,,,Helge Capell,R,,GER,21.6,111709,,Q,Daniel Sanders,U,,GBR,20.0,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,510,41,,
@@ -10234,7 +10234,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,10,102516,,Q,Christian Tambue,R,,GER,19.9,122863,,Q,Grzegorz Zgola,U,,POL,21.5,6-4 3-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,682,,,
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,11,101499,,,Eduardo Furusho,L,168,JPN,26.4,101884,,,Frank Ofori,R,,GHA,23.7,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,738,,337,
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,12,101542,4,,Burkhard Scholz,R,,GER,26.0,102311,,WC,Vasudeva Reddy,R,,IND,20.9,7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,491,,1003,5
-1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,13,101680,7,,Zeeshan Ali,R,180,IND,24.9,122797,,,Luciano Dandrea,U,,BRA,26.4,6-7 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,753,,,
+1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,13,101680,7,,Zeeshan Ali,R,180,IND,24.9,107584,,,Luciano Dandrea,R,,BRA,,6-7 6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,753,,941,
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,14,101669,,,Gary Henderson,R,,GBR,25.0,117706,,Q,Vishal Gupta,U,,IND,18.2,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,241,,,
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,15,101769,,,Paul Ricar,R,,GER,24.4,102165,,WC,Srinath Prahlad,R,,IND,21.9,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,820,,1198,2
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,16,108442,,,Torsten Park,R,,GER,,101740,2,,Sascha Nensel,R,180,GER,24.6,2-6 7-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,941,,439,
@@ -10255,7 +10255,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993a,India Masters 1,Grass,32,S,19941225,31,102450,1,,Tim Henman,R,185,GBR,20.3,101669,,,Gary Henderson,R,,GBR,25.0,6-4 6-4,3,F,,,,,,,,,,,,,,,,,,,,167,,241,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,1,102086,,,Igor Kornienko,R,,RUS,22.4,102516,,,Christian Tambue,R,,GER,19.9,6-4 3-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,332,,682,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,2,102359,,,Andrew Richardson,L,201,GBR,20.7,102833,,,Almos Toth,R,,HUN,18.4,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,469,,936,
-1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,3,122797,,,Luciano Dandrea,U,,BRA,26.4,108442,,,Torsten Park,R,,GER,,6-4 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,,,941,
+1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,3,107584,,,Luciano Dandrea,R,,BRA,,108442,,,Torsten Park,R,,GER,,6-4 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,941,,941,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,4,102443,,,Barry Cowan,L,188,GBR,20.3,102276,,,Sandeep Kirtane,R,,IND,21.1,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,394,,1021,5
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,5,108159,,,Rohit Rajpal,R,,IND,23.9,101952,,,Ingo Herzgerodt,R,,GER,23.3,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,881,,1142,3
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,6,101884,,,Frank Ofori,R,,GHA,23.7,108479,,,Vinod Ramachandran,R,,IND,21.2,6-7 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,337,,1023,5
@@ -10263,7 +10263,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,8,102311,,,Vasudeva Reddy,R,,IND,20.9,101680,,,Zeeshan Ali,R,180,IND,24.9,1-2 RET,3,R32,,,,,,,,,,,,,,,,,,,,1003,5,753,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,9,102450,1,,Tim Henman,R,185,GBR,20.3,102086,,,Igor Kornienko,R,,RUS,22.4,7-5 6-2,3,R16,,,,,,,,,,,,,,,,,,,,167,,332,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,10,102039,7,,Gaurav Natekar,R,,IND,22.7,102359,,,Andrew Richardson,L,201,GBR,20.7,4-6 6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,579,,469,
-1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,11,101518,4,,Sandro Della Piana,R,,SUI,26.2,122797,,,Luciano Dandrea,U,,BRA,26.4,6-7 6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,369,,,
+1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,11,101518,4,,Sandro Della Piana,R,,SUI,26.2,107584,,,Luciano Dandrea,R,,BRA,,6-7 6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,369,,941,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,12,101740,6,,Sascha Nensel,R,180,GER,24.6,102443,,,Barry Cowan,L,188,GBR,20.3,7-5 7-5,3,R16,,,,,,,,,,,,,,,,,,,,439,,394,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,13,108159,,,Rohit Rajpal,R,,IND,23.9,101669,5,,Gary Henderson,R,,GBR,25.0,6-7 6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,881,,241,
 1994-M-SA-IND-01A-1993b,India Masters 2,Grass,24,S,19941225,14,101884,,,Frank Ofori,R,,GHA,23.7,102132,3,,Ivan Baron,R,185,USA,22.1,6-1 6-0,3,R16,,,,,,,,,,,,,,,,,,,,337,,282,
@@ -10281,7 +10281,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,3,102327,,,Adam Skrzypczak,R,,POL,20.9,102276,,,Sandeep Kirtane,R,,IND,21.1,7-6 6-1,3,R32,,,,,,,,,,,,,,,,,,,,881,,1021,5
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,4,101669,,,Gary Henderson,R,,GBR,25.0,101542,8,,Burkhard Scholz,R,,GER,26.0,6-0 6-4,3,R32,,,,,,,,,,,,,,,,,,,,241,,491,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,5,102132,3,,Ivan Baron,R,185,USA,22.1,101499,,Q,Eduardo Furusho,L,168,JPN,26.4,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,282,,738,
-1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,6,122797,,Q,Luciano Dandrea,U,,BRA,26.4,100968,,Q,Sylvano Simone,R,,ITA,31.2,6-3 0-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,973,
+1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,6,107584,,Q,Luciano Dandrea,R,,BRA,,100968,,Q,Sylvano Simone,R,,ITA,31.2,6-3 0-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,941,,973,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,7,101952,,,Ingo Herzgerodt,R,,GER,23.3,122863,,Q,Grzegorz Zgola,U,,POL,21.5,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,1142,3,,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,8,101680,5,,Zeeshan Ali,R,180,IND,24.9,101524,,Q,Stephan Rhode,R,188,GER,26.2,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,753,,535,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,9,101884,6,,Frank Ofori,R,,GHA,23.7,102345,,WC,Nitten Kirrtane,R,,IND,20.8,7-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,337,,1219,1
@@ -10294,7 +10294,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,16,101740,2,,Sascha Nensel,R,180,GER,24.6,107689,,,Mark Gurr,R,,ZIM,28.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,439,,833,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,17,102450,1,,Tim Henman,R,185,GBR,20.3,101769,,Q,Paul Ricar,R,,GER,24.4,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,167,,820,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,18,101669,,,Gary Henderson,R,,GBR,25.0,102327,,,Adam Skrzypczak,R,,POL,20.9,W/O,3,R16,,,,,,,,,,,,,,,,,,,,241,,881,
-1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,19,102132,3,,Ivan Baron,R,185,USA,22.1,122797,,Q,Luciano Dandrea,U,,BRA,26.4,6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,282,,,
+1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,19,102132,3,,Ivan Baron,R,185,USA,22.1,107584,,Q,Luciano Dandrea,R,,BRA,,6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,282,,941,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,20,101680,5,,Zeeshan Ali,R,180,IND,24.9,101952,,,Ingo Herzgerodt,R,,GER,23.3,7-6 6-2,3,R16,,,,,,,,,,,,,,,,,,,,753,,1142,3
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,21,101518,,,Sandro Della Piana,R,,SUI,26.2,101884,6,,Frank Ofori,R,,GHA,23.7,7-6 7-5,3,R16,,,,,,,,,,,,,,,,,,,,369,,337,
 1994-M-SA-IND-01A-1993c,India Masters 3,Grass,32,S,19941225,22,102086,,,Igor Kornienko,R,,RUS,22.4,102443,4,,Barry Cowan,L,188,GBR,20.3,4-6 6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,332,,394,
@@ -10318,7 +10318,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,9,102443,5,,Barry Cowan,L,188,GBR,20.3,102086,,,Igor Kornienko,R,,RUS,22.4,7-6 5-7 7-6,3,R32,,,,,,,,,,,,,,,,,,,,394,,332,
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,10,101542,,,Burkhard Scholz,R,,GER,26.0,102359,,,Andrew Richardson,L,201,GBR,20.7,6-4 7-6,3,R32,,,,,,,,,,,,,,,,,,,,491,,469,
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,11,102311,,WC,Vasudeva Reddy,R,,IND,20.9,101669,,LL,Gary Henderson,R,,GBR,25.0,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1003,5,241,
-1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,12,102132,3,,Ivan Baron,R,185,USA,22.1,122797,,Q,Luciano Dandrea,U,,BRA,26.4,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,282,,,
+1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,12,102132,3,,Ivan Baron,R,185,USA,22.1,107584,,Q,Luciano Dandrea,R,,BRA,,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,282,,941,
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,13,108479,,,Vinod Ramachandran,R,,IND,21.2,101884,8,,Frank Ofori,R,,GHA,23.7,7-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1023,5,337,
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,14,101524,,Q,Stephan Rhode,R,188,GER,26.2,102516,,,Christian Tambue,R,,GER,19.9,7-5 4-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,535,,682,
 1994-M-SA-IND-01A-1993d,India Masters 4,Grass,32,S,19941225,15,102276,,Q,Sandeep Kirtane,R,,IND,21.1,101810,,WC,Asif Ismail,R,,IND,24.2,6-4 3-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1021,5,973,

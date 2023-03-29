@@ -92,7 +92,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-GER-01A-2003,Germany F1A,Hard,32,S,20030106,29,103646,,,Lars Uebel,R,180,GER,22.2,103582,4,Q,Michael Berrer,L,193,GER,22.5,7-5 6-4,3,SF,,,,,,,,,,,,,,,,,,,,511,37,350,74
 2003-M-FU-GER-01A-2003,Germany F1A,Hard,32,S,20030106,30,104121,,WC,Tobias Summerer,R,185,GER,19.9,104056,,Q,Roko Karanusic,R,183,CRO,20.3,6-1 6-4,3,SF,,,,,,,,,,,,,,,,,,,,921,7,444,50
 2003-M-FU-GER-01A-2003,Germany F1A,Hard,32,S,20030106,31,104121,,WC,Tobias Summerer,R,185,GER,19.9,103646,,,Lars Uebel,R,180,GER,22.2,6-3 7-6(4),3,F,,,,,,,,,,,,,,,,,,,,921,7,511,37
-2003-M-FU-IND-01A-2003,India F1,Grass,32,S,20030106,1,103320,,,Rishi Sridhar,R,,IND,23.9,103863,1,,Mikhail Elgin,R,183,RUS,21.2,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,871,9,,
+2003-M-FU-IND-01A-2003,India F1,Grass,32,S,20030106,1,103320,,,Rishi Sridhar,R,,IND,23.9,103863,1,,Mikhail Elgin,R,183,RUS,21.2,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,871,9,303,92
 2003-M-FU-IND-01A-2003,India F1,Grass,32,S,20030106,2,102504,,,Vitali Chvets,U,,BLR,28.0,118931,,WC,Bhuvan Chaturvedi,U,,IND,19.4,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,613,26,,
 2003-M-FU-IND-01A-2003,India F1,Grass,32,S,20030106,3,103468,,WC,Harsh Mankad,R,173,IND,23.1,107150,,WC,Gurmehar Singh,U,,IND,,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,560,32,,
 2003-M-FU-IND-01A-2003,India F1,Grass,32,S,20030106,4,103400,,Q,Hendri Susilo Pramono,R,,INA,23.5,102843,6,Q,Suwandi Suwandi,R,178,INA,26.3,4-6 6-3 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,1331,1,493,40
@@ -332,7 +332,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-GER-02A-2003,Germany F1B,Hard,32,S,20030113,29,103938,,,Igor Zelenay,R,198,SVK,20.9,102244,,Q,Gregory Girault,R,,FRA,29.4,3-6 6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,451,48,656,22
 2003-M-FU-GER-02A-2003,Germany F1B,Hard,32,S,20030113,30,104056,,,Roko Karanusic,R,183,CRO,20.3,104332,,LL,Philipp Petzschner,R,185,GER,18.8,7-5 6-3,3,SF,,,,,,,,,,,,,,,,,,,,443,50,337,79
 2003-M-FU-GER-02A-2003,Germany F1B,Hard,32,S,20030113,31,104056,,,Roko Karanusic,R,183,CRO,20.3,103938,,,Igor Zelenay,R,198,SVK,20.9,7-5 7-5,3,F,,,,,,,,,,,,,,,,,,,,443,50,451,48
-2003-M-FU-IND-02A-2003,India F2,Carpet,32,S,20030113,1,104161,,,Tomislav Peric,R,,CRO,19.7,103863,1,,Mikhail Elgin,R,183,RUS,21.2,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,598,27,,
+2003-M-FU-IND-02A-2003,India F2,Carpet,32,S,20030113,1,104161,,,Tomislav Peric,R,,CRO,19.7,103863,1,,Mikhail Elgin,R,183,RUS,21.2,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,598,27,302,92
 2003-M-FU-IND-02A-2003,India F2,Carpet,32,S,20030113,2,103468,,,Harsh Mankad,R,173,IND,23.1,103941,,,Sergei Pozdnev,R,,RUS,20.9,7-5 6-2,3,R32,,,,,,,,,,,,,,,,,,,,560,32,652,22
 2003-M-FU-IND-02A-2003,India F2,Carpet,32,S,20030113,3,104643,,Q,Alexander Pavlioutchenkov,R,,RUS,17.1,102345,,,Nitten Kirrtane,R,,IND,28.8,6-3 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,1068,4,546,33
 2003-M-FU-IND-02A-2003,India F2,Carpet,32,S,20030113,4,103936,7,,Todor Enev,R,,BUL,20.9,103619,,,Mustafa Ghouse,R,185,IND,22.4,7-6(6) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,489,41,536,34
@@ -986,7 +986,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,9,104056,8,,Roko Karanusic,R,183,CRO,20.4,104160,,,Lukas Dlouhy,R,185,CZE,19.8,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,301,94,398,60
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,10,104046,,Q,Bostjan Osabnik,R,,SLO,20.5,117915,,WC,Marko Vukelic,U,,CRO,21.8,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,913,7,1214,2
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,11,104182,,WC,Sasa Tuksar,R,180,CRO,19.7,103949,,Q,Ivan Cerovic,L,190,CRO,20.9,6-7(4) 6-3 7-6(7),3,R32,,,,,,,,,,,,,,,,,,,,405,58,611,26
-2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,12,103457,,,Petr Kralert,R,188,CZE,23.3,103863,4,,Mikhail Elgin,R,183,RUS,21.3,6-7(4) 7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,410,56,,
+2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,12,103457,,,Petr Kralert,R,188,CZE,23.3,103863,4,,Mikhail Elgin,R,183,RUS,21.3,6-7(4) 7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,410,56,306,91
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,13,103293,,Q,Martin Bartonek,R,,CZE,24.1,103716,5,,Uros Vico,R,188,ITA,21.9,3-2 RET,3,R32,,,,,,,,,,,,,,,,,,,,1119,4,344,76
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,14,103938,,Q,Igor Zelenay,R,198,SVK,20.9,103512,,,Ivan Cinkus,R,,CRO,22.9,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,406,58,512,37
 2003-M-FU-CRO-01A-2003,Croatia F1,Hard,32,S,20030210,15,103891,,Q,Alexandros Jakupovic,R,,GRE,21.1,103256,,,Ivan Vajda,R,,CRO,24.4,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,711,17,461,45
@@ -1249,7 +1249,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,1,103761,,SE,Tomas Cakl,R,178,CZE,21.8,103891,,LL,Alexandros Jakupovic,R,,GRE,21.1,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,752,14,711,17
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,2,106559,,WC,Ante Andric,U,,CRO,,104182,,,Sasa Tuksar,R,180,CRO,19.7,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,405,58
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,3,104161,,WC,Tomislav Peric,R,,CRO,19.8,103256,,,Ivan Vajda,R,,CRO,24.4,6-3 3-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,570,30,463,45
-2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,4,102927,,Q,Boris Borgula,R,,SVK,26.0,103863,5,,Mikhail Elgin,R,183,RUS,21.3,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,651,22,,
+2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,4,102927,,Q,Boris Borgula,R,,SVK,26.0,103863,5,,Mikhail Elgin,R,183,RUS,21.3,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,651,22,308,91
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,5,104056,4,,Roko Karanusic,R,183,CRO,20.4,103457,,,Petr Kralert,R,188,CZE,23.3,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,302,94,411,56
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,6,102240,,Q,Kresimir Ritz,R,,CRO,29.6,119219,,WC,Boris Gubic,U,,CRO,20.0,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1185,3,,
 2003-M-FU-CRO-02A-2003,Croatia F2,Hard,32,S,20030217,7,104046,,Q,Bostjan Osabnik,R,,SLO,20.5,104345,,Q,Nikola Martinovic,U,,CRO,18.8,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,914,7,,
@@ -1445,7 +1445,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,11,118411,,Q,Oliver Foreman,U,,GBR,22.9,102496,,Q,Scott Willinsky,R,,JAM,28.1,7-5 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,940,7
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,12,103921,,Q,Sonchat Ratiwatana,R,175,THA,21.0,103407,,LL,Matt Klinger,U,,CAN,23.6,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,845,10,677,19
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,13,103748,8,,Jan Minar,R,,CZE,21.8,104368,,WC,Daniel King Turner,R,190,NZL,18.7,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,525,36,,
-2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,14,110685,,WC,Gd Jones,R,183,NZL,16.9,104444,,,Ryan Henry,R,183,AUS,18.3,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,453,46
+2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,14,110685,,WC,G D Jones,R,183,NZL,16.9,104444,,,Ryan Henry,R,183,AUS,18.3,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,453,46
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,15,103743,,,Domenic Marafiote,L,,AUS,21.8,103817,,Q,Yu Jr Wang,L,,CHN,21.5,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,657,21,668,20
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,16,103066,2,,Mark Nielsen,R,185,NZL,25.3,103307,,Q,Matt Daly,U,,USA,24.1,4-6 7-6(4) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,337,82,1188,3
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,17,103378,,,Bernard Parun,R,,GER,23.7,102768,1,Q,Federico Browne,R,180,ARG,26.8,4-6 6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,691,18,223,140
@@ -1454,7 +1454,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,20,104261,,,Peng Sun,R,,CHN,19.3,104219,,,Stephane Bohli,R,185,SUI,19.5,6-3 7-6(9),3,R16,,,,,,,,,,,,,,,,,,,,624,24,464,44
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,21,101801,,,Mark Hlawaty,R,,AUS,32.4,104305,,,Luka Gregorc,R,,SLO,19.0,6-3 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,633,23,617,25
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,22,118411,,Q,Oliver Foreman,U,,GBR,22.9,103921,,Q,Sonchat Ratiwatana,R,175,THA,21.0,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,,,845,10
-2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,23,103748,8,,Jan Minar,R,,CZE,21.8,110685,,WC,Gd Jones,R,183,NZL,16.9,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,525,36,,
+2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,23,103748,8,,Jan Minar,R,,CZE,21.8,110685,,WC,G D Jones,R,183,NZL,16.9,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,525,36,,
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,24,103066,2,,Mark Nielsen,R,185,NZL,25.3,103743,,,Domenic Marafiote,L,,AUS,21.8,6-3 6-4,3,R16,,,,,,,,,,,,,,,,,,,,337,82,657,21
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,25,103460,,,Konstantin Don Gruber,R,183,AUT,23.3,103378,,,Bernard Parun,R,,GER,23.7,7-6(2) 6-4,3,QF,,,,,,,,,,,,,,,,,,,,567,31,691,18
 2003-M-FU-NZL-01A-2003,New Zealand F1,Hard,32,S,20030224,26,104371,,,Ivo Minar,R,183,CZE,18.7,104261,,,Peng Sun,R,,CHN,19.3,1-6 6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,546,32,624,24
@@ -1705,7 +1705,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-SA-ITA-01A-2003d,Italy 1 4,Clay,24,S,20030303,23,104230,1,,Daniel Koellerer,R,180,AUT,19.5,104181,,,Victor Ionita,R,185,ROU,19.8,6-4 7-6(4),3,F,,,,,,,,,,,,,,,,,,,,596,27,720,16
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,1,102768,1,,Federico Browne,R,180,ARG,26.9,103575,,,Ajay Ramaswami,U,,IND,22.7,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,223,140,617,25
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,2,103647,,,Jun Kato,R,173,JPN,22.3,103619,,,Mustafa Ghouse,R,185,IND,22.5,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,504,38,518,36
-2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,3,110685,,WC,Gd Jones,R,183,NZL,16.9,104155,,,Sunil Kumar Sipaeya,L,,IND,19.9,4-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,537,34
+2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,3,110685,,WC,G D Jones,R,183,NZL,16.9,104155,,,Sunil Kumar Sipaeya,L,,IND,19.9,4-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,537,34
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,4,103460,,,Konstantin Don Gruber,R,183,AUT,23.3,103199,,LL,Oskar Johansson,U,,SWE,24.7,6-1 7-6(1),3,R32,,,,,,,,,,,,,,,,,,,,566,31,697,17
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,5,104210,,,Ryan Russell,L,,JAM,19.6,103098,3,,Johan Du Randt,U,,RSA,25.1,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,533,35,370,67
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,6,103830,,,Shao Xuan Zeng,R,185,CHN,21.5,103921,,Q,Sonchat Ratiwatana,R,175,THA,21.1,7-6(5) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,614,25,848,10
@@ -1720,7 +1720,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,15,103817,,Q,Yu Jr Wang,L,,CHN,21.5,103400,,Q,Hendri Susilo Pramono,R,,INA,23.6,6-1 3-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,670,20,958,6
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,16,104305,,Q,Luka Gregorc,R,,SLO,19.0,103066,2,,Mark Nielsen,R,185,NZL,25.3,6-4 6-7(5) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,616,25,334,82
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,17,103647,,,Jun Kato,R,173,JPN,22.3,102768,1,,Federico Browne,R,180,ARG,26.9,6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,504,38,223,140
-2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,18,103460,,,Konstantin Don Gruber,R,183,AUT,23.3,110685,,WC,Gd Jones,R,183,NZL,16.9,6-1 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,566,31,,
+2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,18,103460,,,Konstantin Don Gruber,R,183,AUT,23.3,110685,,WC,G D Jones,R,183,NZL,16.9,6-1 7-6(5),3,R16,,,,,,,,,,,,,,,,,,,,566,31,,
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,19,103830,,,Shao Xuan Zeng,R,185,CHN,21.5,104210,,,Ryan Russell,L,,JAM,19.6,6-2 6-3,3,R16,,,,,,,,,,,,,,,,,,,,614,25,533,35
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,20,104444,7,,Ryan Henry,R,183,AUS,18.3,103743,,Q,Domenic Marafiote,L,,AUS,21.9,4-6 7-6(4) 6-2,3,R16,,,,,,,,,,,,,,,,,,,,453,46,656,21
 2003-M-FU-NZL-02A-2003,New Zealand F2,Hard,32,S,20030303,21,103748,,,Jan Minar,R,,CZE,21.8,102873,,WC,Rob Cheyne,R,,NZL,26.3,6-2 7-6(6),3,R16,,,,,,,,,,,,,,,,,,,,525,36,1038,5
@@ -1970,7 +1970,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,2,102406,,WC,Thomas Dupre,R,,FRA,28.7,103679,,,Jeroen Masson,R,,BEL,22.1,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,355,72,295,98
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,3,103208,,Q,Jean Michel Pequery,R,,FRA,24.7,103824,,,Orest Tereshchuk,R,,UKR,21.5,6-2 3-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,451,47,333,82
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,4,104214,8,,Igor Andreev,R,185,RUS,19.6,104049,,Q,Gary Lugassy,L,,FRA,20.5,7-6(4) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,278,106,983,6
-2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,5,103877,,,Mike Scheidweiler,R,188,LUX,21.3,111486,4,,Leonardo Olguin,U,,ARG,27.4,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,316,89,,
+2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,5,103877,,,Mike Scheidweiler,R,188,LUX,21.3,102693,4,,Leonardo Olguin,R,,ARG,27.2,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,316,89,230,137
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,6,103032,,,Francisco Fogues,L,190,ESP,25.5,111473,,Q,Jacques Gley,U,,FRA,22.8,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,307,94,,
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,7,104515,,WC,Mathieu Montcourt,R,183,FRA,18.0,102323,,,Regis Lavergne,R,,FRA,29.1,2-6 6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1184,3,321,88
 2003-M-FU-FRA-06A-2003,France F6,Hard,32,S,20030310,8,102533,5,,Jens Knippschild,R,190,GER,28.0,104271,,Q,Philipp Mukhometov,R,,RUS,19.2,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,255,117,384,64
@@ -2011,7 +2011,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,12,104143,3,,Dirk Stegmann,R,,RSA,20.0,102496,,Q,Scott Willinsky,R,,JAM,28.2,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,439,51,940,7
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,13,104219,5,,Stephane Bohli,R,185,SUI,19.6,103575,,,Ajay Ramaswami,U,,IND,22.7,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,461,45,622,25
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,14,103483,,WC,James Shortall,R,,NZL,23.2,103774,,Q,Hayato Furukawa,R,,JPN,21.8,6-7(4) 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1061,5,835,10
-2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,15,110685,,WC,Gd Jones,R,183,NZL,16.9,103920,,Q,Sanchai Ratiwatana,R,175,THA,21.1,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,886,8
+2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,15,110685,,WC,G D Jones,R,183,NZL,16.9,103920,,Q,Sanchai Ratiwatana,R,175,THA,21.1,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1334,1,886,8
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,16,103763,,Q,Martin Slanar,R,,AUT,21.8,103339,2,,Wesley Whitehouse,L,190,RSA,23.9,7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,868,9,426,55
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,17,103098,1,,Johan Du Randt,U,,RSA,25.2,104261,,,Peng Sun,R,,CHN,19.3,7-5 6-3,3,R16,,,,,,,,,,,,,,,,,,,,373,67,611,26
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,18,103748,8,,Jan Minar,R,,CZE,21.9,103320,,LL,Rishi Sridhar,R,,IND,24.0,6-4 6-4,3,R16,,,,,,,,,,,,,,,,,,,,470,44,850,10
@@ -2020,7 +2020,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,21,103619,7,,Mustafa Ghouse,R,185,IND,22.5,102873,,WC,Rob Cheyne,R,,NZL,26.3,6-4 3-6 7-6(3),3,R16,,,,,,,,,,,,,,,,,,,,525,36,990,6
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,22,104143,3,,Dirk Stegmann,R,,RSA,20.0,103830,,,Shao Xuan Zeng,R,185,CHN,21.5,3-6 7-5 6-0,3,R16,,,,,,,,,,,,,,,,,,,,439,51,619,25
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,23,104219,5,,Stephane Bohli,R,185,SUI,19.6,103483,,WC,James Shortall,R,,NZL,23.2,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,461,45,1061,5
-2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,24,103763,,Q,Martin Slanar,R,,AUT,21.8,110685,,WC,Gd Jones,R,183,NZL,16.9,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,868,9,,
+2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,24,103763,,Q,Martin Slanar,R,,AUT,21.8,110685,,WC,G D Jones,R,183,NZL,16.9,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,868,9,1334,1
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,25,103098,1,,Johan Du Randt,U,,RSA,25.2,103748,8,,Jan Minar,R,,CZE,21.9,6-1 3-6 6-1,3,QF,,,,,,,,,,,,,,,,,,,,373,67,470,44
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,26,103647,6,,Jun Kato,R,173,JPN,22.3,104210,,,Ryan Russell,L,,JAM,19.6,6-3 6-3,3,QF,,,,,,,,,,,,,,,,,,,,502,39,540,35
 2003-M-FU-NZL-03A-2003,New Zealand F3,Hard,32,S,20030310,27,104143,3,,Dirk Stegmann,R,,RSA,20.0,103619,7,,Mustafa Ghouse,R,185,IND,22.5,6-1 6-2,3,QF,,,,,,,,,,,,,,,,,,,,439,51,525,36
@@ -2060,7 +2060,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-POR-05A-2003,Portugal F5,Hard,32,S,20030310,30,104198,6,,Guillermo Garcia Lopez,R,188,ESP,19.7,103058,,LL,Juan Felipe Yanez,R,,CHI,25.4,6-3 7-6(7),3,SF,,,,,,,,,,,,,,,,,,,,374,67,616,26
 2003-M-FU-POR-05A-2003,Portugal F5,Hard,32,S,20030310,31,103077,3,,Konstantinos Economidis,R,188,GRE,25.3,104198,6,,Guillermo Garcia Lopez,R,188,ESP,19.7,6-4 6-1,3,F,,,,,,,,,,,,,,,,,,,,309,93,374,67
 2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,1,104386,1,,Janko Tipsarevic,R,180,SRB,18.7,102763,,WC,Benjamin Cassaigne,L,185,FRA,26.9,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,165,227,339,79
-2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,2,103060,,Q,Alejandro Hernandez,R,180,MEX,25.4,111486,,,Leonardo Olguin,U,,ARG,27.4,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,500,39,,
+2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,2,103060,,Q,Alejandro Hernandez,R,180,MEX,25.4,102693,,,Leonardo Olguin,R,,ARG,27.2,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,500,39,235,137
 2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,3,104180,,,Gilles Muller,L,193,LUX,19.8,102579,,Q,Xavier Audouy,U,,FRA,27.8,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,273,109,784,12
 2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,4,103917,7,,Nicolas Mahut,R,190,FRA,21.1,103967,,Q,Michael Lammer,R,185,SUI,20.9,6-1 7-6(1),3,R32,,,,,,,,,,,,,,,,,,,,215,156,383,64
 2003-M-FU-FRA-07A-2003,France F7,Hard,32,S,20030317,5,104259,,,Philipp Kohlschreiber,R,178,GER,19.4,103153,3,,Gilles Elseneer,R,188,BEL,25.0,6-7(5) RET,3,R32,,,,,,,,,,,,,,,,,,,,330,82,173,211
@@ -2380,7 +2380,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,9,104312,,,Andreas Seppi,R,190,ITA,19.1,103306,7,,Florian Allgauer,R,,ITA,24.2,3-6 6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,349,74,338,77
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,10,103521,,,Andrea Stoppini,R,190,ITA,23.0,102738,,Q,Stefano Tarallo,R,185,ITA,27.0,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,423,55,705,17
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,11,102944,,Q,Stefano Cobolli,R,175,ITA,26.0,103524,,LL,Diego Alvarez,R,,ARG,23.0,3-6 6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,582,29,657,21
-2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,12,111486,3,,Leonardo Olguin,U,,ARG,27.4,118464,,WC,Giampaolo Mauti,U,,ITA,19.7,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,12,102693,3,,Leonardo Olguin,R,,ARG,27.3,118464,,WC,Giampaolo Mauti,U,,ITA,19.7,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,295,98,,
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,13,103626,8,,Tomas Tenconi,R,178,ITA,22.5,103611,,Q,Giancarlo Petrazzuolo,R,,ITA,22.6,6-2 4-6 7-6(2),3,R32,,,,,,,,,,,,,,,,,,,,339,77,721,16
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,14,101806,,,Marc Kevin Goellner,R,196,GER,32.5,103893,,,Paolo Lorenzi,R,183,ITA,21.2,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,474,43,380,64
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,15,103956,,,Stefan Wauters,R,,BEL,21.0,103238,,,Jean Claude Scherrer,R,188,SUI,24.6,1-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,396,62,479,41
@@ -2390,12 +2390,12 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,19,102284,,Q,Filippo Messori,R,173,ITA,29.3,103701,,,Diego Hartfield,R,185,ARG,22.1,6-7(4) 7-6(3) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,896,8,503,39
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,20,104214,5,,Igor Andreev,R,185,RUS,19.7,103901,,Q,Alessandro Piccari,R,,ITA,21.2,7-6(3) 6-3,3,R16,,,,,,,,,,,,,,,,,,,,273,107,726,15
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,21,103521,,,Andrea Stoppini,R,190,ITA,23.0,104312,,,Andreas Seppi,R,190,ITA,19.1,6-4 7-6(3),3,R16,,,,,,,,,,,,,,,,,,,,423,55,349,74
-2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,22,111486,3,,Leonardo Olguin,U,,ARG,27.4,102944,,Q,Stefano Cobolli,R,175,ITA,26.0,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,,,582,29
+2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,22,102693,3,,Leonardo Olguin,R,,ARG,27.3,102944,,Q,Stefano Cobolli,R,175,ITA,26.0,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,295,98,582,29
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,23,103626,8,,Tomas Tenconi,R,178,ITA,22.5,101806,,,Marc Kevin Goellner,R,196,GER,32.5,7-5 6-1,3,R16,,,,,,,,,,,,,,,,,,,,339,77,474,43
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,24,103808,2,,Potito Starace,R,188,ITA,21.7,103956,,,Stefan Wauters,R,,BEL,21.0,6-3 3-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,188,187,396,62
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,25,104607,6,,Tomas Berdych,R,196,CZE,17.5,102690,,,Matteo Colla,R,,ITA,27.3,6-3 6-4,3,QF,,,,,,,,,,,,,,,,,,,,328,81,394,62
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,26,104214,5,,Igor Andreev,R,185,RUS,19.7,102284,,Q,Filippo Messori,R,173,ITA,29.3,6-4 6-3,3,QF,,,,,,,,,,,,,,,,,,,,273,107,896,8
-2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,27,103521,,,Andrea Stoppini,R,190,ITA,23.0,111486,3,,Leonardo Olguin,U,,ARG,27.4,6-0 6-2,3,QF,,,,,,,,,,,,,,,,,,,,423,55,,
+2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,27,103521,,,Andrea Stoppini,R,190,ITA,23.0,102693,3,,Leonardo Olguin,R,,ARG,27.3,6-0 6-2,3,QF,,,,,,,,,,,,,,,,,,,,423,55,295,98
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,28,103626,8,,Tomas Tenconi,R,178,ITA,22.5,103808,2,,Potito Starace,R,188,ITA,21.7,2-6 7-6(4) 6-4,3,QF,,,,,,,,,,,,,,,,,,,,339,77,188,187
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,29,104214,5,,Igor Andreev,R,185,RUS,19.7,104607,6,,Tomas Berdych,R,196,CZE,17.5,6-4 3-6 6-1,3,SF,,,,,,,,,,,,,,,,,,,,273,107,328,81
 2003-M-FU-ITA-01A-2003,Italy F1,Clay,32,S,20030331,30,103626,8,,Tomas Tenconi,R,178,ITA,22.5,103521,,,Andrea Stoppini,R,190,ITA,23.0,7-5 6-3,3,SF,,,,,,,,,,,,,,,,,,,,339,77,423,55
@@ -2814,7 +2814,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,9,102504,,,Vitali Chvets,U,,BLR,28.2,103824,5,,Orest Tereshchuk,R,,UKR,21.6,6-4 3-6 6-3,3,R32,,,,,,,,,,,,,,,,,,,,548,33,326,82
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,10,104586,,Q,Lukas Rosol,R,196,CZE,17.7,109122,,WC,Gafur Ishmatov,U,,UZB,,4-6 6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1334,1,1334,1
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,11,102514,,,Petr Dezort,R,,CZE,28.2,104100,,Q,Evgueni Smirnov,U,,RUS,20.3,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,448,49,823,11
-2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,12,103863,4,,Mikhail Elgin,R,183,RUS,21.4,104454,,WC,Murad Inoyatov,R,,UZB,18.3,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,1108,4
+2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,12,103863,4,,Mikhail Elgin,R,183,RUS,21.4,104454,,WC,Murad Inoyatov,R,,UZB,18.3,6-2 6-0,3,R32,,,,,,,,,,,,,,,,,,,,307,91,1108,4
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,13,103565,7,,Stephane Robert,R,185,FRA,22.8,101772,,,Andrei Cherkasov,R,180,RUS,32.7,5-7 6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,378,65,484,41
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,14,103902,,,Jan Mertl,R,190,CZE,21.2,104066,,LL,Pavel Lobanov,U,,RUS,20.5,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,612,26,732,15
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,15,104141,,,Dmitri Sitak,R,183,RUS,20.0,103941,,,Sergei Pozdnev,R,,RUS,21.1,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,466,45,645,22
@@ -2824,15 +2824,15 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,19,104034,3,,Dmitry Vlasov,R,188,RUS,20.7,103439,,,Dimitri Mazur,R,,UZB,23.5,6-4 2-6 6-4,3,R16,,,,,,,,,,,,,,,,,,,,259,114,547,33
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,20,103711,6,,Jaroslav Levinsky,R,196,CZE,22.1,104105,,,Pavel Ivanov,R,193,RUS,20.2,6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,357,71,639,23
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,21,102504,,,Vitali Chvets,U,,BLR,28.2,104586,,Q,Lukas Rosol,R,196,CZE,17.7,6-4 4-6 6-0,3,R16,,,,,,,,,,,,,,,,,,,,548,33,1334,1
-2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,22,103863,4,,Mikhail Elgin,R,183,RUS,21.4,102514,,,Petr Dezort,R,,CZE,28.2,6-2 4-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,448,49
+2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,22,103863,4,,Mikhail Elgin,R,183,RUS,21.4,102514,,,Petr Dezort,R,,CZE,28.2,6-2 4-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,307,91,448,49
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,23,103565,7,,Stephane Robert,R,185,FRA,22.8,103902,,,Jan Mertl,R,190,CZE,21.2,6-0 0-6 6-1,3,R16,,,,,,,,,,,,,,,,,,,,378,65,612,26
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,24,103821,2,,Danai Udomchoke,R,173,THA,21.6,104141,,,Dmitri Sitak,R,183,RUS,20.0,6-2 3-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,217,150,466,45
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,25,104219,8,,Stephane Bohli,R,185,SUI,19.7,103250,1,,Rodolphe Cadart,L,183,FRA,24.6,6-2 6-4,3,QF,,,,,,,,,,,,,,,,,,,,415,57,212,154
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,26,104034,3,,Dmitry Vlasov,R,188,RUS,20.7,103711,6,,Jaroslav Levinsky,R,196,CZE,22.1,6-3 6-2,3,QF,,,,,,,,,,,,,,,,,,,,259,114,357,71
-2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,27,103863,4,,Mikhail Elgin,R,183,RUS,21.4,102504,,,Vitali Chvets,U,,BLR,28.2,6-4 7-5,3,QF,,,,,,,,,,,,,,,,,,,,,,548,33
+2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,27,103863,4,,Mikhail Elgin,R,183,RUS,21.4,102504,,,Vitali Chvets,U,,BLR,28.2,6-4 7-5,3,QF,,,,,,,,,,,,,,,,,,,,307,91,548,33
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,28,103821,2,,Danai Udomchoke,R,173,THA,21.6,103565,7,,Stephane Robert,R,185,FRA,22.8,6-1 6-3,3,QF,,,,,,,,,,,,,,,,,,,,217,150,378,65
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,29,104219,8,,Stephane Bohli,R,185,SUI,19.7,104034,3,,Dmitry Vlasov,R,188,RUS,20.7,6-2 4-6 6-1,3,SF,,,,,,,,,,,,,,,,,,,,415,57,259,114
-2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,30,103821,2,,Danai Udomchoke,R,173,THA,21.6,103863,4,,Mikhail Elgin,R,183,RUS,21.4,6-2 2-6 6-2,3,SF,,,,,,,,,,,,,,,,,,,,217,150,,
+2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,30,103821,2,,Danai Udomchoke,R,173,THA,21.6,103863,4,,Mikhail Elgin,R,183,RUS,21.4,6-2 2-6 6-2,3,SF,,,,,,,,,,,,,,,,,,,,217,150,307,91
 2003-M-FU-UZB-02A-2003,Uzbekistan F2,Hard,32,S,20030407,31,104219,8,,Stephane Bohli,R,185,SUI,19.7,103821,2,,Danai Udomchoke,R,173,THA,21.6,6-1 6-1,3,F,,,,,,,,,,,,,,,,,,,,415,57,217,150
 2003-M-FU-CHI-02A-2003,Chile F2,Clay,32,S,20030414,1,103916,1,,Cristian Villagran,R,180,ARG,21.2,104442,,Q,Alexandre Bonatto,R,,BRA,18.5,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,360,71,944,7
 2003-M-FU-CHI-02A-2003,Chile F2,Clay,32,S,20030414,2,103675,,Q,Diego Junqueira,L,178,ARG,22.2,104543,,WC,Pablo Figueroa,R,,SWE,17.9,7-5 6-0,3,R32,,,,,,,,,,,,,,,,,,,,668,20,,
@@ -2928,7 +2928,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-GRE-02A-2003,Greece F2,Hard,32,S,20030414,30,103457,,,Petr Kralert,R,188,CZE,23.4,104203,,,Darko Madjarovski,R,,SRB,19.8,4-6 6-3 6-3,3,SF,,,,,,,,,,,,,,,,,,,,445,50,449,49
 2003-M-FU-GRE-02A-2003,Greece F2,Hard,32,S,20030414,31,103104,1,,Bjorn Rehnquist,R,175,SWE,25.2,103457,,,Petr Kralert,R,188,CZE,23.4,6-0 6-1,3,F,,,,,,,,,,,,,,,,,,,,181,191,445,50
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,1,103808,1,,Potito Starace,R,188,ITA,21.7,103820,,,Alan Mackin,R,183,GBR,21.6,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,190,185,335,79
-2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,2,111486,,,Leonardo Olguin,U,,ARG,27.5,103677,,Q,Andreas Fasching,U,,AUT,22.2,3-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,534,35
+2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,2,102693,,,Leonardo Olguin,R,,ARG,27.3,103677,,Q,Andreas Fasching,U,,AUT,22.2,3-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,307,90,534,35
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,3,102603,,Q,Melvyn Op Der Heijde,R,180,NED,27.8,103527,,,Julien Jeanpierre,R,188,FRA,23.0,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,405,60,362,71
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,4,102630,5,,Slimane Saoudi,L,,ALG,27.7,104325,,LL,Johannes Ager,R,196,AUT,19.0,4-6 6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,234,132,611,25
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,5,104312,,WC,Andreas Seppi,R,190,ITA,19.1,104056,4,,Roko Karanusic,R,183,CRO,20.6,7-6(4) 6-1,3,R32,,,,,,,,,,,,,,,,,,,,351,74,247,123
@@ -2943,7 +2943,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,14,103893,,WC,Paolo Lorenzi,R,183,ITA,21.3,103437,,WC,Francesco Piccari,R,,ITA,23.6,6-3 6-7(8) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,396,61,627,23
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,15,103728,,Q,Christian Magg,R,,AUT,22.0,103467,,Q,Victor Bruthans,R,,SVK,23.4,6-1 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,904,8,553,32
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,16,103967,,,Michael Lammer,R,185,SUI,21.0,103138,,LL,Gianluca Luddi,R,,ITA,25.1,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,356,72,453,47
-2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,17,103808,1,,Potito Starace,R,188,ITA,21.7,111486,,,Leonardo Olguin,U,,ARG,27.5,6-2 5-7 6-4,3,R16,,,,,,,,,,,,,,,,,,,,190,185,,
+2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,17,103808,1,,Potito Starace,R,188,ITA,21.7,102693,,,Leonardo Olguin,R,,ARG,27.3,6-2 5-7 6-4,3,R16,,,,,,,,,,,,,,,,,,,,190,185,307,90
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,18,102630,5,,Slimane Saoudi,L,,ALG,27.7,102603,,Q,Melvyn Op Der Heijde,R,180,NED,27.8,6-0 7-6(4),3,R16,,,,,,,,,,,,,,,,,,,,234,132,405,60
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,19,104262,,WC,Flavio Cipolla,R,173,ITA,19.4,104312,,WC,Andreas Seppi,R,190,ITA,19.1,1-6 7-5 7-6(3),3,R16,,,,,,,,,,,,,,,,,,,,495,39,351,74
 2003-M-FU-ITA-03A-2003,Italy F3,Clay,32,S,20030414,20,104214,7,,Igor Andreev,R,185,RUS,19.7,103088,,,Xavier Pujo,R,180,FRA,25.3,7-6(5) 6-1,3,R16,,,,,,,,,,,,,,,,,,,,257,115,352,73
@@ -3570,7 +3570,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ITA-05A-2003,Italy F5,Clay,32,S,20030428,29,104325,,,Johannes Ager,R,196,AUT,19.1,102100,6,,Bartlomiej Dabrowski,R,,POL,30.6,6-3 7-5,3,SF,,,,,,,,,,,,,,,,,,,,614,25,455,49
 2003-M-FU-ITA-05A-2003,Italy F5,Clay,32,S,20030428,30,103689,,,Guillermo Carry,L,,ARG,22.2,104515,,Q,Mathieu Montcourt,R,183,FRA,18.1,6-2 6-3,3,SF,,,,,,,,,,,,,,,,,,,,532,35,1109,4
 2003-M-FU-ITA-05A-2003,Italy F5,Clay,32,S,20030428,31,103689,,,Guillermo Carry,L,,ARG,22.2,104325,,,Johannes Ager,R,196,AUT,19.1,6-2 6-3,3,F,,,,,,,,,,,,,,,,,,,,532,35,614,25
-2003-M-FU-JAM-03A-2003,Jamaica F3,Hard,32,S,20030428,1,103098,,,Johan Du Randt,U,,RSA,25.3,109860,,Q,Ryan Moore2,U,,USA,,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,360,73,1340,1
+2003-M-FU-JAM-03A-2003,Jamaica F3,Hard,32,S,20030428,1,103098,,,Johan Du Randt,U,,RSA,25.3,109860,,Q,Ryan Moore,U,,USA,,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,360,73,1340,1
 2003-M-FU-JAM-03A-2003,Jamaica F3,Hard,32,S,20030428,2,103419,,,Gabriel Montilla,R,,PUR,23.7,104133,,Q,Ytai Abougzir,R,,USA,20.1,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,747,14,1109,4
 2003-M-FU-JAM-03A-2003,Jamaica F3,Hard,32,S,20030428,3,103183,,Q,Nick Crowell,R,,USA,25.0,104032,,Q,Giunior Ghedina,U,,GER,20.8,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,946,7
 2003-M-FU-JAM-03A-2003,Jamaica F3,Hard,32,S,20030428,4,104210,,,Ryan Russell,L,,JAM,19.8,118887,,,Ricky Twynam,R,,CAN,21.0,6-1 6-0,3,R32,,,,,,,,,,,,,,,,,,,,520,37,,
@@ -3694,7 +3694,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-MEX-03A-2003,Mexico F3,Clay,32,S,20030428,29,103828,1,,Jean Julien Rojer,R,183,AHO,21.6,103493,5,,Eduardo Bohrer,R,,BRA,23.2,6-3 1-6 6-1,3,SF,,,,,,,,,,,,,,,,,,,,259,118,412,59
 2003-M-FU-MEX-03A-2003,Mexico F3,Clay,32,S,20030428,30,103532,3,,Ignacio Gonzalez King,R,175,ARG,23.0,104268,6,,Alejandro Falla,L,185,COL,19.4,6-2 1-6 6-1,3,SF,,,,,,,,,,,,,,,,,,,,266,113,417,57
 2003-M-FU-MEX-03A-2003,Mexico F3,Clay,32,S,20030428,31,103828,1,,Jean Julien Rojer,R,183,AHO,21.6,103532,3,,Ignacio Gonzalez King,R,175,ARG,23.0,0-6 6-4 6-4,3,F,,,,,,,,,,,,,,,,,,,,259,118,266,113
-2003-M-FU-UZB-03A-2003,Uzbekistan F3,Hard,32,S,20030428,1,104660,,Q,Sergiy Stakhovsky,R,193,UKR,17.3,103863,1,,Mikhail Elgin,R,183,RUS,21.5,4-6 7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1004,5,,
+2003-M-FU-UZB-03A-2003,Uzbekistan F3,Hard,32,S,20030428,1,104660,,Q,Sergiy Stakhovsky,R,193,UKR,17.3,103863,1,,Mikhail Elgin,R,183,RUS,21.5,4-6 7-5 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1004,5,300,94
 2003-M-FU-UZB-03A-2003,Uzbekistan F3,Hard,32,S,20030428,2,103937,,Q,Irakli Ushangishvili,U,,GEO,21.2,104950,,WC,Ervand Gasparyan,U,,RUS,15.8,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,866,9,,
 2003-M-FU-UZB-03A-2003,Uzbekistan F3,Hard,32,S,20030428,3,104571,,,Marcos Baghdatis,R,183,CYP,17.8,104479,,WC,Sarvar Ikramov,R,,UZB,18.2,6-0 6-2,3,R32,,,,,,,,,,,,,,,,,,,,447,50,885,8
 2003-M-FU-UZB-03A-2003,Uzbekistan F3,Hard,32,S,20030428,4,103529,6,,Aisam Ul Haq Qureshi,R,183,PAK,23.1,103439,,,Dimitri Mazur,R,,UZB,23.6,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,399,61,543,34
@@ -4502,7 +4502,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,1,102538,1,,Tuomas Ketola,R,185,FIN,28.1,103198,,,Justin Bower,L,190,RSA,24.9,7-6(5) 6-3,3,R32,,,,,,,,,,,,,,,,,,,,183,195,328,83
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,2,103612,,Q,Alexey Kedryuk,R,193,KAZ,22.7,104155,,Q,Sunil Kumar Sipaeya,L,,IND,20.0,2-6 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,818,11,546,33
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,3,103529,,,Aisam Ul Haq Qureshi,R,183,PAK,23.1,104439,,Q,Vadim Davletshin,U,,RUS,18.5,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,396,61,666,20
-2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,4,103863,8,,Mikhail Elgin,R,183,RUS,21.5,103647,,,Jun Kato,R,173,JPN,22.5,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,417,56
+2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,4,103863,8,,Mikhail Elgin,R,183,RUS,21.5,103647,,,Jun Kato,R,173,JPN,22.5,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,301,94,417,56
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,5,104499,3,,Jimmy Wang,R,178,TPE,18.2,104219,,,Stephane Bohli,R,185,SUI,19.7,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,220,148,318,87
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,6,104660,,Q,Sergiy Stakhovsky,R,193,UKR,17.3,103941,,Q,Sergei Pozdnev,R,,RUS,21.2,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1005,5,633,23
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,7,104271,,,Philipp Mukhometov,R,,RUS,19.4,104479,,WC,Sarvar Ikramov,R,,UZB,18.3,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,397,61,884,8
@@ -4516,7 +4516,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,15,102965,,,Jamie Delgado,R,178,GBR,26.1,108647,,WC,Anton Tsymbalov,R,,KAZ,17.6,6-7(5) 6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,436,52,,
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,16,102087,2,,Oleg Ogorodov,R,193,UZB,30.8,104950,,WC,Ervand Gasparyan,U,,RUS,15.8,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,203,175,,
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,17,102538,1,,Tuomas Ketola,R,185,FIN,28.1,103612,,Q,Alexey Kedryuk,R,193,KAZ,22.7,6-0 7-5,3,R16,,,,,,,,,,,,,,,,,,,,183,195,818,11
-2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,18,103529,,,Aisam Ul Haq Qureshi,R,183,PAK,23.1,103863,8,,Mikhail Elgin,R,183,RUS,21.5,6-3 6-0,3,R16,,,,,,,,,,,,,,,,,,,,396,61,,
+2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,18,103529,,,Aisam Ul Haq Qureshi,R,183,PAK,23.1,103863,8,,Mikhail Elgin,R,183,RUS,21.5,6-3 6-0,3,R16,,,,,,,,,,,,,,,,,,,,396,61,301,94
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,19,104499,3,,Jimmy Wang,R,178,TPE,18.2,104660,,Q,Sergiy Stakhovsky,R,193,UKR,17.3,6-3 6-2,3,R16,,,,,,,,,,,,,,,,,,,,220,148,1005,5
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,20,103130,5,,Louis Vosloo,R,178,RSA,25.2,104271,,,Philipp Mukhometov,R,,RUS,19.4,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,222,147,397,61
 2003-M-FU-UZB-04A-2003,Uzbekistan F4,Hard,32,S,20030505,21,104571,,,Marcos Baghdatis,R,183,CYP,17.8,103843,,,Marco Chiudinelli,R,185,SUI,21.6,6-2 6-7(8) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,448,50,355,74
@@ -5537,7 +5537,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-CZE-03A-2003,Czech Rep F3,Clay,32,S,20030609,29,103761,,,Tomas Cakl,R,178,CZE,22.1,103457,1,,Petr Kralert,R,188,CZE,23.6,6-2 4-6 6-3,3,SF,,,,,,,,,,,,,,,,,,,,513,38,395,65
 2003-M-FU-CZE-03A-2003,Czech Rep F3,Clay,32,S,20030609,30,103608,,Q,Mario Munoz Bejarano,R,,ESP,22.8,104273,5,,Edouard Roger Vasselin,R,188,FRA,19.5,6-1 6-1,3,SF,,,,,,,,,,,,,,,,,,,,1204,3,430,54
 2003-M-FU-CZE-03A-2003,Czech Rep F3,Clay,32,S,20030609,31,103761,,,Tomas Cakl,R,178,CZE,22.1,103608,,Q,Mario Munoz Bejarano,R,,ESP,22.8,6-3 6-2,3,F,,,,,,,,,,,,,,,,,,,,513,38,1204,3
-2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,1,103863,1,,Mikhail Elgin,R,183,RUS,21.6,104642,,Q,Valentine Kassatkine,U,,RUS,17.5,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,1291,2
+2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,1,103863,1,,Mikhail Elgin,R,183,RUS,21.6,104642,,Q,Valentine Kassatkine,U,,RUS,17.5,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,317,90,1291,2
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,2,104185,,,Dusan Karol,R,,CZE,20.0,104233,,,Frederik Nielsen,R,190,DEN,19.7,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,865,9,833,10
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,3,102395,,WC,Ville Liukko,R,173,FIN,29.0,103783,,,Rickard Holmstrom,L,,SWE,22.0,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,968,6
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,4,103046,6,,Janne Ojala,R,,FIN,25.7,102656,,Q,Tommi Lenho,R,,FIN,27.7,7-6(3) 2-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,594,28,901,8
@@ -5553,7 +5553,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,14,104059,,,Rasmus Norby,R,183,DEN,20.7,103327,,,Alessandro Motti,L,,ITA,24.2,6-7(6) 6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,882,8,703,17
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,15,103595,,Q,Martin Rammal,R,,FIN,22.8,104453,,,Michael Ryderstedt,L,188,SWE,18.5,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1067,4,797,12
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,16,103860,2,,Timo Nieminen,R,185,FIN,21.6,109231,,WC,Janne Holmia,U,,FIN,20.4,6-2 7-5,3,R32,,,,,,,,,,,,,,,,,,,,334,82,1132,3
-2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,17,103863,1,,Mikhail Elgin,R,183,RUS,21.6,104185,,,Dusan Karol,R,,CZE,20.0,6-3 6-0,3,R16,,,,,,,,,,,,,,,,,,,,,,865,9
+2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,17,103863,1,,Mikhail Elgin,R,183,RUS,21.6,104185,,,Dusan Karol,R,,CZE,20.0,6-3 6-0,3,R16,,,,,,,,,,,,,,,,,,,,317,90,865,9
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,18,102395,,WC,Ville Liukko,R,173,FIN,29.0,103046,6,,Janne Ojala,R,,FIN,25.7,6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,,,594,28
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,19,103539,,Q,Alexander Hartman,U,,SWE,23.1,104110,4,,Julien Maigret,R,,FRA,20.4,3-6 7-6(7) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,1355,1,562,31
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,20,102971,,,Christophe Bosio,R,,FRA,26.1,104006,,Q,Alexandre Renard,R,,FRA,21.0,4-6 6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,741,15,1159,3
@@ -5561,13 +5561,13 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,22,102617,3,,Kim Tiilikainen,R,180,FIN,27.9,103471,,LL,Tero Vilen,R,,FIN,23.5,6-7(5) 6-2 6-4,3,R16,,,,,,,,,,,,,,,,,,,,515,38,1355,1
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,23,117842,8,,Pierre Berntsson,U,,SWE,21.8,104059,,,Rasmus Norby,R,183,DEN,20.7,6-2 5-7 7-6(2),3,R16,,,,,,,,,,,,,,,,,,,,,,882,8
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,24,103860,2,,Timo Nieminen,R,185,FIN,21.6,103595,,Q,Martin Rammal,R,,FIN,22.8,6-4 6-1,3,R16,,,,,,,,,,,,,,,,,,,,334,82,1067,4
-2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,25,103863,1,,Mikhail Elgin,R,183,RUS,21.6,102395,,WC,Ville Liukko,R,173,FIN,29.0,6-0 6-4,3,QF,,,,,,,,,,,,,,,,,,,,,,,
+2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,25,103863,1,,Mikhail Elgin,R,183,RUS,21.6,102395,,WC,Ville Liukko,R,173,FIN,29.0,6-0 6-4,3,QF,,,,,,,,,,,,,,,,,,,,317,90,,
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,26,103539,,Q,Alexander Hartman,U,,SWE,23.1,102971,,,Christophe Bosio,R,,FRA,26.1,1-6 6-3 6-1,3,QF,,,,,,,,,,,,,,,,,,,,1355,1,741,15
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,27,104063,,Q,Mait Kunnap,R,,EST,20.7,102617,3,,Kim Tiilikainen,R,180,FIN,27.9,6-1 6-3,3,QF,,,,,,,,,,,,,,,,,,,,1355,1,515,38
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,28,103860,2,,Timo Nieminen,R,185,FIN,21.6,117842,8,,Pierre Berntsson,U,,SWE,21.8,6-1 6-2,3,QF,,,,,,,,,,,,,,,,,,,,334,82,,
-2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,29,103863,1,,Mikhail Elgin,R,183,RUS,21.6,103539,,Q,Alexander Hartman,U,,SWE,23.1,6-3 6-4,3,SF,,,,,,,,,,,,,,,,,,,,,,1355,1
+2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,29,103863,1,,Mikhail Elgin,R,183,RUS,21.6,103539,,Q,Alexander Hartman,U,,SWE,23.1,6-3 6-4,3,SF,,,,,,,,,,,,,,,,,,,,317,90,1355,1
 2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,30,103860,2,,Timo Nieminen,R,185,FIN,21.6,104063,,Q,Mait Kunnap,R,,EST,20.7,7-5 6-3,3,SF,,,,,,,,,,,,,,,,,,,,334,82,1355,1
-2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,31,103860,2,,Timo Nieminen,R,185,FIN,21.6,103863,1,,Mikhail Elgin,R,183,RUS,21.6,6-3 6-4,3,F,,,,,,,,,,,,,,,,,,,,334,82,,
+2003-M-FU-FIN-01A-2003,Finland F1,Clay,32,S,20030609,31,103860,2,,Timo Nieminen,R,185,FIN,21.6,103863,1,,Mikhail Elgin,R,183,RUS,21.6,6-3 6-4,3,F,,,,,,,,,,,,,,,,,,,,334,82,317,90
 2003-M-FU-MEX-07A-2003,Mexico F7,Hard,32,S,20030609,1,103746,1,,Miguel Gallardo Valles,R,,MEX,22.1,103742,,,Diego Cristin,R,,ARG,22.1,7-6(3) 7-6(3),3,R32,,,,,,,,,,,,,,,,,,,,314,91,1097,4
 2003-M-FU-MEX-07A-2003,Mexico F7,Hard,32,S,20030609,2,103740,,Q,Roger Anderson,U,,RSA,22.2,103638,,,Jhonson Garcia,R,,DOM,22.6,6-1 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1233,2,1097,4
 2003-M-FU-MEX-07A-2003,Mexico F7,Hard,32,S,20030609,3,103607,,,Victor Estrella,R,173,DOM,22.8,108628,,,Jhonnatan Medina Alvarez,L,,VEN,21.4,2-6 6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1007,5,,
@@ -5785,7 +5785,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-CAN-02A-2003,Canada F2,Hard,32,S,20030616,29,103269,3,,Huntley Montgomery,U,,USA,24.7,103225,1,,Simon Larose,R,190,CAN,24.9,6-1 6-2,3,SF,,,,,,,,,,,,,,,,,,,,423,59,302,94
 2003-M-FU-CAN-02A-2003,Canada F2,Hard,32,S,20030616,30,104433,2,,Frank Dancevic,R,185,CAN,18.7,104049,,,Gary Lugassy,L,,FRA,20.8,6-4 7-6(5),3,SF,,,,,,,,,,,,,,,,,,,,408,60,537,34
 2003-M-FU-CAN-02A-2003,Canada F2,Hard,32,S,20030616,31,104433,2,,Frank Dancevic,R,185,CAN,18.7,103269,3,,Huntley Montgomery,U,,USA,24.7,6-4 4-6 6-3,3,F,,,,,,,,,,,,,,,,,,,,408,60,423,59
-2003-M-FU-FIN-02A-2003,Finland F2,Clay,32,S,20030616,1,104063,,Q,Mait Kunnap,R,,EST,20.7,103863,1,,Mikhail Elgin,R,183,RUS,21.6,6-4 1-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1353,1,,
+2003-M-FU-FIN-02A-2003,Finland F2,Clay,32,S,20030616,1,104063,,Q,Mait Kunnap,R,,EST,20.7,103863,1,,Mikhail Elgin,R,183,RUS,21.6,6-4 1-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1353,1,314,90
 2003-M-FU-FIN-02A-2003,Finland F2,Clay,32,S,20030616,2,104255,,Q,Tommaso Sanna,U,,ITA,19.6,119013,,Q,Patrik Jarestrand,U,,SWE,21.0,6-0 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1229,2,,
 2003-M-FU-FIN-02A-2003,Finland F2,Clay,32,S,20030616,3,102964,,,Sander Hommel,R,,NED,26.2,104074,,Q,Peter Mayer Tischer,U,,GER,20.6,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,696,17,1043,5
 2003-M-FU-FIN-02A-2003,Finland F2,Clay,32,S,20030616,4,117842,8,,Pierre Berntsson,U,,SWE,21.8,102395,,WC,Ville Liukko,R,173,FIN,29.0,7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,,
@@ -5885,7 +5885,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,5,104297,,LL,Rogerio Dutra Silva,R,178,BRA,19.3,103999,3,,Thiago Alves,R,178,BRA,21.0,0-6 6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1163,3,363,75
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,6,102138,,WC,Alexander Tabares,R,,CUB,30.5,103621,,,Igor Levine,U,,RUS,22.8,7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,823,11
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,7,103742,,Q,Diego Cristin,R,,ARG,22.1,118980,,WC,Jose Diego Martinez Benet,U,,MEX,17.4,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,1097,4,,
-2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,8,110685,,LL,Gd Jones,R,183,NZL,17.2,104477,,,Jorge Aguilar,R,178,CHI,18.4,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,692,18
+2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,8,110685,,LL,G D Jones,R,183,NZL,17.2,104477,,,Jorge Aguilar,R,178,CHI,18.4,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1207,3,692,18
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,9,103312,,Q,Alvaro Dominguez,U,,MEX,24.3,104535,8,,Daniel Garza,R,,MEX,18.1,6-2 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1163,3,593,28
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,10,104179,,,Bruno Echagaray,R,183,MEX,20.1,103736,,Q,Diego Acuna,U,,PER,22.2,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,700,17,,
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,11,103183,,Q,Nick Crowell,R,,USA,25.1,104008,,,Carlos Avellan,R,,ECU,21.0,4-6 6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1097,4,773,13
@@ -5897,7 +5897,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,17,103395,1,,Julio Silva,R,173,BRA,23.9,103740,,Q,Roger Anderson,U,,RSA,22.2,6-4 7-6(1),3,R16,,,,,,,,,,,,,,,,,,,,290,99,1229,2
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,18,104392,,,Franco Ferreiro,R,188,BRA,18.9,103850,7,,Sebastian Decoud,L,178,ARG,21.7,7-6(4) 7-6(3),3,R16,,,,,,,,,,,,,,,,,,,,740,15,556,32
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,19,102138,,WC,Alexander Tabares,R,,CUB,30.5,104297,,LL,Rogerio Dutra Silva,R,178,BRA,19.3,6-3 6-3,3,R16,,,,,,,,,,,,,,,,,,,,,,1163,3
-2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,20,103742,,Q,Diego Cristin,R,,ARG,22.1,110685,,LL,Gd Jones,R,183,NZL,17.2,7-6(5) 7-5,3,R16,,,,,,,,,,,,,,,,,,,,1097,4,,
+2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,20,103742,,Q,Diego Cristin,R,,ARG,22.1,110685,,LL,G D Jones,R,183,NZL,17.2,7-6(5) 7-5,3,R16,,,,,,,,,,,,,,,,,,,,1097,4,1207,3
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,21,104179,,,Bruno Echagaray,R,183,MEX,20.1,103312,,Q,Alvaro Dominguez,U,,MEX,24.3,6-2 6-0,3,R16,,,,,,,,,,,,,,,,,,,,700,17,1163,3
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,22,103183,,Q,Nick Crowell,R,,USA,25.1,103637,4,,Marcelo Amador,U,,MEX,22.7,4-6 6-3 6-1,3,R16,,,,,,,,,,,,,,,,,,,,1097,4,395,67
 2003-M-FU-MEX-08A-2003,Mexico F8,Hard,32,S,20030616,23,103946,6,,Bruno Soares,R,180,BRA,21.2,103055,,PR,Cary Franklin,L,,USA,25.7,3-6 6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,460,49,976,6
@@ -6947,7 +6947,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-FRA-12A-2003,France F12,Clay,32,S,20030707,29,104571,8,,Marcos Baghdatis,R,183,CYP,18.0,104390,,Q,Jonathan Hilaire,R,,FRA,19.0,6-4 6-4,3,SF,,,,,,,,,,,,,,,,,,,,314,89,,
 2003-M-FU-FRA-12A-2003,France F12,Clay,32,S,20030707,30,103726,,,Jean Christophe Faurel,R,175,FRA,22.3,102323,7,,Regis Lavergne,R,,FRA,29.4,6-2 1-6 6-3,3,SF,,,,,,,,,,,,,,,,,,,,433,58,364,74
 2003-M-FU-FRA-12A-2003,France F12,Clay,32,S,20030707,31,103726,,,Jean Christophe Faurel,R,175,FRA,22.3,104571,8,,Marcos Baghdatis,R,183,CYP,18.0,7-5 4-6 6-2,3,F,,,,,,,,,,,,,,,,,,,,433,58,314,89
-2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,1,103863,1,,Mikhail Elgin,R,183,RUS,21.7,104090,,Q,Nikolay Mishin,R,,RUS,20.6,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,1,103863,1,,Mikhail Elgin,R,183,RUS,21.7,104090,,Q,Nikolay Mishin,R,,RUS,20.6,6-3 6-4,3,R32,,,,,,,,,,,,,,,,,,,,297,97,,
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,2,104341,,Q,Sergei Demekhine,R,,RUS,19.2,119040,,Q,Mikhail Ptukhin,R,,RUS,17.2,6-4 6-2,3,R32,,,,,,,,,,,,,,,,,,,,1351,1,,
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,3,103763,,,Martin Slanar,R,,AUT,22.1,104102,,,Ivan Syrov,U,,RUS,20.5,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,815,11,872,9
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,4,104519,,,Roman Vogeli,R,,CZE,18.3,103677,8,,Andreas Fasching,U,,AUT,22.5,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1351,1,661,21
@@ -6963,7 +6963,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,14,103968,,,Riccardo Desto,U,,ITA,21.2,104569,,WC,Lado Chikhladze,R,,GEO,18.0,6-4 6-0,3,R32,,,,,,,,,,,,,,,,,,,,985,6,,
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,15,118289,,Q,Igor Bogomaz,U,,UKR,22.5,103113,,,Alexander Sikanov,R,,RUS,25.4,6-4 6-1,3,R32,,,,,,,,,,,,,,,,,,,,,,911,7
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,16,103290,2,,Radim Zitko,R,,CZE,24.5,109645,,Q,Vladimir Melnikov,U,,RUS,19.3,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,378,71,1351,1
-2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,17,104341,,Q,Sergei Demekhine,R,,RUS,19.2,103863,1,,Mikhail Elgin,R,183,RUS,21.7,3-6 7-6(6) 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1351,1,,
+2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,17,104341,,Q,Sergei Demekhine,R,,RUS,19.2,103863,1,,Mikhail Elgin,R,183,RUS,21.7,3-6 7-6(6) 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1351,1,297,97
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,18,103763,,,Martin Slanar,R,,AUT,22.1,104519,,,Roman Vogeli,R,,CZE,18.3,6-2 6-1,3,R16,,,,,,,,,,,,,,,,,,,,815,11,1351,1
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,19,103748,4,,Jan Minar,R,,CZE,22.2,104031,,,Alexander Markin,U,,RUS,21.0,6-4 6-2,3,R16,,,,,,,,,,,,,,,,,,,,451,53,845,9
 2003-M-FU-GEO-02A-2003,Georgia F2,Clay,32,S,20030707,20,103708,6,,Jaroslav Pospisil,R,176,CZE,22.4,104643,,,Alexander Pavlioutchenkov,R,,RUS,17.5,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,504,40,943,7
@@ -8695,7 +8695,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,11,104148,,,Lionel Noviski,R,,ARG,20.4,118533,,Q,Leonardo Moreira,U,,ARG,21.4,6-3 6-3,3,R32,,,,,,,,,,,,,,,,,,,,717,16,,
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,12,104122,3,,Carlos Berlocq,R,183,ARG,20.5,104513,,Q,Leandro Migani,R,,ARG,18.4,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,432,56,,
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,13,103546,8,,Patricio Arquez,R,,ARG,23.3,104208,,,Damian Patriarca,R,,ARG,20.1,1-6 6-3 6-0,3,R32,,,,,,,,,,,,,,,,,,,,614,25,649,22
-2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,14,103392,,Q,Daniel Caracciolo,R,,ARG,24.1,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,,
+2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,14,103392,,Q,Daniel Caracciolo,R,,ARG,24.1,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,,,1238,2
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,15,104724,,WC,Eduardo Schwank,R,183,ARG,17.3,104640,,Q,Pablo Galdon,R,,ARG,17.7,1-6 6-4 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,,
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,16,104338,2,,Juan Monaco,R,185,ARG,19.3,104655,,Q,Pablo Cuevas,R,180,URU,17.6,6-1 6-1,3,R32,,,,,,,,,,,,,,,,,,,,401,66,,
 2003-M-FU-ARG-01A-2003,Argentina F1,Clay,32,S,20030818,17,103121,,,Matias Oneille,R,,ARG,25.5,104253,,,Juan Martin Aranguren,R,,ARG,19.8,6-4 2-6 6-3,3,R16,,,,,,,,,,,,,,,,,,,,710,17,747,15
@@ -9433,7 +9433,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,13,104141,5,,Dmitri Sitak,R,183,RUS,20.4,104100,,,Evgueni Smirnov,U,,RUS,20.6,5-7 6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,419,62,952,7
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,14,102317,,,Alexei Ageev,U,,RUS,29.5,102504,,,Vitali Chvets,U,,BLR,28.6,6-1 4-6 6-2,3,R32,,,,,,,,,,,,,,,,,,,,819,12,680,20
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,15,118462,,Q,Kamil Uldanov,U,,RUS,21.3,109285,,Q,Armen Gomktsian,U,,RUS,21.2,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,1382,1,1382,1
-2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,16,104031,,,Alexander Markin,U,,RUS,21.1,103863,2,,Mikhail Elgin,R,183,RUS,21.8,4-6 6-4 7-6(9),3,R32,,,,,,,,,,,,,,,,,,,,603,27,,
+2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,16,104031,,,Alexander Markin,U,,RUS,21.1,103863,2,,Mikhail Elgin,R,183,RUS,21.8,4-6 6-4 7-6(9),3,R32,,,,,,,,,,,,,,,,,,,,603,27,397,70
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,17,104034,1,,Dmitry Vlasov,R,188,RUS,21.1,103222,,Q,Sergei Krotiouk,R,,RUS,25.1,W/O,3,R16,,,,,,,,,,,,,,,,,,,,346,87,1140,3
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,18,107243,,Q,Ivan Pridankin,U,,RUS,,103715,6,,Kirill Ivanov Smolensky,R,,RUS,22.5,6-1 6-4,3,R16,,,,,,,,,,,,,,,,,,,,,,487,45
 2003-M-FU-RUS-03A-2003,Russia F3,Clay,32,S,20030825,19,103113,,Q,Alexander Sikanov,R,,RUS,25.6,104439,,,Vadim Davletshin,U,,RUS,18.8,6-7(4) 6-4 6-3,3,R16,,,,,,,,,,,,,,,,,,,,1178,3,556,33
@@ -9629,7 +9629,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-TUN-03A-2003,Tunisia F3,Hard,32,S,20030825,31,104155,3,,Sunil Kumar Sipaeya,L,,IND,20.3,103777,,LL,Patrick Knobloch,U,,GER,22.2,6-7(2) 6-2 3-0 RET,3,F,,,,,,,,,,,,,,,,,,,,579,30,1382,1
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,1,103701,1,,Diego Hartfield,R,185,ARG,22.5,104552,,WC,Juan Francisco Spina,U,,ARG,18.3,6-0 6-1,3,R32,,,,,,,,,,,,,,,,,,,,401,68,1001,5
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,2,104477,,,Jorge Aguilar,R,178,CHI,18.6,104599,,Q,Matias De Genaro,U,,ARG,18.0,6-3 7-5,3,R32,,,,,,,,,,,,,,,,,,,,702,18,1021,5
-2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,3,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,103742,,,Diego Cristin,R,,ARG,22.4,7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,,,958,7
+2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,3,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,103742,,,Diego Cristin,R,,ARG,22.4,7-5 7-5,3,R32,,,,,,,,,,,,,,,,,,,,1248,2,958,7
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,4,104253,,,Juan Martin Aranguren,R,,ARG,19.9,103357,5,,Javier Taborga,R,,BOL,24.3,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,758,15,523,38
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,5,103850,3,,Sebastian Decoud,L,178,ARG,21.9,104148,,,Lionel Noviski,R,,ARG,20.4,6-4 6-7(4) 6-2,3,R32,,,,,,,,,,,,,,,,,,,,456,51,724,16
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,6,118936,,Q,Marcelo Badaracco,U,,ARG,23.6,104208,,,Damian Patriarca,R,,ARG,20.1,7-5 6-3,3,R32,,,,,,,,,,,,,,,,,,,,,,656,22
@@ -9644,7 +9644,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,15,103095,,,Patricio Rudi,R,,ARG,25.7,103634,,Q,Emiliano Redondi,R,,ARG,22.9,6-1 6-7(3) 6-1,3,R32,,,,,,,,,,,,,,,,,,,,792,12,1178,3
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,16,104122,2,,Carlos Berlocq,R,183,ARG,20.5,103675,,,Diego Junqueira,L,178,ARG,22.6,6-2 6-2,3,R32,,,,,,,,,,,,,,,,,,,,434,56,648,23
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,17,103701,1,,Diego Hartfield,R,185,ARG,22.5,104477,,,Jorge Aguilar,R,178,CHI,18.6,5-7 6-2 6-2,3,R16,,,,,,,,,,,,,,,,,,,,401,68,702,18
-2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,18,104253,,,Juan Martin Aranguren,R,,ARG,19.9,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,758,15,,
+2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,18,104253,,,Juan Martin Aranguren,R,,ARG,19.9,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.4,6-1 6-2,3,R16,,,,,,,,,,,,,,,,,,,,758,15,1248,2
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,19,103850,3,,Sebastian Decoud,L,178,ARG,21.9,118936,,Q,Marcelo Badaracco,U,,ARG,23.6,3-6 6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,456,51,,
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,20,103622,7,,Bo Ram Cha,R,,KOR,23.0,118233,,Q,Gonzalo Goberna,U,,ARG,19.0,6-1 6-3,3,R16,,,,,,,,,,,,,,,,,,,,582,30,,
 2003-M-FU-ARG-03A-2003,Argentina F3,Clay,32,S,20030901,21,103121,,,Matias Oneille,R,,ARG,25.6,103404,,WC,Juan Ignacio Destefano,U,,ARG,24.1,6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,713,17,1248,2
@@ -10799,7 +10799,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-USA-27A-2003,USA F27,Hard,32,S,20030922,31,102655,,,Jimy Szymanski,R,175,VEN,28.0,103983,,,Aleksandar Vlaski,L,,SRB,21.4,7-5 6-4,3,F,,,,,,,,,,,,,,,,,,,,654,22,701,18
 2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,1,102554,1,,Diego Moyano,R,175,ARG,28.5,103121,,,Matias Oneille,R,,ARG,25.6,6-3 2-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,252,137,577,31
 2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,2,103670,,WC,Alvaro Loyola,R,,CHI,22.7,117459,,WC,Andres Morales,U,,CHI,26.3,6-0 6-3,3,R32,,,,,,,,,,,,,,,,,,,,1135,4,,
-2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,3,103737,,,Edgardo Massa,R,180,ARG,22.5,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.5,6-2 6-7(5) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,464,49,,
+2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,3,103737,,,Edgardo Massa,R,180,ARG,22.5,118539,,Q,Marcelo Osvaldo Tarony,U,,ARG,20.5,6-2 6-7(5) 6-4,3,R32,,,,,,,,,,,,,,,,,,,,464,49,1218,3
 2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,4,103883,7,,Lucas Engel,U,,BRA,21.8,103742,,Q,Diego Cristin,R,,ARG,22.4,6-4 6-3,3,R32,,,,,,,,,,,,,,,,,,,,427,61,1067,5
 2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,5,103916,4,,Cristian Villagran,R,180,ARG,21.6,103850,,,Sebastian Decoud,L,178,ARG,22.0,6-1 7-5,3,R32,,,,,,,,,,,,,,,,,,,,375,80,490,45
 2003-M-FU-CHI-04A-2003,Chile F4,Clay,32,S,20030929,6,104477,,,Jorge Aguilar,R,178,CHI,18.7,118933,,Q,Lucas Miller,U,,ARG,19.5,6-1 7-6(4),3,R32,,,,,,,,,,,,,,,,,,,,648,24,,
@@ -12247,7 +12247,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,7,111319,,Q,Fotis Fotakis,R,,AUS,18.1,103516,,,Nathan Healey,R,180,AUS,23.6,3-0 RET,3,R32,,,,,,,,,,,,,,,,,,,,,,742,16
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,8,104517,,Q,Adam Feeney,R,178,AUS,18.6,102945,7,,Luke Bourgeois,R,188,AUS,26.6,6-4 1-6 6-0,3,R32,,,,,,,,,,,,,,,,,,,,,,365,82
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,9,103814,,,Sadik Kadir,R,,AUS,22.2,104126,8,,Adam Kennedy,R,,AUS,20.7,6-1 6-2,3,R32,,,,,,,,,,,,,,,,,,,,726,17,426,61
-2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,10,103639,,WC,Brad Weston,R,,AUS,23.0,104097,,Q,Robert Phillips Pd13,U,,AUS,20.8,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,757,15,,
+2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,10,103639,,WC,Brad Weston,R,,AUS,23.0,104097,,Q,Robert Phillips,U,,AUS,20.8,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,757,15,,
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,11,104589,,,Chris Guccione,L,201,AUS,18.2,104289,,Q,Evan Oneil,R,,AUS,19.7,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,459,52,,
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,12,104379,4,,Todd Reid,R,180,AUS,19.4,101801,,,Mark Hlawaty,R,,AUS,33.1,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,261,128,642,24
 2003-M-FU-AUS-03A-2003,Australia F3,Clay,32,S,20031103,13,103936,5,,Todor Enev,R,,BUL,21.7,104115,,,Marc Kimmich,R,183,AUS,20.7,6-1 2-6 6-4,3,R32,,,,,,,,,,,,,,,,,,,,288,117,603,28
@@ -13429,7 +13429,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,12,103726,4,,Jean Christophe Faurel,R,175,FRA,22.7,109670,,LL,Koorosh Hashemian,R,,IRI,,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,343,90,1427,1
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,13,103763,7,,Martin Slanar,R,,AUT,22.6,109225,,Q,Issam Jellali,R,,TUN,22.7,6-1 6-4,3,R32,,,,,,,,,,,,,,,,,,,,458,55,,
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,14,104580,,Q,Haithem Abid,L,,TUN,18.3,104220,,,Adrian Barbu,R,,ROU,20.3,6-4 2-6 7-5,3,R32,,,,,,,,,,,,,,,,,,,,857,10,794,14
-2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,15,103030,,,Norikazu Sugiyama,R,178,JPN,26.3,103863,,,Mikhail Elgin,R,183,RUS,22.1,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,573,32,,
+2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,15,103030,,,Norikazu Sugiyama,R,178,JPN,26.3,103863,,,Mikhail Elgin,R,183,RUS,22.1,6-3 6-2,3,R32,,,,,,,,,,,,,,,,,,,,573,32,583,31
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,16,106796,,Q,Cyril Mokaiesh,R,,FRA,,102836,2,,Rogier Wassen,R,190,NED,27.3,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,838,11,351,88
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,17,104467,1,,Lamine Ouahab,R,185,ALG,18.9,118922,,Q,Hector Tolosana Berdiel,L,,ESP,19.5,7-6(3) 6-4,3,R16,,,,,,,,,,,,,,,,,,,,340,92,,
 2003-M-FU-IRI-03A-2003,Iran F3,Clay,32,S,20031208,18,104325,6,,Johannes Ager,R,196,AUT,19.7,104364,,,Nils Muschiol,R,,GER,19.5,4-6 6-1 6-1,3,R16,,,,,,,,,,,,,,,,,,,,405,69,828,11
@@ -13479,7 +13479,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2003-M-FU-ESP-30A-2003,Spain F30,Hard,32,S,20031208,31,104049,5,,Gary Lugassy,L,,FRA,21.3,104023,,,Nicolas Renavand,R,,FRA,21.4,6-4 6-3,3,F,,,,,,,,,,,,,,,,,,,,379,78,538,37
 2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,1,104467,1,,Lamine Ouahab,R,185,ALG,18.9,104580,,,Haithem Abid,L,,TUN,18.4,6-2 6-4,3,R32,,,,,,,,,,,,,,,,,,,,330,95,832,11
 2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,2,104291,,Q,Malek Jaziri,R,185,TUN,19.9,104212,,Q,Joseph Huber,R,,AUT,20.4,6-2 6-1,3,R32,,,,,,,,,,,,,,,,,,,,1003,6,1432,1
-2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,3,104308,,,Michal Przysiezny,R,185,POL,19.8,103863,,,Mikhail Elgin,R,183,RUS,22.1,6-2 1-6 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,474,49,,
+2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,3,104308,,,Michal Przysiezny,R,185,POL,19.8,103863,,,Mikhail Elgin,R,183,RUS,22.1,6-2 1-6 7-6(5),3,R32,,,,,,,,,,,,,,,,,,,,474,49,582,31
 2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,4,104325,6,,Johannes Ager,R,196,AUT,19.7,102687,,,Herbert Wiltschnig,R,185,AUT,28.0,6-3 6-1,3,R32,,,,,,,,,,,,,,,,,,,,369,81,484,48
 2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,5,102836,4,,Rogier Wassen,R,190,NED,27.3,103265,,Q,Juan Ignacio Cerda,R,,CHI,25.2,6-4 6-4,3,R32,,,,,,,,,,,,,,,,,,,,351,88,917,8
 2003-M-FU-IRI-04A-2003,Iran F4,Clay,32,S,20031215,6,104439,,,Vadim Davletshin,U,,RUS,19.1,103050,,WC,Shahab Hassani Nafez,R,,IRI,26.2,6-0 6-0,3,R32,,,,,,,,,,,,,,,,,,,,495,45,1250,3

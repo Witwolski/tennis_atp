@@ -756,7 +756,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-402,Memphis,Hard,32,A,20020218,8,102783,5,,Rainer Schuettler,R,180,GER,25.8,103566,,,Michael Llodra,L,190,FRA,21.7,3-6 6-3 7-6(4),3,R32,113,2,2,53,29,21,16,9,5,6,8,3,59,33,24,15,9,0,1,41,895,118,350
 2002-402,Memphis,Hard,32,A,20020218,9,102106,7,,Davide Sanguinetti,R,188,ITA,29.4,102887,,,Ramon Delgado,R,185,PAR,25.2,6-2 6-2,3,R32,55,8,2,52,30,24,12,8,1,1,1,1,51,29,18,7,8,3,7,51,757,80,495
 2002-402,Memphis,Hard,32,A,20020218,10,101774,,,Todd Martin,R,198,USA,31.6,102269,,Q,Jeff Salzenstein,L,185,USA,28.3,7-6(8) 7-6(7),3,R32,105,15,4,86,58,49,14,12,4,4,7,10,88,50,45,17,12,4,4,82,480,194,192
-2002-402,Memphis,Hard,32,A,20020218,11,210013,,,Martin Damm Sr,R,188,CZE,29.5,103709,,,Kristian Pless,R,188,DEN,21.0,6-4 7-6(5),3,R32,78,9,2,72,42,31,19,11,0,0,10,0,73,49,38,11,11,3,4,380,76,66,554
+2002-402,Memphis,Hard,32,A,20020218,11,210013,,,Martin Damm Sr,R,188,CZE,29.5,103709,,,Kristian Pless,R,188,DEN,21.0,6-4 7-6(5),3,R32,78,9,2,72,42,31,19,11,0,0,10,0,73,49,38,11,11,3,4,,,66,554
 2002-402,Memphis,Hard,32,A,20020218,12,103598,4,,Xavier Malisse,R,185,BEL,21.5,102607,,,Juan Balcells,R,190,ESP,26.6,7-6(2) 6-4,3,R32,83,16,1,85,63,47,12,11,2,2,2,2,76,62,42,7,11,4,5,32,1055,111,373
 2002-402,Memphis,Hard,32,A,20020218,13,102035,6,,Jonas Bjorkman,R,183,SWE,29.9,102882,,,Mark Philippoussis,R,196,AUS,25.2,7-6(6) 7-6(1),3,R32,91,6,1,73,44,36,22,12,0,0,26,6,77,45,36,20,12,3,3,44,815,67,550
 2002-402,Memphis,Hard,32,A,20020218,14,102227,,,Sargis Sargsian,R,180,ARM,28.7,103294,,,Christophe Rochus,R,170,BEL,23.1,6-2 6-3,3,R32,54,10,2,43,25,21,11,8,0,0,2,1,68,43,26,11,9,12,16,71,544,76,520
@@ -767,7 +767,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-402,Memphis,Hard,32,A,20020218,19,102998,3,,Jan Michael Gambill,R,190,USA,24.7,102834,,Q,Paul Goldstein,R,178,USA,25.5,4-6 6-2 6-0,3,R16,100,13,3,75,45,32,18,12,2,3,8,6,79,46,31,11,12,5,10,23,1215,178,212
 2002-402,Memphis,Hard,32,A,20020218,20,102783,5,,Rainer Schuettler,R,180,GER,25.8,103319,,Q,Jeff Morrison,R,185,USA,23.0,6-4 7-5,3,R16,89,4,5,76,42,31,19,11,5,6,6,3,80,57,41,6,11,3,6,41,895,151,253
 2002-402,Memphis,Hard,32,A,20020218,21,101774,,,Todd Martin,R,198,USA,31.6,102106,7,,Davide Sanguinetti,R,188,ITA,29.4,7-5 7-6(2),3,R16,99,6,3,73,36,30,20,12,5,7,7,2,76,41,31,16,12,3,6,82,480,51,757
-2002-402,Memphis,Hard,32,A,20020218,22,103598,4,,Xavier Malisse,R,185,BEL,21.5,210013,,,Martin Damm Sr,R,188,CZE,29.5,6-2 6-4,3,R16,59,3,1,48,32,25,10,9,3,4,6,5,59,24,15,14,9,3,7,32,1055,380,76
+2002-402,Memphis,Hard,32,A,20020218,22,103598,4,,Xavier Malisse,R,185,BEL,21.5,210013,,,Martin Damm Sr,R,188,CZE,29.5,6-2 6-4,3,R16,59,3,1,48,32,25,10,9,3,4,6,5,59,24,15,14,9,3,7,32,1055,,
 2002-402,Memphis,Hard,32,A,20020218,23,102227,,,Sargis Sargsian,R,180,ARM,28.7,102035,6,,Jonas Bjorkman,R,183,SWE,29.9,1-6 6-3 7-6(8),3,R16,142,8,8,117,65,46,25,14,10,12,4,8,102,54,41,26,14,9,10,71,544,44,815
 2002-402,Memphis,Hard,32,A,20020218,24,104053,2,,Andy Roddick,R,188,USA,19.4,102987,,,Andre Sa,R,185,BRA,24.7,5-7 6-4 6-3,3,R16,111,8,3,81,49,37,17,15,2,6,4,3,97,51,29,26,16,3,9,17,1618,98,432
 2002-402,Memphis,Hard,32,A,20020218,25,103484,8,,James Blake,R,185,USA,22.1,103163,1,,Tommy Haas,R,188,GER,23.8,6-3 6-1,3,QF,55,7,1,44,26,22,11,8,0,0,5,4,58,36,24,5,8,2,6,64,579,5,2565
@@ -2477,7 +2477,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-568,St. Petersburg,Hard,32,A,20021021,12,102318,,,Andrei Pavel,R,183,ROU,28.7,103789,,Q,Irakli Labadze,L,188,GEO,21.3,6-1 6-3,3,R32,53,4,1,50,31,25,11,8,1,1,3,2,47,28,18,6,8,1,5,28,1135,94,423
 2002-568,St. Petersburg,Hard,32,A,20021021,13,103018,8,,Max Mirnyi,R,196,BLR,25.2,102788,,,Jan Vacek,R,198,CZE,26.4,6-3 6-4,3,R32,74,8,0,63,47,38,7,10,4,4,3,4,60,41,32,5,9,1,3,41,840,95,419
 2002-568,St. Petersburg,Hard,32,A,20021021,14,103017,,,Nicolas Kiefer,R,183,GER,25.2,103248,,,Harel Levy,R,185,ISR,24.2,6-0 6-1,3,R32,52,7,3,39,22,21,9,7,3,3,0,2,47,25,13,6,6,3,8,80,495,266,109
-2002-568,St. Petersburg,Hard,32,A,20021021,15,103166,,WC,Vladimir Voltchkov,R,180,BLR,24.5,103862,,WC,Michail Elgin,R,183,RUS,21.0,6-4 6-0,3,R32,61,5,2,53,32,25,14,8,2,2,5,6,52,33,22,4,8,6,10,99,401,367,70
+2002-568,St. Petersburg,Hard,32,A,20021021,15,103166,,WC,Vladimir Voltchkov,R,180,BLR,24.5,103863,,WC,Mikhail Elgin,R,183,RUS,21.0,6-4 6-0,3,R32,61,5,2,53,32,25,14,8,2,2,5,6,52,33,22,4,8,6,10,99,401,367,70
 2002-568,St. Petersburg,Hard,32,A,20021021,16,103498,2,,Marat Safin,R,193,RUS,22.7,102642,,Q,Cyril Saulnier,R,190,FRA,27.1,7-6(5) 6-7(2) 6-3,3,R32,137,19,5,100,60,48,20,16,3,5,7,8,103,58,46,20,17,5,9,3,2620,160,231
 2002-568,St. Petersburg,Hard,32,A,20021021,17,102344,,,Karol Kucera,R,188,SVK,28.6,101736,1,,Andre Agassi,R,180,USA,32.4,6-4 6-4,3,R16,75,11,1,68,46,35,10,10,3,4,2,2,59,37,24,13,10,0,3,79,495,2,3370
 2002-568,St. Petersburg,Hard,32,A,20021021,18,103292,7,,Gaston Gaudio,R,175,ARG,23.8,102911,,WC,Andrei Stoliarov,R,178,RUS,25.7,7-5 6-1,3,R16,80,2,1,56,33,23,15,9,3,4,7,5,68,33,22,11,10,7,12,22,1408,144,278
@@ -2564,7 +2564,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-580,Australian Open,Hard,128,G,20020114,37,102287,18,,Albert Portas,R,188,ESP,28.1,102776,,,Andrew Ilie,R,180,AUS,25.7,6-7(3) 7-6(6) 6-2 6-0,5,R128,147,1,5,146,88,59,28,19,7,10,5,4,119,75,49,18,19,6,14,20,1220,67,555
 2002-580,Australian Open,Hard,128,G,20020114,38,103103,,,Dominik Hrbaty,R,183,SVK,24.0,102694,,,Lars Burgsmuller,R,183,GER,26.1,3-6 2-6 6-3 6-3 7-5,5,R128,205,10,11,160,91,61,32,23,11,18,6,1,140,84,57,26,24,9,16,44,866,80,501
 2002-580,Australian Open,Hard,128,G,20020114,39,102259,,,Jerome Golmard,L,188,FRA,28.3,101885,,,Wayne Arthurs,L,190,AUS,30.8,7-6(4) 7-5 7-6(5),5,R128,124,6,3,96,63,55,21,18,0,1,17,12,111,51,45,29,18,4,6,45,835,76,518
-2002-580,Australian Open,Hard,128,G,20020114,40,101964,10,,Goran Ivanisevic,L,193,CRO,30.3,210013,,,Martin Damm Sr,R,188,CZE,29.4,4-6 7-5 7-6(4) 6-4,5,R128,162,30,6,135,80,66,27,22,6,9,16,5,131,76,56,30,22,5,9,13,1816,396,71
+2002-580,Australian Open,Hard,128,G,20020114,40,101964,10,,Goran Ivanisevic,L,193,CRO,30.3,210013,,,Martin Damm Sr,R,188,CZE,29.4,4-6 7-5 7-6(4) 6-4,5,R128,162,30,6,135,80,66,27,22,6,9,16,5,131,76,56,30,22,5,9,13,1816,,
 2002-580,Australian Open,Hard,128,G,20020114,41,103484,,,James Blake,R,185,USA,22.0,102374,14,,Alex Corretja,R,180,ESP,27.7,5-7 7-6(6) 6-3 6-2,5,R128,171,6,9,159,100,66,26,20,9,13,3,6,134,70,40,37,21,8,15,70,534,16,1525
 2002-580,Australian Open,Hard,128,G,20020114,42,102905,,,Stefan Koubek,L,175,AUT,25.0,102642,,Q,Cyril Saulnier,R,190,FRA,26.4,0-6 1-6 7-6(6) 6-4 8-6,5,R128,204,11,4,168,101,51,35,24,12,22,2,11,166,86,64,36,25,11,18,65,563,153,244
 2002-580,Australian Open,Hard,128,G,20020114,43,103709,,,Kristian Pless,R,188,DEN,20.9,103018,,,Max Mirnyi,R,196,BLR,24.5,3-6 6-3 6-4 6-3,5,R128,118,1,8,103,64,48,23,18,6,8,8,2,104,66,45,22,19,3,8,82,485,33,1035
@@ -2928,7 +2928,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-D013,Davis Cup G2 R1: MDA vs DEN,Clay,4,D,20020503,5,108640,,,Mik Ledvonova,R,,DEN,20.9,104215,,,Andrei Gorban,U,,MDA,18.7,6-3 6-1,3,RR,,,,,,,,,,,,,,,,,,,,,,,
 2002-D014,Davis Cup G2 R1: NOR vs EGY,Clay,4,D,20020503,1,102107,,,Jan Frode Andersen,L,190,NOR,29.6,102362,,,Amro Ghoneim,R,,EGY,28.1,7-6(5) 6-0 6-2,5,RR,,,,,,,,,,,,,,,,,,,,181,211,886,8
 2002-D014,Davis Cup G2 R1: NOR vs EGY,Clay,4,D,20020503,2,103899,,,Stian Boretti,R,188,NOR,20.3,103472,,,Karim Maamoun,R,,EGY,22.4,5-7 6-3 6-4 6-4,5,RR,,,,,,,,,,,,,,,,,,,,610,26,517,41
-2002-D014,Davis Cup G2 R1: NOR vs EGY,Clay,4,D,20020503,4,108603,,,Helge Koll Frafjord,U,,NOR,26.9,103472,,,Karim Maamoun,R,,EGY,22.4,6-2 5-7 6-4,3,RR,,,,,,,,,,,,,,,,,,,,,,517,41
+2002-D014,Davis Cup G2 R1: NOR vs EGY,Clay,4,D,20020503,4,102595,,,Helge Koll,R,,NOR,26.9,103472,,,Karim Maamoun,R,,EGY,22.4,6-2 5-7 6-4,3,RR,,,,,,,,,,,,,,,,,,,,699,17,517,41
 2002-D014,Davis Cup G2 R1: NOR vs EGY,Clay,4,D,20020503,5,103864,,,Mohamed Mamoun,R,,EGY,20.5,108641,,,Fredrik Aarum,U,,NOR,19.1,6-2 7-6(4),3,RR,,,,,,,,,,,,,,,,,,,,742,15,,
 2002-D015,Davis Cup G2 R1: YUG vs RSA,Clay,4,D,20020503,1,102942,,,Vladimir Pavicevic,R,,SRB,25.1,103198,,,Justin Bower,L,190,RSA,23.9,6-3 6-2 5-7 7-6(2),5,RR,,,,,,,,,,,,,,,,,,,,402,70,257,136
 2002-D015,Davis Cup G2 R1: YUG vs RSA,Clay,4,D,20020503,2,102811,,,Dusan Vemic,R,190,SRB,25.8,103130,,,Louis Vosloo,R,178,RSA,24.2,6-3 6-4 3-6 7-6(5),5,RR,,,,,,,,,,,,,,,,,,,,436,59,211,170
@@ -2964,7 +2964,7 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-D023,Davis Cup G2 QF: CHN vs KUW,Hard,4,D,20020208,2,103600,,,Mohammad Ghareeb,R,,KUW,21.5,103817,,,Yu Jr Wang,L,,CHN,20.5,6-3 7-5 6-4,5,RR,,,,,,,,,,,,,,,,,,,,1225,3,1030,5
 2002-D023,Davis Cup G2 QF: CHN vs KUW,Hard,4,D,20020208,4,103337,,,Ben Qiang Zhu,R,,CHN,22.8,108617,,,Hussain Al Ashwak,U,,KUW,25.4,6-1 6-1 6-1,5,RR,,,,,,,,,,,,,,,,,,,,946,7,,
 2002-D023,Davis Cup G2 QF: CHN vs KUW,Hard,4,D,20020208,5,103817,,,Yu Jr Wang,L,,CHN,20.5,108645,,,Musaad Al Jazzaf,U,,KUW,17.7,7-5 6-1,3,RR,,,,,,,,,,,,,,,,,,,,1030,5,,
-2002-D024,Davis Cup G2 QF: KAZ vs PHI,Hard,4,D,20020208,1,104348,,,Dias Doskarayev,U,,KAZ,17.8,108646,,,Joseph Victorino,U,,PHI,18.2,4-6 6-4 6-3 6-0,5,RR,,,,,,,,,,,,,,,,,,,,980,6,1382,1
+2002-D024,Davis Cup G2 QF: KAZ vs PHI,Hard,4,D,20020208,1,104348,,,Dias Doskarayev,R,,KAZ,17.8,108646,,,Joseph Victorino,U,,PHI,18.2,4-6 6-4 6-3 6-0,5,RR,,,,,,,,,,,,,,,,,,,,980,6,1382,1
 2002-D024,Davis Cup G2 QF: KAZ vs PHI,Hard,4,D,20020208,2,103612,,,Alexey Kedryuk,R,193,KAZ,21.4,108594,,,Johnny Arcilla,U,,PHI,21.9,6-2 6-2 4-6 6-3,5,RR,,,,,,,,,,,,,,,,,,,,504,42,,
 2002-D024,Davis Cup G2 QF: KAZ vs PHI,Hard,4,D,20020208,4,108647,,,Anton Tsymbalov,R,,KAZ,16.4,108646,,,Joseph Victorino,U,,PHI,18.2,6-2 3-6 7-5,3,RR,,,,,,,,,,,,,,,,,,,,,,1382,1
 2002-D024,Davis Cup G2 QF: KAZ vs PHI,Hard,4,D,20020208,5,108648,,,Michael Mora,U,,PHI,24.3,104463,,,Dmitriy Makeyev,U,,KAZ,17.1,7-6(2) 6-4,3,RR,,,,,,,,,,,,,,,,,,,,,,1107,4
@@ -3001,9 +3001,9 @@ tourney_id,tourney_name,surface,draw_size,tourney_level,tourney_date,match_num,w
 2002-D032,Davis Cup G2 QF: TRI vs URU,Hard,4,D,20020208,4,104395,,,Marcel Felder,R,174,URU,17.5,108654,,,Tyler Mayers,U,,TRI,19.3,6-3 6-0,3,RR,,,,,,,,,,,,,,,,,,,,1382,1,,
 2002-D032,Davis Cup G2 QF: TRI vs URU,Hard,4,D,20020208,5,104421,,,Martin Vilarrubi,R,,URU,17.4,108655,,,Ivor Grazette,U,,TRI,27.4,6-0 6-0,3,RR,,,,,,,,,,,,,,,,,,,,1314,2,,
 2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,1,103612,,,Alexey Kedryuk,R,193,KAZ,21.6,103817,,,Yu Jr Wang,L,,CHN,20.6,6-3 6-2 6-7(4) 2-6 6-0,5,RR,,,,,,,,,,,,,,,,,,,,509,42,934,7
-2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,2,104348,,,Dias Doskarayev,U,,KAZ,17.9,103337,,,Ben Qiang Zhu,R,,CHN,23.0,2-6 6-3 6-3 6-4,5,RR,,,,,,,,,,,,,,,,,,,,971,6,696,17
+2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,2,104348,,,Dias Doskarayev,R,,KAZ,17.9,103337,,,Ben Qiang Zhu,R,,CHN,23.0,2-6 6-3 6-3 6-4,5,RR,,,,,,,,,,,,,,,,,,,,971,6,696,17
 2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,4,103337,,,Ben Qiang Zhu,R,,CHN,23.0,103612,,,Alexey Kedryuk,R,193,KAZ,21.6,3-6 7-6(3) 6-2 4-6 6-1,5,RR,,,,,,,,,,,,,,,,,,,,696,17,509,42
-2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,5,103817,,,Yu Jr Wang,L,,CHN,20.6,104348,,,Dias Doskarayev,U,,KAZ,17.9,6-4 6-3 6-1,5,RR,,,,,,,,,,,,,,,,,,,,934,7,971,6
+2002-D033,Davis Cup G2 SF: CHN vs KAZ,Hard,4,D,20020405,5,103817,,,Yu Jr Wang,L,,CHN,20.6,104348,,,Dias Doskarayev,R,,KAZ,17.9,6-4 6-3 6-1,5,RR,,,,,,,,,,,,,,,,,,,,934,7,971,6
 2002-D034,Davis Cup G2 SF: PAK vs TPE,Grass,4,D,20020405,1,103499,,,Aqeel Khan,R,,PAK,22.1,103659,,,Wei Jen Cheng,R,,TPE,21.3,4-6 6-3 6-3 6-0,5,RR,,,,,,,,,,,,,,,,,,,,,,1077,5
 2002-D034,Davis Cup G2 SF: PAK vs TPE,Grass,4,D,20020405,2,103529,,,Aisam Ul Haq Qureshi,R,183,PAK,22.0,108631,,,Wen Lung Chang,U,,TPE,21.7,7-6(5) 6-3 RET,5,RR,,,,,,,,,,,,,,,,,,,,264,133,1371,1
 2002-D034,Davis Cup G2 SF: PAK vs TPE,Grass,4,D,20020405,4,103529,,,Aisam Ul Haq Qureshi,R,183,PAK,22.0,103659,,,Wei Jen Cheng,R,,TPE,21.3,6-2 6-1,3,RR,,,,,,,,,,,,,,,,,,,,264,133,1077,5
