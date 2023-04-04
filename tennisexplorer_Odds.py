@@ -246,7 +246,7 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in range(1, 16):
+for x in range(1, 3):
     # for x in range(933, 1000):
     print(x)
 
