@@ -96,6 +96,12 @@ else:
     name_dict = pd.read_csv(r"C:\Git\tennis_atp\name_lookup_serving.csv")
     for _, item in name_dict.iterrows():
         data["Name"] = data["Name"].str.replace(item.old, item.new, regex=True)
+
+    cols_to_convert = ["Service Games Won", "Return Games Won"]
+    data[cols_to_convert] = data[cols_to_convert].astype(float) / 100
+    # Round the converted values to 2 decimal places
+    data[cols_to_convert] = data[cols_to_convert].round(2)
+
     data.to_csv("womensserving.csv", index=False)
     todays_matches = pd.read_sql_query(
         "Select Time,Player_1, Player_2, Player_1_Odds, Player_2_Odds from TodaysMatches where resulted = 'False' and Sex='Womens'",

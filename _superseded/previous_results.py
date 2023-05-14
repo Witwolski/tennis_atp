@@ -120,6 +120,10 @@ def get_filtered_data(elo_data, elo):
                     "dog_percent": [dog_percent],
                     "Sex": [row.Sex],
                     "Date": [row.Date],
+                    "fav_rank": [row.Fav_Rank],
+                    "dog_rank": [row.Dog_Rank],
+                    "Elo_Fav_Elo": [row.Elo_Fav_Elo],
+                    "Elo_Dog_Elo": [row.Elo_Dog_Elo],
                 }
             )
             result_df = pd.concat([result_df, temp_df])
@@ -129,7 +133,10 @@ def get_filtered_data(elo_data, elo):
 # Connect to SQLite database using SQLAlchemy's create_engine
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
-for x in range(0, 300):
+connection = devengine.connect()
+# connection.execute("Drop Table  results_hard_1")
+# connection.execute("Drop Table results_clay_1")
+for x in range(1, 170):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
@@ -146,5 +153,9 @@ for x in range(0, 300):
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
 
-    results_hard.to_sql("results_hard", if_exists="append", index=False, con=devengine)
-    results_clay.to_sql("results_clay", if_exists="append", index=False, con=devengine)
+    results_hard.to_sql(
+        "results_hard_1", if_exists="append", index=False, con=devengine
+    )
+    results_clay.to_sql(
+        "results_clay_1", if_exists="append", index=False, con=devengine
+    )

@@ -116,4 +116,8 @@ combine2 = combine2[
 ]
 combine2.sort_values(by="Time").to_excel("servers_today.xlsx", index=False)
 
+cols_to_convert = ["Service Games Won", "Return Games Won"]
+serve_return_stats[cols_to_convert] = (
+    serve_return_stats[cols_to_convert].astype(float) / 100
+)
 serve_return_stats.to_csv("mensserving.csv", index=False)
