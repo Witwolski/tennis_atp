@@ -110,12 +110,12 @@ def get_filtered_data(elo_data, elo):
                     "Dog_Odds": [row.Dog_Odds],
                     "Fav": [row.Fav],
                     "Elo_Fav": [row.Elo_Fav],
-                    "Fav_Record": ["{:.0%}".format(fav_percent)],
-                    "Fav_Games": [games],
+                    # "Fav_Record": ["{:.0%}".format(fav_percent)],
+                    # "Fav_Games": [games],
                     "Dog": [row.Dog],
                     "Dog_Odds": [row.Dog_Odds],
-                    "Dog_Record": ["{:.0%}".format(dog_percent)],
-                    "Dog_Games": [games2],
+                    # "Dog_Record": ["{:.0%}".format(dog_percent)],
+                    # "Dog_Games": [games2],
                     "fav_percent": [fav_percent],
                     "dog_percent": [dog_percent],
                     "Sex": [row.Sex],
@@ -134,8 +134,8 @@ def get_filtered_data(elo_data, elo):
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
 connection = devengine.connect()
-# connection.execute("Drop Table  results_hard_1")
-# connection.execute("Drop Table results_clay_1")
+connection.execute("Drop Table  results_hard_1")
+connection.execute("Drop Table results_clay_1")
 for x in range(1, 170):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
@@ -152,10 +152,11 @@ for x in range(1, 170):
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
-
-    results_hard.to_sql(
-        "results_hard_1", if_exists="append", index=False, con=devengine
-    )
-    results_clay.to_sql(
-        "results_clay_1", if_exists="append", index=False, con=devengine
-    )
+    if results_hard.empty == False:
+        results_hard.to_sql(
+            "results_hard_1", if_exists="append", index=False, con=devengine
+        )
+    if results_clay.empty == False:
+        results_clay.to_sql(
+            "results_clay_1", if_exists="append", index=False, con=devengine
+        )
