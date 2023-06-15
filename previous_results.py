@@ -7,7 +7,6 @@ from dateutil.relativedelta import *
 
 
 def get_match_data(start_date, time_now_formatted, devengine):
-
     # Get historical match data on hard surface between start date and yesterday
     elo_hard = pd.read_sql_query(
         f"Select DISTINCT * From Elo_AllMatches_Hard where Date > '{start_date}' and Date < '{time_now_formatted}'",
@@ -19,7 +18,11 @@ def get_match_data(start_date, time_now_formatted, devengine):
         f"Select DISTINCT * From Elo_AllMatches_Clay where Date > '{start_date}' and Date < '{time_now_formatted}'",
         con=devengine,
     )
-
+    # Get historical match data on clay surface between start date and yesterday
+    elo_grass = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_Grass where Date > '{start_date}' and Date < '{time_now_formatted}'",
+        con=devengine,
+    )
     # Get today's matches on hard surface that haven't yet been resulted
     elo_data_hard = pd.read_sql_query(
         f"Select DISTINCT * From Elo_AllMatches_Hard where Date like '{time_now_formatted}'",
@@ -31,8 +34,12 @@ def get_match_data(start_date, time_now_formatted, devengine):
         f"Select DISTINCT * From Elo_AllMatches_Clay where Date like '{time_now_formatted}'",
         con=devengine,
     )
-
-    return elo_hard, elo_clay, elo_data_hard, elo_data_clay
+    # Get today's matches on clay surface that haven't yet been resulted
+    elo_data_grass = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_Grass where Date like '{time_now_formatted}'",
+        con=devengine,
+    )
+    return elo_hard, elo_clay, elo_data_hard, elo_data_clay, elo_grass, elo_data_grass
 
 
 def get_player_record(player, opponent_rank, history, range_low, range_high, auto):
@@ -136,7 +143,8 @@ db = pd.DataFrame()
 connection = devengine.connect()
 connection.execute("Drop Table  results_hard_1")
 connection.execute("Drop Table results_clay_1")
-for x in range(1, 170):
+connection.execute("Drop Table results_grass_1")
+for x in range(1, 370):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
@@ -146,12 +154,18 @@ for x in range(1, 170):
     today = time_now
     two_years_ago = (today - datetime.timedelta(days=365 * 2)).strftime("%Y-%m-%d")
 
-    elo_hard, elo_clay, elo_data_hard, elo_data_clay = get_match_data(
-        two_years_ago, time_now_formatted, devengine
-    )
+    (
+        elo_hard,
+        elo_clay,
+        elo_data_hard,
+        elo_data_clay,
+        elo_grass,
+        elo_data_grass,
+    ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
+    results_grass = get_filtered_data(elo_data_grass, elo_grass)
     if results_hard.empty == False:
         results_hard.to_sql(
             "results_hard_1", if_exists="append", index=False, con=devengine
@@ -159,4 +173,8 @@ for x in range(1, 170):
     if results_clay.empty == False:
         results_clay.to_sql(
             "results_clay_1", if_exists="append", index=False, con=devengine
+        )
+    if results_grass.empty == False:
+        results_grass.to_sql(
+            "results_grass_1", if_exists="append", index=False, con=devengine
         )
