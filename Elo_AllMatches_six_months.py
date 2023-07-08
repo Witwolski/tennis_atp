@@ -275,7 +275,8 @@ def Elo(surface):
         & (data["Elo_Fav_Elo"].ne(1500))
         & (data["Elo_Dog_Elo"].ne(1500))
     ]
-
+    if surface == "%":
+        surface = "All"
     data.to_sql(
         f"Elo_AllMatches_{surface}", con=devengine, if_exists="replace", index=False
     )

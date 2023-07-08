@@ -39,7 +39,27 @@ def get_match_data(start_date, time_now_formatted, devengine):
         f"Select DISTINCT * From Elo_AllMatches_Grass where Date like '{time_now_formatted}'",
         con=devengine,
     )
-    return elo_hard, elo_clay, elo_data_hard, elo_data_clay, elo_grass, elo_data_grass
+    # Get historical match data on clay surface between start date and yesterday
+    elo_all = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_All where Date > '{start_date}' and Date not like '{time_now_formatted}'",
+        con=devengine,
+    )
+
+    # Get today's matches on clay surface that haven't yet been resulted
+    elo_data_all = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_All where Date like '{time_now_formatted}' --and resulted like 'False'",
+        con=devengine,
+    )
+    return (
+        elo_hard,
+        elo_clay,
+        elo_data_hard,
+        elo_data_clay,
+        elo_grass,
+        elo_data_grass,
+        elo_all,
+        elo_data_all,
+    )
 
 
 def get_player_record(player, opponent_rank, history, range_low, range_high, auto):
@@ -83,7 +103,7 @@ def get_filtered_data(elo_data, elo):
         high_limit = 50
 
         fav_percent, games = get_player_record(
-            row.Fav, row.Dog_Rank, elo_hard, low_limit, high_limit, True
+            row.Fav, row.Dog_Rank, elo, low_limit, high_limit, True
         )
         count = 0
         while games < 10 and count < 5:
@@ -91,13 +111,13 @@ def get_filtered_data(elo_data, elo):
             low_limit = low_limit + 10
             high_limit = high_limit + 10
             fav_percent, games = get_player_record(
-                row.Fav, row.Dog_Rank, elo_hard, low_limit, high_limit, True
+                row.Fav, row.Dog_Rank, elo, low_limit, high_limit, True
             )
 
         low_limit = 50
         high_limit = 50
         dog_percent, games2 = get_player_record(
-            row.Dog, row.Fav_Rank, elo_hard, low_limit, high_limit, True
+            row.Dog, row.Fav_Rank, elo, low_limit, high_limit, True
         )
         count = 0
         while games2 < 10 and count < 5:
@@ -105,7 +125,7 @@ def get_filtered_data(elo_data, elo):
             low_limit = low_limit + 10
             high_limit = high_limit + 10
             dog_percent, games2 = get_player_record(
-                row.Dog, row.Fav_Rank, elo_hard, low_limit, high_limit, True
+                row.Dog, row.Fav_Rank, elo, low_limit, high_limit, True
             )
 
         if games > 4 and games2 > 4:
@@ -144,6 +164,7 @@ connection = devengine.connect()
 connection.execute("Drop Table  results_hard_1")
 connection.execute("Drop Table results_clay_1")
 connection.execute("Drop Table results_grass_1")
+connection.execute("Drop Table results_all_1")
 for x in range(1, 370):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
@@ -161,11 +182,14 @@ for x in range(1, 370):
         elo_data_clay,
         elo_grass,
         elo_data_grass,
+        elo_all,
+        elo_data_all,
     ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
     results_grass = get_filtered_data(elo_data_grass, elo_grass)
+    results_all = get_filtered_data(elo_data_all, elo_all)
     if results_hard.empty == False:
         results_hard.to_sql(
             "results_hard_1", if_exists="append", index=False, con=devengine
@@ -177,4 +201,8 @@ for x in range(1, 370):
     if results_grass.empty == False:
         results_grass.to_sql(
             "results_grass_1", if_exists="append", index=False, con=devengine
+        )
+    if results_all.empty == False:
+        results_all.to_sql(
+            "results_all_1", if_exists="append", index=False, con=devengine
         )
