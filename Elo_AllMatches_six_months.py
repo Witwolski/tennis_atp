@@ -17,7 +17,7 @@ origin.pull()
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
-date_six_months_ago = date_today + relativedelta(months=-18)
+date_six_months_ago = date_today + relativedelta(months=-12)
 # date_six_months_ago = date_today + relativedelta(years=-1, months=-1)
 
 
