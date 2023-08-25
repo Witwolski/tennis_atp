@@ -5,5 +5,5 @@ from Elo_AllMatches_six_months import Elo
 Today()
 Elo("Hard")
 Elo("Clay")
-Elo("Grass")
+# Elo("Grass")
 Elo("%")
