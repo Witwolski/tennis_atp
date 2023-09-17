@@ -18,7 +18,6 @@ connection = devengine.connect()
 
 
 def Main(url, current_date, suffix, check):
-
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="count", default=0)
 
@@ -112,7 +111,6 @@ def Main(url, current_date, suffix, check):
 
     tournament_dict = {}
     for i, item in enumerate(tournament_idx_lst[:-1]):
-
         tournament_name = rows[item].find("td", class_="t-name").text.strip()
         if (
             "Futures" not in tournament_name
@@ -263,7 +261,6 @@ def Main(url, current_date, suffix, check):
 def Today():
     # for x in range(81,90):
     for x in range(0, 1):
-
         print(x)
         connection.execute("Delete FROM TodaysMatches")
         # connection.execute('Delete FROM bets_today')

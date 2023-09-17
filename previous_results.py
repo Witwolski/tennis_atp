@@ -55,10 +55,10 @@ def get_match_data(start_date, time_now_formatted, devengine):
         elo_clay,
         elo_data_hard,
         elo_data_clay,
-        elo_grass,
-        elo_data_grass,
-        elo_all,
-        elo_data_all,
+        # elo_grass,
+        # elo_data_grass,
+        # elo_all,
+        # elo_data_all,
     )
 
 
@@ -106,7 +106,7 @@ def get_filtered_data(elo_data, elo):
             row.Fav, row.Dog_Rank, elo, low_limit, high_limit, True
         )
         count = 0
-        while games < 10 and count < 5:
+        while games < 10 and count < 200:
             count = count + 1
             low_limit = low_limit + 10
             high_limit = high_limit + 10
@@ -120,7 +120,7 @@ def get_filtered_data(elo_data, elo):
             row.Dog, row.Fav_Rank, elo, low_limit, high_limit, True
         )
         count = 0
-        while games2 < 10 and count < 5:
+        while games2 < 10 and count < 200:
             count = count + 1
             low_limit = low_limit + 10
             high_limit = high_limit + 10
@@ -128,29 +128,33 @@ def get_filtered_data(elo_data, elo):
                 row.Dog, row.Fav_Rank, elo, low_limit, high_limit, True
             )
 
+        # New code to calculate player's record against rank 0 to 100
+        fav_record, _ = get_player_record(row.Fav, 100, elo, 0, 100, False)
+        dog_record, _ = get_player_record(row.Dog, 100, elo, 0, 100, False)
+
         if games > 4 and games2 > 4:
             temp_df = pd.DataFrame(
                 {
-                    "Winner": [row.Winner],
                     "Winner_Odds": [row.Winner_Odds],
+                    "Winner": [row.Winner],
                     "Fav_Odds": [row.Fav_Odds],
                     "Dog_Odds": [row.Dog_Odds],
                     "Fav": [row.Fav],
                     "Elo_Fav": [row.Elo_Fav],
-                    # "Fav_Record": ["{:.0%}".format(fav_percent)],
-                    # "Fav_Games": [games],
+                    "Fav_Games": [games],
                     "Dog": [row.Dog],
                     "Dog_Odds": [row.Dog_Odds],
-                    # "Dog_Record": ["{:.0%}".format(dog_percent)],
-                    # "Dog_Games": [games2],
+                    "Dog_Games": [games2],
                     "fav_percent": [fav_percent],
                     "dog_percent": [dog_percent],
                     "Sex": [row.Sex],
-                    "Date": [row.Date],
+                    "Resulted": [row.Resulted],
                     "fav_rank": [row.Fav_Rank],
                     "dog_rank": [row.Dog_Rank],
                     "Elo_Fav_Elo": [row.Elo_Fav_Elo],
                     "Elo_Dog_Elo": [row.Elo_Dog_Elo],
+                    "Fav_Top100": [round(fav_record, 1)],  # New column
+                    "Dog_Top100": [round(dog_record, 1)],  # New column
                 }
             )
             result_df = pd.concat([result_df, temp_df])
@@ -163,8 +167,8 @@ db = pd.DataFrame()
 connection = devengine.connect()
 connection.execute("Drop Table  results_hard_1")
 connection.execute("Drop Table results_clay_1")
-connection.execute("Drop Table results_grass_1")
-connection.execute("Drop Table results_all_1")
+# connection.execute("Drop Table results_grass_1")
+# connection.execute("Drop Table results_all_1")
 for x in range(1, 370):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
@@ -180,16 +184,16 @@ for x in range(1, 370):
         elo_clay,
         elo_data_hard,
         elo_data_clay,
-        elo_grass,
-        elo_data_grass,
-        elo_all,
-        elo_data_all,
+        # elo_grass,
+        # elo_data_grass,
+        # elo_all,
+        # elo_data_all,
     ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
-    results_grass = get_filtered_data(elo_data_grass, elo_grass)
-    results_all = get_filtered_data(elo_data_all, elo_all)
+    # results_grass = get_filtered_data(elo_data_grass, elo_grass)
+    # results_all = get_filtered_data(elo_data_all, elo_all)
     if results_hard.empty == False:
         results_hard.to_sql(
             "results_hard_1", if_exists="append", index=False, con=devengine
@@ -198,6 +202,7 @@ for x in range(1, 370):
         results_clay.to_sql(
             "results_clay_1", if_exists="append", index=False, con=devengine
         )
+    """
     if results_grass.empty == False:
         results_grass.to_sql(
             "results_grass_1", if_exists="append", index=False, con=devengine
@@ -206,3 +211,5 @@ for x in range(1, 370):
         results_all.to_sql(
             "results_all_1", if_exists="append", index=False, con=devengine
         )
+
+    """
