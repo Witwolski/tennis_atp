@@ -52,6 +52,9 @@ def Main(url, current_date, suffix, check):
             player_rank = player_table_body.text.split(
                 "Current/Highest rank - singles: "
             )[1].split(".")[0]
+            player_rank_high = player_table_body.text.split(
+                "Current/Highest rank - singles: "
+            )[1].split(".")[1]
             if "-" in player_rank:
                 player_rank = "10000"
         except:
@@ -69,45 +72,15 @@ def Main(url, current_date, suffix, check):
         name_dict = pd.read_csv("name_lookup.csv")
         for _, item in name_dict.iterrows():
             name = name.replace(item.old, item.new)
-        """
-        name = (
-            name.replace("Carlos Alcaraz Garfia", "Carlos Alcaraz")
-            .replace("Lesya Tsurenko", "Lesia Tsurenko")
-            .replace("Harry Fritz Taylor", "Taylor Fritz")
-            .replace("Manuel Cerundolo Juan", "Juan Manuel Cerundolo")
-            .replace("Martin Etcheverry Tomas", "Tomas Martin Etcheverry")
-            .replace("John Wolf Jeffrey", "Jeffrey John Wolf")
-            .replace("Victor Cornea Vlad", "Vlad Victor Cornea")
-            .replace("Cristian Jianu Filip", "Filip Cristian Jianu")
-            .replace("Pablo Ficovich Juan", "Juan Pablo Ficovich")
-            .replace("Felipe Meligeni Rodrigues Alves", "Felipe Meligeni Alves")
-            .replace("Hsin Tseng Chun", "Chun Hsin Tseng")
-            .replace("Woo Kwon Soon", "Soon Woo Kwon")
-            .replace("Moura Monteiro Thiago", "Thiago Monteiro")
-            .replace("Viktoria Azarenka", "Victoria Azarenka")
-            .replace("McHugh", "Mchugh")
-            .replace("Fco. Vidal Azorin Jose", "Jose Fco Vidal Azorin")
-            .replace("Bautista Torres Juan", "Juan Bautista Torres")
-            .replace("Marco Moroni Gian", "Gian Marco Moroni")
-            .replace("Danielle Collins", "Danielle Rose Collins")
-            .replace("Pablo Varillas Juan", "Juan Pablo Varillas")
-            .replace("Sorana-Mihaela Cirstea", "Sorana Cirstea")
-            .replace("Mackenzie McDonald", "Mackenzie Mcdonald")
-            .replace("Irina Begu", "Irina Camelia Begu")
-            .replace("Adina Cristian Jaqueline", "Jaqueline Adina Cristian")
-            .replace("A. Stephens Sloane", "Sloane Stephens")
-            .replace("Kenny de Schepper", "Kenny De Schepper")
-            .replace("Matthieu Perchicot", "Mathieu Perchicot")
-            .replace("Camila Osorio Serrano Maria", "Camila Osorio")
-            .replace("Maria Bara Irina", "Irina Maria Bara")
-            .replace("Milan Zekic", "Miljan Zekic")
-            .replace("Anna Schmiedlova Karolina", "Anna Karolina Schmiedlova")
-            .replace("Annie Fernandez Leylah", "Leylah Annie Fernandez")
-            .replace("Xinyu Wang", "Xin Yu Wang")
-            .replace("Ignacio Londero Juan", "Juan Ignacio Londero")
+        return (
+            name.strip().replace("-", " ")
+            + "("
+            + player_rank
+            + ")"
+            + " ["
+            + player_rank_high.split("/ ")[1]
+            + "]"
         )
-        """
-        return name.strip().replace("-", " ") + "(" + player_rank + ")"
 
     tournament_dict = {}
     for i, item in enumerate(tournament_idx_lst[:-1]):
@@ -208,8 +181,14 @@ def Main(url, current_date, suffix, check):
                 odds = match.split(":")[2]
                 player1odds = odds.split("_")[0]
                 player2odds = odds.split("_")[1]
-                player1_rank = (players[0].split("(")[1]).replace(")", "")
-                player2_rank = (players[1].split("(")[1]).replace(")", "")
+                player1_rank = (
+                    (players[0].split("(")[1]).replace(")", "").split(" [")[0]
+                )
+                player2_rank = (
+                    (players[1].split("(")[1]).replace(")", "").split(" [")[0]
+                )
+                player1_rank_high = (players[0].split("[")[1]).replace("]", "")
+                player2_rank_high = (players[1].split("[")[1]).replace("]", "")
                 Surface = match.split(":")[1]
                 Resulted = odds.split("_")[2]
                 Time = match.split("_")[3]
@@ -222,6 +201,8 @@ def Main(url, current_date, suffix, check):
                         "Player_2",
                         "Player_1_Rank",
                         "Player_2_Rank",
+                        "Player_1_Rank_High",
+                        "Player_2_Rank_High",
                         "Player_1_Odds",
                         "Player_2_Odds",
                         "Surface",
@@ -236,6 +217,8 @@ def Main(url, current_date, suffix, check):
                         player2,
                         player1_rank,
                         player2_rank,
+                        player1_rank_high,
+                        player2_rank_high,
                         player1odds,
                         player2odds,
                         Surface,

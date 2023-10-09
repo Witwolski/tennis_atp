@@ -17,7 +17,7 @@ origin.pull()
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 
 date_today = datetime.datetime.now() + relativedelta(days=0)
-date_six_months_ago = date_today + relativedelta(months=-12)
+date_six_months_ago = date_today + relativedelta(months=-24)
 # date_six_months_ago = date_today + relativedelta(years=-1, months=-1)
 
 
@@ -27,14 +27,14 @@ date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
 
 def Elo(surface):
     data = pd.read_sql_query(
-        "Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM AllMatches where surface like '{}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
+        "Select distinct Player_1_Rank_High as Winner_Rank_High,Player_2_Rank_High as Loser_Rank_High, Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM AllMatches where surface like '{}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
             surface, date_six_months_ago
         ),
         con=devengine,
     )
 
     data2 = pd.read_sql_query(
-        f"Select distinct Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Resulted,Time,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM TodaysMatches where surface like '{surface}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
+        f"Select distinct Player_1_Rank_High as Winner_Rank_High,Player_2_Rank_High as Loser_Rank_High,Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Resulted,Time,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM TodaysMatches where surface like '{surface}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' ",
         con=devengine,
     )
     data = pd.concat([data, data2])
@@ -258,7 +258,18 @@ def Elo(surface):
         lambda x: x["Winner_Rank"] if x["Winner"] != x["Fav"] else x["Loser_Rank"],
         axis=1,
     ).astype(float)
-
+    data["Fav_Rank_High"] = data.apply(
+        lambda x: x["Winner_Rank_High"]
+        if x["Winner"] == x["Fav"]
+        else x["Loser_Rank_High"],
+        axis=1,
+    ).astype(float)
+    data["Dog_Rank_High"] = data.apply(
+        lambda x: x["Winner_Rank_High"]
+        if x["Winner"] != x["Fav"]
+        else x["Loser_Rank_High"],
+        axis=1,
+    ).astype(float)
     data = data[data["Fav"] != "Pickem"]
     data = data.drop(
         columns=[
@@ -266,6 +277,8 @@ def Elo(surface):
             "Elo_Winner",
             "Winner_Rank",
             "Loser_Rank",
+            "Winner_Rank_High",
+            "Loser_Rank_High",
         ],
         axis=1,
     )
