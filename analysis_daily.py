@@ -143,7 +143,9 @@ def analysis():
                         "Sex": [row.Sex],
                         "Resulted": [row.Resulted],
                         "fav_rank": [row.Fav_Rank],
+                        "fav_rank_high": [row.Fav_Rank_High],
                         "dog_rank": [row.Dog_Rank],
+                        "dog_rank_high": [row.Dog_Rank_High],
                         "Elo_Fav_Elo": [row.Elo_Fav_Elo],
                         "Elo_Dog_Elo": [row.Elo_Dog_Elo],
                         "Fav_Top100": [round(fav_record, 1)],  # New column
@@ -332,7 +334,9 @@ def analysis():
                 "Time",
                 "Fav",
                 "fav_rank",
+                "fav_rank_high",
                 "dog_rank",
+                "dog_rank_high",
                 "Fav_Odds",
                 "fav_percent",
                 "Fav_Serve%",
@@ -354,7 +358,9 @@ def analysis():
             "Dog_Top100",
             "Fav",
             "fav_rank",
+            "fav_rank_high",
             "dog_rank",
+            "dog_rank_high",
             "Fav_Odds",
             "fav_percent",
             "Fav_Serve%",
@@ -403,7 +409,9 @@ def analysis():
             "Dog_Top100",
             "Fav",
             "fav_rank",
+            "fav_rank_high",
             "dog_rank",
+            "dog_rank_high",
             "Fav_Odds",
             "fav_percent",
             "Fav_Serve%",
@@ -425,7 +433,9 @@ def analysis():
             "Dog_Top100",
             "Fav",
             "fav_rank",
+            "fav_rank_high",
             "dog_rank",
+            "dog_rank_high",
             "Fav_Odds",
             "fav_percent",
             "Fav_Serve%",
@@ -446,4 +456,3 @@ def analysis():
         final_clay[final_clay["Sex"] == "k"].to_pickle("Hard_Today")
     if final_clay is not None:
         final_clay.to_pickle("Clay_Today")
-

@@ -58,6 +58,7 @@ def Main(url, current_date, suffix, check):
                 player_rank = "10000"
         except:
             player_rank = "10000"
+            player_rank_high = "10000"
         try:
             player_hand = player_table_body.text.split("Plays: ")[1].split(".")[0]
         except:
@@ -71,13 +72,17 @@ def Main(url, current_date, suffix, check):
         name_dict = pd.read_csv(r"C:\Git\tennis_atp\name_lookup.csv")
         for _, item in name_dict.iterrows():
             name = name.replace(item.old, item.new)
+        try:
+            highrank = player_rank_high.split("/ ")[1]
+        except:
+            highrank = str(10000)
         return (
             name.strip().replace("-", " ")
             + "("
             + player_rank
             + ")"
             + " ["
-            + player_rank_high.split("/ ")[1]
+            + highrank
             + "]"
         )
 
@@ -165,7 +170,7 @@ def Main(url, current_date, suffix, check):
         # with xlsxwriter.Workbook(r"C:\Users\chris\OneDrive\Desktop\Tennis\\" + key + datefilename + suffix + ".xlsx") as workbook:
         for i, date in value.items():
             for match in date:
-                print(match)
+                # print(match)
                 match1 = match.split(":")[0]
                 players = match1.split(" vs ")
                 player1 = players[0].split("(")[0]
@@ -223,7 +228,7 @@ def Main(url, current_date, suffix, check):
                     & (new_df["Player_2"] != "")
                 ]
                 new_df.to_sql(
-                    "AllMatches_highrank",
+                    "AllMatches",
                     con=devengine,
                     if_exists="append",
                     index=False,
@@ -231,7 +236,7 @@ def Main(url, current_date, suffix, check):
 
 
 # for x in range(81,90):
-for x in reversed(range(1, 500)):
+for x in reversed(range(1, 3)):
     # for x in range(933, 1000):
     print(x)
 
@@ -245,7 +250,7 @@ for x in reversed(range(1, 500)):
     # print('https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}'.format(year, month, day))
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
             year, month, day
         ),
         current_date,
@@ -254,7 +259,7 @@ for x in reversed(range(1, 500)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
             year, month, day
         ),
         current_date,
@@ -263,7 +268,7 @@ for x in reversed(range(1, 500)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
             year, month, day
         ),
         current_date,
