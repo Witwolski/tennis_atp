@@ -57,8 +57,10 @@ def Main(url, current_date, suffix, check):
             )[1].split(".")[1]
             if "-" in player_rank:
                 player_rank = "10000"
+                player_rank_high = "/ 10000"
         except:
             player_rank = "10000"
+            player_rank_high = "/ 10000"
         try:
             player_hand = player_table_body.text.split("Plays: ")[1].split(".")[0]
         except:
