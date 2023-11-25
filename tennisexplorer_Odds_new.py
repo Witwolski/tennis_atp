@@ -1,7 +1,7 @@
+import datetime
 import requests
 from bs4 import BeautifulSoup
 import argparse
-import datetime
 import pandas as pd
 from sqlalchemy import create_engine
 from playsound import playsound
@@ -13,10 +13,10 @@ origin = repo.remotes[0]
 origin.pull()
 
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
+connection = devengine.connect()
 
 
 def Main(url, current_date, suffix, check):
-
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="count", default=0)
 
@@ -51,10 +51,14 @@ def Main(url, current_date, suffix, check):
             player_rank = player_table_body.text.split(
                 "Current/Highest rank - singles: "
             )[1].split(".")[0]
+            player_rank_high = player_table_body.text.split(
+                "Current/Highest rank - singles: "
+            )[1].split(".")[1]
             if "-" in player_rank:
                 player_rank = "10000"
         except:
             player_rank = "10000"
+            player_rank_high = "10000"
         try:
             player_hand = player_table_body.text.split("Plays: ")[1].split(".")[0]
         except:
@@ -65,58 +69,31 @@ def Main(url, current_date, suffix, check):
         first_name = splitname[-1]
         last_name = name.replace(" " + first_name, "")
         name = first_name + " " + last_name
-        name_dict = pd.read_csv("name_lookup.csv")
+        name_dict = pd.read_csv(r"C:\Git\tennis_atp\name_lookup.csv")
         for _, item in name_dict.iterrows():
             name = name.replace(item.old, item.new)
-        """
-        name = (
-            name.replace("Carlos Alcaraz Garfia", "Carlos Alcaraz")
-            .replace("Lesya Tsurenko", "Lesia Tsurenko")
-            .replace("Harry Fritz Taylor", "Taylor Fritz")
-            .replace("Manuel Cerundolo Juan", "Juan Manuel Cerundolo")
-            .replace("Martin Etcheverry Tomas", "Tomas Martin Etcheverry")
-            .replace("John Wolf Jeffrey", "Jeffrey John Wolf")
-            .replace("Victor Cornea Vlad", "Vlad Victor Cornea")
-            .replace("Cristian Jianu Filip", "Filip Cristian Jianu")
-            .replace("Pablo Ficovich Juan", "Juan Pablo Ficovich")
-            .replace("Felipe Meligeni Rodrigues Alves", "Felipe Meligeni Alves")
-            .replace("Hsin Tseng Chun", "Chun Hsin Tseng")
-            .replace("Woo Kwon Soon", "Soon Woo Kwon")
-            .replace("Moura Monteiro Thiago", "Thiago Monteiro")
-            .replace("Viktoria Azarenka", "Victoria Azarenka")
-            .replace("McHugh", "Mchugh")
-            .replace("Fco. Vidal Azorin Jose", "Jose Fco Vidal Azorin")
-            .replace("Bautista Torres Juan", "Juan Bautista Torres")
-            .replace("Marco Moroni Gian", "Gian Marco Moroni")
-            .replace("Danielle Collins", "Danielle Rose Collins")
-            .replace("Pablo Varillas Juan", "Juan Pablo Varillas")
-            .replace("Sorana-Mihaela Cirstea", "Sorana Cirstea")
-            .replace("Mackenzie McDonald", "Mackenzie Mcdonald")
-            .replace("Irina Begu", "Irina Camelia Begu")
-            .replace("Adina Cristian Jaqueline", "Jaqueline Adina Cristian")
-            .replace("A. Stephens Sloane", "Sloane Stephens")
-            .replace("Kenny de Schepper", "Kenny De Schepper")
-            .replace("Matthieu Perchicot", "Mathieu Perchicot")
-            .replace("Camila Osorio Serrano Maria", "Camila Osorio")
-            .replace("Maria Bara Irina", "Irina Maria Bara")
-            .replace("Milan Zekic", "Miljan Zekic")
-            .replace("Anna Schmiedlova Karolina", "Anna Karolina Schmiedlova")
-            .replace("Annie Fernandez Leylah", "Leylah Annie Fernandez")
-            .replace("Xinyu Wang", "Xin Yu Wang")
-            .replace("Ignacio Londero Juan", "Juan Ignacio Londero")
+        try:
+            highrank = player_rank_high.split("/ ")[1]
+        except:
+            highrank = str(10000)
+        return (
+            name.strip().replace("-", " ")
+            + "("
+            + player_rank
+            + ")"
+            + " ["
+            + highrank
+            + "]"
         )
-        """
-        return name.strip().replace("-", " ") + "(" + player_rank + ")"
 
     tournament_dict = {}
     for i, item in enumerate(tournament_idx_lst[:-1]):
-
         tournament_name = rows[item].find("td", class_="t-name").text.strip()
         if (
             "Futures" not in tournament_name
             and "ITF" not in tournament_name
-            and "UTR" not in tournament_name
             and "Davis Cup" not in tournament_name
+            and "UTR" not in tournament_name
             and "UK Pro" not in tournament_name
         ):
             tournament_url = (
@@ -142,7 +119,7 @@ def Main(url, current_date, suffix, check):
                 .replace("hard", "Hard")
             )
 
-            if not "Futures" in tournament_name and not "UTR" in tournament_name:
+            if not "Futures" in tournament_name:
                 if not tournament_dict.get(tournament_name):
                     tournament_dict[tournament_name + str(item)] = {}
                     tournament_dict[tournament_name + str(item)][current_date] = []
@@ -150,7 +127,6 @@ def Main(url, current_date, suffix, check):
                     test = rows[c].findAll("td", class_="course")
                     # print(len(test))
                     if len(test) > 1:
-                        ja = rows[c].findAll("td", class_="score")
                         tournament_dict[tournament_name + str(item)][
                             current_date
                         ].append(
@@ -193,7 +169,6 @@ def Main(url, current_date, suffix, check):
                             + rows[c + 1].findAll("td", class_="score")[4].contents[0]
                         )
                     else:
-                        ja = rows[c].findAll("td", class_="score")
                         tournament_dict[tournament_name + str(item)][
                             current_date
                         ].append(
@@ -243,6 +218,7 @@ def Main(url, current_date, suffix, check):
         # with xlsxwriter.Workbook(r"C:\Users\chris\OneDrive\Desktop\Tennis\\" + key + datefilename + suffix + ".xlsx") as workbook:
         for i, date in value.items():
             for match in date:
+                # print(match)
                 match1 = match.split(":")[0]
                 players = match1.split(" vs ")
                 player1 = players[0].split("(")[0]
@@ -250,6 +226,15 @@ def Main(url, current_date, suffix, check):
                 odds = match.split(":")[2]
                 player1odds = odds.split("_")[0]
                 player2odds = odds.split("_")[1]
+                player1_rank = (
+                    (players[0].split("(")[1]).replace(")", "").split(" [")[0]
+                )
+                player2_rank = (
+                    (players[1].split("(")[1]).replace(")", "").split(" [")[0]
+                )
+
+                player1_rank_high = (players[0].split("[")[1]).replace("]", "")
+                player2_rank_high = (players[1].split("[")[1]).replace("]", "")
                 Surface = match.split(":")[1]
                 winner_games = match.split("_")[2]
                 loser_games = match.split("_")[3]
@@ -263,9 +248,6 @@ def Main(url, current_date, suffix, check):
                 loser_third = match.split("_")[11]
                 loser_forth = match.split("_")[12]
                 loser_fifth = match.split("_")[13]
-                player1_rank = (players[0].split("(")[1]).replace(")", "")
-                player2_rank = (players[1].split("(")[1]).replace(")", "")
-
                 table = [
                     [
                         "Date",
@@ -273,10 +255,12 @@ def Main(url, current_date, suffix, check):
                         "Tournament",
                         "Player_1",
                         "Player_2",
-                        "Player_1_Odds",
-                        "Player_2_Odds",
                         "Player_1_Rank",
                         "Player_2_Rank",
+                        "Player_1_Rank_High",
+                        "Player_2_Rank_High",
+                        "Player_1_Odds",
+                        "Player_2_Odds",
                         "Surface",
                         "Winner_Sets",
                         "Loser_Sets",
@@ -297,10 +281,12 @@ def Main(url, current_date, suffix, check):
                         key,
                         player1,
                         player2,
-                        player1odds,
-                        player2odds,
                         player1_rank,
                         player2_rank,
+                        player1_rank_high,
+                        player2_rank_high,
+                        player1odds,
+                        player2odds,
                         Surface,
                         winner_games,
                         loser_games,
@@ -326,12 +312,17 @@ def Main(url, current_date, suffix, check):
                     & (new_df["Player_1"] != "")
                     & (new_df["Player_2"] != "")
                 ]
-                new_df.to_sql("AllSets", con=devengine, if_exists="append", index=False)
+                new_df.to_sql(
+                    "AllMatches",
+                    con=devengine,
+                    if_exists="append",
+                    index=False,
+                )
 
 
 # for x in range(81,90):
-for x in reversed(range(1,2)):
-    # for x in range(502,600):
+for x in reversed(range(1, 2)):
+    # for x in range(933, 1000):
     print(x)
 
     # connection.execute('Delete FROM Test_Yesterday')
@@ -344,7 +335,7 @@ for x in reversed(range(1,2)):
     # print('https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}'.format(year, month, day))
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -353,7 +344,7 @@ for x in reversed(range(1,2)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}".format(
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -362,7 +353,7 @@ for x in reversed(range(1,2)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}".format(
+        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -370,16 +361,18 @@ for x in reversed(range(1,2)):
         0,
     )
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}".format(
+        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
         "_Womens",
         0,
     )
+
+# playsound(r"C:\Users\chris\Music\beep-09.mp3")
 
 repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])
 repo.index.commit("commit from python")
 
-origin = repo.remotes[0]
+
 origin.push()

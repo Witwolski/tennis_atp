@@ -1,0 +1,32 @@
+,Date,Sex,Tournament,Player_1,Player_2,Surface,Winner_Sets,Loser_Sets,w1,w2,w3,w4,w5,l1,l2,l3,l4,l5,One_Day_Ahead,One_Day_Before
+0,2023-01-31,Mens,Koblenz challenger0,Maximilian Marterer,Vitaliy Sachko,Hard,2,0,7,6, , , ,5,2, , , ,2023-02-01,2023-01-30
+2,2023-01-31,Mens,Koblenz challenger0,Jan Choinski,Denis Yevseyev,Hard,2,1,6,1,6, , ,4,6,2, , ,2023-02-01,2023-01-30
+3,2023-01-31,Mens,Koblenz challenger0,Antoine Escoffier,Marko Topo,Hard,2,1,6,6,7, , ,4,7,6, , ,2023-02-01,2023-01-30
+4,2023-01-31,Mens,Koblenz challenger0,Louis Wessels,Antoine Hoang,Hard,2,1,7,3,6, , ,6,6,2, , ,2023-02-01,2023-01-30
+5,2023-01-31,Mens,Koblenz challenger0,Vasek Pospisil,Emilio Nava,Hard,2,0,7,6, , , ,5,2, , , ,2023-02-01,2023-01-30
+6,2023-01-31,Mens,Koblenz challenger0,Roman Safiullin,Geoffrey Blancaneaux,Hard,2,1,5,6,6, , ,7,3,1, , ,2023-02-01,2023-01-30
+7,2023-01-31,Mens,Koblenz challenger0,Mats Rosenkranz,Laurent Lokoli,Hard,2,1,4,6,6, , ,6,4,3, , ,2023-02-01,2023-01-30
+8,2023-01-31,Mens,Koblenz challenger0,Henri Laaksonen,Luca Nardi,Hard,2,0,7,6, , , ,6,3, , , ,2023-02-01,2023-01-30
+66,2023-01-30,Mens,Koblenz challenger0,Liam Broady,Robin Haase,Hard,2,0,7,6, , , ,6,1, , , ,2023-01-31,2023-01-29
+67,2023-01-30,Mens,Koblenz challenger0,Zdenek Kolar,Antoine Bellier,Hard,2,0,6,6, , , ,2,4, , , ,2023-01-31,2023-01-29
+68,2023-01-30,Mens,Koblenz challenger0,Zhizhen Zhang,Henri Squire,Hard,2,1,6,5,6, , ,1,7,4, , ,2023-01-31,2023-01-29
+69,2023-01-30,Mens,Koblenz challenger0,Hugo Grenier,Lucas Gerch,Hard,2,0,6,6, , , ,2,2, , , ,2023-01-31,2023-01-29
+70,2023-01-30,Mens,Koblenz challenger0,Alexandre Muller,Hans Rehberg Max,Hard,2,0,6,6, , , ,4,4, , , ,2023-01-31,2023-01-29
+71,2023-01-30,Mens,Koblenz challenger0,Raphael Collignon,Gijs Brouwer,Hard,2,1,5,7,6, , ,7,6,3, , ,2023-01-31,2023-01-29
+3421,2023-01-31,Mens,Koblenz challenger0,Alexey Vatutin,Johannes Haerteis,Hard,2,0,7,6, , , ,6,1, , , ,2023-02-01,2023-01-30
+3486,2023-02-01,Mens,Koblenz challenger0,Alexandre Muller,Jan Choinski,Hard,2,1,6,6,7, , ,3,7,5, , ,2023-02-02,2023-01-31
+3487,2023-02-01,Mens,Koblenz challenger0,Louis Wessels,Hugo Grenier,Hard,2,0,6,6, , , ,4,3, , , ,2023-02-02,2023-01-31
+3488,2023-02-01,Mens,Koblenz challenger0,Zdenek Kolar,Zhizhen Zhang,Hard,2,1,3,6,6, , ,6,3,3, , ,2023-02-02,2023-01-31
+3489,2023-02-01,Mens,Koblenz challenger0,Alexey Vatutin,Liam Broady,Hard,2,0,6,6, , , ,2,3, , , ,2023-02-02,2023-01-31
+3490,2023-02-01,Mens,Koblenz challenger0,Adrian Andreev,Daniel Masur,Hard,2,0,7,6, , , ,5,3, , , ,2023-02-02,2023-01-31
+3518,2023-02-02,Mens,Koblenz challenger0,Vasek Pospisil,Mats Rosenkranz,Hard,2,0,7,7, , , ,6,6, , , ,2023-02-03,2023-02-01
+3519,2023-02-02,Mens,Koblenz challenger0,Maximilian Marterer,Adrian Andreev,Hard,2,0,6,6, , , ,3,3, , , ,2023-02-03,2023-02-01
+3520,2023-02-02,Mens,Koblenz challenger0,Raphael Collignon,Henri Laaksonen,Hard,2,0,7,6, , , ,5,4, , , ,2023-02-03,2023-02-01
+3521,2023-02-02,Mens,Koblenz challenger0,Roman Safiullin,Antoine Escoffier,Hard,2,1,6,4,7, , ,3,6,6, , ,2023-02-03,2023-02-01
+3548,2023-02-03,Mens,Koblenz challenger0,Raphael Collignon,Maximilian Marterer,Hard,1,0,5, , , , ,2, , , , ,2023-02-04,2023-02-02
+3549,2023-02-03,Mens,Koblenz challenger0,Roman Safiullin,Alexey Vatutin,Hard,2,1,6,1,6, , ,3,6,2, , ,2023-02-04,2023-02-02
+3550,2023-02-03,Mens,Koblenz challenger0,Vasek Pospisil,Louis Wessels,Hard,2,0,6,6, , , ,4,2, , , ,2023-02-04,2023-02-02
+3551,2023-02-03,Mens,Koblenz challenger0,Zdenek Kolar,Alexandre Muller,Hard,2,1,7,4,7, , ,6,6,6, , ,2023-02-04,2023-02-02
+3575,2023-02-04,Mens,Koblenz challenger0,Roman Safiullin,Raphael Collignon,Hard,2,1,5,6,6, , ,7,3,0, , ,2023-02-05,2023-02-03
+3576,2023-02-04,Mens,Koblenz challenger0,Vasek Pospisil,Zdenek Kolar,Hard,2,0,6,6, , , ,1,3, , , ,2023-02-05,2023-02-03
+3598,2023-02-05,Mens,Koblenz challenger0,Roman Safiullin,Vasek Pospisil,Hard,2,0,6,7, , , ,2,5, , , ,2023-02-06,2023-02-04

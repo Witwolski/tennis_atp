@@ -255,7 +255,7 @@ def Today():
         year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
         current_date = tomorrow.strftime("%Y-%m-%d")
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -263,7 +263,7 @@ def Today():
             1,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -271,7 +271,7 @@ def Today():
             1,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -279,7 +279,7 @@ def Today():
             0,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,

@@ -27,7 +27,7 @@ date_six_months_ago_formatted = date_six_months_ago.strftime("%Y-%m-%d")
 
 def Elo(surface):
     data = pd.read_sql_query(
-        "Select distinct Player_1_Rank_High as Winner_Rank_High,Player_2_Rank_High as Loser_Rank_High, Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM AllMatches where surface like '{}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' ".format(
+        "Select distinct Player_1_Rank_High as Winner_Rank_High,Player_2_Rank_High as Loser_Rank_High, Surface,Date,Sex,Player_1 as Winner, Player_2 as Loser, Player_1_Odds as Winner_Odds, Player_2_Odds as Loser_Odds,Player_1_Rank as Winner_Rank, Player_2_Rank as Loser_Rank FROM AllMatches where surface like '{}' and tournament not like '%UK Pro%'  and tournament not like '%UTR%' and tournament not like '%Davis%' and date >='{}' and Winner_Sets>1".format(
             surface, date_six_months_ago
         ),
         con=devengine,
