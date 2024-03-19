@@ -39,7 +39,7 @@ def analysis():
     # Connect to SQLite database using SQLAlchemy's create_engine
     devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
     # Get current date and time
-    time_now = datetime.datetime.now()
+    time_now = datetime.datetime.now() + datetime.timedelta(days=1)
 
     # Format current date as string in YYYY-MM-DD format
     time_now_formatted = time_now.strftime("%Y-%m-%d")
@@ -401,6 +401,7 @@ def analysis():
                 "dog_last_five_win_perc",
             ]
         )
+    """
 
     final_clay[(final_clay["Sex"] == "Womens") & (final_clay["Resulted"] == "False")][
         [
@@ -449,7 +450,7 @@ def analysis():
             "dog_last_five_win_perc",
         ]
     ]
-
+    """
     if final_hard is not None:
         final_hard.to_pickle("Hard_Today")
     else:

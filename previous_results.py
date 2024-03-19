@@ -135,6 +135,7 @@ def get_filtered_data(elo_data, elo):
         if games > 4 and games2 > 4:
             temp_df = pd.DataFrame(
                 {
+                    "Date": [row.Date],
                     "Winner_Odds": [row.Winner_Odds],
                     "Winner": [row.Winner],
                     "Fav_Odds": [row.Fav_Odds],
@@ -148,13 +149,14 @@ def get_filtered_data(elo_data, elo):
                     "fav_percent": [fav_percent],
                     "dog_percent": [dog_percent],
                     "Sex": [row.Sex],
-                    "Resulted": [row.Resulted],
                     "fav_rank": [row.Fav_Rank],
                     "dog_rank": [row.Dog_Rank],
                     "Elo_Fav_Elo": [row.Elo_Fav_Elo],
                     "Elo_Dog_Elo": [row.Elo_Dog_Elo],
                     "Fav_Top100": [round(fav_record, 1)],  # New column
                     "Dog_Top100": [round(dog_record, 1)],  # New column
+                    "fav_rank_high": [row.Fav_Rank_High],
+                    "dog_rank_high": [row.Dog_Rank_High],
                 }
             )
             result_df = pd.concat([result_df, temp_df])
@@ -165,11 +167,11 @@ def get_filtered_data(elo_data, elo):
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
 connection = devengine.connect()
-connection.execute("Drop Table  results_hard_1")
-connection.execute("Drop Table results_clay_1")
+# connection.execute("Drop Table  results_hard_1")
+# connection.execute("Drop Table results_clay_1")
 # connection.execute("Drop Table results_grass_1")
 # connection.execute("Drop Table results_all_1")
-for x in range(1, 370):
+for x in range(1, 2):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")

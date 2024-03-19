@@ -4,10 +4,6 @@ import time
 from selenium.webdriver.remote.remote_connection import LOGGER
 import warnings
 from playsound import playsound
-from pydub import AudioSegment
-from pydub.playback import play
-import os
-from playsound import playsound
 
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -42,19 +38,24 @@ while True:
 
         # Check if "ticket left" or "tickets left" is in the HTML content
         if (
-            "2 tickets left" not in html_content.lower()
-            and "ticket left" not in html_content.lower()
-            and "tickets left" in html_content.lower()
+            "tickets left" in html_content.lower()
+            # and "3 tickets left" not in html_content.lower()
+            and "2 tickets left" not in html_content.lower()
         ):
             print("Tickets are left!")
-            playsound(sound_file_path)
+            playsound(
+                sound_file_path,
+            )
+            delay_seconds = 60  # e.g., wait for 1 minute before checking again
+            time.sleep(delay_seconds)
         else:
             print("No tickets left.")
 
     finally:
         # Close the browser
         driver.quit()
+        sound_file_path = None
 
     # Introduce a delay before the next iteration (you can adjust this based on your needs)
-    delay_seconds = 5  # e.g., wait for 1 minute before checking again
+    delay_seconds = 1  # e.g., wait for 1 minute before checking again
     time.sleep(delay_seconds)
