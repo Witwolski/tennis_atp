@@ -39,7 +39,7 @@ def analysis():
     # Connect to SQLite database using SQLAlchemy's create_engine
     devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
     # Get current date and time
-    time_now = datetime.datetime.now() + datetime.timedelta(days=1)
+    time_now = datetime.datetime.now()
 
     # Format current date as string in YYYY-MM-DD format
     time_now_formatted = time_now.strftime("%Y-%m-%d")
