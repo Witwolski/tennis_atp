@@ -55,8 +55,8 @@ def get_match_data(start_date, time_now_formatted, devengine):
         elo_clay,
         elo_data_hard,
         elo_data_clay,
-        # elo_grass,
-        # elo_data_grass,
+        elo_grass,
+        elo_data_grass,
         # elo_all,
         # elo_data_all,
     )
@@ -171,7 +171,7 @@ connection = devengine.connect()
 # connection.execute("Drop Table results_clay_1")
 # connection.execute("Drop Table results_grass_1")
 # connection.execute("Drop Table results_all_1")
-for x in range(1, 2):
+for x in reversed(range(1, 700)):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
@@ -186,15 +186,15 @@ for x in range(1, 2):
         elo_clay,
         elo_data_hard,
         elo_data_clay,
-        # elo_grass,
-        # elo_data_grass,
+        elo_grass,
+        elo_data_grass,
         # elo_all,
         # elo_data_all,
     ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
-    # results_grass = get_filtered_data(elo_data_grass, elo_grass)
+    results_grass = get_filtered_data(elo_data_grass, elo_grass)
     # results_all = get_filtered_data(elo_data_all, elo_all)
     if results_hard.empty == False:
         results_hard.to_sql(
@@ -204,11 +204,12 @@ for x in range(1, 2):
         results_clay.to_sql(
             "results_clay_1", if_exists="append", index=False, con=devengine
         )
-    """
+
     if results_grass.empty == False:
         results_grass.to_sql(
             "results_grass_1", if_exists="append", index=False, con=devengine
         )
+    """
     if results_all.empty == False:
         results_all.to_sql(
             "results_all_1", if_exists="append", index=False, con=devengine

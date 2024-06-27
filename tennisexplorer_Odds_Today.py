@@ -93,6 +93,7 @@ def Main(url, current_date, suffix, check):
             and "UTR" not in tournament_name
             and "Davis Cup" not in tournament_name
             and "UK Pro" not in tournament_name
+            and "African Games" not in tournament_name
         ):
             tournament_url = (
                 rows[item].find("td", class_="t-name").contents[0].attrs["href"]
@@ -255,15 +256,16 @@ def Today():
         year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
         current_date = tomorrow.strftime("%Y-%m-%d")
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
                 year, month, day
             ),
             current_date,
             "_Mens",
             1,
         )
+
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
                 year, month, day
             ),
             current_date,
@@ -271,7 +273,7 @@ def Today():
             1,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
                 year, month, day
             ),
             current_date,
@@ -279,13 +281,14 @@ def Today():
             0,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
                 year, month, day
             ),
             current_date,
             "_Womens",
             0,
         )
+
     # repo = Repo(r"C:\Git\tennis_atp")
 
     repo.index.add([r"C:\Git\tennis_atp\database\bets_sqllite.db"])

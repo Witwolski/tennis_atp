@@ -34,7 +34,19 @@ def analysis():
             con=devengine,
         )
 
-        return elo_hard, elo_clay, elo_data_hard, elo_data_clay
+        # Get today's matches on clay surface that haven't yet been resulted
+        elo_data_grass = pd.read_sql_query(
+            f"Select DISTINCT * From Elo_AllMatches_Grass where Date like '{time_now_formatted}' --and resulted like 'False'",
+            con=devengine,
+        )
+        return (
+            elo_hard,
+            elo_clay,
+            elo_data_hard,
+            elo_data_clay,
+            elo_grass,
+            elo_data_grass,
+        )
 
     # Connect to SQLite database using SQLAlchemy's create_engine
     devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
@@ -48,12 +60,9 @@ def analysis():
     today = time_now
     two_years_ago = (today - datetime.timedelta(days=365 * 2)).strftime("%Y-%m-%d")
 
-    (
-        elo_hard,
-        elo_clay,
-        elo_data_hard,
-        elo_data_clay,
-    ) = get_match_data(two_years_ago, time_now_formatted, devengine)
+    (elo_hard, elo_clay, elo_data_hard, elo_data_clay, elo_grass, elo_data_grass) = (
+        get_match_data(two_years_ago, time_now_formatted, devengine)
+    )
 
     def get_player_record(player, opponent_rank, history, range_low, range_high, auto):
         if auto:
@@ -157,6 +166,7 @@ def analysis():
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
+    results_grass = get_filtered_data(elo_data_grass, elo_grass)
 
     def process_serving_data(result_df):
         try:
@@ -216,6 +226,7 @@ def analysis():
 
     _, serving_hard = process_serving_data(results_hard)
     _, serving_clay = process_serving_data(results_clay)
+    _, serving_grass = process_serving_data(results_grass)
 
     data_concat = pd.DataFrame(columns=["Date", "Player", "Odds", "Win/Loss"])
     for dataset_type in [("Winner", "Win"), ("Loser", "Loss")]:
@@ -266,6 +277,7 @@ def analysis():
 
     final_hard = serving_hard
     final_clay = serving_clay
+    final_grass = serving_grass
 
     def last_five(df, pastmatches):
         for index, row in df.iterrows():
@@ -303,6 +315,11 @@ def analysis():
         final_clay["Dog_Odds"] = final_clay["Dog_Odds"].astype(float)
         final_clay["Fav_Odds"] = final_clay["Fav_Odds"].astype(float)
 
+    if final_grass is not None:
+        final_grass = last_five(final_grass, elo_grass)
+        final_grass["Fav_Odds"] = final_grass["Fav_Odds"].astype(float)
+        final_grass["Dog_Odds"] = final_grass["Dog_Odds"].astype(float)
+
     for _, i in elo_data_hard.iterrows():
         check1 = elo_hard[
             ((elo_hard["Winner"] == i.Winner) & (elo_hard["Loser"] == i.Loser))
@@ -316,6 +333,15 @@ def analysis():
         check1 = elo_clay[
             ((elo_clay["Winner"] == i.Winner) & (elo_clay["Loser"] == i.Loser))
             | ((elo_clay["Loser"] == i.Winner) & (elo_clay["Winner"] == i.Loser))
+        ]
+        if check1.empty == False:
+            for _, x in check1.iterrows():
+                print(f"{x.Winner} beat {x.Loser}")
+
+    for _, i in elo_data_grass.iterrows():
+        check1 = elo_grass[
+            ((elo_grass["Winner"] == i.Winner) & (elo_grass["Loser"] == i.Loser))
+            | ((elo_grass["Loser"] == i.Winner) & (elo_grass["Winner"] == i.Loser))
         ]
         if check1.empty == False:
             for _, x in check1.iterrows():
@@ -351,7 +377,7 @@ def analysis():
             ]
         )
 
-    final_hard[(final_hard["Resulted"] == "False")][
+    final_hard[
         [
             "Time",
             "Fav_Top100",
@@ -379,6 +405,34 @@ def analysis():
 
     else:
         final_clay = pd.DataFrame(
+            columns=[
+                "Fav_Top100",
+                "Dog_Top100",
+                "Sex",
+                "Resulted",
+                "Time",
+                "Fav",
+                "fav_rank",
+                "dog_rank",
+                "Fav_Odds",
+                "fav_percent",
+                "Fav_Serve%",
+                "Fav_Return%",
+                "fav_last_five_win_perc",
+                "Dog",
+                "Dog_Odds",
+                "dog_percent",
+                "Dog_Serve%",
+                "Dog_Return%",
+                "dog_last_five_win_perc",
+            ]
+        )
+
+    if final_grass is not None:
+        final_grass = final_grass
+
+    else:
+        final_grass = pd.DataFrame(
             columns=[
                 "Fav_Top100",
                 "Dog_Top100",
@@ -457,3 +511,5 @@ def analysis():
         final_clay[final_clay["Sex"] == "k"].to_pickle("Hard_Today")
     if final_clay is not None:
         final_clay.to_pickle("Clay_Today")
+    if final_grass is not None:
+        final_grass.to_pickle("Grass_Today")
