@@ -115,8 +115,8 @@ def Predictions(surface):
         ]
     ][
         (hard_today_win_percent["Fav_Odds"] > 1.7)
-        & (hard_today_win_percent["Fav_Win_Percentage"] < 0.6)
-        & (hard_today_win_percent["dog_percent"] >= 0.5)
+        & (hard_today_win_percent["Fav_Win_Percentage"] < 0.5)
+        # & (hard_today_win_percent["dog_percent"] >= 0.5)
     ].sort_values(
         by=["Time"], ascending=True
     )

@@ -354,7 +354,7 @@ try:
                     )
 
     # for x in range(81,90):
-    for x in reversed(range(1, 4)):
+    for x in reversed(range(1, 2)):
         # for x in range(933, 1000):
         print(x)
 
