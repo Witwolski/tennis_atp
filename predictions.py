@@ -5,7 +5,7 @@ import numpy as np
 import datetime
 
 
-def Predictions(surface):
+def Predictions(surface, date, historical=False):
     odds_filter = 1.7
     devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
     time_now = datetime.datetime.now()
@@ -16,7 +16,7 @@ def Predictions(surface):
         con=devengine,
     )
     data = pd.read_sql_query(
-        f"Select distinct * from results_{surface}_1 --where date > '2024-03-01'",
+        f"Select distinct * from results_{surface}_1 where date < '{date}'",
         con=devengine,
     )
     data["Fav_Odds"] = data.Fav_Odds.astype(float)
@@ -86,7 +86,12 @@ def Predictions(surface):
     ].sort_values(
         by=["Time"], ascending=True
     )
-    hard_today_win_percent.to_csv(f"Fav_{surface}.csv", index=False)
+    if not historical:
+        hard_today_win_percent.to_csv(f"Fav_{surface}.csv", index=False)
+    else:
+        hard_today_win_percent.to_csv(
+            f"Fav_{surface}_{date.replace('-','_')}.csv", index=False
+        )
 
     # %%
     Fav_Win_Percentage = pd.read_pickle(f"Fav_Win_Percentage_Dog_{surface}")
@@ -120,5 +125,9 @@ def Predictions(surface):
     ].sort_values(
         by=["Time"], ascending=True
     )
-
-    hard_today_win_percent.to_csv(f"Dog_{surface}.csv", index=False)
+    if not historical:
+        hard_today_win_percent.to_csv(f"Dog_{surface}.csv", index=False)
+    else:
+        hard_today_win_percent.to_csv(
+            f"Dog_{surface}_{date.replace('-','_')}.csv", index=False
+        )

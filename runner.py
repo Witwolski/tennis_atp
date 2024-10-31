@@ -12,7 +12,11 @@ Elo("Grass")
 
 import logging
 import os
+import datetime
 
+
+today = datetime.datetime.now()
+print(today.strftime("%Y-%m-%d"))
 file_path = "error.log"
 
 try:
@@ -32,9 +36,9 @@ try:
     Elo("Grass")
 
     analysis()
-    Predictions("Hard")
-    Predictions("Clay")
-    Predictions("Grass")
+    Predictions("Hard", today)
+    Predictions("Clay", today)
+    Predictions("Grass", today)
 
     # Elo("Grass")
     # Elo("%")

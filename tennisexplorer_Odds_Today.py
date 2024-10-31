@@ -94,6 +94,7 @@ def Main(url, current_date, suffix, check):
             and "Davis Cup" not in tournament_name
             and "UK Pro" not in tournament_name
             and "African Games" not in tournament_name
+            and "Brazzaville" not in tournament_name
         ):
             tournament_url = (
                 rows[item].find("td", class_="t-name").contents[0].attrs["href"]
