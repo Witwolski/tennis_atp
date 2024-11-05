@@ -6,18 +6,16 @@ from analysis_daily import analysis
 from predictions import Predictions
 from Elo_AllMatches_six_months import Elo
 
-Elo("Hard")
-Elo("Clay")
-Elo("Grass")
-
 import logging
 import os
 import datetime
 
 
 today = datetime.datetime.now()
-print(today.strftime("%Y-%m-%d"))
 file_path = "error.log"
+Elo("Hard")
+Elo("Clay")
+Elo("Grass")
 
 try:
     os.remove(file_path)
@@ -29,16 +27,14 @@ except OSError as e:
 logging.basicConfig(filename="error.log", level=logging.ERROR)
 
 try:
-
-    Today()
     Elo("Hard")
     Elo("Clay")
     Elo("Grass")
-
+    Today()
     analysis()
-    Predictions("Hard", today)
-    Predictions("Clay", today)
-    Predictions("Grass", today)
+    # Predictions("Hard", today)
+    # Predictions("Clay", today)
+    # Predictions("Grass", today)
 
     # Elo("Grass")
     # Elo("%")
@@ -119,5 +115,5 @@ with open("error.log", "r") as f:
 
 if "ERROR" in error_log:
     send_email("Error in Todays Data", error_log, False)
-else:
-    send_email("Todays Predictions", "See Attached", True)
+# else:
+#    send_email("Todays Predictions", "See Attached", True)
