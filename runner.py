@@ -13,9 +13,6 @@ import datetime
 
 today = datetime.datetime.now()
 file_path = "error.log"
-Elo("Hard")
-Elo("Clay")
-Elo("Grass")
 
 try:
     os.remove(file_path)
@@ -114,6 +111,7 @@ with open("error.log", "r") as f:
     error_log = f.read()
 
 if "ERROR" in error_log:
-    send_email("Error in Todays Data", error_log, False)
+    print("err")
+    # send_email("Error in Todays Data", error_log, False)
 # else:
 #    send_email("Todays Predictions", "See Attached", True)

@@ -1,0 +1,916 @@
+Date,Fav,Dog,DogWin,Dog_Odds,Prediction,Profit
+2023-02-03,Bianca Andreescu,Marta Kostyuk,False,2.36,False,0.0
+2023-02-04,Lin Zhu,Xin Yu Wang,False,2.41,False,0.0
+2023-02-07,Leylah Fernandez,Shelby Rogers,True,2.43,False,0.0
+2023-02-08,Anna Blinkova,Varvara Gracheva,True,2.5,False,0.0
+2023-02-08,Bianca Andreescu,Yulia Putintseva,True,2.39,False,0.0
+2023-02-10,Elena Rybakina,Karolina Pliskova,False,2.62,False,0.0
+2023-02-11,Anastasia Potapova,Anna Lena Friedsam,False,2.32,False,0.0
+2023-02-12,Belen Teichmann Jil,Gabriela Ruse Elena,True,2.67,True,167.0
+2023-02-12,Belinda Bencic,Beatriz Haddad Maia,False,2.83,False,0.0
+2023-02-13,Bernarda Pera,Madison Brengle,True,2.76,True,176.0
+2023-02-14,Danielle Collins,Elise Mertens,False,2.36,False,0.0
+2023-02-15,Daria Kasatkina,Rebecca Marino,False,2.59,True,-100.0
+2023-02-15,Karolina Pliskova,Ekaterina Alexandrova,True,2.59,False,0.0
+2023-02-15,Veronika Kudermetova,Sofia Kenin,False,2.57,True,-100.0
+2023-02-16,Maria Sakkari,Ekaterina Alexandrova,False,2.4,False,0.0
+2023-02-17,Jessica Pegula,Beatriz Haddad Maia,False,2.79,False,0.0
+2023-02-17,Cori Gauff,Veronika Kudermetova,True,2.48,False,0.0
+2023-02-18,Claire Liu,Laura Siegemund,True,2.38,True,138.0
+2023-02-18,Lauren Davis,Dayana Yastremska,True,2.28,False,0.0
+2023-02-19,Danielle Collins,Linda Fruhvirtova,True,2.7,True,170.0
+2023-02-19,Kaia Kanepi,Viktoriya Tomova,True,2.48,True,148.0
+2023-02-20,Ana Bogdan,Laura Siegemund,False,2.38,True,-100.0
+2023-02-21,Victoria Azarenka,Amanda Anisimova,False,2.59,True,-100.0
+2023-02-21,Barbora Krejcikova,Daria Kasatkina,False,2.44,True,-100.0
+2023-02-21,Jelena Ostapenko,Linda Fruhvirtova,False,2.54,True,-100.0
+2023-02-21,Shelby Rogers,Ana Bogdan,True,2.76,True,176.0
+2023-02-22,Belinda Bencic,Karolina Muchova,True,2.5,False,0.0
+2023-02-22,Magda Linette,Camila Osorio,False,2.42,False,0.0
+2023-02-23,Elisabetta Cocciaretto,Xin Yu Wang,False,2.57,False,0.0
+2023-02-23,Camila Giorgi,Nuria Parrizas Diaz,False,2.57,True,-100.0
+2023-02-25,Jessica Pegula,Barbora Krejcikova,True,2.46,False,0.0
+2023-02-26,Gabriela Ruse Elena,Simona Waltert,False,2.35,True,-100.0
+2023-02-27,Lesia Tsurenko,Ana Konjuh,False,2.78,False,0.0
+2023-02-27,Camila Giorgi,Rebecca Peterson,False,2.83,False,0.0
+2023-03-01,Camila Giorgi,Gabriela Ruse Elena,True,2.97,False,0.0
+2023-03-01,Dayana Yastremska,Anna Lena Friedsam,True,2.49,False,0.0
+2023-03-02,Sloane Stephens,Heather Watson,False,2.83,False,0.0
+2023-03-03,Anna Lena Friedsam,Erika Andreeva,False,2.38,False,0.0
+2023-03-03,Danielle Collins,Caty Mcnally,False,2.69,False,0.0
+2023-03-03,Elisabetta Cocciaretto,Tatiana Maria,False,2.66,True,-100.0
+2023-03-04,Lin Zhu,Caroline Dolehide,False,2.33,False,0.0
+2023-03-04,Sloane Stephens,Varvara Gracheva,True,2.35,False,0.0
+2023-03-04,Danielle Collins,Anna Kalinskaya,False,2.6,False,0.0
+2023-03-05,Donna Vekic,Lin Zhu,False,2.4,False,0.0
+2023-03-05,Danielle Collins,Marta Kostyuk,True,2.37,False,0.0
+2023-03-05,Caroline Garcia,Elise Mertens,False,2.89,False,0.0
+2023-03-06,Caroline Garcia,Donna Vekic,True,2.89,False,0.0
+2023-03-06,Marta Kostyuk,Varvara Gracheva,False,2.93,False,0.0
+2023-03-07,Gabriela Ruse Elena,Tereza Martincova,False,2.52,True,-100.0
+2023-03-07,Kaja Juvan,Lucrezia Stefanini,False,2.74,False,0.0
+2023-03-07,Anna Lena Friedsam,Marina Bassols Ribera,False,2.8,False,0.0
+2023-03-07,Kamilla Rakhimova,Nao Hibino,True,2.41,True,141.0
+2023-03-07,Laura Siegemund,Coco Vandeweghe,False,2.28,False,0.0
+2023-03-08,Gabriela Ruse Elena,Cristina Bucsa,True,2.55,False,0.0
+2023-03-08,Rebecca Peterson,Caroline Dolehide,False,2.53,False,0.0
+2023-03-08,Kimberly Birrell,Nao Hibino,False,2.5,False,0.0
+2023-03-09,Anna Kalinskaya,Alycia Parks,False,2.8,False,0.0
+2023-03-09,Belen Teichmann Jil,Ashlyn Krueger,False,2.4,False,0.0
+2023-03-09,Shelby Rogers,Katie Volynets,False,2.95,False,0.0
+2023-03-09,Dayana Yastremska,Anna Bondar,False,2.85,False,0.0
+2023-03-10,Karolina Muchova,Yulia Putintseva,False,2.85,False,0.0
+2023-03-10,Elisabetta Cocciaretto,Nuria Parrizas Diaz,True,2.79,False,0.0
+2023-03-10,Claire Liu,Anna Karolina Schmiedlova,False,2.43,True,-100.0
+2023-03-11,Donna Vekic,Lesia Tsurenko,True,2.55,False,0.0
+2023-03-11,Anastasia Potapova,Xiyu Wang,False,2.84,False,0.0
+2023-03-11,Ekaterina Alexandrova,Xin Yu Wang,True,3.01,False,0.0
+2023-03-11,Karolina Pliskova,Anna Kalinskaya,False,2.37,True,-100.0
+2023-03-11,Maria Sakkari,Shelby Rogers,False,2.42,False,0.0
+2023-03-12,Marketa Vondrousova,Marie Bouzkova,False,2.81,False,0.0
+2023-03-13,Maria Sakkari,Anhelina Kalinina,False,2.51,False,0.0
+2023-03-14,Caroline Garcia,Leylah Fernandez,False,2.69,False,0.0
+2023-03-14,Elena Rybakina,Paula Badosa,False,2.48,False,0.0
+2023-03-14,Daria Kasatkina,Varvara Gracheva,True,2.52,False,0.0
+2023-03-14,Marketa Vondrousova,Ons Jabeur,False,2.39,False,0.0
+2023-03-15,Marketa Vondrousova,Karolina Muchova,True,2.84,False,0.0
+2023-03-15,Aryna Sabalenka,Barbora Krejcikova,False,2.43,True,-100.0
+2023-03-15,Jessica Pegula,Petra Kvitova,True,2.8,False,0.0
+2023-03-16,Aryna Sabalenka,Cori Gauff,False,2.5,False,0.0
+2023-03-16,Maria Sakkari,Petra Kvitova,False,2.41,False,0.0
+2023-03-17,Elena Rybakina,Karolina Muchova,False,3.02,False,0.0
+2023-03-20,Ysaline Bonaventure,Mirjam Bjorklund,True,2.6,False,0.0
+2023-03-20,Tereza Martincova,Simona Waltert,False,2.37,False,0.0
+2023-03-20,Tamara Zidansek,Marina Bassols Ribera,False,2.83,False,0.0
+2023-03-20,Anna Lena Friedsam,Olga Danilovic,False,2.27,False,0.0
+2023-03-20,Aryna Sabalenka,Elena Rybakina,True,2.39,False,0.0
+2023-03-21,Tamara Zidansek,Mirjam Bjorklund,True,2.48,False,0.0
+2023-03-22,Laura Siegemund,Mayar Sherif,False,2.42,False,0.0
+2023-03-22,Marta Kostyuk,Elisabetta Cocciaretto,False,2.93,False,0.0
+2023-03-22,Jasmine Paolini,Mirjam Bjorklund,True,2.55,False,0.0
+2023-03-22,Yulia Putintseva,Rebecca Marino,True,2.47,False,0.0
+2023-03-22,Camila Giorgi,Kaia Kanepi,False,2.97,False,0.0
+2023-03-23,Shelby Rogers,Sloane Stephens,False,2.42,False,0.0
+2023-03-24,Qinwen Zheng,Irina Camelia Begu,False,2.86,False,0.0
+2023-03-24,Victoria Azarenka,Camila Giorgi,False,2.59,False,0.0
+2023-03-25,Marie Bouzkova,Anna Blinkova,False,2.54,False,0.0
+2023-03-25,Ons Jabeur,Varvara Gracheva,True,2.65,False,0.0
+2023-03-25,Petra Kvitova,Linda Noskova,False,2.44,False,0.0
+2023-03-25,Caroline Garcia,Sorana Cirstea,True,2.99,False,0.0
+2023-03-25,Belinda Bencic,Leylah Fernandez,False,2.89,False,0.0
+2023-03-25,Ekaterina Alexandrova,Taylor Townsend,False,2.42,False,0.0
+2023-03-26,Elise Mertens,Petra Martic,False,2.59,False,0.0
+2023-03-26,Cori Gauff,Anastasia Potapova,True,2.78,False,0.0
+2023-03-27,Barbora Krejcikova,Madison Keys,False,2.59,False,0.0
+2023-03-27,Petra Kvitova,Donna Vekic,False,2.37,False,0.0
+2023-03-27,Bianca Andreescu,Sofia Kenin,False,2.58,False,0.0
+2023-03-28,Aryna Sabalenka,Barbora Krejcikova,False,2.8,False,0.0
+2023-03-28,Marketa Vondrousova,Sorana Cirstea,True,2.8,False,0.0
+2023-03-28,Petra Kvitova,Varvara Gracheva,False,2.66,False,0.0
+2023-03-31,Elena Rybakina,Jessica Pegula,False,2.55,False,0.0
+2023-07-30,Tatiana Maria,Laura Siegemund,True,2.38,False,0.0
+2023-07-30,Katie Boulter,Elizabeth Mandlik,False,2.55,False,0.0
+2023-07-30,Leylah Fernandez,Varvara Gracheva,False,2.29,False,0.0
+2023-08-01,Daria Kasatkina,Elise Mertens,False,2.36,False,0.0
+2023-08-01,Kaia Kanepi,Lucrezia Stefanini,False,2.67,False,0.0
+2023-08-03,Liudmila Samsonova,Sorana Cirstea,False,2.41,False,0.0
+2023-08-03,Xiyu Wang,Anna Karolina Schmiedlova,True,2.95,False,0.0
+2023-08-04,Alize Cornet,Tamara Korpatsch,True,2.48,False,0.0
+2023-08-05,Liudmila Samsonova,Marta Kostyuk,False,2.65,False,0.0
+2023-08-05,Madison Keys,Maria Sakkari,True,2.36,False,0.0
+2023-08-06,Jessica Pegula,Maria Sakkari,True,2.39,True,139.0
+2023-08-06,Peyton Stearns,Katherine Sebov,False,2.7,False,0.0
+2023-08-06,Anna Burrage Jodie,Marina Bassols Ribera,True,2.51,False,0.0
+2023-08-06,Linda Noskova,Tamara Korpatsch,False,2.94,False,0.0
+2023-08-07,Yulia Putintseva,Kimberly Birrell,True,2.44,True,144.0
+2023-08-07,Camila Giorgi,Ashlyn Krueger,False,2.55,False,0.0
+2023-08-07,Cristina Bucsa,Alycia Parks,True,2.47,False,0.0
+2023-08-08,Katie Boulter,Rebecca Marino,False,2.36,False,0.0
+2023-08-08,Sorana Cirstea,Varvara Gracheva,False,2.46,False,0.0
+2023-08-08,Karolina Pliskova,Lin Zhu,False,2.5,False,0.0
+2023-08-09,Beatriz Haddad Maia,Magdalena Frech,False,2.99,False,0.0
+2023-08-09,Karolina Muchova,Anastasia Potapova,False,2.44,False,0.0
+2023-08-09,Daria Kasatkina,Elise Mertens,False,2.48,False,0.0
+2023-08-09,Petra Martic,Cristina Bucsa,False,2.53,False,0.0
+2023-08-09,Eva Lys,Katarina Zavatska,False,2.45,False,0.0
+2023-08-10,Karolina Muchova,Sorana Cirstea,False,2.7,False,0.0
+2023-08-10,Maria Sakkari,Danielle Collins,True,2.43,False,0.0
+2023-08-11,Daria Kasatkina,Marie Bouzkova,False,2.48,False,0.0
+2023-08-12,Aryna Sabalenka,Liudmila Samsonova,True,2.66,False,0.0
+2023-08-12,Elena Rybakina,Daria Kasatkina,False,2.57,False,0.0
+2023-08-12,Liudmila Samsonova,Belinda Bencic,False,2.43,False,0.0
+2023-08-13,Linda Noskova,Magdalena Frech,False,2.49,False,0.0
+2023-08-13,Lauren Davis,Ann Li,True,2.62,False,0.0
+2023-08-13,Lesia Tsurenko,Taylor Townsend,True,2.81,False,0.0
+2023-08-13,Leylah Fernandez,Emma Navarro,True,2.6,False,0.0
+2023-08-14,Emma Navarro,Rebecca Marino,False,2.64,False,0.0
+2023-08-14,Taylor Townsend,Martina Trevisan,True,2.39,False,0.0
+2023-08-14,Linda Noskova,Diane Parry,False,2.63,False,0.0
+2023-08-14,Varvara Gracheva,Cristina Bucsa,True,2.41,False,0.0
+2023-08-14,Alize Cornet,Ann Li,True,2.42,False,0.0
+2023-08-14,Elizabeth Mandlik,Marina Bassols Ribera,True,2.43,False,0.0
+2023-08-14,Jessica Pegula,Liudmila Samsonova,False,2.39,True,-100.0
+2023-08-16,Marie Bouzkova,Irina Camelia Begu,False,2.62,False,0.0
+2023-08-16,Karolina Muchova,Beatriz Haddad Maia,False,2.72,False,0.0
+2023-08-16,Madison Keys,Elise Mertens,True,2.86,False,0.0
+2023-08-16,Qinwen Zheng,Aliaksandra Sasnovich,False,2.8,False,0.0
+2023-08-16,Xiyu Wang,Mayar Sherif,True,2.43,False,0.0
+2023-08-16,Leolia Jeanjean,Despina Papamichail,False,2.58,False,0.0
+2023-08-16,Liudmila Samsonova,Linda Noskova,True,2.73,False,0.0
+2023-08-17,Victoria Azarenka,Donna Vekic,True,2.38,False,0.0
+2023-08-17,Elena Rybakina,Jelena Ostapenko,False,2.67,False,0.0
+2023-08-17,Jasmine Paolini,Cristina Bucsa,False,2.43,False,0.0
+2023-08-17,Petra Kvitova,Linda Noskova,True,2.61,False,0.0
+2023-08-17,Maria Sakkari,Sorana Cirstea,False,2.46,False,0.0
+2023-08-18,Anna Karolina Schmiedlova,Laura Pigossi,False,2.74,False,0.0
+2023-08-18,Aryna Sabalenka,Daria Kasatkina,False,2.48,False,0.0
+2023-08-19,Aryna Sabalenka,Ons Jabeur,False,2.76,False,0.0
+2023-08-20,Aryna Sabalenka,Karolina Muchova,True,2.81,False,0.0
+2023-08-21,Magdalena Frech,Tamara Korpatsch,False,2.36,False,0.0
+2023-08-21,Cori Gauff,Karolina Muchova,False,2.48,False,0.0
+2023-08-22,Barbora Krejcikova,Clara Tauson,True,2.64,False,0.0
+2023-08-22,Rebecca Peterson,Diane Parry,False,2.43,False,0.0
+2023-08-22,Anhelina Kalinina,Ana Bogdan,False,2.38,False,0.0
+2023-08-22,Sloane Stephens,Lauren Davis,False,2.52,False,0.0
+2023-08-23,Dayana Yastremska,Heather Watson,False,2.73,False,0.0
+2023-08-23,Jasmine Paolini,Xin Yu Wang,True,2.38,False,0.0
+2023-08-23,Anna Bondar,Katarina Zavatska,False,2.42,False,0.0
+2023-08-23,Caroline Garcia,Peyton Stearns,False,2.87,False,0.0
+2023-08-24,Ekaterina Alexandrova,Aliaksandra Sasnovich,False,2.43,False,0.0
+2023-08-24,Eva Lys,Coco Vandeweghe,False,2.58,False,0.0
+2023-08-25,Leylah Fernandez,Tatiana Maria,True,2.71,False,0.0
+2023-08-25,Caroline Garcia,Lin Zhu,True,2.79,False,0.0
+2023-08-25,Alize Cornet,Viktoriya Tomova,True,2.62,False,0.0
+2023-08-25,Ekaterina Alexandrova,Xin Yu Wang,False,2.57,True,-100.0
+2023-08-25,Lucrezia Stefanini,Na Lae Han,True,2.65,False,0.0
+2023-08-25,Tamara Zidansek,Rebecca Sramkova,False,2.33,False,0.0
+2023-08-25,Mirjam Bjorklund,Leolia Jeanjean,False,2.84,False,0.0
+2023-08-26,Yafan Wang,Ann Li,False,2.35,True,-100.0
+2023-08-26,Dayana Yastremska,Gabriela Ruse Elena,True,2.56,False,0.0
+2023-08-26,Eva Lys,Nuria Parrizas Diaz,False,2.42,False,0.0
+2023-08-26,Ekaterina Alexandrova,Lin Zhu,False,2.41,False,0.0
+2023-08-27,Claire Liu,Viktoriya Tomova,True,2.39,False,0.0
+2023-08-27,Moyuka Uchijima,Vera Zvonareva,True,2.46,False,0.0
+2023-08-29,Xin Yu Wang,Katie Volynets,False,2.71,False,0.0
+2023-08-29,Emma Navarro,Magdalena Frech,True,2.63,False,0.0
+2023-08-29,Lin Zhu,Mayar Sherif,False,2.92,False,0.0
+2023-08-29,Lauren Davis,Danka Kovinic,False,2.9,False,0.0
+2023-08-29,Elise Mertens,Mirjam Bjorklund,False,2.96,False,0.0
+2023-08-29,Jelena Ostapenko,Jasmine Paolini,False,2.81,False,0.0
+2023-08-29,Alize Cornet,Elina Avanesyan,True,2.41,False,0.0
+2023-08-29,Xiyu Wang,Viktoria Hruncakova,False,2.33,False,0.0
+2023-08-30,Linda Noskova,Madison Brengle,False,2.98,False,0.0
+2023-08-30,Katie Boulter,Diane Parry,False,2.63,False,0.0
+2023-08-30,Irina Camelia Begu,Tamara Korpatsch,True,2.79,False,0.0
+2023-08-30,Anna Blinkova,Anna Burrage Jodie,True,2.64,False,0.0
+2023-08-30,Eva Lys,Robin Montgomery,False,2.58,False,0.0
+2023-08-30,Peyton Stearns,Viktoriya Tomova,False,2.58,False,0.0
+2023-08-30,Clara Burel,Caroline Dolehide,False,2.47,False,0.0
+2023-08-30,Karolina Pliskova,Gabriela Ruse Elena,False,2.77,False,0.0
+2023-08-31,Danielle Collins,Elise Mertens,True,2.83,False,0.0
+2023-08-31,Beatriz Haddad Maia,Taylor Townsend,True,2.48,False,0.0
+2023-08-31,Xiyu Wang,Bernarda Pera,True,2.34,False,0.0
+2023-08-31,Sara Sorribes Tormo,Xin Yu Wang,True,2.5,False,0.0
+2023-08-31,Rebeka Masarova,Anna Karolina Schmiedlova,True,2.97,False,0.0
+2023-08-31,Sorana Cirstea,Anna Kalinskaya,False,2.38,False,0.0
+2023-09-01,Ekaterina Alexandrova,Lesia Tsurenko,False,2.46,False,0.0
+2023-09-01,Greet Minnen,Sachia Vickery,False,2.53,False,0.0
+2023-09-01,Ons Jabeur,Linda Noskova,False,2.47,False,0.0
+2023-09-01,Daria Kasatkina,Sofia Kenin,False,2.97,False,0.0
+2023-09-01,Yafan Wang,Katie Boulter,True,2.39,False,0.0
+2023-09-01,Karolina Pliskova,Clara Burel,True,2.72,False,0.0
+2023-09-05,Jessica Pegula,Madison Keys,True,2.41,False,0.0
+2023-09-06,Karolina Muchova,Sorana Cirstea,False,2.67,False,0.0
+2023-09-08,Cori Gauff,Karolina Muchova,False,2.62,False,0.0
+2023-09-10,Caroline Dolehide,Louisa Chirico,True,2.74,False,0.0
+2023-09-11,Claire Liu,Clervie Ngounoue,True,2.76,True,176.0
+2023-09-11,Magdalena Frech,Hailey Baptiste,False,2.6,False,0.0
+2023-09-11,Aliaksandra Sasnovich,Varvara Lepchenko,False,2.35,False,0.0
+2023-09-11,Camila Osorio,Kayla Day,False,2.29,False,0.0
+2023-09-11,Anna Lena Friedsam,Valeria Savinykh,True,2.45,False,0.0
+2023-09-11,Yulia Putintseva,Diana Shnaider,False,2.48,True,-100.0
+2023-09-12,Moyuka Uchijima,Ankita Raina,False,2.6,False,0.0
+2023-09-12,Anastasia Potapova,Alycia Parks,False,2.54,False,0.0
+2023-09-12,Karolina Pliskova,Anhelina Kalinina,True,2.33,False,0.0
+2023-09-12,Camila Osorio,Magdalena Frech,False,2.36,False,0.0
+2023-09-12,Katie Volynets,Clervie Ngounoue,False,2.35,False,0.0
+2023-09-17,Harriet Dart,Valeria Savinykh,False,2.47,False,0.0
+2023-09-17,Elizabeth Mandlik,Alexandra Eala,True,2.42,True,142.0
+2023-09-17,Barbora Krejcikova,Sofia Kenin,False,2.45,False,0.0
+2023-09-19,Jasmine Paolini,Martina Trevisan,True,2.64,False,0.0
+2023-09-19,Viktorija Golubic,Rebecca Marino,False,2.32,False,0.0
+2023-09-20,Camila Giorgi,Cristina Bucsa,False,2.48,False,0.0
+2023-09-20,Jelena Ostapenko,Marta Kostyuk,False,2.84,False,0.0
+2023-09-20,Greet Minnen,Harriet Dart,False,2.53,False,0.0
+2023-09-20,Lucia Bronzetti,Moyuka Uchijima,False,2.37,False,0.0
+2023-09-20,Xiyu Wang,Diana Shnaider,False,2.88,True,-100.0
+2023-09-21,Maria Sakkari,Camila Giorgi,False,2.67,True,-100.0
+2023-09-21,Jelena Ostapenko,Sofia Kenin,True,2.4,False,0.0
+2023-09-22,Victoria Azarenka,Caroline Garcia,True,2.6,False,0.0
+2023-09-23,Maria Sakkari,Caroline Garcia,False,2.35,False,0.0
+2023-09-24,Rebecca Marino,Valeria Savinykh,True,2.37,False,0.0
+2023-09-24,Belen Teichmann Jil,Arianne Hartono,False,2.56,False,0.0
+2023-09-25,Lucia Bronzetti,Belen Teichmann Jil,False,2.36,False,0.0
+2023-09-26,Katerina Siniakova,Elizabeth Mandlik,False,2.38,True,-100.0
+2023-09-26,Varvara Gracheva,Valeria Savinykh,True,2.73,False,0.0
+2023-09-26,Daria Kasatkina,Marta Kostyuk,False,2.47,False,0.0
+2023-09-26,Ekaterina Alexandrova,Anna Kalinskaya,False,2.5,False,0.0
+2023-09-27,Liudmila Samsonova,Ekaterina Alexandrova,True,2.72,False,0.0
+2023-09-27,Sorana Cirstea,Katerina Siniakova,True,2.84,False,0.0
+2023-09-27,Nadia Podoroska,Valeria Savinykh,False,2.4,False,0.0
+2023-09-27,Anna Blinkova,Linda Fruhvirtova,True,2.58,True,158.0
+2023-09-27,Lucia Bronzetti,Kateryna Baindl,False,2.31,False,0.0
+2023-09-29,Rebeka Masarova,Kateryna Baindl,True,2.82,False,0.0
+2023-09-29,Katie Boulter,Zhuoxuan Bai,False,2.66,True,-100.0
+2023-09-29,Lucia Bronzetti,Rebecca Marino,False,2.25,False,0.0
+2023-09-29,Ashlyn Krueger,Tamara Korpatsch,False,2.61,False,0.0
+2023-09-29,Ekaterina Alexandrova,Anastasia Pavlyuchenkova,True,2.37,False,0.0
+2023-09-29,Maria Sakkari,Caroline Garcia,False,2.74,False,0.0
+2023-09-30,Yanina Wickmayer,Kateryna Baindl,True,2.41,False,0.0
+2023-09-30,Katie Boulter,Kamilla Rakhimova,False,2.49,False,0.0
+2023-09-30,Yulia Putintseva,Elina Avanesyan,False,2.72,False,0.0
+2023-09-30,Marta Kostyuk,Elisabetta Cocciaretto,False,2.86,False,0.0
+2023-09-30,Sorana Cirstea,Petra Martic,True,2.71,False,0.0
+2023-09-30,Donna Vekic,Anna Blinkova,True,2.57,False,0.0
+2023-10-01,Marie Bouzkova,Yulia Putintseva,True,2.52,False,0.0
+2023-10-01,Beatriz Haddad Maia,Jasmine Paolini,True,2.8,False,0.0
+2023-10-02,Anhelina Kalinina,Daria Saville,False,2.74,False,0.0
+2023-10-04,Liudmila Samsonova,Marta Kostyuk,False,2.77,True,-100.0
+2023-10-04,Jessica Pegula,Jelena Ostapenko,True,2.61,False,0.0
+2023-10-05,Cori Gauff,Veronika Kudermetova,False,2.89,False,0.0
+2023-10-05,Maria Sakkari,Xin Yu Wang,False,2.94,False,0.0
+2023-10-06,Cori Gauff,Maria Sakkari,False,2.64,False,0.0
+2023-10-07,Iga Swiatek,Cori Gauff,False,2.54,False,0.0
+2023-10-07,Elena Rybakina,Liudmila Samsonova,True,2.72,False,0.0
+2023-10-09,Lesia Tsurenko,Diana Shnaider,False,2.73,False,0.0
+2023-10-09,Katie Boulter,Kaja Juvan,True,2.59,False,0.0
+2023-10-09,Donna Vekic,Nao Hibino,False,2.76,False,0.0
+2023-10-10,Xiyu Wang,Katerina Siniakova,True,2.54,False,0.0
+2023-10-10,Peyton Stearns,Linda Fruhvirtova,True,2.35,False,0.0
+2023-10-10,Kaia Kanepi,Dalma Galfi,True,2.62,False,0.0
+2023-10-10,Eva Lys,Anna Karolina Schmiedlova,False,2.55,False,0.0
+2023-10-10,Ashlyn Krueger,Nadia Podoroska,False,2.39,False,0.0
+2023-10-11,Elise Mertens,Daria Saville,False,2.53,False,0.0
+2023-10-11,Caroline Garcia,Jasmine Paolini,True,2.67,True,167.0
+2023-10-11,Anhelina Kalinina,Vera Zvonareva,False,2.86,False,0.0
+2023-10-11,Alize Cornet,Jessika Ponchet,False,2.37,True,-100.0
+2023-10-11,Beatriz Haddad Maia,Aliaksandra Sasnovich,False,2.53,False,0.0
+2023-10-12,Mirra Andreeva,Leylah Fernandez,True,2.61,False,0.0
+2023-10-12,Barbora Krejcikova,Petra Martic,False,2.55,False,0.0
+2023-10-12,Fiona Ferro,Aliona Bolsova,False,2.8,False,0.0
+2023-10-13,Anastasia Pavlyuchenkova,Katerina Siniakova,True,2.86,False,0.0
+2023-10-13,Leylah Fernandez,Linda Fruhvirtova,False,2.81,True,-100.0
+2023-10-13,Elise Mertens,Martina Trevisan,True,2.94,False,0.0
+2023-10-13,Sara Sorribes Tormo,Anna Blinkova,True,2.46,True,146.0
+2023-10-13,Yanina Wickmayer,Polina Kudermetova,False,2.95,False,0.0
+2023-10-13,Kimberly Birrell,Emina Bektas,True,2.47,False,0.0
+2023-10-13,Viktorija Golubic,Fiona Ferro,False,2.31,False,0.0
+2023-10-13,Qinwen Zheng,Anhelina Kalinina,False,2.73,False,0.0
+2023-10-13,Alize Cornet,Dalma Galfi,False,2.31,False,0.0
+2023-10-14,Erika Andreeva,Alize Cornet,False,2.29,False,0.0
+2023-10-14,Alize Cornet,Nuria Parrizas Diaz,False,2.64,False,0.0
+2023-10-14,Katarina Zavatska,Despina Papamichail,False,2.67,False,0.0
+2023-10-15,Leylah Fernandez,Katerina Siniakova,False,2.71,True,-100.0
+2023-10-16,Iryna Shymanovich,Laura Pigossi,False,2.75,False,0.0
+2023-10-16,Vera Zvonareva,Arianne Hartono,False,2.98,False,0.0
+2023-10-17,Ana Bogdan,Viktoriya Tomova,False,2.55,False,0.0
+2023-10-17,Tamara Korpatsch,Leolia Jeanjean,False,2.42,False,0.0
+2023-10-17,Petra Marcinko,Marina Bassols Ribera,False,2.56,False,0.0
+2023-10-17,Mai Hontama,Aliona Bolsova,False,2.87,False,0.0
+2023-10-17,Claire Liu,Emina Bektas,False,2.36,False,0.0
+2023-10-17,Magdalena Frech,Nuria Parrizas Diaz,True,2.73,False,0.0
+2023-10-17,Aliaksandra Sasnovich,Viktoria Hruncakova,False,2.83,False,0.0
+2023-10-17,Tamara Zidansek,Sara Errani,True,2.84,False,0.0
+2023-10-18,Yanina Wickmayer,Belen Teichmann Jil,True,2.41,False,0.0
+2023-10-18,Sara Sorribes Tormo,Camila Osorio,True,2.56,False,0.0
+2023-10-18,Sorana Cirstea,Eva Lys,True,2.82,False,0.0
+2023-10-18,Jasmine Paolini,Alize Cornet,False,2.71,False,0.0
+2023-10-19,Lucrezia Stefanini,Katarzyna Kawa,False,2.38,False,0.0
+2023-10-19,Gabriela Ruse Elena,Anna Bondar,False,2.36,False,0.0
+2023-10-19,Belen Teichmann Jil,Emiliana Arango,True,2.35,False,0.0
+2023-10-19,Anna Burrage Jodie,Tamara Korpatsch,True,2.38,False,0.0
+2023-10-20,Gabriela Ruse Elena,Emiliana Arango,False,2.49,False,0.0
+2023-10-20,Leylah Fernandez,Aliaksandra Sasnovich,False,2.71,False,0.0
+2023-10-20,Lesia Tsurenko,Claire Liu,False,2.63,False,0.0
+2023-10-20,Jasmine Paolini,Lucia Bronzetti,False,2.37,False,0.0
+2023-10-20,Katerina Siniakova,Varvara Gracheva,False,2.42,False,0.0
+2023-10-21,Leylah Fernandez,Katerina Siniakova,True,2.53,False,0.0
+2023-10-21,Clara Burel,Lucrezia Stefanini,False,2.56,False,0.0
+2023-10-22,Marie Bouzkova,Katerina Siniakova,True,2.39,True,139.0
+2023-10-22,Elise Mertens,Clara Burel,False,2.65,False,0.0
+2023-10-24,Madison Keys,Beatriz Haddad Maia,True,2.49,False,0.0
+2023-10-24,Hailey Baptiste,Katrina Scott,False,2.85,False,0.0
+2023-10-25,Barbora Krejcikova,Daria Kasatkina,True,2.87,False,0.0
+2023-10-26,Jelena Ostapenko,Donna Vekic,False,2.48,False,0.0
+2023-10-27,Qinwen Zheng,Jelena Ostapenko,False,2.43,False,0.0
+2023-10-27,Liudmila Samsonova,Veronika Kudermetova,True,2.9,False,0.0
+2023-10-28,Anna Kalinskaya,Katie Volynets,False,2.74,False,0.0
+2023-10-31,Cori Gauff,Ons Jabeur,False,2.92,False,0.0
+2023-11-01,Elena Rybakina,Maria Sakkari,False,2.89,False,0.0
+2023-11-01,Aryna Sabalenka,Jessica Pegula,True,2.54,False,0.0
+2023-11-02,Marketa Vondrousova,Ons Jabeur,True,2.42,False,0.0
+2023-11-02,Iga Swiatek,Cori Gauff,False,2.78,False,0.0
+2023-11-04,Aryna Sabalenka,Elena Rybakina,False,2.34,True,-100.0
+2023-11-04,Anna Kalinskaya,Hailey Baptiste,False,2.83,False,0.0
+2023-12-03,Alize Cornet,Marina Bassols Ribera,True,2.57,False,0.0
+2023-12-03,Erika Andreeva,Heather Watson,False,2.68,False,0.0
+2023-12-06,Clara Burel,Elsa Jacquemot,False,2.54,False,0.0
+2023-12-06,Erika Andreeva,Nuria Parrizas Diaz,False,2.62,False,0.0
+2023-12-07,Alize Cornet,Gabriela Knutson,False,2.68,False,0.0
+2023-12-08,Alize Cornet,Chloe Paquet,True,2.65,False,0.0
+2023-12-10,Clara Burel,Dayana Yastremska,False,2.39,False,0.0
+2023-12-11,Clara Burel,Chloe Paquet,False,2.52,False,0.0
+2023-12-14,Arantxa Rus,Elsa Jacquemot,True,2.56,False,0.0
+2023-12-16,Erika Andreeva,Elisabetta Cocciaretto,False,2.24,False,0.0
+2023-12-18,Cristina Bucsa,Elsa Jacquemot,False,2.3,False,0.0
+2023-12-29,Mai Hontama,Chloe Paquet,False,2.51,False,0.0
+2023-12-29,Beatriz Haddad Maia,Sara Sorribes Tormo,False,2.74,False,0.0
+2023-12-30,Himeno Sakatsume,Carol Zhao,False,2.33,False,0.0
+2023-12-30,Mccartney Kessler,Jessika Ponchet,False,2.31,False,0.0
+2023-12-31,Anna Kalinskaya,Bernarda Pera,False,2.86,False,0.0
+2023-12-31,Gabriela Ruse Elena,Jule Niemeier,False,2.56,False,0.0
+2023-12-31,Caroline Dolehide,Anna Karolina Schmiedlova,True,2.36,False,0.0
+2023-12-31,Marta Kostyuk,Ana Bogdan,False,2.68,False,0.0
+2024-01-02,Donna Vekic,Arantxa Rus,False,2.46,True,-100.0
+2024-01-02,Olivia Gadecki,Kimberly Birrell,False,2.51,False,0.0
+2024-01-03,Anastasia Potapova,Daria Saville,False,2.52,False,0.0
+2024-01-03,Marie Bouzkova,Amanda Anisimova,False,2.31,False,0.0
+2024-01-04,Daria Kasatkina,Magda Linette,False,2.87,False,0.0
+2024-01-04,Elina Svitolina,Emma Raducanu,False,2.69,False,0.0
+2024-01-04,Victoria Azarenka,Clara Burel,False,2.79,False,0.0
+2024-01-04,Jelena Ostapenko,Karolina Pliskova,False,2.48,False,0.0
+2024-01-04,Veronika Kudermetova,Anastasia Potapova,True,2.92,False,0.0
+2024-01-05,Xiyu Wang,Diane Parry,False,2.86,False,0.0
+2024-01-06,Camila Giorgi,Claire Liu,True,2.62,False,0.0
+2024-01-06,Anna Karolina Schmiedlova,Tamara Zidansek,False,2.39,False,0.0
+2024-01-07,Anna Kalinskaya,Cristina Bucsa,False,2.58,False,0.0
+2024-01-07,Magdalena Frech,Viktoriya Tomova,False,2.47,False,0.0
+2024-01-07,Anastasia Pavlyuchenkova,Ana Bogdan,False,2.48,False,0.0
+2024-01-08,Linda Fruhvirtova,Arantxa Rus,True,2.34,False,0.0
+2024-01-08,Paula Badosa,Bernarda Pera,True,2.82,False,0.0
+2024-01-09,Valeria Savinykh,Carol Zhao,True,2.57,False,0.0
+2024-01-09,Yulia Putintseva,Elisabetta Cocciaretto,False,2.44,False,0.0
+2024-01-09,Petra Marcinko,Simona Waltert,True,2.47,False,0.0
+2024-01-09,Rebecca Peterson,Alexandra Eala,False,2.49,False,0.0
+2024-01-09,Ekaterina Alexandrova,Magda Linette,False,2.34,False,0.0
+2024-01-09,Sara Bejlek,Himeno Sakatsume,False,2.34,False,0.0
+2024-01-09,Jelena Ostapenko,Sorana Cirstea,False,2.48,False,0.0
+2024-01-09,Fiona Ferro,Rebecca Sramkova,False,2.32,False,0.0
+2024-01-09,Caroline Dolehide,Mayar Sherif,False,2.43,True,-100.0
+2024-01-09,Daria Kasatkina,Claire Liu,False,2.94,False,0.0
+2024-01-09,Sofia Kenin,Greet Minnen,False,2.77,False,0.0
+2024-01-09,Xin Yu Wang,Olivia Gadecki,False,2.55,False,0.0
+2024-01-10,Zeynep Sonmez,Xiaodi You,False,2.82,False,0.0
+2024-01-10,Veronika Kudermetova,Ekaterina Alexandrova,True,2.48,True,148.0
+2024-01-10,Jelena Ostapenko,Caroline Garcia,False,2.37,False,0.0
+2024-01-10,Marta Kostyuk,Taylor Townsend,False,2.54,False,0.0
+2024-01-10,Tereza Martincova,Ann Li,True,2.45,False,0.0
+2024-01-10,Lin Zhu,Caroline Dolehide,False,2.41,False,0.0
+2024-01-10,Sofia Kenin,Daria Saville,True,2.47,False,0.0
+2024-01-10,Marie Bouzkova,Yulia Putintseva,True,2.89,False,0.0
+2024-01-10,Marina Bassols Ribera,Simona Waltert,True,2.47,False,0.0
+2024-01-10,Emma Navarro,Magdalena Frech,False,2.66,False,0.0
+2024-01-11,Rebecca Marino,Jessika Ponchet,False,2.4,False,0.0
+2024-01-11,Jelena Ostapenko,Marta Kostyuk,False,2.51,False,0.0
+2024-01-12,Yulia Starodubtseva,Gabriela Knutson,False,2.49,False,0.0
+2024-01-12,Mirra Andreeva,Danielle Collins,False,2.31,False,0.0
+2024-01-12,Lulu Sun,Zeynep Sonmez,False,2.33,False,0.0
+2024-01-13,Jelena Ostapenko,Daria Kasatkina,False,2.44,False,0.0
+2024-01-14,Caroline Dolehide,Leolia Jeanjean,False,2.89,False,0.0
+2024-01-14,Liudmila Samsonova,Amanda Anisimova,True,2.94,False,0.0
+2024-01-14,Zhuoxuan Bai,Elina Avanesyan,True,2.46,False,0.0
+2024-01-14,Lesia Tsurenko,Lucia Bronzetti,False,2.61,False,0.0
+2024-01-15,Aliaksandra Sasnovich,Rebeka Masarova,True,2.37,False,0.0
+2024-01-15,Anastasia Pavlyuchenkova,Donna Vekic,False,2.99,True,-100.0
+2024-01-15,Marta Kostyuk,Claire Liu,False,2.92,False,0.0
+2024-01-15,Jasmine Paolini,Diana Shnaider,False,2.56,False,0.0
+2024-01-15,Fiona Ferro,Mccartney Kessler,True,2.5,False,0.0
+2024-01-15,Viktoriya Tomova,Kayla Day,False,2.67,False,0.0
+2024-01-15,Anhelina Kalinina,Arantxa Rus,True,2.36,False,0.0
+2024-01-15,Camila Osorio,Tatiana Maria,True,2.61,False,0.0
+2024-01-16,Emma Navarro,Xiyu Wang,False,2.6,False,0.0
+2024-01-16,Sloane Stephens,Olivia Gadecki,False,2.63,False,0.0
+2024-01-17,Elise Mertens,Marta Kostyuk,True,2.36,False,0.0
+2024-01-17,Lesia Tsurenko,Rebeka Masarova,False,2.63,False,0.0
+2024-01-17,Kaja Juvan,Anastasia Zakharova,True,2.45,False,0.0
+2024-01-18,Katerina Siniakova,Viktorija Golubic,True,2.84,False,0.0
+2024-01-18,Victoria Azarenka,Clara Tauson,False,2.85,False,0.0
+2024-01-18,Daria Kasatkina,Sloane Stephens,True,2.5,False,0.0
+2024-01-18,Martina Trevisan,Oceane Dodin,True,2.35,False,0.0
+2024-01-18,Anna Kalinskaya,Arantxa Rus,False,2.98,False,0.0
+2024-01-19,Paula Badosa,Amanda Anisimova,True,2.39,False,0.0
+2024-01-19,Magdalena Frech,Anastasia Zakharova,False,2.5,False,0.0
+2024-01-20,Emma Navarro,Dayana Yastremska,True,2.77,False,0.0
+2024-01-20,Jasmine Paolini,Anna Blinkova,False,2.37,False,0.0
+2024-01-21,Marta Kostyuk,Maria Timofeeva,False,2.65,False,0.0
+2024-01-21,Mirra Andreeva,Barbora Krejcikova,True,2.47,False,0.0
+2024-01-24,Linda Noskova,Dayana Yastremska,True,2.44,False,0.0
+2024-01-25,Qinwen Zheng,Dayana Yastremska,False,2.7,False,0.0
+2024-01-25,Aryna Sabalenka,Cori Gauff,False,2.71,False,0.0
+2024-01-27,Panna Udvardy,Valentini Grammatikopoulou,False,2.56,False,0.0
+2024-01-28,Dalma Galfi,Himeno Sakatsume,False,2.38,False,0.0
+2024-01-28,Alina Korneeva,Anastasia Zakharova,False,2.35,False,0.0
+2024-01-28,Greet Minnen,Anna Lena Friedsam,True,2.53,False,0.0
+2024-01-28,Chloe Paquet,Panna Udvardy,False,2.53,False,0.0
+2024-01-28,Mai Hontama,Anastasia Tikhonova,False,2.75,False,0.0
+2024-01-29,Harriet Dart,Jule Niemeier,True,2.4,False,0.0
+2024-01-30,Linda Fruhvirtova,Anastasia Tikhonova,False,2.38,False,0.0
+2024-01-30,Clara Tauson,Camila Giorgi,False,2.79,False,0.0
+2024-01-31,Elisabetta Cocciaretto,Lucrezia Stefanini,False,2.46,False,0.0
+2024-01-31,Anna Blinkova,Jule Niemeier,True,2.46,True,146.0
+2024-02-01,Zhuoxuan Bai,Arina Rodionova,True,2.58,False,0.0
+2024-02-01,Yafan Wang,Anna Karolina Schmiedlova,False,2.64,False,0.0
+2024-02-02,Ekaterina Alexandrova,Anastasia Potapova,False,2.56,False,0.0
+2024-02-02,Diana Shnaider,Dalma Galfi,False,2.44,False,0.0
+2024-02-03,Viktoria Hruncakova,Sinja Kraus,True,2.43,False,0.0
+2024-02-03,Ekaterina Alexandrova,Donna Vekic,False,2.66,False,0.0
+2024-02-04,Harriet Dart,Katarina Zavatska,False,2.5,False,0.0
+2024-02-04,Anna Bondar,Simona Waltert,True,2.4,True,140.0
+2024-02-04,Marina Bassols Ribera,Sinja Kraus,True,2.64,False,0.0
+2024-02-04,Jelena Ostapenko,Ekaterina Alexandrova,False,2.43,False,0.0
+2024-02-04,Sara Sorribes Tormo,Bernarda Pera,True,2.3,True,129.99999999999997
+2024-02-05,Beatriz Haddad Maia,Xiyu Wang,False,2.62,False,0.0
+2024-02-05,Laura Siegemund,Nuria Parrizas Diaz,True,2.53,False,0.0
+2024-02-05,Camila Osorio,Viktoriya Tomova,False,2.47,False,0.0
+2024-02-05,Darja Semenistaja,Panna Udvardy,False,2.36,False,0.0
+2024-02-06,Xin Yu Wang,Cristina Bucsa,True,2.34,False,0.0
+2024-02-06,Harriet Dart,Anna Bondar,False,2.42,False,0.0
+2024-02-06,Moyuka Uchijima,Carole Monnet,False,2.88,False,0.0
+2024-02-07,Liudmila Samsonova,Lesia Tsurenko,False,2.37,True,-100.0
+2024-02-07,Daria Kasatkina,Ashlyn Krueger,False,2.74,False,0.0
+2024-02-07,Anna Blinkova,Nuria Parrizas Diaz,True,2.54,False,0.0
+2024-02-07,Caty Mcnally,Sara Errani,True,2.68,False,0.0
+2024-02-07,Arina Rodionova,Arianne Hartono,True,2.6,False,0.0
+2024-02-08,Maria Sakkari,Sorana Cirstea,True,2.42,False,0.0
+2024-02-08,Arantxa Rus,Alize Cornet,False,2.38,False,0.0
+2024-02-08,Elisabetta Cocciaretto,Harriet Dart,True,2.88,False,0.0
+2024-02-09,Tatiana Maria,Sara Errani,True,2.46,True,146.0
+2024-02-09,Rebeka Masarova,Greet Minnen,True,2.4,True,140.0
+2024-02-09,Xiyu Wang,Aliaksandra Sasnovich,True,2.46,False,0.0
+2024-02-09,Laura Siegemund,Lucia Bronzetti,False,2.32,False,0.0
+2024-02-10,Martina Trevisan,Anna Lena Friedsam,False,2.49,True,-100.0
+2024-02-10,Magdalena Frech,Kamilla Rakhimova,False,2.37,False,0.0
+2024-02-10,Erika Andreeva,Zhuoxuan Bai,False,2.68,False,0.0
+2024-02-10,Danielle Collins,Laura Siegemund,False,2.76,False,0.0
+2024-02-10,Nao Hibino,Timea Babos,False,2.32,False,0.0
+2024-02-11,Storm Hunter,Darja Semenistaja,True,2.66,False,0.0
+2024-02-11,Greet Minnen,Tatiana Maria,False,2.7,True,-100.0
+2024-02-11,Elena Rybakina,Liudmila Samsonova,False,2.59,True,-100.0
+2024-02-12,Lin Zhu,Varvara Gracheva,False,2.88,False,0.0
+2024-02-12,Karolina Pliskova,Ana Bogdan,False,2.82,False,0.0
+2024-02-12,Diana Shnaider,Erika Andreeva,True,2.42,False,0.0
+2024-02-12,Emma Navarro,Jasmine Paolini,False,2.38,True,-100.0
+2024-02-12,Magda Linette,Nao Hibino,False,2.69,False,0.0
+2024-02-12,Liudmila Samsonova,Leylah Fernandez,True,2.61,True,161.0
+2024-02-12,Petra Martic,Arantxa Rus,False,2.32,False,0.0
+2024-02-12,Emma Raducanu,Anhelina Kalinina,True,2.8,False,0.0
+2024-02-13,Linda Noskova,Bernarda Pera,False,2.76,False,0.0
+2024-02-13,Marie Bouzkova,Sofia Kenin,False,2.43,True,-100.0
+2024-02-13,Ekaterina Alexandrova,Erika Andreeva,False,2.67,False,0.0
+2024-02-13,Danielle Collins,Marie Bouzkova,False,2.59,False,0.0
+2024-02-13,Victoria Azarenka,Xin Yu Wang,False,2.88,False,0.0
+2024-02-14,Qinwen Zheng,Leylah Fernandez,True,2.69,False,0.0
+2024-02-14,Linda Noskova,Karolina Pliskova,True,2.34,False,0.0
+2024-02-14,Danielle Collins,Katerina Siniakova,False,2.42,True,-100.0
+2024-02-16,Greet Minnen,Nao Hibino,True,2.82,False,0.0
+2024-02-16,Lucia Bronzetti,Tereza Martincova,False,2.57,False,0.0
+2024-02-17,Clara Burel,Eva Lys,False,2.32,False,0.0
+2024-02-17,Lucia Bronzetti,Nao Hibino,True,2.34,False,0.0
+2024-02-18,Iga Swiatek,Elena Rybakina,False,2.48,False,0.0
+2024-02-18,Beatriz Haddad Maia,Jasmine Paolini,True,2.63,False,0.0
+2024-02-18,Magda Linette,Nao Hibino,True,2.63,False,0.0
+2024-02-19,Anastasia Pavlyuchenkova,Marie Bouzkova,False,2.76,False,0.0
+2024-02-19,Petra Martic,Caroline Dolehide,False,2.9,False,0.0
+2024-02-19,Sorana Cirstea,Sofia Kenin,False,2.36,False,0.0
+2024-02-19,Elise Mertens,Elisabetta Cocciaretto,True,2.72,False,0.0
+2024-02-20,Yulia Starodubtseva,Emiliana Arango,False,2.51,False,0.0
+2024-02-20,Elina Svitolina,Anhelina Kalinina,False,2.99,False,0.0
+2024-02-20,Anastasia Potapova,Lucia Bronzetti,False,2.75,False,0.0
+2024-02-21,Maria Sakkari,Jasmine Paolini,True,2.58,False,0.0
+2024-02-21,Yanina Wickmayer,Leolia Jeanjean,True,2.81,False,0.0
+2024-02-21,Iryna Shymanovich,Carole Monnet,False,2.3,False,0.0
+2024-02-22,Qinwen Zheng,Anastasia Potapova,False,2.76,False,0.0
+2024-02-23,Rebecca Marino,Leolia Jeanjean,True,2.74,False,0.0
+2024-02-23,Caty Mcnally,Lourdes Carle Maria,True,2.3,False,0.0
+2024-02-24,Yulia Starodubtseva,Taylah Preston,True,2.5,False,0.0
+2024-02-24,Mccartney Kessler,Leolia Jeanjean,False,2.58,False,0.0
+2024-02-24,Jessica Bouzas Maneiro,Lourdes Carle Maria,True,2.62,False,0.0
+2024-02-25,Anna Kalinskaya,Jasmine Paolini,True,2.99,False,0.0
+2024-02-25,Shelby Rogers,Arianne Hartono,False,2.35,False,0.0
+2024-02-25,Jessika Ponchet,Louisa Chirico,False,2.78,False,0.0
+2024-02-26,Mccartney Kessler,Taylah Preston,False,2.41,False,0.0
+2024-02-26,Sara Bejlek,Leolia Jeanjean,False,2.76,False,0.0
+2024-02-26,Kayla Day,Ann Li,True,2.32,False,0.0
+2024-02-29,Daria Saville,Tatiana Maria,False,2.33,False,0.0
+2024-02-29,Diane Parry,Kamilla Rakhimova,False,2.41,False,0.0
+2024-03-01,Anastasia Pavlyuchenkova,Xin Yu Wang,False,2.91,False,0.0
+2024-03-01,Sloane Stephens,Anastasija Sevastova,True,2.74,False,0.0
+2024-03-04,Yanina Wickmayer,Rebecca Sramkova,True,2.4,True,140.0
+2024-03-04,Laura Siegemund,Mai Hontama,True,2.7,False,0.0
+2024-03-04,Linda Fruhvirtova,Emina Bektas,False,2.69,False,0.0
+2024-03-04,Robin Montgomery,Marina Bassols Ribera,False,2.54,False,0.0
+2024-03-05,Harriet Dart,Darja Semenistaja,False,2.4,False,0.0
+2024-03-05,Alize Cornet,Clervie Ngounoue,True,2.62,False,0.0
+2024-03-06,Clara Tauson,Hailey Baptiste,True,2.61,False,0.0
+2024-03-06,Erika Andreeva,Kayla Day,False,2.67,False,0.0
+2024-03-06,Harriet Dart,Liv Hovde,True,2.8,False,0.0
+2024-03-07,Yafan Wang,Rebecca Sramkova,True,2.71,False,0.0
+2024-03-07,Marie Bouzkova,Sara Sorribes Tormo,False,2.71,False,0.0
+2024-03-08,Karolina Pliskova,Anna Blinkova,True,2.95,False,0.0
+2024-03-08,Mccartney Kessler,Nuria Parrizas Diaz,True,2.45,False,0.0
+2024-03-08,Emma Raducanu,Rebeka Masarova,False,2.45,False,0.0
+2024-03-08,Magdalena Frech,Lucia Bronzetti,True,2.5,False,0.0
+2024-03-08,Diane Parry,Martina Trevisan,False,2.37,False,0.0
+2024-03-08,Lesia Tsurenko,Liv Hovde,False,2.84,False,0.0
+2024-03-09,Linda Noskova,Camila Giorgi,False,2.61,False,0.0
+2024-03-09,Ons Jabeur,Katie Volynets,True,2.61,False,0.0
+2024-03-09,Madison Keys,Hailey Baptiste,False,2.56,False,0.0
+2024-03-09,Ekaterina Alexandrova,Yulia Putintseva,True,2.68,False,0.0
+2024-03-10,Emma Navarro,Lesia Tsurenko,False,2.79,False,0.0
+2024-03-10,Maria Sakkari,Diana Shnaider,False,2.63,False,0.0
+2024-03-10,Elina Svitolina,Katerina Siniakova,False,2.65,False,0.0
+2024-03-10,Caroline Garcia,Viktoriya Tomova,False,2.66,False,0.0
+2024-03-10,Leylah Fernandez,Diane Parry,True,2.74,False,0.0
+2024-03-10,Anhelina Kalinina,Lucia Bronzetti,True,2.43,False,0.0
+2024-03-11,Anastasia Pavlyuchenkova,Beatriz Haddad Maia,False,2.41,False,0.0
+2024-03-11,Caroline Wozniacki,Katie Volynets,False,2.61,False,0.0
+2024-03-11,Anna Kalinskaya,Jasmine Paolini,True,2.33,False,0.0
+2024-03-11,Erika Andreeva,Yulia Starodubtseva,False,2.78,False,0.0
+2024-03-12,Maria Sakkari,Caroline Garcia,False,2.44,False,0.0
+2024-03-12,Taylah Preston,Marina Bassols Ribera,True,2.49,False,0.0
+2024-03-12,Greet Minnen,Tamara Korpatsch,False,2.88,False,0.0
+2024-03-12,Martina Trevisan,Renata Zarazua,False,2.37,False,0.0
+2024-03-13,Sara Errani,Yanina Wickmayer,False,2.29,False,0.0
+2024-03-14,Erika Andreeva,Nao Hibino,False,2.75,False,0.0
+2024-03-14,Rebeka Masarova,Emina Bektas,False,2.68,False,0.0
+2024-03-14,Diana Shnaider,Jaqueline Cristian,False,2.83,False,0.0
+2024-03-14,Yafan Wang,Sara Errani,False,2.33,True,-100.0
+2024-03-14,Maria Sakkari,Diane Parry,False,2.97,False,0.0
+2024-03-14,Mccartney Kessler,Kamilla Rakhimova,False,2.62,False,0.0
+2024-03-16,Elisabetta Cocciaretto,Greet Minnen,False,2.52,False,0.0
+2024-03-16,Diana Shnaider,Yafan Wang,False,2.33,False,0.0
+2024-03-18,Mai Hontama,Tamara Korpatsch,True,2.5,False,0.0
+2024-03-18,Rebeka Masarova,Rebecca Sramkova,True,2.58,True,158.0
+2024-03-18,Lourdes Carle Maria,Victoria Jimenez Kasintseva,False,2.55,False,0.0
+2024-03-19,Harriet Dart,Lourdes Carle Maria,True,2.52,False,0.0
+2024-03-19,Clara Tauson,Oceane Dodin,False,2.78,False,0.0
+2024-03-19,Alexandra Eala,Emiliana Arango,True,2.44,False,0.0
+2024-03-19,Camila Osorio,Nadia Podoroska,True,2.52,False,0.0
+2024-03-20,Clara Tauson,Caroline Dolehide,False,2.5,False,0.0
+2024-03-20,Diane Parry,Jaqueline Cristian,False,2.72,False,0.0
+2024-03-20,Brenda Fruhvirtova,Lourdes Carle Maria,False,2.65,False,0.0
+2024-03-20,Katerina Siniakova,Ana Bogdan,False,2.63,False,0.0
+2024-03-20,Caroline Wozniacki,Clara Burel,False,2.35,False,0.0
+2024-03-20,Yulia Putintseva,Cristina Bucsa,False,2.74,False,0.0
+2024-03-20,Taylor Townsend,Lucia Bronzetti,False,2.41,False,0.0
+2024-03-21,Ashlyn Krueger,Nadia Podoroska,True,2.71,False,0.0
+2024-03-21,Viktoriya Tomova,Tamara Korpatsch,False,2.42,False,0.0
+2024-03-21,Marie Bouzkova,Lin Zhu,True,2.52,False,0.0
+2024-03-21,Tatiana Maria,Emiliana Arango,True,2.62,True,162.0
+2024-03-21,Naomi Osaka,Elisabetta Cocciaretto,False,2.59,False,0.0
+2024-03-22,Liudmila Samsonova,Yulia Putintseva,True,2.65,True,165.0
+2024-03-22,Beatriz Haddad Maia,Diane Parry,False,2.36,False,0.0
+2024-03-22,Elise Mertens,Taylor Townsend,True,2.42,False,0.0
+2024-03-22,Anna Kalinskaya,Xiyu Wang,False,2.62,False,0.0
+2024-03-22,Victoria Azarenka,Peyton Stearns,False,2.78,False,0.0
+2024-03-22,Lesia Tsurenko,Greet Minnen,True,2.38,False,0.0
+2024-03-24,Ons Jabeur,Elina Avanesyan,True,2.76,False,0.0
+2024-03-24,Linda Noskova,Maria Timofeeva,False,2.93,False,0.0
+2024-03-24,Danielle Collins,Anastasia Potapova,False,2.42,False,0.0
+2024-03-24,Jasmine Paolini,Katie Volynets,False,2.67,False,0.0
+2024-03-25,Naomi Osaka,Caroline Garcia,True,2.92,False,0.0
+2024-03-25,Anastasia Pavlyuchenkova,Ekaterina Alexandrova,True,2.35,False,0.0
+2024-03-26,Jessica Pegula,Emma Navarro,False,2.53,False,0.0
+2024-03-28,Danielle Collins,Caroline Garcia,False,2.8,False,0.0
+2024-03-28,Jessica Pegula,Ekaterina Alexandrova,True,2.51,True,150.99999999999997
+2024-03-29,Danielle Collins,Ekaterina Alexandrova,False,2.35,False,0.0
+2024-03-31,Elena Rybakina,Danielle Collins,True,2.36,False,0.0
+2024-07-23,Destanee Aiava,Natalija Stevanovic,False,2.31,False,0.0
+2024-07-25,Maja Chwalinska,Darja Semenistaja,False,2.69,True,-100.0
+2024-07-27,Maya Joint,Alycia Parks,True,2.47,False,0.0
+2024-07-28,Amanda Anisimova,Emina Bektas,False,2.85,False,0.0
+2024-07-28,Kamilla Rakhimova,Mirjam Bjorklund,False,2.68,False,0.0
+2024-07-28,Hailey Baptiste,Taylah Preston,False,2.46,False,0.0
+2024-07-28,Jule Niemeier,Sachia Vickery,True,2.26,False,0.0
+2024-07-28,Mccartney Kessler,Louisa Chirico,False,2.69,False,0.0
+2024-07-30,Anastasia Pavlyuchenkova,Ashlyn Krueger,False,2.44,False,0.0
+2024-07-30,Robin Montgomery,Shelby Rogers,False,2.42,False,0.0
+2024-07-30,Amanda Anisimova,Sloane Stephens,False,2.46,False,0.0
+2024-07-30,Emma Raducanu,Elise Mertens,False,2.76,False,0.0
+2024-07-31,Katie Volynets,Kamilla Rakhimova,True,2.83,False,0.0
+2024-07-31,Anastasia Potapova,Taylor Townsend,True,2.41,False,0.0
+2024-08-03,Marie Bouzkova,Robin Montgomery,False,2.54,False,0.0
+2024-08-03,Amanda Anisimova,Caroline Dolehide,True,2.79,False,0.0
+2024-08-05,Paula Badosa,Marie Bouzkova,False,2.65,False,0.0
+2024-08-05,Rebeka Masarova,Kayla Day,True,2.59,False,0.0
+2024-08-06,Bernarda Pera,Nao Hibino,False,2.32,False,0.0
+2024-08-06,Yafan Wang,Chloe Paquet,False,2.4,False,0.0
+2024-08-06,Taylor Townsend,Erika Andreeva,True,2.67,False,0.0
+2024-08-08,Naomi Osaka,Ons Jabeur,False,2.51,False,0.0
+2024-08-08,Katie Boulter,Bernarda Pera,False,2.59,False,0.0
+2024-08-08,Peyton Stearns,Anna Blinkova,False,2.74,False,0.0
+2024-08-08,Amanda Anisimova,Caroline Dolehide,False,2.39,False,0.0
+2024-08-09,Diana Shnaider,Magdalena Frech,False,2.51,False,0.0
+2024-08-09,Paula Badosa,Jelena Ostapenko,True,2.69,False,0.0
+2024-08-09,Leylah Fernandez,Ashlyn Krueger,True,2.95,False,0.0
+2024-08-09,Elina Svitolina,Marta Kostyuk,True,2.35,False,0.0
+2024-08-10,Jelena Ostapenko,Taylor Townsend,True,2.39,True,139.0
+2024-08-11,Emma Navarro,Taylor Townsend,False,2.76,True,-100.0
+2024-08-12,Jessica Pegula,Diana Shnaider,False,2.58,True,-100.0
+2024-08-12,Ashlyn Krueger,Moyuka Uchijima,False,2.71,False,0.0
+2024-08-12,Xiyu Wang,Aliaksandra Sasnovich,True,2.59,False,0.0
+2024-08-13,Jessica Pegula,Amanda Anisimova,False,2.58,False,0.0
+2024-08-13,Taylor Townsend,Katie Volynets,False,2.57,False,0.0
+2024-08-13,Robin Montgomery,Martina Trevisan,False,2.56,False,0.0
+2024-08-13,Elina Avanesyan,Harriet Dart,True,2.73,False,0.0
+2024-08-13,Magdalena Frech,Jessica Bouzas Maneiro,False,2.34,False,0.0
+2024-08-13,Naomi Osaka,Ashlyn Krueger,True,2.58,False,0.0
+2024-08-14,Linda Noskova,Lulu Sun,True,2.4,False,0.0
+2024-08-14,Karolina Pliskova,Viktoriya Tomova,False,2.78,False,0.0
+2024-08-14,Marta Kostyuk,Elise Mertens,False,2.38,False,0.0
+2024-08-14,Katie Boulter,Magda Linette,True,2.36,False,0.0
+2024-08-14,Bianca Andreescu,Elina Avanesyan,True,2.72,False,0.0
+2024-08-14,Donna Vekic,Ashlyn Krueger,True,2.38,False,0.0
+2024-08-15,Marie Bouzkova,Magdalena Frech,True,2.63,False,0.0
+2024-08-15,Marta Kostyuk,Lulu Sun,False,2.75,False,0.0
+2024-08-15,Liudmila Samsonova,Xin Yu Wang,False,2.7,False,0.0
+2024-08-15,Emina Bektas,Viktoria Hruncakova,True,2.44,False,0.0
+2024-08-15,Caroline Wozniacki,Anhelina Kalinina,False,2.66,False,0.0
+2024-08-15,Anna Kalinskaya,Katerina Siniakova,False,2.57,False,0.0
+2024-08-16,Liudmila Samsonova,Magda Linette,False,2.67,False,0.0
+2024-08-16,Diana Shnaider,Ashlyn Krueger,False,2.34,False,0.0
+2024-08-16,Jelena Ostapenko,Elina Avanesyan,True,2.42,True,142.0
+2024-08-18,Jessica Pegula,Leylah Fernandez,False,2.77,False,0.0
+2024-08-19,Iga Swiatek,Aryna Sabalenka,True,2.51,False,0.0
+2024-08-20,Emina Bektas,Simona Waltert,True,2.56,True,156.0
+2024-08-20,Clara Tauson,Anna Karolina Schmiedlova,False,2.6,False,0.0
+2024-08-20,Yulia Starodubtseva,Victoria Jimenez Kasintseva,False,2.7,False,0.0
+2024-08-20,Anastasia Zakharova,Talia Gibson,True,2.44,True,144.0
+2024-08-20,Anastasia Potapova,Diane Parry,False,2.41,False,0.0
+2024-08-20,Mai Hontama,Anastasia Tikhonova,False,2.53,True,-100.0
+2024-08-20,Veronika Kudermetova,Lourdes Carle Maria,True,2.77,False,0.0
+2024-08-21,Yafan Wang,Sara Sorribes Tormo,True,2.49,False,0.0
+2024-08-21,Suzan Lamens,Arianne Hartono,True,2.36,False,0.0
+2024-08-21,Beatriz Haddad Maia,Viktorija Golubic,False,2.77,False,0.0
+2024-08-21,Magdalena Frech,Nadia Podoroska,False,2.67,False,0.0
+2024-08-21,Robin Montgomery,Kimberly Birrell,True,2.86,False,0.0
+2024-08-21,Xiaodi You,Irina Bara,True,2.79,False,0.0
+2024-08-22,Ekaterina Alexandrova,Renata Zarazua,False,2.56,False,0.0
+2024-08-22,Kamilla Rakhimova,Maria Timofeeva,False,2.51,False,0.0
+2024-08-22,Elizabeth Mandlik,Mirjam Bjorklund,False,2.32,False,0.0
+2024-08-22,Katerina Siniakova,Jessica Bouzas Maneiro,False,2.41,False,0.0
+2024-08-22,Xin Yu Wang,Mccartney Kessler,True,2.69,False,0.0
+2024-08-22,Ann Li,Astra Sharma,False,2.33,True,-100.0
+2024-08-23,Gabriela Ruse Elena,Alexandra Eala,False,2.27,False,0.0
+2024-08-23,Anastasia Potapova,Ana Bogdan,False,2.43,True,-100.0
+2024-08-23,Beatriz Haddad Maia,Clara Burel,False,2.53,False,0.0
+2024-08-23,Peyton Stearns,Katerina Siniakova,True,2.4,False,0.0
+2024-08-23,Aliaksandra Sasnovich,Zeynep Sonmez,False,2.28,False,0.0
+2024-08-23,Elina Svitolina,Linda Noskova,True,2.73,False,0.0
+2024-08-24,Anastasia Potapova,Mccartney Kessler,True,2.53,False,0.0
+2024-08-25,Beatriz Haddad Maia,Mccartney Kessler,True,2.64,False,0.0
+2024-08-27,Madison Keys,Katerina Siniakova,False,2.93,False,0.0
+2024-08-27,Dayana Yastremska,Jule Niemeier,True,2.63,False,0.0
+2024-08-27,Maya Joint,Laura Siegemund,False,2.68,True,-100.0
+2024-08-27,Xiyu Wang,Diane Parry,True,2.59,False,0.0
+2024-08-27,Elise Mertens,Veronika Kudermetova,False,2.43,False,0.0
+2024-08-27,Ekaterina Alexandrova,Viktoriya Tomova,False,2.84,False,0.0
+2024-08-27,Harriet Dart,Chloe Paquet,False,2.71,False,0.0
+2024-08-27,Qinwen Zheng,Amanda Anisimova,False,2.52,False,0.0
+2024-08-31,Madison Keys,Elise Mertens,True,2.93,False,0.0
+2024-08-31,Emma Navarro,Marta Kostyuk,False,2.4,False,0.0
+2024-09-02,Qinwen Zheng,Donna Vekic,False,2.75,False,0.0
+2024-09-03,Jessica Pegula,Diana Shnaider,False,2.73,False,0.0
+2024-09-03,Karolina Muchova,Jasmine Paolini,False,2.36,True,-100.0
+2024-09-03,Olivia Gadecki,Julia Riera,False,2.49,False,0.0
+2024-09-04,Maya Joint,Elizabeth Mandlik,True,2.78,False,0.0
+2024-09-05,Rebecca Marino,Astra Sharma,False,2.69,False,0.0
+2024-09-05,Elizabeth Mandlik,Emiliana Arango,True,2.39,True,139.0
+2024-09-05,Olivia Gadecki,Lucrezia Stefanini,False,2.45,False,0.0
+2024-09-09,Kimberly Birrell,Taylah Preston,False,2.58,False,0.0
+2024-09-09,Rebecca Marino,Aleksandra Krunic,True,2.54,False,0.0
+2024-09-09,Lucrezia Stefanini,Sachia Vickery,False,2.32,False,0.0
+2024-09-10,Anhelina Kalinina,Renata Zarazua,True,2.45,False,0.0
+2024-09-10,Eva Lys,Lesia Tsurenko,False,2.41,False,0.0
+2024-09-10,Alycia Parks,Yuriko Miyazaki,True,2.38,False,0.0
+2024-09-10,Camila Osorio,Hailey Baptiste,False,2.79,False,0.0
+2024-09-12,Sara Sorribes Tormo,Jana Fett,False,2.76,False,0.0
+2024-09-13,Ashlyn Krueger,Magdalena Frech,True,2.5,False,0.0
+2024-09-13,Antonia Ruzic,Yuriko Miyazaki,False,2.53,False,0.0
+2024-09-13,Greet Minnen,Zeynep Sonmez,True,2.56,False,0.0
+2024-09-13,Caroline Garcia,Ena Shibahara,False,2.41,False,0.0
+2024-09-14,Sara Sorribes Tormo,Rebecca Sramkova,True,2.59,False,0.0
+2024-09-14,Lucia Bronzetti,Antonia Ruzic,False,2.64,False,0.0
+2024-09-14,Olivia Gadecki,Martina Trevisan,False,2.77,False,0.0
+2024-09-14,Eva Lys,Zeynep Sonmez,False,2.66,False,0.0
+2024-09-14,Magdalena Frech,Marina Stakusic,False,2.55,False,0.0
+2024-09-16,Varvara Gracheva,Taylah Preston,False,2.73,False,0.0
+2024-09-16,Tatiana Prozorova,Tamara Zidansek,True,2.82,False,0.0
+2024-09-16,Laura Siegemund,Alycia Parks,False,2.55,False,0.0
+2024-09-16,Xiyu Wang,Viktorija Golubic,False,2.85,False,0.0
+2024-09-17,Ajla Tomljanovic,Jeong Jang Su,False,2.55,False,0.0
+2024-09-17,Emma Raducanu,Peyton Stearns,False,2.55,False,0.0
+2024-09-17,Magda Linette,Lesia Tsurenko,False,2.65,False,0.0
+2024-09-18,Liudmila Samsonova,Veronika Kudermetova,True,2.82,False,0.0
+2024-09-18,Xiyu Wang,Laura Siegemund,True,2.94,False,0.0
+2024-09-21,Rebecca Sramkova,Tamara Zidansek,False,2.38,False,0.0
+2024-09-21,Veronika Kudermetova,Viktoriya Tomova,False,2.68,False,0.0
+2024-09-21,Beatriz Haddad Maia,Veronika Kudermetova,False,2.48,False,0.0
+2024-09-21,Laura Siegemund,Arianne Hartono,False,2.91,True,-100.0
+2024-09-23,Zeynep Sonmez,Varvara Lepchenko,False,2.48,False,0.0
+2024-09-23,Sara Sorribes Tormo,Arianne Hartono,False,2.82,False,0.0
+2024-09-24,Kamilla Rakhimova,Kimberly Birrell,True,2.44,False,0.0
+2024-09-24,Alycia Parks,Tamara Korpatsch,False,2.49,False,0.0
+2024-09-24,Hailey Baptiste,Priscilla Hon,False,2.5,False,0.0
+2024-09-24,Jana Fett,Shuo Liang En,True,2.88,False,0.0
+2024-09-24,Yulia Starodubtseva,Jeong Jang Su,False,2.77,False,0.0
+2024-09-25,Peyton Stearns,Jessica Bouzas Maneiro,False,2.75,False,0.0
+2024-09-25,Katie Volynets,Dalma Galfi,False,2.63,False,0.0
+2024-09-25,Viktoriya Tomova,Lesia Tsurenko,False,2.43,False,0.0
+2024-09-25,Yulia Starodubtseva,Laura Siegemund,False,2.33,False,0.0
+2024-09-26,Camila Osorio,Ajla Tomljanovic,False,2.43,False,0.0
+2024-09-26,Harriet Dart,Clara Tauson,True,2.4,False,0.0
+2024-09-27,Ekaterina Alexandrova,Rebecca Sramkova,True,2.33,False,0.0
+2024-09-27,Naomi Osaka,Yulia Putintseva,False,2.43,False,0.0
+2024-09-28,Ashlyn Krueger,Lulu Sun,False,2.52,False,0.0
+2024-09-28,Amanda Anisimova,Camila Osorio,False,2.42,False,0.0
+2024-09-28,Elisabetta Cocciaretto,Elise Mertens,True,2.9,True,190.0
+2024-09-30,Mirra Andreeva,Donna Vekic,False,2.56,False,0.0
+2024-10-01,Magdalena Frech,Shuai Zhang,True,2.45,False,0.0
+2024-10-01,Jessica Pegula,Paula Badosa,True,2.38,False,0.0
+2024-10-01,Ajla Tomljanovic,Marina Stakusic,False,2.36,False,0.0
+2024-10-01,Clara Burel,Nao Hibino,True,2.85,False,0.0
+2024-10-01,Anna Kalinskaya,Yulia Starodubtseva,True,2.42,False,0.0
+2024-10-02,Clara Tauson,Martina Trevisan,False,2.72,False,0.0
+2024-10-03,Mccartney Kessler,Mananchaya Sawangkaew,False,2.43,False,0.0
+2024-10-03,Hailey Baptiste,Varvara Gracheva,True,2.74,False,0.0
+2024-10-04,Aryna Sabalenka,Karolina Muchova,True,2.7,False,0.0
+2024-10-04,Varvara Gracheva,Suzan Lamens,False,2.59,False,0.0
+2024-10-04,Clara Tauson,Nao Hibino,False,2.66,False,0.0
+2024-10-05,Yulia Starodubtseva,Laura Siegemund,False,2.71,False,0.0
+2024-10-05,Mai Hontama,Xiaodi You,False,2.51,False,0.0
+2024-10-05,Clara Burel,Alycia Parks,False,2.46,False,0.0
+2024-10-05,Greet Minnen,Bernarda Pera,True,2.52,False,0.0
+2024-10-05,Kamilla Rakhimova,Marina Stakusic,False,2.51,False,0.0
+2024-10-05,Olivia Gadecki,Sijia Wei,False,2.33,False,0.0
+2024-10-06,Kamilla Rakhimova,Bernarda Pera,True,2.38,False,0.0
+2024-10-06,Karolina Muchova,Coco Gauff,True,2.4,False,0.0
+2024-10-06,Clara Tauson,Ajla Tomljanovic,True,2.34,False,0.0
+2024-10-06,Hailey Baptiste,Suzan Lamens,False,2.71,False,0.0
+2024-10-06,Camila Osorio,Lucia Bronzetti,False,2.71,False,0.0
+2024-10-06,Olivia Gadecki,Moyuka Uchijima,True,2.6,False,0.0
+2024-10-07,Diana Shnaider,Leylah Fernandez,True,2.33,False,0.0
+2024-10-07,Madison Keys,Beatriz Haddad Maia,True,2.51,False,0.0
+2024-10-08,Ajla Tomljanovic,Lucia Bronzetti,True,2.39,False,0.0
+2024-10-08,Ashlyn Krueger,Viktoriya Tomova,True,2.77,False,0.0
+2024-10-08,Camila Osorio,Jaqueline Cristian,True,2.41,False,0.0
+2024-10-08,Liudmila Samsonova,Magda Linette,True,2.74,False,0.0
+2024-10-09,Xin Yu Wang,Lucia Bronzetti,False,2.84,True,-100.0
+2024-10-09,Beatriz Haddad Maia,Veronika Kudermetova,False,2.42,False,0.0
+2024-10-09,Anna Kalinskaya,Ekaterina Alexandrova,True,2.41,False,0.0
+2024-10-09,Barbora Krejcikova,Hailey Baptiste,True,2.74,False,0.0
+2024-10-10,Daria Kasatkina,Magda Linette,True,2.51,False,0.0
+2024-10-12,Alexandra Eala,Priscilla Hon,True,2.27,False,0.0
+2024-10-12,Tamara Korpatsch,Shuo Liang En,False,2.26,False,0.0
+2024-10-12,Ena Shibahara,Linda Fruhvirtova,False,2.53,False,0.0
+2024-10-12,Aryna Sabalenka,Coco Gauff,False,2.33,True,-100.0
+2024-10-13,Olivia Gadecki,Anna Bondar,False,2.75,False,0.0
+2024-10-13,Laura Siegemund,Nao Hibino,False,2.41,False,0.0
+2024-10-13,Eva Lys,Suzan Lamens,True,2.76,False,0.0
+2024-10-13,Aryna Sabalenka,Qinwen Zheng,False,2.86,True,-100.0
+2024-10-14,Viktoriya Tomova,Suzan Lamens,True,2.47,False,0.0
+2024-10-14,Anna Bondar,Tamara Korpatsch,True,2.4,False,0.0
+2024-10-14,Paula Badosa,Diana Shnaider,False,2.9,False,0.0
+2024-10-14,Mccartney Kessler,Ena Shibahara,False,2.43,False,0.0
+2024-10-15,Veronika Kudermetova,Ana Bogdan,True,2.45,False,0.0
+2024-10-15,Bianca Andreescu,Greet Minnen,True,2.51,False,0.0
+2024-10-15,Laura Siegemund,Harriet Dart,True,2.61,False,0.0
+2024-10-16,Daria Kasatkina,Katerina Siniakova,False,2.3,True,-100.0
+2024-10-17,Beatriz Haddad Maia,Katie Boulter,False,2.49,False,0.0
+2024-10-17,Marie Bouzkova,Ana Bogdan,True,2.32,False,0.0
+2024-10-18,Clara Tauson,Diane Parry,True,2.58,False,0.0
+2024-10-18,Ana Bogdan,Suzan Lamens,True,2.4,False,0.0
+2024-10-18,Paula Badosa,Beatriz Haddad Maia,False,2.76,True,-100.0
+2024-10-20,Martina Trevisan,Yexin Ma,True,2.45,False,0.0
+2024-10-20,Mananchaya Sawangkaew,Tamara Korpatsch,False,2.62,False,0.0
+2024-10-20,Diane Parry,Suzan Lamens,True,2.48,True,148.0
+2024-10-20,Suzan Lamens,Kimberly Birrell,False,2.37,True,-100.0
+2024-10-20,Mirra Andreeva,Daria Kasatkina,True,2.92,True,192.0
+2024-10-21,Jessika Ponchet,Arianne Hartono,False,2.27,False,0.0
+2024-10-21,Caroline Dolehide,Emina Bektas,False,2.47,False,0.0
+2024-10-21,Varvara Gracheva,Mai Hontama,False,2.45,False,0.0
+2024-10-21,Rebecca Sramkova,Sijia Wei,True,2.67,False,0.0
+2024-10-22,Xin Yu Wang,Sofia Kenin,True,2.9,True,190.0
+2024-10-22,Sara Saito,Sayaka Ishii,True,2.62,False,0.0
+2024-10-22,Marie Bouzkova,Suzan Lamens,False,2.57,True,-100.0
+2024-10-22,Jessica Bouzas Maneiro,Jana Fett,False,2.67,False,0.0
+2024-10-23,Alina Korneeva,Lourdes Carle Maria,True,2.42,False,0.0
+2024-10-23,Zeynep Sonmez,Sayaka Ishii,True,2.32,False,0.0
+2024-10-23,Ann Li,Lucrezia Stefanini,True,2.6,False,0.0
+2024-10-23,Polina Kudermetova,Astra Sharma,False,2.75,False,0.0
+2024-10-25,Sara Sorribes Tormo,Tatiana Maria,False,2.26,True,-100.0
+2024-10-25,Katerina Siniakova,Bernarda Pera,False,2.68,False,0.0
+2024-10-25,Katie Boulter,Bianca Andreescu,False,2.32,False,0.0
+2024-10-25,Xiyu Wang,Lucia Bronzetti,True,2.74,False,0.0
+2024-10-25,Daria Kasatkina,Sofia Kenin,True,2.94,True,194.0
+2024-10-25,Olga Danilovic,Mananchaya Sawangkaew,False,2.95,True,-100.0
+2024-10-26,Anna Blinkova,Rebecca Marino,False,2.32,False,0.0
+2024-10-26,Sara Sorribes Tormo,Marina Stakusic,True,2.42,False,0.0
+2024-10-26,Katie Boulter,Sofia Kenin,True,2.41,False,0.0
+2024-10-27,Anna Blinkova,Marina Stakusic,True,2.41,False,0.0
+2024-10-27,Olga Danilovic,Caroline Dolehide,False,2.37,False,0.0
+2024-10-28,Jessica Bouzas Maneiro,Zarina Diyas,False,2.67,False,0.0
+2024-10-28,Maja Chwalinska,Sophie Chang,False,2.86,False,0.0
+2024-10-29,Sijia Wei,Mai Hontama,False,2.73,False,0.0
+2024-10-29,Laura Siegemund,Moyuka Uchijima,False,2.51,False,0.0
+2024-10-29,Lucia Bronzetti,Mananchaya Sawangkaew,True,2.53,False,0.0
+2024-10-29,Belen Teichmann Jil,Anastasia Tikhonova,False,2.45,False,0.0
+2024-10-29,Alina Korneeva,Alycia Parks,False,2.44,True,-100.0
+2024-10-29,Ajla Tomljanovic,Elizabeth Mandlik,False,2.41,False,0.0
+2024-10-29,Varvara Gracheva,Tatiana Prozorova,False,2.91,False,0.0
+2024-10-29,Anastasia Zakharova,Jeong Jang Su,False,2.64,False,0.0
+2024-10-29,Rebecca Marino,Maja Chwalinska,True,2.49,False,0.0
+2024-10-30,Kamilla Rakhimova,Elena Pridankina,False,2.57,False,0.0
+2024-10-31,Ann Li,Antonia Ruzic,False,2.78,False,0.0
+2024-10-31,Arantxa Rus,Linda Fruhvirtova,False,2.5,False,0.0
+2024-10-31,Rebecca Sramkova,Sijia Wei,False,2.37,False,0.0
+2024-11-01,Zeynep Sonmez,Elsa Jacquemot,False,2.59,False,0.0
+2024-11-01,Katie Boulter,Anastasia Zakharova,False,2.78,False,0.0
+2024-11-01,Renata Zarazua,Maja Chwalinska,False,2.54,False,0.0
+2024-11-01,Sara Sorribes Tormo,Lucrezia Stefanini,False,2.35,False,0.0
+2024-11-01,Marie Bouzkova,Kamilla Rakhimova,False,2.91,True,-100.0
+2024-11-02,Ann Li,Belen Teichmann Jil,False,2.61,False,0.0
+2024-11-02,Polina Kudermetova,Nina Stojanovic,False,2.33,False,0.0
+2024-11-03,Aryna Sabalenka,Qinwen Zheng,False,3.0,False,0.0
+2024-11-03,Elena Rybakina,Jasmine Paolini,True,2.44,False,0.0
+2024-11-03,Diana Shnaider,Katie Boulter,False,2.38,False,0.0
+2024-11-03,Rebecca Sramkova,Viktorija Golubic,True,2.35,False,0.0
+2024-11-04,Qinwen Zheng,Elena Rybakina,False,2.32,False,0.0
+2024-11-04,Coco Gauff,Jessica Pegula,False,2.47,False,0.0
+2024-11-04,Ann Li,Zeynep Sonmez,True,2.53,False,0.0
+2024-11-04,Ann Li,Polina Kudermetova,False,2.7,False,0.0
+2024-11-04,Alina Korneeva,Zeynep Sonmez,True,2.89,False,0.0
+2024-11-05,Jessica Pegula,Barbora Krejcikova,True,2.75,False,0.0
+2024-11-05,Lesia Tsurenko,Tamara Zidansek,False,2.33,False,0.0
+2024-11-06,Marina Stakusic,Varvara Lepchenko,True,2.6,False,0.0
+2024-11-06,Alina Korneeva,Maya Joint,False,2.44,False,0.0
+2024-11-06,Qinwen Zheng,Jasmine Paolini,False,2.94,False,0.0
+2024-11-06,Iga Swiatek,Coco Gauff,True,2.43,False,0.0
+2024-11-08,Varvara Lepchenko,Haruka Kaji,False,2.87,False,0.0
+2024-11-09,Lauren Davis,Varvara Lepchenko,False,2.49,False,0.0
+2024-11-09,Alycia Parks,Astra Sharma,False,2.41,False,0.0
+2024-11-09,Alina Korneeva,Rebecca Marino,True,2.27,False,0.0
+2024-11-09,Qinwen Zheng,Barbora Krejcikova,False,2.97,False,0.0
+2024-11-09,Aryna Sabalenka,Coco Gauff,True,2.61,True,161.0
+2024-11-10,Coco Gauff,Qinwen Zheng,False,2.35,False,0.0
+2024-12-02,Anna Lena Friedsam,Tamara Korpatsch,True,2.43,False,0.0
+2024-12-03,Oceane Dodin,Brenda Fruhvirtova,False,2.56,False,0.0
+2024-12-03,Mona Barthel,Selena Janicijevic,False,2.51,False,0.0
+2024-12-04,Jessika Ponchet,Clervie Ngounoue,True,2.67,False,0.0
+2024-12-05,Gabriela Ruse Elena,Varvara Lepchenko,True,2.62,False,0.0
+2024-12-10,Ella Seidel,Carole Monnet,True,2.63,False,0.0
+2024-12-11,Elsa Jacquemot,Anastasia Tikhonova,False,2.64,False,0.0
+2024-12-13,Anastasia Zakharova,Elsa Jacquemot,True,2.4,False,0.0
+2024-12-30,Bernarda Pera,Victoria Jimenez Kasintseva,False,2.32,False,0.0
+2024-12-30,Clara Tauson,Lucrezia Stefanini,True,2.57,False,0.0
+2024-12-30,Laura Siegemund,Xinyu Gao,True,2.86,False,0.0

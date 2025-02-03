@@ -13,7 +13,6 @@ file_path = "error_results.log"
 
 try:
     os.remove(file_path)
-    # print(f"File '{file_path}' deleted successfully.")
 except OSError as e:
     print(f"Error: {file_path} - {e.strerror}.")
 
@@ -247,13 +246,8 @@ try:
                             )
 
         for key, value in tournament_dict.items():
-            # print(value)
-            datefilename = current_date.replace("-", "")
-
-            # with xlsxwriter.Workbook(r"C:\Users\chris\OneDrive\Desktop\Tennis\\" + key + datefilename + suffix + ".xlsx") as workbook:
             for i, date in value.items():
                 for match in date:
-                    # print(match)
                     match1 = match.split(":")[0]
                     players = match1.split(" vs ")
                     player1 = players[0].split("(")[0]
@@ -340,8 +334,6 @@ try:
                     df = pd.DataFrame(table)
                     headers = df.iloc[0]
                     new_df = pd.DataFrame(df.values[1:], columns=headers)
-                    # filter=new_df['Elo Probability'].gt(0.5)|new_df['Estimated Odds Clay'].gt(0.5)|new_df['Estimated Odds Hard'].gt(0.5)
-                    # new_df=new_df[filter]
                     new_df = new_df[
                         (new_df["Player_1_Odds"] != " ")
                         & (new_df["Player_1"] != "")
@@ -356,17 +348,12 @@ try:
 
     # for x in range(81,90):
     for x in reversed(range(1, 2)):
-        # for x in range(933, 1000):
         print(x)
-
-        # connection.execute('Delete FROM Test_Yesterday')
-        # connection.execute('Delete FROM bets_today')
         # # Get the current date
         tomorrow = datetime.datetime.now() + datetime.timedelta(days=-x)
         print(tomorrow.strftime("%Y-%m-%d"))
         year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
         current_date = tomorrow.strftime("%Y-%m-%d")
-        # print('https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}'.format(year, month, day))
 
         Main(
             "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(

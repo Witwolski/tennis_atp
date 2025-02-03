@@ -11,17 +11,33 @@ def analysis():
             f"Select DISTINCT * From Elo_AllMatches_Hard where Date > '{start_date}' and Date not like '{time_now_formatted}'",
             con=devengine,
         )
+        elo_hard["Fav_Win"] = elo_hard["Winner"] == elo_hard["Fav"]
+        elo_hard["Fav_Loss"] = (elo_hard["Fav_Win"] == 0).astype(int)
+        elo_hard["Fav_Loss_Count"] = elo_hard.groupby("Fav")["Fav_Loss"].cumsum()
+        elo_hard["Dog_Win"] = (elo_hard["Fav_Win"] == 0).astype(int)
+        elo_hard["Dog_Win_Count"] = elo_hard.groupby("Dog")["Dog_Win"].cumsum()
 
         # Get historical match data on clay surface between start date and yesterday
         elo_clay = pd.read_sql_query(
             f"Select DISTINCT * From Elo_AllMatches_Clay where Date > '{start_date}' and Date not like '{time_now_formatted}'",
             con=devengine,
         )
+        elo_clay["Fav_Win"] = elo_clay["Winner"] == elo_clay["Fav"]
+        elo_clay["Fav_Loss"] = (elo_clay["Fav_Win"] == 0).astype(int)
+        elo_clay["Fav_Loss_Count"] = elo_clay.groupby("Fav")["Fav_Loss"].cumsum()
+        elo_clay["Dog_Win"] = (elo_clay["Fav_Win"] == 0).astype(int)
+        elo_clay["Dog_Win_Count"] = elo_clay.groupby("Dog")["Dog_Win"].cumsum()
         # Get historical match data on clay surface between start date and yesterday
         elo_grass = pd.read_sql_query(
             f"Select DISTINCT * From Elo_AllMatches_grass where Date > '{start_date}' and Date not like '{time_now_formatted}'",
             con=devengine,
         )
+        elo_grass["Fav_Win"] = elo_grass["Winner"] == elo_grass["Fav"]
+        elo_grass["Fav_Loss"] = (elo_grass["Fav_Win"] == 0).astype(int)
+        elo_grass["Fav_Loss_Count"] = elo_grass.groupby("Fav")["Fav_Loss"].cumsum()
+        elo_grass["Dog_Win"] = (elo_grass["Fav_Win"] == 0).astype(int)
+        elo_grass["Dog_Win_Count"] = elo_grass.groupby("Dog")["Dog_Win"].cumsum()
+
         # Get today's matches on hard surface that haven't yet been resulted
         elo_data_hard = pd.read_sql_query(
             f"Select DISTINCT * From Elo_AllMatches_Hard where Date like '{time_now_formatted}' --and resulted like 'False'",
@@ -305,13 +321,37 @@ def analysis():
             df.at[index, "dog_last_five_win_perc"] = dog_last_five_win_perc
         return df
 
+    def win_loss_count(df, pastmatches):
+        for index, row in df.iterrows():
+            fav = row.Fav
+            dog = row.Dog
+            fav_loss = pastmatches[
+                (pastmatches["Winner"] == fav) | (pastmatches["Loser"] == fav)
+            ].tail(1)
+            if len(fav_loss) > 0:
+                fav_loss_count = fav_loss.iloc[0]["Fav_Loss_Count"]
+            else:
+                fav_loss_count = 0
+            dog_win = pastmatches[
+                (pastmatches["Winner"] == dog) | (pastmatches["Loser"] == dog)
+            ].tail(1)
+            if len(dog_win) > 0:
+                dog_win_count = dog_win.iloc[0]["Dog_Win_Count"]
+            else:
+                dog_win_count = 0
+            df.at[index, "Fav_Loss_Count"] = fav_loss_count
+            df.at[index, "Dog_Win_Count"] = dog_win_count
+        return df
+
     if final_hard is not None:
         final_hard = last_five(final_hard, elo_hard)
+        final_hard = win_loss_count(final_hard, elo_hard)
         final_hard["Fav_Odds"] = final_hard["Fav_Odds"].astype(float)
         final_hard["Dog_Odds"] = final_hard["Dog_Odds"].astype(float)
 
     if final_clay is not None:
         final_clay = last_five(final_clay, elo_clay)
+        final_clay = win_loss_count(final_clay, elo_clay)
         final_clay["Dog_Odds"] = final_clay["Dog_Odds"].astype(float)
         final_clay["Fav_Odds"] = final_clay["Fav_Odds"].astype(float)
 
@@ -374,6 +414,7 @@ def analysis():
                 "Dog_Serve%",
                 "Dog_Return%",
                 "dog_last_five_win_perc",
+                "Fav_Loss_Count",
             ]
         )
 
@@ -398,6 +439,7 @@ def analysis():
             "Dog_Serve%",
             "Dog_Return%",
             "dog_last_five_win_perc",
+            "Fav_Loss_Count",
         ]
     ]
     if final_clay is not None:
