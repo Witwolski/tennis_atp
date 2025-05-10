@@ -111,7 +111,7 @@ with open("error.log", "r") as f:
     error_log = f.read()
 
 if "ERROR" in error_log:
-    print("err")
+    print(error_log)
     # send_email("Error in Todays Data", error_log, False)
 # else:
 #    send_email("Todays Predictions", "See Attached", True)

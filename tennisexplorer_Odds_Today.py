@@ -3,8 +3,7 @@ from bs4 import BeautifulSoup
 import argparse
 import datetime
 import pandas as pd
-from sqlalchemy import create_engine
-from playsound import playsound
+from sqlalchemy import create_engine, text
 from git.repo import Repo
 
 
@@ -249,7 +248,8 @@ def Today():
     # for x in range(81,90):
     for x in range(0, 1):
         print(x)
-        connection.execute("Delete FROM TodaysMatches")
+        connection.execute(text("Delete FROM TodaysMatches"))
+        connection.commit()
         # connection.execute('Delete FROM bets_today')
         # # Get the current date
         tomorrow = datetime.datetime.now() + datetime.timedelta(days=x)
@@ -257,7 +257,7 @@ def Today():
         year, month, day = tomorrow.year, tomorrow.month, tomorrow.day
         current_date = tomorrow.strftime("%Y-%m-%d")
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -266,7 +266,7 @@ def Today():
         )
 
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -274,7 +274,7 @@ def Today():
             1,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,
@@ -282,7 +282,7 @@ def Today():
             0,
         )
         Main(
-            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+9".format(
+            "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
                 year, month, day
             ),
             current_date,

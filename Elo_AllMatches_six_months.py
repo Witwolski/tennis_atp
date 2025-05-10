@@ -4,7 +4,6 @@ import pandas as pd
 from sqlalchemy import create_engine
 import numpy as np
 import logging
-from playsound import playsound
 import datetime
 from dateutil.relativedelta import *
 from git.repo import Repo
@@ -122,37 +121,41 @@ def Elo(surface):
         axis=1,
     )
     data["Elo_Fav_Odds"] = data.apply(
-        lambda x: x["Winner_Odds"]
-        if x["Elo_Winner"] > x["Elo_Loser"]
-        else x["Loser_Odds"],
+        lambda x: (
+            x["Winner_Odds"] if x["Elo_Winner"] > x["Elo_Loser"] else x["Loser_Odds"]
+        ),
         axis=1,
     )
     data["Elo_Dog_Odds"] = data.apply(
-        lambda x: x["Loser_Odds"]
-        if x["Elo_Fav_Odds"] == x["Winner_Odds"]
-        else x["Winner_Odds"],
+        lambda x: (
+            x["Loser_Odds"]
+            if x["Elo_Fav_Odds"] == x["Winner_Odds"]
+            else x["Winner_Odds"]
+        ),
         axis=1,
     )
     data["Elo_Fav_Est_Odds"] = data.apply(
-        lambda x: 1 / x["Prob_Elo"]
-        if x["Elo_Fav_Odds"] == x["Winner_Odds"]
-        else 1 / x["Prob_Elo_Loser"],
+        lambda x: (
+            1 / x["Prob_Elo"]
+            if x["Elo_Fav_Odds"] == x["Winner_Odds"]
+            else 1 / x["Prob_Elo_Loser"]
+        ),
         axis=1,
     )
     data["Elo_Dog_Est_Odds"] = data.apply(
-        lambda x: 1 / x["Prob_Elo_Loser"]
-        if x["Elo_Fav_Odds"] == x["Winner_Odds"]
-        else 1 / x["Prob_Elo"],
+        lambda x: (
+            1 / x["Prob_Elo_Loser"]
+            if x["Elo_Fav_Odds"] == x["Winner_Odds"]
+            else 1 / x["Prob_Elo"]
+        ),
         axis=1,
     )
     tomorrow = datetime.datetime.now() + datetime.timedelta(days=0)
     current_date = tomorrow.strftime("%Y-%m-%d")
-    data[
-        ["Elo_Fav_Odds", "Elo_Dog_Odds", "Elo_Fav_Est_Odds", "Elo_Dog_Est_Odds"]
-    ] = data[
-        ["Elo_Fav_Odds", "Elo_Dog_Odds", "Elo_Fav_Est_Odds", "Elo_Dog_Est_Odds"]
-    ].astype(
-        "float"
+    data[["Elo_Fav_Odds", "Elo_Dog_Odds", "Elo_Fav_Est_Odds", "Elo_Dog_Est_Odds"]] = (
+        data[
+            ["Elo_Fav_Odds", "Elo_Dog_Odds", "Elo_Fav_Est_Odds", "Elo_Dog_Est_Odds"]
+        ].astype("float")
     )
     """
     data["Wins"] = data.groupby("Winner").cumcount() + 1
@@ -222,31 +225,43 @@ def Elo(surface):
     ).astype(float)
 
     data["Fav"] = data.apply(
-        lambda x: x["Winner"]
-        if x["Loser_Odds"] > x["Winner_Odds"]
-        else (x["Loser"] if x["Loser_Odds"] < x["Winner_Odds"] else "Pickem"),
+        lambda x: (
+            x["Winner"]
+            if x["Loser_Odds"] > x["Winner_Odds"]
+            else (x["Loser"] if x["Loser_Odds"] < x["Winner_Odds"] else "Pickem")
+        ),
         axis=1,
     )
     data["Dog"] = data.apply(
-        lambda x: x["Winner"]
-        if x["Loser_Odds"] < x["Winner_Odds"]
-        else (x["Loser"] if x["Loser_Odds"] > x["Winner_Odds"] else "Pickem"),
+        lambda x: (
+            x["Winner"]
+            if x["Loser_Odds"] < x["Winner_Odds"]
+            else (x["Loser"] if x["Loser_Odds"] > x["Winner_Odds"] else "Pickem")
+        ),
         axis=1,
     )
 
     data["Fav_Odds"] = data.apply(
-        lambda x: x["Winner_Odds"]
-        if x["Loser_Odds"] > x["Winner_Odds"]
-        else (
-            x["Loser_Odds"] if x["Loser_Odds"] < x["Winner_Odds"] else x["Loser_Odds"]
+        lambda x: (
+            x["Winner_Odds"]
+            if x["Loser_Odds"] > x["Winner_Odds"]
+            else (
+                x["Loser_Odds"]
+                if x["Loser_Odds"] < x["Winner_Odds"]
+                else x["Loser_Odds"]
+            )
         ),
         axis=1,
     )
     data["Dog_Odds"] = data.apply(
-        lambda x: x["Winner_Odds"]
-        if x["Loser_Odds"] < x["Winner_Odds"]
-        else (
-            x["Loser_Odds"] if x["Loser_Odds"] > x["Winner_Odds"] else x["Loser_Odds"]
+        lambda x: (
+            x["Winner_Odds"]
+            if x["Loser_Odds"] < x["Winner_Odds"]
+            else (
+                x["Loser_Odds"]
+                if x["Loser_Odds"] > x["Winner_Odds"]
+                else x["Loser_Odds"]
+            )
         ),
         axis=1,
     )
@@ -259,15 +274,15 @@ def Elo(surface):
         axis=1,
     ).astype(float)
     data["Fav_Rank_High"] = data.apply(
-        lambda x: x["Winner_Rank_High"]
-        if x["Winner"] == x["Fav"]
-        else x["Loser_Rank_High"],
+        lambda x: (
+            x["Winner_Rank_High"] if x["Winner"] == x["Fav"] else x["Loser_Rank_High"]
+        ),
         axis=1,
     ).astype(float)
     data["Dog_Rank_High"] = data.apply(
-        lambda x: x["Winner_Rank_High"]
-        if x["Winner"] != x["Fav"]
-        else x["Loser_Rank_High"],
+        lambda x: (
+            x["Winner_Rank_High"] if x["Winner"] != x["Fav"] else x["Loser_Rank_High"]
+        ),
         axis=1,
     ).astype(float)
     data = data[data["Fav"] != "Pickem"]

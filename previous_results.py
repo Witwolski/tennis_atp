@@ -1,5 +1,5 @@
 # Import necessary libraries
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 import pandas as pd
 import numpy as np
 import datetime
@@ -143,11 +143,14 @@ def get_filtered_data(elo_data, elo):
 # Connect to SQLite database using SQLAlchemy's create_engine
 devengine = create_engine("sqlite:///C:/Git/tennis_atp/database/bets_sqllite.db")
 db = pd.DataFrame()
-connection = devengine.connect()
-connection.execute("Drop Table results_hard_1")
-connection.execute("Drop Table results_clay_1")
+# connection = devengine.connect()
+# connection.execute(text("Drop Table results_hard_1"))
+# connection.commit()
+# connection.execute(text("Drop Table results_clay_1"))
+# connection.commit()
 
-for x in reversed(range(1, 396)):
+
+for x in reversed(range(1, 2)):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
     time_now_formatted = time_now.strftime("%Y-%m-%d")
