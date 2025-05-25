@@ -415,6 +415,7 @@ def analysis():
                 "Dog_Return%",
                 "dog_last_five_win_perc",
                 "Fav_Loss_Count",
+                "Dog_Win_Count",
             ]
         )
 
@@ -440,6 +441,7 @@ def analysis():
             "Dog_Return%",
             "dog_last_five_win_perc",
             "Fav_Loss_Count",
+            "Dog_Win_Count",
         ]
     ]
     if final_clay is not None:
