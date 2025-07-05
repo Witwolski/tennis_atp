@@ -1,143 +1,852 @@
 ,Dog,Dog_Win_Count
-2,Sho Shimabukuro,1
-7,Lloyd Harris,1
-10,Natalija Stevanovic,0
-11,Harry Wendelken,0
-13,Leandro Riedi,1
-19,Lucrezia Stefanini,1
-23,Aliaksandra Sasnovich,0
-27,Gijs Brouwer,1
-28,Gabriel Diallo,0
-29,Emina Bektas,1
-31,Rebecca Marino,0
-33,Magda Linette,0
-34,Arthur Rinderknech,1
-37,Hamad Medjedovic,0
-38,Alexei Popyrin,0
-42,Tatiana Maria,0
-43,Denis Shapovalov,0
-44,Zizou Bergs,0
-48,Celine Naef,0
-49,Magdalena Frech,0
-51,Yannick Hanfmann,0
-52,Ekaterina Alexandrova,0
-54,Linda Fruhvirtova,0
-55,Dalma Galfi,1
-61,Otto Virtanen,0
-62,Li Tu,0
-64,Shintaro Mochizuki,1
-66,Karolina Pliskova,0
-69,Bianca Andreescu,0
-73,Mackenzie Mcdonald,0
-77,Tallon Griekspoor,0
-78,Cameron Norrie,0
-82,Lin Zhu,1
-85,Rebeka Masarova,0
-88,Maria Sakkari,0
-89,Andy Murray,1
-92,Alex Michelsen,0
-93,Oscar Otte,0
-94,Giovanni Mpetshi Perricard,1
-95,Arthur Fery,0
-96,Milos Raonic,0
-98,Veronika Kudermetova,1
-99,Lorenzo Sonego,1
-100,Dominik Koepfer,0
-103,James Duckworth,1
-105,Richard Gasquet,0
-106,David Goffin,1
-110,Marcos Giron,1
-113,Jordan Thompson,2
-115,Arthur Fils,0
-116,Marcos Giron,2
-120,Benjamin Bonzi,1
-123,Tommy Paul,1
-125,Jan Lennard Struff,1
-128,Christopher Eubanks,1
-130,Tamara Korpatsch,0
-131,Zachary Svajda,2
-133,Luke Saville,0
-134,Susan Bandecchi,0
-135,Nuno Borges,0
-136,Hubert Hurkacz,1
-137,Harold Mayot,1
-139,Zhizhen Zhang,2
-140,Jan Choinski,0
-141,Constant Lestienne,1
-142,Abedallah Shelbayh,0
-143,Sebastian Korda,2
-144,Camila Osorio,1
-145,Daria Saville,0
-146,Sara Errani,0
-147,Viktorija Golubic,1
-148,Elina Avanesyan,1
-149,Caroline Dolehide,0
-150,Lucia Bronzetti,0
-151,Sorana Cirstea,0
-153,Jule Niemeier,1
-154,Marc Polmans,0
-155,Laslo Djere,0
-156,Taro Daniel,0
-161,Lorenzo Musetti,3
-162,Alycia Parks,2
-163,Ryan Peniston,0
-164,Miomir Kecmanovic,1
-165,Maximilian Marterer,0
-166,Adrian Mannarino,0
-167,Jurij Rodionov,0
-168,Marc Andrea Huesler,0
-170,Diane Parry,0
-171,Greet Minnen,1
-172,Emil Ruusuvuori,1
-174,Barbora Krejcikova,0
-176,Francisco Cerundolo,0
-179,Roberto Bautista Agut,1
-180,Daniel Elahi Galan,1
-181,Charles Broom,3
-182,Henry Searle,0
-183,Bu Yunchaokete,0
-184,Pierre Hugues Herbert,0
-185,George Loffhagen,0
-188,Xin Yu Wang,0
-189,Katie Boulter,1
-190,Anhelina Kalinina,0
-191,Petra Martic,0
-192,Katerina Siniakova,1
-193,Ashlyn Krueger,1
-194,Donna Vekic,1
-195,Dayana Yastremska,0
-196,Alex Bolt,1
-197,Hugo Grenier,1
-198,Radu Albot,2
-199,Harriet Dart,2
-200,Kamilla Rakhimova,0
-201,Hugo Gaston,1
-202,Felipe Meligeni Alves,1
-203,Beibit Zhukayev,1
-204,Rinky Hijikata,1
-205,Max Purcell,2
-207,Tereza Martincova,1
-208,Mattia Bellucci,1
-210,Juncheng Shang,2
-211,Anna Blinkova,2
-213,Sebastian Ofner,1
-214,Leylah Fernandez,1
-215,Erika Andreeva,0
-216,Zeynep Sonmez,0
-217,Anna Blinkova,2
-218,Billy Harris,3
-219,Aleksandar Vukic,3
-220,Paul Jubb,1
-221,Viktoriya Tomova,2
-222,Diana Shnaider,2
-223,Daria Kasatkina,1
-224,Marton Fucsovics,0
-225,Aleksandar Kovacevic,0
-226,Mark Lajal,0
-227,Matteo Arnaldi,0
-228,Pavel Kotov,0
-229,Cristian Garin,0
-230,Nadia Podoroska,0
-231,Heather Watson,0
-232,Fabian Marozsan,0
-233,Nicolas Jarry,0
+432,Alex Rybakov,0
+435,Niki Kaliyanda Poonacha,0
+542,Joao Sousa,2
+612,Aldin Setkic,0
+793,Marius Copil,0
+891,Victor Lilov,0
+1058,Goncalo Oliveira,1
+1078,Sachia Vickery,2
+1109,Edoardo Lavagno,0
+1133,Stefan Kozlov,3
+1158,Tennys Sandgren,0
+1180,Taylor Townsend,1
+1324,Petr Nouza,0
+1538,Brenda Fruhvirtova,1
+1567,Oceane Dodin,2
+1586,Lesia Tsurenko,1
+1632,Shelby Rogers,0
+1887,Cori Gauff,0
+1935,Ankita Raina,0
+1947,Juncheng Shang,2
+1964,Aryna Sabalenka,0
+1972,Antoine Bellier,0
+1986,Marcelo Zormann,0
+1996,Mate Valkusz,0
+2005,Valentini Grammatikopoulou,0
+2033,Natalija Stevanovic,0
+2042,Andy Murray,0
+2059,Marc Polmans,2
+2069,Lucas Pouille,0
+2072,Sho Shimabukuro,0
+2106,Zhuoxuan Bai,1
+2166,Timea Babos,1
+2219,Patrick Kypson,0
+2232,Denis Kudla,2
+2265,Jeffrey John Wolf,3
+2314,Arthur Cazaux,0
+2343,Sloane Stephens,1
+2348,Lin Zhu,0
+2371,Naomi Osaka,0
+2458,Thanasi Kokkinakis,2
+2466,Louis Wessels,1
+2476,Elina Avanesyan,1
+2501,Reka Luca Jani,0
+2536,Rafael Tosetto,0
+2609,Lucija Ciric Bagaric,0
+2614,Jannik Sinner,0
+2637,Trey Hilderbrand,0
+2646,Damien Wenger,1
+2693,Illya Marchenko,0
+2774,Polona Hercog,1
+2828,Emilio Gomez,0
+2895,Jules Marie,1
+2920,Ulises Blanch,2
+2991,Federico Gaio,0
+3003,Hazem Naw,1
+3010,Evan Furness,0
+3045,Evgeny Karlovskiy,1
+3076,Timo Stodder,0
+3080,Constantin Bittoun Kouzmine,0
+3112,Amandine Hesse,0
+3168,Bogdan Bobrov,0
+3174,Martina Trevisan,1
+3240,Anna Siskova,1
+3247,Xiaodi You,0
+3253,Tibo Colson,1
+3309,Fanny Stollar,0
+3401,Sofya Lansere,1
+3406,Zhizhen Zhang,4
+3436,Sung Nam Ji,0
+3445,Conny Perrin,2
+3463,Rubin Statham,0
+3466,Karolina Muchova,1
+3479,Luca Giacomini,0
+3482,Alexey Zakharov,2
+3539,Guido Andreozzi,2
+3558,Dominic Thiem,1
+3616,Filip Krajinovic,1
+3641,Sara Sorribes Tormo,5
+3662,Joris De Loore,2
+3666,Benjamin Privara Peter,2
+3686,Nadia Podoroska,1
+3700,Rafael Nadal,0
+3708,Lorenzo Rottoli,1
+3731,Andrea Vavassori,3
+3741,Jessica Pegula,0
+3795,Dominik Koepfer,2
+3797,Angelique Kerber,2
+3839,Anna Karolina Schmiedlova,8
+3862,Kirill Kivattsev,1
+3867,Henri Laaksonen,0
+3873,Liam Gavrielides,3
+3882,Marie Benoit,0
+3893,Kateryna Baindl,0
+3914,Benjamin Lock,2
+3924,Anastasiya Soboleva,1
+3953,Riccardo Bonadio,8
+3980,Alexis Galarneau,2
+3981,Thai Son Kwiatkowski,0
+3990,Christian Langmo,0
+4020,Alexander Stater,1
+4025,Yanaki Milev,3
+4042,Gianmarco Ferrari,1
+4069,Oleksii Krutykh,1
+4076,Johan Nikles,1
+4080,Imanol Lopez Morillo,0
+4084,Marcello Serafini,3
+4097,Peter Heller,0
+4130,Mohamed Safwat,2
+4172,Marvin Moeller,2
+4224,Dalila Jakupovic,3
+4244,Robert Strombachs,1
+4248,Dejana Radanovic,0
+4257,Felix Gill,2
+4286,Vlad Andrei Dancu,0
+4297,Gerald Melzer,4
+4298,Peter Buldorini,1
+4300,Olaf Pieczkowski,0
+4302,Ilya Snitari,0
+4324,Nino Serdarusic,2
+4325,Cem Ilkel,1
+4369,Alessandro Giannessi,3
+4394,Duarte Vale,1
+4519,Blaz Rola,1
+4650,Gilbert Klier Junior,0
+4683,Ignacio Carou,0
+4737,Arklon Huertas Del Pino,0
+4743,Katarina Zavatska,2
+4858,Svyatoslav Gulin,3
+4865,Gabriela Lee,0
+4870,Andreea Craciun Georgia,0
+4878,Eric Vanshelboim,1
+4894,Anton Matusevich,0
+4918,Alevtina Ibragimova,0
+4921,Daria Lodikova,0
+4926,Martina Capurro Taborda,0
+4928,Kristina Mladenovic,2
+4933,Francisca Jorge,1
+4936,Ylena In Albon,3
+4938,Ylena In Albon,3
+5026,Bautista Otegui Juan,1
+5048,Gabriel Debru,4
+5125,Diego Schwartzman,1
+5193,Orlando Luz,8
+5200,Gustavo Heide,7
+5254,Adrian Oetzbach,1
+5260,Franco Ribero,0
+5266,Yanki Erel,2
+5278,Lorenzo Lingua Lavallen Alejo,1
+5280,David Ionel Nicholas,1
+5364,Irina Bara,1
+5416,Clara Burel,3
+5505,Adrian Andreev,5
+5510,Oleksandr Ovcharenko,0
+5590,Matheus Pucinelli De Almeida,5
+5612,Iliyan Radulov,0
+5629,Anastasia Tikhonova,1
+5630,Gergana Topalova,0
+5663,Michiel De Krom,0
+5666,Claire Liu,0
+5671,Elvina Kalieva,0
+5672,Carlos Lopez Montagud,3
+5723,Zhibek Kulambayeva,0
+5728,Ipek Oz,1
+5729,Jesika Maleckova,0
+5738,Jamie Loeb,0
+5747,Yuki Mochizuki,0
+5784,Caty Mcnally,0
+5805,Raphael Collignon,4
+5838,Caroline Werner,0
+5848,Roberto Carballes Baena,3
+5897,Emma Navarro,1
+5909,Juan Pablo Varillas,5
+5911,Sergi Perez Contri,0
+5934,Fausto Tabacco,0
+5961,Noah Schachter,1
+5963,Bor Artnak,0
+5981,Matteo Berrettini,2
+5996,Alafia Ayeni,0
+6002,Miguel Damas,4
+6024,Nick Hardt,9
+6044,Aidan Mayo,1
+6076,Federico Coria,6
+6087,Hans Rehberg Max,8
+6092,Grigor Dimitrov,0
+6113,Felipe Meligeni Alves,12
+6126,Tina Smith,1
+6131,Alexander Ritschard,3
+6152,Steven Diez,0
+6210,Botic Van De Zandschulp,0
+6231,Inaki Montes De La Torre,0
+6232,Karl Poling,0
+6238,Sebastian Baez,2
+6256,Hamad Medjedovic,2
+6263,Roberto Cid,1
+6269,Linda Fruhvirtova,1
+6272,David Goffin,2
+6277,Ugo Humbert,0
+6294,Alex De Minaur,1
+6318,Dan Martin,2
+6326,Mirjam Bjorklund,1
+6334,Felix Corwin,0
+6337,Joshua Sheehy,0
+6344,Cannon Kingsley,0
+6351,Jiri Vesely,4
+6371,Gabriele Pennaforti,2
+6377,Andres Andrade,10
+6405,Sorana Cirstea,2
+6416,Jana Fett,4
+6420,Garrett Johns,2
+6424,Alfredo Perez,2
+6459,Katie Volynets,1
+6463,Francesca Jones,1
+6468,Andres Martin,2
+6488,Nicolas Zanellato,2
+6510,Oliver Crawford,4
+6516,Benjamin Bonzi,4
+6544,Alejandro Davidovich Fokina,2
+6556,Amina Anshba,1
+6563,Rudolf Molleker,6
+6567,Dennis Novak,5
+6569,Laurent Lokoli,0
+6575,Rudolf Molleker,7
+6579,Sebastian Korda,1
+6588,Sebastian Sorger,0
+6617,Aslan Karatsev,1
+6620,Denis Shapovalov,2
+6630,Blaise Bicknell,0
+6634,David Pichler,6
+6639,Valerio Aboian,10
+6643,Eduardo Schiessl Joao,0
+6652,Marina Bassols Ribera,1
+6654,Irene Burillo Escorihuela,2
+6656,Donna Vekic,5
+6680,Taylor Fritz,0
+6700,Maria Sakkari,1
+6704,Jessika Ponchet,3
+6736,Moyuka Uchijima,5
+6745,Rebeka Masarova,2
+6749,Fiona Ferro,2
+6759,Jakub Mensik,3
+6761,Borna Coric,1
+6775,Celine Naef,2
+6792,Dalma Galfi,4
+6800,Alex Barrena,11
+6814,Luca Potenza,1
+6830,Antonio Nunez Daniel,2
+6844,Aliaksandra Sasnovich,6
+6858,Nishesh Basavareddy,0
+6868,Harriet Dart,0
+6878,Nicolas Moreno De Alboran,5
+6881,Marc Andrea Huesler,3
+6882,Pavel Kotov,3
+6885,Nicolai Budkov Kjaer,1
+6888,Beibit Zhukayev,2
+6891,Nicolas Moreno De Alboran,6
+6914,Jose Pereira,4
+6932,Eduardo Ribeiro,3
+6961,Alexandra Eala,0
+6973,Yoshihito Nishioka,2
+6975,Thiago Seyboth Wild,8
+7000,Tomas Barrios Vera,9
+7007,Tallon Griekspoor,2
+7016,Alexander Blockx,1
+7026,Anastasia Potapova,4
+7036,Lautaro Midon,1
+7039,Martin Landaluce,4
+7057,Francisco Comesana,7
+7063,Antonia Ruzic,1
+7076,Stijn Slump,0
+7082,Sebastian Fanselow,4
+7084,Leandro Riedi,1
+7085,Stefanos Tsitsipas,2
+7087,Ons Jabeur,2
+7098,Giovanni Oradini,2
+7101,Alejo Sanchez Quilez,0
+7102,Joao Domingues,2
+7108,Tomas Machac,2
+7112,Vilius Gaubas,17
+7113,Alvaro Guillen Meza,9
+7115,Maxime Chazal,6
+7131,Elise Mertens,2
+7133,Jakub Paul,3
+7135,Stefan Popovic,0
+7144,Erika Andreeva,2
+7146,Marta Kostyuk,4
+7154,Kiranpal Pannu,0
+7155,Mirza Basic,4
+7162,Bianca Andreescu,3
+7163,Diana Shnaider,2
+7165,Danielle Collins,1
+7168,Anastasia Zakharova,1
+7182,Pedro Cachin,4
+7198,Francisco Rocha,2
+7209,Karen Khachanov,2
+7220,Anna Lena Friedsam,0
+7222,Mirra Andreeva,3
+7229,Anna Lena Friedsam,1
+7232,Kenny De Schepper,1
+7235,Dan Added,1
+7236,Tristan McCormick,4
+7238,Ignacio Monzon,0
+7246,Mathias Bourgue,2
+7249,Francisco Cerundolo,7
+7250,Daniil Medvedev,0
+7252,Bernabe Zapata Miralles,6
+7255,Otto Virtanen,5
+7266,Arthur Fils,2
+7269,Renzo Olivo,10
+7275,Emil Ruusuvuori,2
+7284,Leonardo Aboian,3
+7288,Dino Prizmic,1
+7293,Adria Soriano Barrera,0
+7301,Calvin Hemery,12
+7302,Mikhail Kukushkin,7
+7303,Billy Harris,6
+7307,Jack Draper,0
+7311,Carlos Sanchez Jover,5
+7321,Elmar Ejupovic,2
+7322,Coleman Wong,0
+7324,Gastao Elias,4
+7336,Casper Ruud,2
+7341,Peyton Stearns,8
+7345,Leo Borg,0
+7347,Remy Bertola,3
+7353,Roman Andres Burruchaga,11
+7356,Terence Atmane,4
+7358,Lorenzo Musetti,7
+7365,Mitchell Krueger,4
+7369,Valeriya Strakhova,2
+7370,Aleksandra Krunic,0
+7371,Carol Zhao,0
+7372,Tereza Martincova,0
+7375,Irina Camelia Begu,3
+7376,Simona Waltert,4
+7386,Ergi Kirkin,7
+7392,Daniel Dutra da Silva,7
+7397,Elizabeth Mandlik,2
+7398,Chloe Paquet,11
+7401,Jasmine Paolini,4
+7402,Chloe Paquet,12
+7408,Daniel Dutra da Silva,8
+7412,Khumoun Sultanov,0
+7414,Franco Agamenone,10
+7415,Mark Lajal,0
+7429,Dusan Lajovic,11
+7443,Nina Stojanovic,1
+7444,Priscilla Hon,1
+7447,Alize Cornet,4
+7454,Camilla Rosatello,3
+7455,Rodrigues Alves Carolina Meligeni,1
+7461,Taylah Preston,0
+7466,Christopher Eubanks,1
+7470,Sinja Kraus,2
+7473,Nicole Fossa Huergo,2
+7476,Julia Grabher,0
+7477,Darya Astakhova,0
+7478,Alibek Kachmazov,1
+7482,Harold Mayot,4
+7484,Liam Draxl,1
+7492,Aleksandar Kovacevic,2
+7493,Borna Gojo,3
+7495,Dominic Stricker,2
+7499,Neil Oberleitner,10
+7505,Gijs Brouwer,1
+7507,Adrian Mannarino,3
+7508,Neil Oberleitner,11
+7511,Hugo Gaston,9
+7520,Fabio Fognini,4
+7521,Shintaro Mochizuki,5
+7523,Hugo Grenier,1
+7528,Tristan Boyer,9
+7531,Kimmer Coppejans,3
+7535,Zachary Svajda,2
+7547,Corentin Denolly,4
+7551,Karue Sell,4
+7553,Alberto Olivieri Genaro,18
+7556,Aziz Dougaz,6
+7559,Michael Mmoh,2
+7560,Omar Jasika,0
+7568,Maya Joint,2
+7570,Aliona Bolsova,4
+7572,Aliona Bolsova,4
+7578,Selena Janicijevic,2
+7579,Ella Seidel,4
+7585,Diane Parry,4
+7586,Marina Stakusic,2
+7591,Maja Chwalinska,2
+7592,Katarzyna Kawa,8
+7593,Hanna Chang,0
+7595,Shuai Zhang,0
+7596,Tamara Zidansek,4
+7597,Maria Mateas,0
+7602,Varvara Lepchenko,5
+7603,Sara Errani,5
+7604,Anna Kalinskaya,3
+7612,Andrea Collarini,14
+7613,Hady Habib,9
+7615,Daniel Evans,2
+7617,Dmitry Popko,8
+7620,Eliot Spizzirri,0
+7621,Nikoloz Basilashvili,8
+7631,Giovanni Mpetshi Perricard,5
+7642,Beatriz Haddad Maia,7
+7644,Xiyu Wang,4
+7645,Kaja Juvan,2
+7648,Kristina Dmitruk,0
+7649,Miriam Bulgaru,5
+7650,Luciano Darderi,8
+7651,Jay Clarke,3
+7665,James Trotter,0
+7668,Maximilian Marterer,6
+7673,Camila Osorio,2
+7680,Felix Auger Aliassime,3
+7683,Lucrezia Stefanini,3
+7684,Sandro Kopp,8
+7685,Anastasia Pavlyuchenkova,0
+7688,Kamilla Rakhimova,10
+7689,Zeynep Sonmez,5
+7690,Lulu Sun,0
+7692,Laura Siegemund,1
+7694,Brandon Nakashima,3
+7695,Elmer Moller,17
+7696,Tristan Schoolkate,0
+7703,Rinky Hijikata,3
+7704,Zizou Bergs,1
+7705,Kamil Majchrzak,3
+7706,Paula Badosa,2
+7707,Mayar Sherif,6
+7708,Miomir Kecmanovic,2
+7709,Lorenzo Sonego,3
+7710,Kyrian Jacquet,6
+7714,Roman Safiullin,4
+7715,Jaime Faria,16
+7717,Benjamin Hassan,7
+7718,Alex Michelsen,5
+7719,Kimberly Birrell,1
+7730,Stan Wawrinka,4
+7731,Roberto Bautista Agut,5
+7732,Pablo Llamas Ruiz,5
+7733,Tomas Martin Etcheverry,5
+7734,Linda Noskova,1
+7735,Giulio Zeppieri,0
+7736,Luca Nardi,3
+7737,Rebecca Sramkova,3
+7739,Sarah Rakotomanga Rajaonah Tiantsoa,0
+7740,Anna Blinkova,4
+7741,Leylah Fernandez,3
+7744,Xin Yu Wang,2
+7745,Julia Riera,0
+7746,Ugo Blanchet,16
+7747,Yannick Hanfmann,7
+7750,Caroline Garcia,0
+7751,Suzan Lamens,2
+7752,Greet Minnen,0
+7755,Aleksandar Vukic,5
+7756,Marcos Giron,4
+7759,Jordan Thompson,1
+7760,Pedro Martinez,7
+7762,Bu Yunchaokete,1
+7763,Nicolas Jarry,5
+7764,Alexander Shevchenko,9
+7765,Camilo Ugo Carabelli,11
+7767,Arthur Rinderknech,5
+7768,Jan Lennard Struff,4
+7769,Katerina Siniakova,1
+7770,Carole Monnet,2
+7771,McCartney Kessler,1
+7773,Alexandre Muller,13
+7774,Francesco Passaro,15
+7775,Learner Tien,0
+7776,James Duckworth,0
+7777,Laslo Djere,3
+7778,Cristina Bucsa,3
+7780,Varvara Gracheva,8
+7781,Olivia Gadecki,0
+7783,Oksana Selekhmeteva,3
+7786,Tatiana Maria,4
+7787,Magda Linette,9
+7788,Daria Saville,2
+7789,Lucia Bronzetti,4
+7790,Polina Kudermetova,3
+7791,Christopher Oconnell,2
+7796,Reilly Opelka,0
+7797,Vit Kopriva,13
+7798,Juan Manuel Cerundolo,10
+7799,Alejandro Tabilo,5
+7800,Daniel Elahi Galan,11
+7802,Hubert Hurkacz,3
+7803,Fabian Marozsan,4
+7804,Marin Cilic,0
+7810,Lloyd Harris,3
+7811,Mattia Bellucci,4
+7814,Sebastian Ofner,8
+7815,Mathys Erhard,7
+7819,Ajla Tomljanovic,3
+7821,Viktorija Golubic,0
+7822,Alexia Todoni Anca,4
+7823,Eva Lys,3
+7826,Solana Sierra,2
+7827,Lourdes Carle Maria,8
+7830,Emiliana Arango,5
+7834,Mackenzie Mcdonald,1
+7836,Emma Raducanu,1
+7837,Gabriel Diallo,8
+7838,Matteo Arnaldi,6
+7844,Caroline Dolehide,3
+7848,Ashlyn Krueger,1
+7849,Sonay Kartal,0
+7850,Arantxa Rus,4
+7851,Ann Li,8
+7852,Nao Hibino,4
+7853,Elisabetta Cocciaretto,4
+7854,Magdalena Frech,6
+7856,Jesper De Jong,8
+7858,Barbora Krejcikova,1
+7859,Jaume Munar,4
+7863,Robin Montgomery,5
+7864,Richard Gasquet,5
+7866,Jenson Brooksby,0
+7867,Pablo Carreno Busta,1
+7868,Emilio Nava,11
+7869,Marton Fucsovics,1
+7870,Dayana Yastremska,2
+7871,Olga Danilovic,4
+7872,Victoria Mboko,0
+7873,Clara Tauson,3
+7874,Alycia Parks,2
+7875,Katie Boulter,2
+7876,Anhelina Kalinina,4
+7877,Gabriela Ruse Elena,1
+7878,Victoria Azarenka,2
+7879,Leolia Jeanjean,6
+7880,Nuno Borges,4
+7882,Mariano Navone,12
+7883,Gael Monfils,2
+7885,Corentin Moutet,3
+7886,Agustin Gomez Federico,13
+7887,Pierre Hugues Herbert,7
+7890,Martin Klizan,3
+7891,Quentin Halys,4
+7892,Joel Schwaerzler,12
+7893,Damir Dzumhur,10
+7894,Veronika Kudermetova,2
+7895,Jaqueline Cristian,3
+7896,Jelena Ostapenko,4
+7897,Yulia Starodubtseva,6
+7898,Bernarda Pera,1
+7899,Yulia Putintseva,2
+7902,Flavio Cobolli,9
+7903,Ethan Quinn,6
+7904,Jiri Lehecka,2
+7905,Joao Fonseca,5
+7906,Chris Rodesch,2
+7908,Elsa Jacquemot,5
+7909,Marketa Vondrousova,1
+7911,Duje Ajdukovic,7
+7912,Matteo Gigante,7
+7913,Filip Misolic,6
+7916,Liudmila Samsonova,5
+7917,Elena Rybakina,1
+7918,Sofia Kenin,5
+7922,Jakub Nicod,2
+7925,Jacob Fearnley,1
+7928,Jessica Bouzas Maneiro,5
+7929,Marie Bouzkova,2
+7931,Alexei Popyrin,6
+7932,Ben Shelton,3
+7934,Daniel Masur,4
+7938,Daniel Altmaier,8
+7942,Gerard Campana Lee,9
+7944,Dominik Kellovsky,1
+7945,Tim Handel,3
+7946,Holger Rune,3
+7948,Amanda Anisimova,0
+7949,Daria Kasatkina,3
+7950,Hailey Baptiste,3
+7952,Laura Pigossi,7
+7953,Ekaterina Alexandrova,4
+7954,Cameron Norrie,2
+7966,Andrey Rublev,1
+7967,Timofey Skatov,3
+7969,Petr Brunclik,0
+7973,August Holmgren,1
+7974,Elina Svitolina,2
+7975,Qinwen Zheng,3
+7976,Leyre Romero Gormaz,6
+7977,Ana Bogdan,3
+7979,Emeline Dartron,0
+7980,Enrico Dalla Valle,14
+7982,Ena Shibahara,1
+7983,Lukas Neumayer,15
+7984,Frances Tiafoe,4
+7986,Madison Keys,4
+7988,Lauren Davis,2
+7990,Astra Sharma,6
+7994,Lea Boskovic,4
+7995,Patricia Maria Tig,1
+7998,Anastasiia Sobolieva,0
+8001,Tommy Paul,5
+8006,Justin Engel,2
+8008,Luca Van Assche,2
+8015,Tena Lukas,0
+8016,Margaux Rouvroy,1
+8017,Jule Niemeier,3
+8019,Tessah Andrianjafitrimo,0
+8021,Lukas Klein,5
+8026,Alexander Bublik,10
+8028,Alexander Zverev,0
+8030,Petra Martic,1
+8031,Elena Pridankina,2
+8033,Chun Hsin Tseng,16
+8036,Vitaliy Sachko,10
+8038,Zsombor Piros,5
+8039,Viktoriya Tomova,4
+8040,Lois Boisson,3
+8041,Iga Swiatek,0
+8042,Darja Semenistaja,9
+8047,Novak Djokovic,1
+8051,Ignacio Buse,8
+8052,Belen Teichmann Jil,3
+8058,Hugo Dellien,7
+8059,Manuel Guinard,3
+8061,Alessandro Pecci,2
+8065,Maximilian Neuchrist,2
+8066,Kaichi Uchida,0
+8067,Samuel Vincent Ruggeri,7
+8068,Sara Bejlek,4
+8069,Lola Radivojevic,1
+8071,Kathinka Von Deichmann,4
+8073,Coco Gauff,3
+8075,Alex Marti Pujolras,2
+8077,Carlos Alcaraz,2
+8080,Daniel Cukierman,4
+8082,Matthew Dellavedova,6
+8084,Guy Den Ouden,5
+8086,Anna Bondar,3
+8087,Victoria Jimenez Kasintseva,7
+8088,Georgia Pedone,0
+8089,Eva Vedder,1
+8090,Tara Wurth,3
+8091,Maria Timofeeva,1
+8103,Titouan Droguet,3
+8104,Juan Pablo Ficovich,15
+8105,Alejandro Moro Canas,5
+8114,Ricardas Berankis,1
+8119,Lorenzo Carboni,2
+8120,Bernard Tomic,7
+8127,Panna Udvardy,8
+8129,Berfu Cengiz,0
+8132,Susan Bandecchi,0
+8134,Nuria Brancaccio,1
+8135,Angela Fita Boluda,2
+8136,Noma Noha Akugue,5
+8138,Wilson Leite,3
+8140,Pedro Sakamoto,8
+8141,Joaquin Rodriguez Lorenzo,2
+8150,Abedallah Shelbayh,5
+8151,Alex Molcan,2
+8155,Lukas Pokorny,2
+8160,Norbert Gombos,8
+8164,Tatiana Prozorova,0
+8165,Carlota Martinez Cirez,2
+8166,Despina Papamichail,0
+8168,Nuria Parrizas Diaz,6
+8169,Ekaterine Gorgodze,1
+8170,Guiomar Maristany Zuleta De Reales,3
+8172,Oleksandra Oliynykova,1
+8173,Lucas Poullain,0
+8174,Javier Barranco Cosano,11
+8177,Facundo Mena,8
+8178,Valentin Vacherot,8
+8190,Tamara Korpatsch,2
+8191,Raluka Serban,2
+8193,Renata Zarazua,2
+8195,Dalila Spiteri,1
+8196,Mona Barthel,5
+8198,Facundo Bagnis,6
+8202,Dominika Salkova,1
+8207,Veronika Erjavec,8
+8209,Iryna Shymanovich,4
+8212,Marko Topo,8
+8213,Marco Trungelliti,14
+8214,Luka Pavlovic,7
+8215,Henrique Rocha,15
+8221,Gauthier Onclin,5
+8224,Hernan Casanova,4
+8232,Pierluigi Basile,3
+8233,Pablo Paz Juan,1
+8237,Michael Vrbensky,6
+8239,Valentin Royer,8
+8240,Petra Marcinko,4
+8241,Facundo Juarez,2
+8247,Xinyu Gao,0
+8248,Gianluca Cadenasso,0
+8253,Tiago Pereira,4
+8254,Vladyslav Orlov,1
+8255,Thiago Cigarran,0
+8258,David Jorda Sanchis,7
+8259,Barbora Palicova,3
+8260,Nerman Fatic,8
+8261,Louisa Chirico,7
+8262,Giovanni Fonio,7
+8265,Lucas Reis Da Silva Joao,15
+8266,Ryan Seggerman,5
+8273,Denis Yevseyev,10
+8275,Taro Daniel,2
+8276,Stefano Napolitano,5
+8277,Ryan Nijboer,6
+8282,Radu Albot,6
+8283,Alexey Vatutin,6
+8285,Mateo Barreiros Reyes,2
+8287,Henri Squire,11
+8291,Daniel Rincon,10
+8293,Santiago Rodriguez Taverna,15
+8294,Geoffrey Blancaneaux,11
+8296,Jozef Kovalik,4
+8297,Sumit Nagal,7
+8299,Viktor Durasovic,5
+8300,Daniel Vallejo Adolfo,12
+8313,Nicolas Alvarez Varona,4
+8319,Lorenzo Giustino,7
+8323,Raul Brancaccio,7
+8325,Rei Sakamoto,0
+8326,Albert Ramos Vinolas,11
+8327,Martin Krumich,4
+8328,Hynek Barton,7
+8329,Kilian Feldbausch,0
+8330,Martin Krumich,5
+8331,Enzo Couacaud,5
+8332,Zdenek Kolar,7
+8334,Enzo Couacaud,6
+8337,Carlos Aguilar Juan,0
+8338,Emanuel Ambrogi Luciano,7
+8339,Elias Ymer,7
+8342,Jurij Rodionov,4
+8348,Manuel La Serna Juan,1
+8349,Dalibor Svrcina,9
+8350,Cristian Garin,6
+8351,Lucas Gerch,3
+8354,Bautista Vilicich,2
+8355,Dimitar Kuzmanov,6
+8357,Mika Brunold,4
+8358,Manuel La Serna Juan,2
+8361,Carlos Taberner,14
+8363,Max Wiskandt,1
+8364,Gianluca Mager,4
+8366,Luca Castagnola,4
+8367,Luka Mikrut,6
+8370,Andrej Martin,2
+8371,Petr Nesterov,0
+8372,Petr Nesterov,1
+8373,Tom Gentzsch,1
+8374,Federico Bondioli,6
+8376,Sebastian Gomez Juan,1
+8379,Matias Soto,8
+8380,Rodrigo Pacheco Mendez,9
+8382,Diego Dedura Palomero,1
+8383,Tomas Farjat,3
+8385,Nicolas Kicker,5
+8386,Augusto Barreto Sanchez Diego,1
+8387,Igor Gimenez,5
+8388,John Sperle,2
+8389,Peter Bertran,0
+8390,Ivan Justo Guido,6
+8393,Jacopo Berrettini,13
+8396,Conner Huertas Del Pino,4
+8397,Alejandro Hernandez Serrano Juan,1
+8398,Mariano Kestelboim,7
+8399,Franco Roncadelli,8
+8400,Bruno Kuzuhara,6
+8401,Alexander Rodriguez Rodriguez Johan,0
+8402,Maximus Jones,1
+8403,Juan Bautista Torres,3
+8405,Gonzalo Villanueva,14
+8407,Christoph Negritu,9
+8408,Oleg Prihodko,4
+8409,Nicolas Mejia,6
+8410,Pedro Boscardin Dias,15
+8412,Jacopo Vasami,1
+8414,Gonzalo Bueno,13
+8416,Dali Blanch,3
+8418,Andrew Paulson,5
+8419,Jonas Forejtek,5
+8420,Sebastian Gima,2
+8421,Carlos Prado Angelo Juan,11
+8422,Maxime Janvier,7
+8423,Marco Cecchinato,10
+8424,Andrea Picchione,5
+8426,Maxence Beauge,2
+8427,Lucas Bouquet,1
+8428,Filippo Romano,1
+8430,Stefan Palosi,0
+8432,Tommaso Compagnucci,0
+8433,Mats Rosenkranz,0
+8436,Gregoire Barrere,6
+8437,Buvaysar Gadamauri,1
+8438,Andre Saraiva Dos Santos Paulo,1
+8439,Aleksandr Braynin,0
+8440,Federico Iannaccone,4
+8441,Gabriele Piraino,3
+8442,Alexander Weis,7
+8443,Maks Kasnikowski,5
+8444,Milos Karol,5
+8445,Maxim Mrva,3
+8446,Andrea Guerrieri,1
+8447,Edas Butvilas,4
+8448,Manas Dhamne,2
+8449,Ivan Gakhov,13
+8452,Pol Martin Tiffon,5
+8453,Saba Purtseladze,0
+8455,Mili Poljicak,7
+8456,Thiago Agustin Tirante,6
+8457,Matej Dodig,5
+8458,Patrick Zahraj,0
+8459,Daniel Merida Aguilar,6
+8460,Daniel Michalski,4
+8461,Federico Arnaboldi,15
+8463,Clement Tabur,9
+8465,Niels Visker,0
+8466,Facundo Diaz Acosta,7
+8467,Filip Cristian Jianu,16
+8468,Frederico Ferreira Silva,3
+8469,Adrian Boitan Gabi,7
+8470,Michael Geerts,5
+8471,Murkel Dellien,12
+8474,Benoit Paire,3
+8476,Moez Echargui,3
+8477,Branko Djuric,0
+8478,Arthur Gea,9
+8479,Florent Bax,0
+8480,Kalin Ivanovski,0
+8481,Thiago Monteiro,7
+8482,Max Alcala Gurri,4
+8483,Jerome Kym,5
+8485,Mihai Papoe Radu,1
+8486,Alexander Donski,2
+8487,Sascha Gueymard Wayenburg,3
+8488,Oriol Roca Batalla,13
+8489,Federico Cina,2
+8490,Matteo Martineau,6
+8491,Jelle Sels,4
+8492,Tristan Lamasine,3
+8493,Andrea Pellegrino,15
+8494,Tom Paris,2
+8495,Jan Choinski,9
+8496,Max Houkes,8
+8497,Stefanos Sakellaridis,4
+8498,Nikolas Sanchez Izquierdo,5
+8499,Stefano Travaglia,15
+8500,Francesco Maestrelli,15
+8501,Alex Kodat Toby,7

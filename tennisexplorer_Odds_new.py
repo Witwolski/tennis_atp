@@ -339,7 +339,7 @@ for x in reversed(range(1, 2)):
     current_date = tomorrow.strftime("%Y-%m-%d")
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/results/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -348,7 +348,7 @@ for x in reversed(range(1, 2)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/results/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -357,7 +357,7 @@ for x in reversed(range(1, 2)):
     )
 
     Main(
-        "https://www.tennisexplorer.com/matches/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/results/?type=atp-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
@@ -365,7 +365,7 @@ for x in reversed(range(1, 2)):
         0,
     )
     Main(
-        "https://www.tennisexplorer.com/matches/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
+        "https://www.tennisexplorer.com/results/?type=wta-single&year={}&month={}&day={}&timezone=+10".format(
             year, month, day
         ),
         current_date,
