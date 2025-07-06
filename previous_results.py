@@ -177,10 +177,10 @@ for x in reversed(range(1, 2)):
         elo_data_grass,
     ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
-    results_hard = get_filtered_data(elo_data_hard, elo_hard)
-    results_clay = get_filtered_data(elo_data_clay, elo_clay)
+    # results_hard = get_filtered_data(elo_data_hard, elo_hard)
+    # results_clay = get_filtered_data(elo_data_clay, elo_clay)
     results_grass = get_filtered_data(elo_data_grass, elo_grass)
-
+    """
     if results_hard.empty == False:
         results_hard.to_sql(
             "results_hard_1", if_exists="append", index=False, con=devengine
@@ -189,6 +189,7 @@ for x in reversed(range(1, 2)):
         results_clay.to_sql(
             "results_clay_1", if_exists="append", index=False, con=devengine
         )
+    """
     if results_grass.empty == False:
         results_grass.to_sql(
             "results_grass_1", if_exists="append", index=False, con=devengine
