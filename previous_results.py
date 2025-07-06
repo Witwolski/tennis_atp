@@ -30,13 +30,16 @@ def get_match_data(start_date, time_now_formatted, devengine):
         f"Select DISTINCT * From Elo_AllMatches_Clay where Date like '{time_now_formatted}'",
         con=devengine,
     )
-
-    return (
-        elo_hard,
-        elo_clay,
-        elo_data_hard,
-        elo_data_clay,
+    elo_grass = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_grass where Date > '{start_date}' and Date < '{time_now_formatted}'",
+        con=devengine,
     )
+    # Get today's matches on grass surface that haven't yet been resulted
+    elo_data_grass = pd.read_sql_query(
+        f"Select DISTINCT * From Elo_AllMatches_grass where Date like '{time_now_formatted}'",
+        con=devengine,
+    )
+    return (elo_hard, elo_clay, elo_grass, elo_data_hard, elo_data_clay, elo_data_grass)
 
 
 def get_player_record(player, opponent_rank, history, range_low, range_high, auto):
@@ -150,6 +153,11 @@ db = pd.DataFrame()
 # connection.commit()
 
 
+# connection = devengine.connect()
+# connection.execute(text("Drop Table results_grass_1"))
+# connection.commit()
+
+
 for x in reversed(range(1, 2)):
     print(x)
     time_now = datetime.datetime.now() + relativedelta(days=-x)
@@ -163,12 +171,15 @@ for x in reversed(range(1, 2)):
     (
         elo_hard,
         elo_clay,
+        elo_grass,
         elo_data_hard,
         elo_data_clay,
+        elo_data_grass,
     ) = get_match_data(two_years_ago, time_now_formatted, devengine)
 
     results_hard = get_filtered_data(elo_data_hard, elo_hard)
     results_clay = get_filtered_data(elo_data_clay, elo_clay)
+    results_grass = get_filtered_data(elo_data_grass, elo_grass)
 
     if results_hard.empty == False:
         results_hard.to_sql(
@@ -177,4 +188,8 @@ for x in reversed(range(1, 2)):
     if results_clay.empty == False:
         results_clay.to_sql(
             "results_clay_1", if_exists="append", index=False, con=devengine
+        )
+    if results_grass.empty == False:
+        results_grass.to_sql(
+            "results_grass_1", if_exists="append", index=False, con=devengine
         )
